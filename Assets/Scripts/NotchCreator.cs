@@ -10,7 +10,14 @@ public class NotchCreator : MonoBehaviour
 
     private Vector2 _notchCount = new Vector2(3, 2);
 
-    private List<GameObject> notches;
+    [System.Serializable]
+    public class NotchInfo
+    {
+        public string name;
+        private GameObject notch;
+    }
+
+    public NotchInfo[] phoneNotches;
 
     private GameObject notchParent;
     private GameObject notch;
@@ -45,11 +52,10 @@ public class NotchCreator : MonoBehaviour
 
     private void BuildNotches()
     {
-        if (notches.Count != 0) for (int i = notches.Count - 1; i > -1; i--)
+        if (notchParent.transform.childCount != 0) for (int i = notchParent.transform.childCount - 1; i > -1; i--)
         {
-            GameObject.DestroyImmediate(notches[i]);
+                GameObject.DestroyImmediate(notchParent.transform.GetChild(0).gameObject);
         }
-        notches.Clear();
 
         float xLength = SBbackground.transform.localScale.x * (5f / 6f) / (notchCount.x - 1);
         float yLength = SBbackground.transform.localScale.y * (3f / 4f) / (notchCount.y - 1);
@@ -59,7 +65,6 @@ public class NotchCreator : MonoBehaviour
             for (int x = 0; x < notchCount.x; x++)
             {
                 GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x, -SBbackground.transform.localScale.y * (3f / 8f) + yLength * y, 0), Quaternion.identity, notchParent.transform);
-                notches.Add(target);
             }
         }
     }

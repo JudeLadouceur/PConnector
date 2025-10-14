@@ -44,14 +44,19 @@ public class LineBehavior : MonoBehaviour
 
         _notch1 = notch1;
         _notch2 = notch2;
+
+        lm.lineDrawn = true;
+        this.enabled = false;
     }
 
     public void OnMouseDown()
     {
+        //If no line is being made and this line is clicked, destroy it
         if (!lm.IsDrawing())
         {
             _notch1.GetComponent<Notches>().isOccupied = false;
             _notch2.GetComponent<Notches>().isOccupied = false;
+            lm.lineDrawn = false;
             Destroy(gameObject);
         }
     }
