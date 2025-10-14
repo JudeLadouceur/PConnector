@@ -28,7 +28,7 @@ public class LineBehavior : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
         //Scale just slightly less than enough to reach the mouse (so that the collider of the wire doesn't overlap the notch's collider)
-        transform.localScale = new Vector2(transform.localScale.x, lookDir.magnitude * 0.99f);
+        transform.localScale = new Vector2(transform.localScale.x, Mathf.Clamp(lookDir.magnitude - 0.01f, 0, 1000));
     }
 
     public void FinishMoving(Vector3 endPos, GameObject notch1, GameObject notch2)
@@ -38,7 +38,7 @@ public class LineBehavior : MonoBehaviour
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90;
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        //Scale just enough to reach the mouse
+        //Scale just enough to reach the end point
         transform.localScale = new Vector2(transform.localScale.x, lookDir.magnitude);
         isMoving = false;
 
