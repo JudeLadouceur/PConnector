@@ -6,12 +6,14 @@ public class PuzzlePickup : MonoBehaviour
     private bool held = false;
     private Vector3 mouseOffset;
     private Camera mainCam;
+    Achievement achieve;
     private void Start()
     {
         mouseOffset = Vector3.zero;
         rb = GetComponent<Rigidbody2D>();
-        //gameObject.SetActive(false);
         mainCam = FindObjectOfType<Camera>().GetComponent<Camera>();
+        GetComponent<SpriteRenderer>().color = Color.green;
+        achieve = GetComponentInParent<Achievement>();
     }
     private void OnMouseDown()
     {
@@ -26,6 +28,10 @@ public class PuzzlePickup : MonoBehaviour
         rb.gravityScale = 1;
         held=false;
         mouseOffset = Vector3.zero;
+        if (achieve.rightPiece)
+        {
+            achieve.SetStatus(AchievementStatus.Placed);
+        }
     }
     private void FixedUpdate()
     {
