@@ -2,7 +2,8 @@ public enum AchievementStatus
 {
     Hidden,
     Revealed,
-    Achieved
+    Achieved,
+    Placed
 }
 public enum AchievementNames
 {
