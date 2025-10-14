@@ -7,13 +7,16 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class NotchCreator : MonoBehaviour
 {
+    //Allows devs to choose how many notches rows and columns there are 
     public Vector2 notchCount = new Vector2(3, 2);
 
+    //Internal counter for notch rows and columns
     private Vector2 _notchCount = new Vector2(3, 2);
 
     [Range(10, 200)]
     public int textSize = 24;
 
+    //Information package for each notch
     [System.Serializable]
     public class NotchInfo
     {
@@ -33,19 +36,18 @@ public class NotchCreator : MonoBehaviour
         LoadReferences();
     }
     
-    // Update is called once per frame
     void Update()
     {
+        //Check if the number of notches has changed, if yes, clamp the values and build the new notches
         if (notchCount != _notchCount)
         {
-            notchCount = new Vector2(Mathf.Clamp(notchCount.x, 2, 100), Mathf.Clamp(notchCount.y, 2, 100));
+            notchCount = new Vector2(Mathf.Clamp(notchCount.x, 2, 10), Mathf.Clamp(notchCount.y, 2, 10));
             _notchCount = notchCount;
             BuildNotches();
         }
-
-
     }
 
+    //Gets neccesary references for certain objects
     [ContextMenu("Reload references")]
     private void LoadReferences()
     {
@@ -56,14 +58,17 @@ public class NotchCreator : MonoBehaviour
 
     private void BuildNotches()
     {
+        //Get rid of all existing notches
         if (notchParent.transform.childCount != 0) for (int i = notchParent.transform.childCount - 1; i > -1; i--)
         {
                 GameObject.DestroyImmediate(notchParent.transform.GetChild(0).gameObject);
         }
 
+        //Calculate the distance between notches
         float xLength = SBbackground.transform.localScale.x * (5f / 6f) / (notchCount.x - 1);
         float yLength = SBbackground.transform.localScale.y * (3f / 4f) / (notchCount.y - 1);
 
+        //Create the notches and set their text size and content
         for (int y = 0; y < notchCount.y; y++)
         {
             for (int x = 0; x < notchCount.x; x++)
