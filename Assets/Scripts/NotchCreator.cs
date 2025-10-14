@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,14 +11,17 @@ public class NotchCreator : MonoBehaviour
 
     private Vector2 _notchCount = new Vector2(3, 2);
 
+    [Range(10, 200)]
+    public int textSize = 24;
+
     [System.Serializable]
     public class NotchInfo
     {
-        public string name;
-        private GameObject notch;
+        public string[] notchNames;
+        //Put in reference to caller here
     }
 
-    public NotchInfo[] phoneNotches;
+    public NotchInfo notches;
 
     private GameObject notchParent;
     private GameObject notch;
@@ -28,7 +32,7 @@ public class NotchCreator : MonoBehaviour
     {
         LoadReferences();
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -64,8 +68,17 @@ public class NotchCreator : MonoBehaviour
         {
             for (int x = 0; x < notchCount.x; x++)
             {
-                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x, -SBbackground.transform.localScale.y * (3f / 8f) + yLength * y, 0), Quaternion.identity, notchParent.transform);
+                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y, 0), Quaternion.identity, notchParent.transform);
+                target.transform.GetChild(0).GetComponent<TextMeshPro>().fontSize = textSize;
+                int notchID = (int)(x + y * notchCount.x);
+                if (notchID < notches.notchNames.Length) target.transform.GetChild(0).GetComponent<TextMeshPro>().text = notches.notchNames[notchID];
             }
         }
+    }
+
+    [ContextMenu("Rebuild Notches")]
+    private void RebuildNotches()
+    {
+        BuildNotches();
     }
 }
