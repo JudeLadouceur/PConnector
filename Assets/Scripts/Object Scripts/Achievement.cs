@@ -8,8 +8,8 @@ public class Achievement : MonoBehaviour
     public AchievementNames achievementName;
     public AchievementStatus status;
     public string achievementDescription;
-    public TextMesh nameText;
-    public TextMesh descriptionText;
+    public TextMeshPro nameText;
+    public TextMeshPro descriptionText;
     public SpriteRenderer achievementPiece;
 
     private void UpdateDisplay()
@@ -28,7 +28,7 @@ public class Achievement : MonoBehaviour
         }
         else if (status == AchievementStatus.Achieved)
         {
-            achievementPiece.color = Color.clear;
+            achievementPiece.color = Color.white;
             nameText.text = "";
             descriptionText.text = "";
         }
@@ -40,8 +40,12 @@ public class Achievement : MonoBehaviour
         UpdateDisplay();
     }
 
-    public void Start()
+    public void Awake()
     {
+        TextMeshPro[] childTextMeshes = GetComponentsInChildren<TextMeshPro>();
+        nameText = childTextMeshes[0];
+        descriptionText = childTextMeshes[1];
+        achievementPiece = GetComponent<SpriteRenderer>();
         UpdateDisplay();
     }
 }
