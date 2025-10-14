@@ -6,42 +6,61 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class NotchCreator : MonoBehaviour
 {
-    public Vector2 notchCount = new Vector2(2, 3);
+    public Vector2 notchCount = new Vector2(3, 2);
 
-    public List<GameObject> notches;
+    private Vector2 _notchCount = new Vector2(3, 2);
+
+    private List<GameObject> notches;
 
     private GameObject notchParent;
     private GameObject notch;
+    private GameObject SBbackground;
 
+    
     private void Awake()
     {
-        notchParent = GameObject.FindGameObjectWithTag("NotchParent");
-        notch = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Notch.prefab", typeof(GameObject));
+        LoadReferences();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (notches.Count != notchCount.x * notchCount.y)
+        if (notchCount != _notchCount)
         {
-            for (int i = notches.Count - 1; i > -1; i--)
-            {
-                GameObject.DestroyImmediate(notches[i]);
-            }
-            notches.Clear();
+            notchCount = new Vector2(Mathf.Clamp(notchCount.x, 2, 100), Mathf.Clamp(notchCount.y, 2, 100));
+            _notchCount = notchCount;
+            BuildNotches();
+        }
 
-            float xLength = 10 / notchCount.x;
-            float yLength = 6 / notchCount.y;
 
-            for (int y = 0; y < notchCount.y; y++)
+    }
+
+    [ContextMenu("Reload references")]
+    private void LoadReferences()
+    {
+        notchParent = GameObject.FindGameObjectWithTag("NotchParent");
+        notch = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Notch.prefab", typeof(GameObject)) as GameObject;
+        SBbackground = GameObject.FindGameObjectWithTag("BoardBG");
+    }
+
+    private void BuildNotches()
+    {
+        if (notches.Count != 0) for (int i = notches.Count - 1; i > -1; i--)
+        {
+            GameObject.DestroyImmediate(notches[i]);
+        }
+        notches.Clear();
+
+        float xLength = SBbackground.transform.localScale.x * (5f / 6f) / (notchCount.x - 1);
+        float yLength = SBbackground.transform.localScale.y * (3f / 4f) / (notchCount.y - 1);
+
+        for (int y = 0; y < notchCount.y; y++)
+        {
+            for (int x = 0; x < notchCount.x; x++)
             {
-                for (int x = 0; x < notchCount.x; x++)
-                {
-                    GameObject target = Instantiate(notch, new Vector3(-5 + xLength * x, -3 + yLength * y, 0), Quaternion.identity, notchParent.transform);
-                    notches.Add(target);
-                }
+                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x, -SBbackground.transform.localScale.y * (3f / 8f) + yLength * y, 0), Quaternion.identity, notchParent.transform);
+                notches.Add(target);
             }
         }
     }
-
 }

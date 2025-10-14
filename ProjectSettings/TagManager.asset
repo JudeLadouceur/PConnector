@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NotchParent
   - Notch
+  - BoardBG
   layers:
   - Default
   - TransparentFX
