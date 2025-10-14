@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
-  isMonologue: 0
+  lines:
+  - speakerName: Jude
+    dialogue: This is a test
+  - speakerName: Jude
+    dialogue: And now I know it works
