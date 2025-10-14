@@ -11,6 +11,15 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Town Overworld");
     }
+    public void OpenOptions()
+    {
+        
+    }
+    public void OpenAchivements()
+    {
+        SceneManager.LoadScene("Achievement Development");
+    }
+
     public void OpenExitPanel()
     {
         exitPanel.gameObject.SetActive(true);
