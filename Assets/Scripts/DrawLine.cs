@@ -13,6 +13,9 @@ public class DrawLine : MonoBehaviour
     private bool hasPoint1 = false;
     private GameObject notch1;
 
+    [HideInInspector]
+    public bool lineDrawn = false;
+
     public void SelectPoint(Vector2 position, GameObject notch)
     {
         if (!hasPoint1) StartDraw(position, notch);
@@ -21,6 +24,8 @@ public class DrawLine : MonoBehaviour
 
     private void StartDraw(Vector2 startPos, GameObject notch)
     {
+        if (lineDrawn == true) return;
+
         Vector2 position = startPos;
 
         currentLine = Instantiate(line, position, Quaternion.identity);
