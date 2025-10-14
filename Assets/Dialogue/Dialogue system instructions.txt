@@ -1,0 +1,7 @@
+Currently, you are able to:
+- StartDialogue -> start dialogue by providing a script (in the form of a scriptableObject. To create one, check the bottom of the document),
+- NextLine -> go to the next line of dialogue,
+- SetDialogueLine -> if for whatever reason you need to play a line that is not the very next one, use this and provide the line number,
+- EndDialogue -> stop the dialogue and close the box.
+
+In order to create a dialogue asset (please do this in the dialogue folder), right click in assets, go to Create / ScriptableObjects(at the top) / Dialogue Asset.

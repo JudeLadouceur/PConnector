@@ -60,6 +60,10 @@ public class DialogueManager : MonoBehaviour
     //Start the line indicated by the received number
     public void SetDialogueLine(int line)
     {
+        if(line >= currentDialogue.lines.Length)
+        {
+            Debug.LogError("This line is out of range, this script can only use a line number that is " + (currentDialogue.lines.Length - 1) + " or lower");
+        }
         print("Go to line " + line);
         speakerField.text = currentDialogue.lines[line].speakerName;
         dialogueField.text = currentDialogue.lines[line].dialogue;
