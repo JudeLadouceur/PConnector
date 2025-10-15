@@ -34,11 +34,11 @@ public class NotchCreator : MonoBehaviour
     [System.Serializable]
     public class NotchInfo
     {
-        public string[] notchNames;
-        //Put in reference to caller here
+        public string notchNames;
+        public SO_Character character;
     }
 
-    public NotchInfo notches;
+    public NotchInfo[] notches;
 
     private GameObject notchParent;
     private GameObject notch;
@@ -86,7 +86,14 @@ public class NotchCreator : MonoBehaviour
                 int notchID = (int)(x + y * notchCount.x);
 
                 //Assign them the name in the notch name list equal to their value, if it exists
-                if (notchID < notches.notchNames.Length) target.transform.GetChild(0).GetComponent<TextMeshPro>().text = notches.notchNames[notchID];
+                if (notchID < notches.Length)
+                {
+                    if (notches[notchID].notchNames != null) target.transform.GetChild(0).GetComponent<TextMeshPro>().text = notches[notchID].notchNames;
+                    else Debug.LogError("There was no name assigned to notch number " + notchID);
+
+                    if (notches[notchID].character != null) target.transform.GetChild(1).GetComponent<Notches>().assignedCharacter = notches[notchID].character;
+                    else Debug.LogError("There was no character assigned to notch number " + notchID);
+                }
             }
         }
     }
