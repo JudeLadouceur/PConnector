@@ -7,6 +7,9 @@ public class Notches : MonoBehaviour
     private DrawLine lm;
     [HideInInspector]
     public bool isOccupied = false;
+
+    public SO_Character assignedCharacter;
+
     private void Start()
     {
         lm = GameObject.Find("LineManager").GetComponent<DrawLine>();

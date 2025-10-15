@@ -38,18 +38,20 @@ public class CallManager : MonoBehaviour
     {
         Days.Call currentCall = days[TimeManager.dayNumber].call[TimeManager.callNumber];
 
-        int target = 0;
+        int target = -1;
 
         for (int i = 0; i < currentCall.connections.Length; i++)
         {
             if (currentCall.connections[i].receiver == receiver)
             {
                 target = i;
+                break;
             }
         }
-        
 
-        dm.StartDialogue(currentCall.connections[target].dialogue);
+
+        if (target != -1) dm.StartDialogue(currentCall.connections[target].dialogue);
+        else Debug.LogError("There was either no person assigned to the connected notch, or there was no dialogue assigned to that receiver.");
     }
 
 
