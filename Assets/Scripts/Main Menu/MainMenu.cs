@@ -31,10 +31,12 @@ public class MainMenu : MonoBehaviour
         mainMenu.SetActive(true);
     }
 
-    public void OpenAchivements()
+    public void OpenAchievements()
     {
         AchievementManager.instance.ToggleAchievementView();
         achieveBackButton.SetActive(!achieveBackButton.activeInHierarchy);
+
+        mainMenu.SetActive(!mainMenu.activeInHierarchy);
     }
 
     public void OpenCredits()
