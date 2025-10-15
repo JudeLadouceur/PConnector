@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public GameObject quitButton;
     public GameObject exitPanel;
+    public GameObject achieveBackButton;
 
     public void StartGame()
     {
@@ -32,7 +33,8 @@ public class MainMenu : MonoBehaviour
 
     public void OpenAchivements()
     {
-        SceneManager.LoadScene("Achievement Development");
+        AchievementManager.instance.ToggleAchievementView();
+        achieveBackButton.SetActive(!achieveBackButton.activeInHierarchy);
     }
 
     public void OpenCredits()
