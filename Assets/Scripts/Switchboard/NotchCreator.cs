@@ -1,8 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+
+[CustomEditor(typeof(NotchCreator))]
+class NotchCreatorCE : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+
+        if (GUILayout.Button("Build Notches"))
+            target.GetComponent<NotchCreator>().BuildNotches();
+    }
+}
 
 [ExecuteInEditMode]
 public class NotchCreator : MonoBehaviour
@@ -10,11 +24,11 @@ public class NotchCreator : MonoBehaviour
     //Allows devs to choose how many notches rows and columns there are 
     public Vector2 notchCount = new Vector2(3, 2);
 
-    //Internal counter for notch rows and columns
-    private Vector2 _notchCount = new Vector2(3, 2);
-
     [Range(10, 200)]
     public int textSize = 24;
+
+    [Range(0.1f, 2)]
+    public float notchSize;
 
     //Information package for each notch
     [System.Serializable]
@@ -35,17 +49,6 @@ public class NotchCreator : MonoBehaviour
     {
         LoadReferences();
     }
-    
-    void Update()
-    {
-        //Check if the number of notches has changed, if yes, clamp the values and build the new notches
-        if (notchCount != _notchCount)
-        {
-            notchCount = new Vector2(Mathf.Clamp(notchCount.x, 2, 10), Mathf.Clamp(notchCount.y, 2, 10));
-            _notchCount = notchCount;
-            BuildNotches();
-        }
-    }
 
     //Gets neccesary references for certain objects
     [ContextMenu("Reload references")]
@@ -56,7 +59,7 @@ public class NotchCreator : MonoBehaviour
         SBbackground = GameObject.FindGameObjectWithTag("BoardBG");
     }
 
-    private void BuildNotches()
+    public void BuildNotches()
     {
         //Get rid of all existing notches
         if (notchParent.transform.childCount != 0) for (int i = notchParent.transform.childCount - 1; i > -1; i--)
@@ -73,7 +76,7 @@ public class NotchCreator : MonoBehaviour
         {
             for (int x = 0; x < notchCount.x; x++)
             {
-                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y, 0), Quaternion.identity, notchParent.transform);
+                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x + SBbackground.transform.position.x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y + SBbackground.transform.position.y, 0), Quaternion.identity, notchParent.transform);
                 target.transform.GetChild(0).GetComponent<TextMeshPro>().fontSize = textSize;
                 int notchID = (int)(x + y * notchCount.x);
                 if (notchID < notches.notchNames.Length) target.transform.GetChild(0).GetComponent<TextMeshPro>().text = notches.notchNames[notchID];
