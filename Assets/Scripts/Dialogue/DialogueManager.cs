@@ -49,7 +49,8 @@ public class DialogueManager : MonoBehaviour
     //If this is not the last line, increment the line number by 1 and play the new line
     public void NextLine()
     {
-        if (lineNumber == currentDialogue.lines.Length - 1) return;
+        if (!inDialogue) return;
+        if (lineNumber == currentDialogue.lines.Count - 1) return;
         else
         {
             lineNumber++;
@@ -60,9 +61,10 @@ public class DialogueManager : MonoBehaviour
     //Start the line indicated by the received number
     public void SetDialogueLine(int line)
     {
-        if(line >= currentDialogue.lines.Length)
+        if (!inDialogue) return;
+        if(line >= currentDialogue.lines.Count)
         {
-            Debug.LogError("This line is out of range, this script can only use a line number that is " + (currentDialogue.lines.Length - 1) + " or lower");
+            Debug.LogError("This line is out of range, this script can only use a line number that is " + (currentDialogue.lines.Count - 1) + " or lower");
         }
         print("Go to line " + line);
         speakerField.text = currentDialogue.lines[line].speakerName;
