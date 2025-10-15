@@ -4,8 +4,12 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     public GameObject startButton;
+
     public GameObject mainMenu;
     public GameObject optionsMenu;
+
+    public GameObject creditsPage;
+
     public GameObject quitButton;
     public GameObject exitPanel;
 
@@ -13,19 +17,36 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Town Overworld");
     }
+
     public void OpenOptionsMenu()
     {
         optionsMenu.SetActive(true);
         mainMenu.SetActive(false);
     }
+
     public void CloseOptionsMenu()
     {
         optionsMenu.SetActive(false);
         mainMenu.SetActive(true);
     }
+
     public void OpenAchivements()
     {
         SceneManager.LoadScene("Achievement Development");
+    }
+
+    public void OpenCredits()
+    {
+        creditsPage.gameObject.SetActive(true);
+
+        mainMenu.SetActive(false);
+    }
+
+    public void CloseCredits()
+    {
+        creditsPage.gameObject.SetActive(false);
+
+        mainMenu.SetActive(true);
     }
 
     public void OpenExitPanel()
