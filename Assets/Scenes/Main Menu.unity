@@ -467,13 +467,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 2004038708}
   m_HandleRect: {fileID: 1725655318}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 10
   m_WholeNumbers: 0
-  m_Value: 0.436
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 307303841}
+        m_TargetAssemblyTypeName: VolumeManager, Assembly-CSharp
+        m_MethodName: UpdateMusicVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &67654913
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +571,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1000179647}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OpenAchivements
+        m_MethodName: OpenAchievements
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1359,6 +1371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 307303840}
+  - component: {fileID: 307303841}
   m_Layer: 5
   m_Name: Options Menu
   m_TagString: Untagged
@@ -1392,6 +1405,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &307303841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307303839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037326560418b08429a5fe2477c9f8db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 3241bedf2aef9134baf81113531180db, type: 2}
+  masterSlider: {fileID: 1660105905}
+  musicSlider: {fileID: 50778981}
+  SFXSlider: {fileID: 486366465}
 --- !u!1 &343680154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,13 +2038,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 516723232}
   m_HandleRect: {fileID: 1360877689}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 10
   m_WholeNumbers: 0
-  m_Value: 0.34
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 307303841}
+        m_TargetAssemblyTypeName: VolumeManager, Assembly-CSharp
+        m_MethodName: UpdateSFXVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &510225864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,8 +3230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.3
-  m_fontSizeBase: 67.3
+  m_fontSize: 200.2
+  m_fontSizeBase: 200.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3475,8 +3516,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1018, y: -35}
-  m_SizeDelta: {x: 526.944, y: 139.238}
+  m_AnchoredPosition: {x: 162, y: -67}
+  m_SizeDelta: {x: 1307.96, y: 331.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092450590
 MonoBehaviour:
@@ -3524,7 +3565,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1000179647}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OpenAchivements
+        m_MethodName: OpenAchievements
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5051,7 +5092,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1660105904}
   - component: {fileID: 1660105905}
-  - component: {fileID: 1660105906}
   m_Layer: 5
   m_Name: Master Slider
   m_TagString: Untagged
@@ -5125,29 +5165,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 1555154987}
   m_HandleRect: {fileID: 1167200660}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 10
   m_WholeNumbers: 0
-  m_Value: 0.596
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1660105906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660105903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 037326560418b08429a5fe2477c9f8db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 3241bedf2aef9134baf81113531180db, type: 2}
-  masterSlider: {fileID: 1660105905}
-  musicSlider: {fileID: 50778981}
-  SFXSlider: {fileID: 486366465}
+      m_Calls:
+      - m_Target: {fileID: 307303841}
+        m_TargetAssemblyTypeName: VolumeManager, Assembly-CSharp
+        m_MethodName: UpdateMasterVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1681577730
 GameObject:
   m_ObjectHideFlags: 0
@@ -5907,6 +5943,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3165205487178622875, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5969150987622861011, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Name
       value: AchievementRoot
@@ -5949,6 +5989,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328709509442250022, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
