@@ -1,22 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class MovementScript : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
+    public bool Funny;
 
-    Vector2 moveDirection;
+    private Vector2 moveDirection;
 
-    // Update is called once per frame
+    // Delay control
+    private bool canToggle = true;
+    public float toggleCooldown = 0.3f; // seconds between toggles
+
     void Update()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
         moveDirection = new Vector2(moveX, moveY).normalized;
+
+        if (Input.GetButtonDown("tab") && canToggle)
+        {
+            StartCoroutine(ToggleMovement());
+        }
+    }
+
+    IEnumerator ToggleMovement()
+    {
+        canToggle = false;
+
+        Funny = !Funny;
+
+        moveSpeed = Funny ? 0f : 5f;
+
+        yield return new WaitForSeconds(toggleCooldown);
+
+        canToggle = true;
     }
 
     private void FixedUpdate()
