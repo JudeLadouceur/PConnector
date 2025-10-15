@@ -5943,10 +5943,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3165205487178622875, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5969150987622861011, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Name
       value: AchievementRoot
@@ -5989,10 +5985,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8328709509442250022, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
