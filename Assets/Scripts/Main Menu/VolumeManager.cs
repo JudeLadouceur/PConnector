@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 // This tutorial was used for writing this script:
 // https://gamedevacademy.org/unity-audio-settings-tutorial/
