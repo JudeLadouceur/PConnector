@@ -14,4 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Switchboard.unity
     guid: da90ba941a55e3c41af0022b963a3622
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}

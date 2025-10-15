@@ -13,6 +13,19 @@ public class Achievement : MonoBehaviour
     public SpriteRenderer achievementPiece;
     private GameObject pickupPiece;
     public bool rightPiece = false;
+    private bool addToDict = true;
+
+    private void OnEnable()
+    {
+        if (addToDict)
+        {
+            if(!AchievementManager.instance.achievementDictionary.TryAdd(achievementName, this))
+            {
+                Debug.LogWarning("ERROR: Attempted to add an achievement with a name already in the achievement dictionary. Check and ensure all achivements in the scene have a unique name enumerator.");
+            }
+            addToDict = false;
+        }
+    }
 
     private void UpdateDisplay()
     {
