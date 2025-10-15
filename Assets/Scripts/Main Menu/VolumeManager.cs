@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 // This tutorial was used for writing this script:
 // https://gamedevacademy.org/unity-audio-settings-tutorial/
@@ -20,8 +21,8 @@ public class VolumeManager : MonoBehaviour
         if (PlayerPrefs.HasKey("MasterVolume"))
         {
             // Set the mixer volume levels based on the saved player prefs.
-            mixer.SetFloat("MasterVolume", PlayerPrefs.GetFloat("MasterVolume"));
-            mixer.SetFloat("MusicVolume", PlayerPrefs.GetFloat("MusicVolume"));
+            mixer.SetFloat("masterVolume", PlayerPrefs.GetFloat("masterVolume"));
+            mixer.SetFloat("musicVolume", PlayerPrefs.GetFloat("musicVolume"));
             mixer.SetFloat("SFXVolume", PlayerPrefs.GetFloat("SFXVolume"));
    
             SetSliders();
@@ -35,23 +36,23 @@ public class VolumeManager : MonoBehaviour
 
     void SetSliders()
     {
-        masterSlider.value = PlayerPrefs.GetFloat("MasterVolume");
-        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+        masterSlider.value = PlayerPrefs.GetFloat("masterVolume");
+        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
         SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
     }
 
     // For updating the master slider.
     public void UpdateMasterVolume()
     {
-        mixer.SetFloat("MasterVolume", masterSlider.value);
-        PlayerPrefs.SetFloat("MasterVolume", masterSlider.value);
+        mixer.SetFloat("masterVolume", masterSlider.value);
+        PlayerPrefs.SetFloat("masterVolume", masterSlider.value);
     }
 
     // For updating the music slider.
     public void UpdateMusicVolume()
     {
-        mixer.SetFloat("MusicVolume", musicSlider.value);
-        PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
+        mixer.SetFloat("musicVolume", musicSlider.value);
+        PlayerPrefs.SetFloat("musicVolume", musicSlider.value);
     }
 
     // For updating the SFX slider.
