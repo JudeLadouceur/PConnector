@@ -16,6 +16,13 @@ public class DrawLine : MonoBehaviour
     [HideInInspector]
     public bool lineDrawn = false;
 
+    private CallManager callManager;
+
+    private void Start()
+    {
+        callManager = GameObject.FindObjectOfType<CallManager>();
+    }
+
     //When a notch is pressed, either start drawing a line or finish the line
     public void SelectPoint(Vector2 position, GameObject notch)
     {
@@ -43,6 +50,8 @@ public class DrawLine : MonoBehaviour
         //Set the end point for the connection and stop it from moving
         currentLine.GetComponent<LineBehavior>().FinishMoving(endPos, notch1, notch);
         currentLine = null;
+
+        callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter);
 
         hasPoint1 = false;
     }

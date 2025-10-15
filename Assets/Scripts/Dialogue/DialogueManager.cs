@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (inDialogue)
         {
-            if (Input.GetKeyDown(KeyCode.Space)) return;
+            if (Input.GetKeyDown(KeyCode.Space)) NextLine();
         }
     }
 
