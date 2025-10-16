@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEditor;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
@@ -9,6 +10,9 @@ public class DialogueManager : MonoBehaviour
     private GameObject dialogueBox;
     private CallManager callManager;
     private DrawLine drawLine;
+    private CharacterManager characterManager;
+    private SceneTransitionTargets transitionTargets;
+
 
     private int lineNumber;
     private bool inDialogue = false;
@@ -22,6 +26,8 @@ public class DialogueManager : MonoBehaviour
         dialogueBox = GameObject.FindGameObjectWithTag("DialogueBox");
         callManager = GameObject.FindAnyObjectByType<CallManager>();
         drawLine = GameObject.FindAnyObjectByType<DrawLine>();
+        characterManager = GameObject.FindAnyObjectByType<CharacterManager>();
+        transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
 
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
@@ -48,7 +54,10 @@ public class DialogueManager : MonoBehaviour
         lineNumber = 0;
         SetDialogueLine(0);
 
-        
+        for (int i = 0; i < dialogue.variables.Length; i++) 
+        {
+            characterManager.flags[dialogue.variables[i].variableName] = dialogue.variables[i].value;
+        }
 
         inDialogue = true;
     }
@@ -104,7 +113,7 @@ public class DialogueManager : MonoBehaviour
         {
             print("End of day");
 
-            //if (TimeManager.dayNumber == 0) SceneManager.LoadScene();
+            transitionTargets.FindTargetScene();
         }
     }
 }

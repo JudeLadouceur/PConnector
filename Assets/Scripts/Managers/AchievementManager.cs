@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 using System.Linq;
 using Unity.VisualScripting;
@@ -25,6 +24,8 @@ public class AchievementManager : MonoBehaviour
         achievementDictionary = new Dictionary<AchievementNames, Achievement>();
         SceneManager.activeSceneChanged += SetNewCameraInScene;
         SetNewCameraInScene(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
+        viewRoot.SetActive(true);
+        viewRoot.SetActive(false);
     }
 
     public void ToggleAchievementView()

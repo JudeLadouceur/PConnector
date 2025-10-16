@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Lin
   m_EditorClassIdentifier: 
   characterName: Lin's Pizza
-  variables:
-    booleans: []
-    ints: []
+  variables: []

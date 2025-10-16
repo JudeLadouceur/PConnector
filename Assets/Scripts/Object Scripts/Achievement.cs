@@ -85,7 +85,7 @@ public class Achievement : MonoBehaviour
     }
     public void Achieve()
     {
-        if (status == AchievementStatus.Revealed)
+        if (status != AchievementStatus.Placed)
         {
             SetStatus(AchievementStatus.Achieved);
             if (AchievementManager.instance && !AchievementManager.instance.endDayRevealed)

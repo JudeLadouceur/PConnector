@@ -21,7 +21,7 @@ public class MovementScript : MonoBehaviour
 
         moveDirection = new Vector2(moveX, moveY).normalized;
 
-        if (Input.GetButtonDown("tab") && canToggle)
+        if (Input.GetKeyDown(KeyCode.Tab) && canToggle)
         {
             StartCoroutine(ToggleMovement());
         }

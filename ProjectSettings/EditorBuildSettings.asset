@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: b51788f3d4256ef44b522691c1d09823
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Achievement Development.unity
     guid: 1122cd932b8c5364b8d8f185e7f9b128
   - enabled: 1
@@ -18,20 +18,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Switchboard.unity
     guid: da90ba941a55e3c41af0022b963a3622
   - enabled: 1
+    path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork A - A.unity
+    guid: 8285ab6f0106382499962d133a74e701
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork A - B.unity
+    guid: 218b35ad8acb5c741879e9a3e8456e87
+  - enabled: 1
     path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork B - A.unity
     guid: f9ce9d6fdd57b714489725a31bc38c77
   - enabled: 1
+    path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork B - B.unity
+    guid: dd5ff355cf00b3545bb0b5b319b322c1
+  - enabled: 0
     path: Assets/Scenes/Days/Day 2/Before Work/Day 2 - Before Work A - A.unity
     guid: 4613d61627ddc4c4eb5c407cbb873b90
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Days/Day 2/Before Work/Day 2 - Before Work A - B.unity
     guid: 15e855568c51aa549a538a3e207f33ae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Days/Day 2/Before Work/Day 2 - Before Work B - A.unity
     guid: 18029810163a78444b5a9a1157c667d0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Days/Day 2/Before Work/Day 2 - Before Work B - B.unity
     guid: 53b29bc520d7de84a9ebaec0e4b29a24
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 5b4015d58e5abf44697930c19b6d51b5
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}

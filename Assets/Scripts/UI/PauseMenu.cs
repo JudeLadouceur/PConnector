@@ -73,7 +73,6 @@ public class PauseMenu : MonoBehaviour
 
         pauseMenuCanvas.SetActive(false);
 
-        //playerInput.SwitchCurrentActionMap("Player");
     }
 
     public void OpenOptionsMenu()
@@ -104,6 +103,8 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        //playerInput.SwitchCurrentActionMap("Player");
+        Time.timeScale = 1;
         SceneManager.LoadScene("Main Menu");
     }
 }

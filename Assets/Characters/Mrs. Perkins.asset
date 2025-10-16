@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Mrs. Perkins
   variables:
-    booleans:
-    - name: walkerFixed
-      value: 0
-    ints: []
+  - name: walkerFixed
+    value: 0

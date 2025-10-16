@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Emergency
   m_EditorClassIdentifier: 
   characterName: Emergency Line
-  variables:
-    booleans: []
-    ints: []
+  variables: []
