@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214016839832241990}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -293,7 +293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744034575093750656}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -331,7 +331,7 @@ Transform:
   m_GameObject: {fileID: 792842975301698327}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.954288, y: -4.514288, z: 0}
+  m_LocalPosition: {x: -11.52, y: 4.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -378,8 +378,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1002
-  m_Sprite: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.7807932, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 133dabedec7bc3042aa46b872cad4adb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -671,7 +671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907491456269397056}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.9734488, y: -3.8998847, z: 0.25085115}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
@@ -679,7 +679,7 @@ Transform:
   - {fileID: 2338796999730588902}
   - {fileID: 2873717900416631796}
   m_Father: {fileID: 7012754898112902234}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5965236917569827050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -721,7 +721,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1001
-  m_Sprite: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3cd89ea23aadc494594b9d88aa0a5f13, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -751,6 +751,8 @@ MonoBehaviour:
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
   rightPiece: 0
+  baseSprite: {fileID: 21300000, guid: 3cd89ea23aadc494594b9d88aa0a5f13, type: 3}
+  revealedSprite: {fileID: 21300000, guid: 133dabedec7bc3042aa46b872cad4adb, type: 3}
 --- !u!61 &3949821933021899982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1295,7 +1297,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3146681285274457553}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2002,7 +2004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6164001626319512448}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.813449, y: -3.8998847, z: 0.25085115}
   m_LocalScale: {x: 0.6999999, y: 0.6999999, z: 0.7}
   m_ConstrainProportionsScale: 1
@@ -2010,7 +2012,7 @@ Transform:
   - {fileID: 12352268444408637}
   - {fileID: 4262189991475840564}
   m_Father: {fileID: 7012754898112902234}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4607561712728114410
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2052,7 +2054,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1001
-  m_Sprite: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a05b3f46a1cfe544ba149ce1c8e52133, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2082,6 +2084,8 @@ MonoBehaviour:
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
   rightPiece: 0
+  baseSprite: {fileID: 21300000, guid: a05b3f46a1cfe544ba149ce1c8e52133, type: 3}
+  revealedSprite: {fileID: 21300000, guid: 0f60e32882f7fc7438ea5c6d78990f64, type: 3}
 --- !u!61 &3271141628595159656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2327,7 +2331,7 @@ Transform:
   m_GameObject: {fileID: 6484253017533024395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11.954287, z: 0}
+  m_LocalPosition: {x: -10.87, y: -0.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2374,8 +2378,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1002
-  m_Sprite: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.7807932, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 7691bb0e8849834488cbc87806477439, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2937,7 +2941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8347409788476059702}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.9734488, y: -0.73988473, z: 0.25085115}
   m_LocalScale: {x: 0.6999999, y: 0.6999999, z: 0.7}
   m_ConstrainProportionsScale: 1
@@ -2945,7 +2949,7 @@ Transform:
   - {fileID: 1776911594574252572}
   - {fileID: 1203660241854981556}
   m_Father: {fileID: 7012754898112902234}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1013290533861103080
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2987,7 +2991,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1001
-  m_Sprite: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8e8b298f32873d4899ce6f8b259121c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3017,6 +3021,8 @@ MonoBehaviour:
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
   rightPiece: 0
+  baseSprite: {fileID: 21300000, guid: d8e8b298f32873d4899ce6f8b259121c, type: 3}
+  revealedSprite: {fileID: 21300000, guid: 7691bb0e8849834488cbc87806477439, type: 3}
 --- !u!61 &5645965457689809501
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3091,7 +3097,7 @@ Transform:
   m_GameObject: {fileID: 8685404709231688704}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5142884, y: 7.440001, z: 0}
+  m_LocalPosition: {x: -6.35, y: 4.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3138,8 +3144,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1002
-  m_Sprite: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.7807932, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 0f60e32882f7fc7438ea5c6d78990f64, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3261,9 +3267,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 5841866777175987607, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 6607857221143539263, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
       propertyPath: m_Layer
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128628604461371167, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 7250480952394994279, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
       propertyPath: m_Layer
@@ -3340,6 +3354,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: baseSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 80db69fd2826180418b726622ad72d43, type: 3}
+    - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: revealedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7a79c5d3563022e49a5c0fe30b884558, type: 3}
+    - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: achievementDescription
       value: Complete your first day.
       objectReference: {fileID: 0}
@@ -3350,6 +3372,18 @@ PrefabInstance:
     - target: {fileID: 4805423282456898602, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: m_Layer
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6420462293203156765, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7a79c5d3563022e49a5c0fe30b884558, type: 3}
+    - target: {fileID: 6420462293203156765, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6420462293203156765, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: m_Color.g
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6461490674695785527, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: m_Layer

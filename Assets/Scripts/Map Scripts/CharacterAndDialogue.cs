@@ -21,7 +21,16 @@ public class CharacterAndDialogue : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) DialogueIntsatiate.SetActive(true);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            DialogueIntsatiate.SetActive(true);
+            if(AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed)
+            {
+                value.Achieve();
+            }
+        }
+            
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)

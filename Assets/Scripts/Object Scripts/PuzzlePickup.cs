@@ -10,7 +10,6 @@ public class PuzzlePickup : MonoBehaviour
     {
         mouseOffset = Vector3.zero;
         rb = GetComponent<Rigidbody2D>();
-        GetComponent<SpriteRenderer>().color = Color.green;
         achieve = GetComponentInParent<Achievement>();
     }
     private void OnMouseDown()
