@@ -1433,10 +1433,14 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: 6f24fb90428be584fa5a714dab77f2c5, type: 2}
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: b52d840317e99ba49984106929d0ecf0, type: 2}
-    - caller: {fileID: 11400000, guid: 754655c554ab2cf489f4e14497dc36b2, type: 2}
+    - caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
       connections:
-      - receiver: {fileID: 11400000, guid: a6e62ca12976d2249a14b5d14f71f553, type: 2}
-        dialogue: {fileID: 11400000, guid: 72672923b7f7a984abf3fbe7e5526e47, type: 2}
+      - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
+        dialogue: {fileID: 11400000, guid: 32cd2360e1f275b46bb7d81009e33407, type: 2}
+      - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+        dialogue: {fileID: 11400000, guid: 4757eee7143202d418b00629799b08b9, type: 2}
+      - receiver: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+        dialogue: {fileID: 11400000, guid: 3ffda7324513dd342adecbb2725c35eb, type: 2}
   - call:
     - caller: {fileID: 0}
       connections: []

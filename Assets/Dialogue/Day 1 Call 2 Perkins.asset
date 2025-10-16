@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Day 1 Call 2 Perkins
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: ' MRS. PERKINS '
+  - speakerName: 'MRS. PERKINS '
     dialogue: Hello? This is Mrs. Perkins. Who is this?
   - speakerName: SETH
     dialogue: "Hey, Mrs. Perkins. You, uh, wouldn\u2019t happen to have some spare
@@ -41,6 +41,6 @@ MonoBehaviour:
       Thanks, Mrs. Perkins."
   variables:
   - targetCharacter: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
-    variableName: 
-    modifier: 0
+    variableName: partsGained
+    modifier: 2
     value: 1
