@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Seth's Repair Garage
   variables:
-    booleans: []
+    booleans:
+    - name: partsGained
+      value: 0
     ints: []
