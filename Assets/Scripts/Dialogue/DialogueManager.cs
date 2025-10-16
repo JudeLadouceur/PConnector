@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (inDialogue)
         {
-            if (Input.GetKeyDown(KeyCode.Space)) return;
+            if (Input.GetKeyDown(KeyCode.Space)) NextLine();
         }
     }
 
@@ -46,10 +46,10 @@ public class DialogueManager : MonoBehaviour
         inDialogue = true;
     }
 
-    //If this is not the last line, increment the line number by 1 and play the new line
+    //If this is not the last line, increment the line number by 1 and play the new line. If it is, end the dialogue
     public void NextLine()
     {
-        if (lineNumber == currentDialogue.lines.Length - 1) return;
+        if (lineNumber == currentDialogue.lines.Length - 1) EndDialogue();
         else
         {
             lineNumber++;
