@@ -15,6 +15,8 @@ public class Achievement : MonoBehaviour
     private GameObject pickupPiece;
     public bool rightPiece = false;
     private bool addToDict = true;
+    public Sprite baseSprite;
+    public Sprite revealedSprite;
 
     private void OnEnable()
     {
@@ -47,14 +49,16 @@ public class Achievement : MonoBehaviour
         }
         else if (status == AchievementStatus.Achieved)
         {
-            achievementPiece.color = Color.white;
+            achievementPiece.sprite = baseSprite;
+            achievementPiece.color=Color.white;
             nameText.text = "";
             descriptionText.text = "";
             pickupPiece.SetActive(true);
         }
         else if (status == AchievementStatus.Placed)
         {
-            achievementPiece.color = Color.green;
+            achievementPiece.sprite=revealedSprite;
+            achievementPiece.color=Color.white;
             nameText.text = "";
             descriptionText.text = "";
             pickupPiece.SetActive(false);

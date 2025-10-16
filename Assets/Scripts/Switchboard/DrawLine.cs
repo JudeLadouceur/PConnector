@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DrawLine : MonoBehaviour
@@ -61,11 +62,23 @@ public class DrawLine : MonoBehaviour
 
     private void EndDraw(Vector2 endPos, GameObject notch)
     {
+        SO_Character target = (notch.GetComponent<Notches>().assignedCharacter);
+
+        print(target);
+
+        if (target == null)
+        {
+            Debug.LogError("There is no character assigned to this notch. Please assign someone by opening the Switchboard object, opening the notches variable, and assigning a character ScriptableObject to their character field. (instructions for creating a character ScriptableObject are in Assets -> Characters).");
+            return;
+        }
+
+        print("start call");
+
+        callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter);
+
         //Set the end point for the connection and stop it from moving
         currentLine.GetComponent<LineBehavior>().FinishMoving(endPos, notch1, notch);
         currentLine = null;
-
-        callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter);
 
         hasPoint1 = false;
     }

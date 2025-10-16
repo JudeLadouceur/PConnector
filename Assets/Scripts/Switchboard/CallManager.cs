@@ -49,9 +49,10 @@ public class CallManager : MonoBehaviour
             }
         }
 
+        //-------------Insert achievement code here---------------------
 
         if (target != -1) dm.StartDialogue(currentCall.connections[target].dialogue);
-        else Debug.LogError("There was either no person assigned to the connected notch, or there was no dialogue assigned to that receiver.");
+        else Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
     }
 
 

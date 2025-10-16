@@ -734,11 +734,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5176382
+      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.641157
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalPosition.z
@@ -785,17 +785,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: Dialogue
+      value: 
+      objectReference: {fileID: 5602304745035743289, guid: 2e8c4d8327ee6e644892a2fc72994463, type: 3}
     - target: {fileID: 4667182734922841304, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: m_Name
       value: Mrs Perkins
       objectReference: {fileID: 0}
     - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.57
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.54
+      value: 9.4
       objectReference: {fileID: 0}
     - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: m_LocalPosition.z
