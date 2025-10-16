@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -102,7 +103,8 @@ public class DialogueManager : MonoBehaviour
         else
         {
             print("End of day");
-            //Insert end of day code
+
+            //if (TimeManager.dayNumber == 0) SceneManager.LoadScene();
         }
     }
 }
