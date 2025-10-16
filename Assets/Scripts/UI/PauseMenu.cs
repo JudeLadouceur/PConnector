@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public PlayerInput playerInput;
+    //public PlayerInput playerInput;
 
     public GameObject pauseMenuCanvas;
     public GameObject pauseMenuButtons;
@@ -15,6 +15,8 @@ public class PauseMenu : MonoBehaviour
 
     public static PauseMenu instance;
 
+    InputAction togglePause;
+
     private void Awake()
     {
         if (instance == null)
@@ -24,6 +26,14 @@ public class PauseMenu : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+        togglePause = InputSystem.actions.FindAction("Pause");
+    }
+    private void Update()
+    {
+        if (togglePause.WasPressedThisFrame())
+        {
+            OnPause();
         }
     }
 
@@ -52,7 +62,7 @@ public class PauseMenu : MonoBehaviour
 
         pauseMenuCanvas.SetActive(true);
 
-        playerInput.SwitchCurrentActionMap("UI");
+        //playerInput.SwitchCurrentActionMap("UI");
     }
 
     public void ResumeGame()
@@ -63,7 +73,7 @@ public class PauseMenu : MonoBehaviour
 
         pauseMenuCanvas.SetActive(false);
 
-        playerInput.SwitchCurrentActionMap("Player");
+        //playerInput.SwitchCurrentActionMap("Player");
     }
 
     public void OpenOptionsMenu()
