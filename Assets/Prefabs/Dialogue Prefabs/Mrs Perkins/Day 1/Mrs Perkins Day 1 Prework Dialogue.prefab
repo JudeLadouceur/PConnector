@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6933587146019281118
+--- !u!1 &5602304745035743289
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3133939158123207288}
-  - component: {fileID: 8352403736221164346}
+  - component: {fileID: 5127111595431941426}
+  - component: {fileID: 8006231098609376145}
   m_Layer: 0
-  m_Name: Lins Dialogue
+  m_Name: Mrs Perkins Day 1 Prework Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &3133939158123207288
+--- !u!4 &5127111595431941426
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6933587146019281118}
+  m_GameObject: {fileID: 5602304745035743289}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.74, y: 17.37, z: 0}
-  m_LocalScale: {x: 1.2647, y: 1.2768, z: 1}
+  m_LocalPosition: {x: 7.1, y: 11.52, z: 0}
+  m_LocalScale: {x: 1.2683803, y: 1.2683803, z: 1.2683803}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8352403736221164346
+--- !u!212 &8006231098609376145
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6933587146019281118}
+  m_GameObject: {fileID: 5602304745035743289}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 7f5090c11380ce3449101fef6c5d0fbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 842021fb87ab9b54d9f04c88dddc24c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
