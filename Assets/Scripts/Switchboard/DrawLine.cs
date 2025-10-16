@@ -19,6 +19,10 @@ public class DrawLine : MonoBehaviour
 
     private CallManager callManager;
 
+    public AudioSource audioSource;
+    public AudioClip grabbingWireSound;
+    public AudioClip connectingWireSound;
+
     private void Start()
     {
         callManager = GameObject.FindObjectOfType<CallManager>();
@@ -27,8 +31,18 @@ public class DrawLine : MonoBehaviour
     //When a notch is pressed, either start drawing a line or finish the line
     public void SelectPoint(Vector2 position, GameObject notch)
     {
-        if (!hasPoint1) StartDraw(position, notch);
-        else EndDraw(position, notch);
+        if (!hasPoint1)
+        {
+            StartDraw(position, notch);
+
+            audioSource.PlayOneShot(grabbingWireSound);
+        }
+        else
+        {
+            EndDraw(position, notch);
+
+            audioSource.PlayOneShot(connectingWireSound);
+        }
     }
 
     private void StartDraw(Vector2 startPos, GameObject notch)
