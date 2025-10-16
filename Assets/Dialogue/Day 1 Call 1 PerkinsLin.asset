@@ -12,5 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
   m_Name: Day 1 Call 1 PerkinsLin
   m_EditorClassIdentifier: 
-  lines: []
-  variables: []
+  lines:
+  - speakerName: LIN
+    dialogue: "It\u2019s the pizzeria, what toppings do you want? "
+  - speakerName: 'MRS. PERKINS '
+    dialogue: "Oh, Lin dearie. I\u2019m at my wits end with this computer, I don\u2019t
+      know what this queue thing is or how to use it to make an appointment at Seth\u2019s. "
+  - speakerName: LIN
+    dialogue: "Ah, well, it\u2019s pretty quiet here,if you want I can explain how
+      to use it? "
+  - speakerName: 'MRS. PERKINS '
+    dialogue: 'That would be lovely! '
+  - speakerName: LIN
+    dialogue: Okay, what do you see on your screen?
+  - speakerName: 'MRS. PERKINS '
+    dialogue: "Well, it asked for my name and phone number, which I put in. Then
+      I went to press the button to make the appointment, but it said \u201CJoin
+      Queue\u201D, is a queue some group I have to be part of? "
+  - speakerName: LIN
+    dialogue: "Oh, no, it\u2019s just a word the computer uses for line. Once you
+      press that it will tell you when to go to Seth\u2019s. "
+  - speakerName: 'MRS. PERKINS '
+    dialogue: "Oh, well why didn\u2019t it say so? You\u2019re a great help, can
+      I call you if you need anything else? "
+  - speakerName: LIN
+    dialogue: "I\u2019ll do you one better, if you come by with your computer once
+      you\u2019re done with Seth, I\u2019ll help answer any questions you may have."
+  - speakerName: LIN
+    dialogue: In exchange, you have to try some of these new pizza ideas I have!
+      I think hot sauce in the crust might be my best idea yet!
+  - speakerName: 'MRS. PERKINS '
+    dialogue: "I\u2019m not so sure about that, dearie, but I\u2019ll be happy if
+      you prove me wrong. I\u2019ll be over later. "
+  - speakerName: 
+    dialogue: The call ends.
+  variables:
+  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+    variableName: walkerFixed
+    modifier: 2
+    value: 1

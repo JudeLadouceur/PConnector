@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5da029a00c38a498228263cd3f53c3, type: 3}
   m_Name: Lin
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: Lin's Pizza
   variables:
     booleans: []
     ints: []

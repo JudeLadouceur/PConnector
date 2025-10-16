@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 1 Call 1 PerkinsEmergency
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: 'EMERGENCY '
+    dialogue: "Emergency line, what\u2019s your emergency? "
+  - speakerName: 'MRS. PERKINS '
+    dialogue: "Oh, you must know a lot to be working there! I need help with my computer,
+      it\u2019s asking me to join a queue, I don\u2019t know what that means. "
+  - speakerName: 'EMERGENCY '
+    dialogue: "Ma\u2019m, that\u2019s not an emergency. I\u2019ll be transferring
+      you to the waitlist for now, you\u2019ll be put into the queue at spot number- "
+  - speakerName: 'MRS. PERKINS '
+    dialogue: 'Never mind! '
+  - speakerName: 
+    dialogue: The call ends.
+  variables: []
