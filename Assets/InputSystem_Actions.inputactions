@@ -622,7 +622,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Unpause",
+                    "name": "Pause",
                     "type": "Button",
                     "id": "e1d19a06-0945-4c4d-b6a0-79d085b722ee",
                     "expectedControlType": "",
@@ -1057,7 +1057,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Unpause",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1068,7 +1068,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Unpause",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
