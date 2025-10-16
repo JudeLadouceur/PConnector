@@ -28,7 +28,7 @@ public class PuzzlePickup : MonoBehaviour
         mouseOffset = Vector3.zero;
         if (achieve.rightPiece)
         {
-            achieve.SetStatus(AchievementStatus.Placed);
+            achieve.SlotPiece();
         }
     }
     private void FixedUpdate()

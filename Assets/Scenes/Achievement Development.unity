@@ -122,11 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!223 &1474629497 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 163204870587480497, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-  m_PrefabInstance: {fileID: 2337311589047412069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1813375498
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,29 +222,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 163204870587480497, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5836618171039592536, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      propertyPath: puzzleCanvas
-      value: 
-      objectReference: {fileID: 1474629497}
     - target: {fileID: 5969150987622861011, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Name
       value: AchievementRoot
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.393449
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.3198848
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.25085115
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalRotation.w
@@ -279,13 +266,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8328709509442250022, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3165205487178622875, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}

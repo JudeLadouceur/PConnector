@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
+using System.Linq;
+using Unity.VisualScripting;
 
 public class AchievementManager : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class AchievementManager : MonoBehaviour
     public GameObject viewRoot;
     public Canvas puzzleCanvas;
     public Camera sceneCamera;
+    public bool endDayRevealed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -44,5 +47,33 @@ public class AchievementManager : MonoBehaviour
             puzzleCanvas.worldCamera = Camera.main;
         }
         viewRoot.transform.position = new Vector3(0, 0, 0);
+    }
+    public int CheckNumberAchieved()
+    {
+        Achievement[] achievements = achievementDictionary.Values.ToArray();
+        int achievedCount = 0;
+        foreach(Achievement achievement in achievements)
+        {
+
+            if (achievement.status == AchievementStatus.Achieved || achievement.status==AchievementStatus.Placed)
+            {
+                achievedCount++;
+            }
+        }
+        return achievedCount;
+    }
+    public void CheckForEndDayAchieveReveal()
+    {
+        if(achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement value))
+        {
+            if(value.status == AchievementStatus.Hidden)
+            {
+                if (CheckNumberAchieved() >= 3)
+                {
+                    value.Reveal();
+                    endDayRevealed = true;
+                }
+            }
+        }
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Windows.WebCam;
 
 public class Achievement : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class Achievement : MonoBehaviour
             }
             addToDict = false;
         }
+        descriptionText.fontSize = 4;
     }
 
     private void UpdateDisplay()
@@ -63,6 +65,55 @@ public class Achievement : MonoBehaviour
     {
         status = newStatus;
         UpdateDisplay();
+        if (status== AchievementStatus.Achieved)
+        {
+            if (AchievementManager.instance && !AchievementManager.instance.endDayRevealed)
+                AchievementManager.instance.CheckForEndDayAchieveReveal();
+        }
+        
+    }
+    public void Reveal()
+    {
+        if (status == AchievementStatus.Hidden)
+        {
+            SetStatus(AchievementStatus.Revealed);
+        }
+    }
+    public void Achieve()
+    {
+        if (status == AchievementStatus.Revealed)
+        {
+            SetStatus(AchievementStatus.Achieved);
+            if (AchievementManager.instance && !AchievementManager.instance.endDayRevealed)
+            {
+
+            }
+                //AchievementManager.instance.CheckForEndDayAchieveReveal();
+        }
+    }
+
+    public void SlotPiece()
+    {
+        if(status== AchievementStatus.Achieved)
+        {
+            SetStatus(AchievementStatus.Placed);
+            if (AchievementManager.instance)
+            {
+                if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.PuzzleIntern, out Achievement puzzlePiece))
+                {
+                    puzzlePiece.Achieve();
+                }
+                else
+                {
+                    Debug.Log("Failed to find achievement");
+                }
+            }
+            else
+            {
+                Debug.Log("No Acheivement Manager Found");
+            }
+        }
+
     }
 
     public void Awake()
