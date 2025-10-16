@@ -5,7 +5,7 @@ public class PlayerPauseRelay : MonoBehaviour
 {
     public void OnPause()
     {
-        Debug.Log("Pausing...");
+        //Debug.Log("Pausing...");
         if (PauseMenu.instance)
         {
             //if (context.phase == InputActionPhase.Performed)

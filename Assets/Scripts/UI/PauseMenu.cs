@@ -34,13 +34,13 @@ public class PauseMenu : MonoBehaviour
         {
             ResumeGame();
 
-            Debug.Log("The game is resumed now.");
+            //Debug.Log("The game is resumed now.");
         }
         else
         {
             PauseGame();
 
-            Debug.Log("The game is paused now.");
+            //Debug.Log("The game is paused now.");
         }
     }
 
