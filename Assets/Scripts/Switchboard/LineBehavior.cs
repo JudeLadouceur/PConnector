@@ -6,9 +6,9 @@ public class LineBehavior : MonoBehaviour
 {
     private bool isMoving = true;
     private DrawLine lm;
-    [HideInInspector]
+    //[HideInInspector]
     public GameObject _notch1;
-    [HideInInspector]
+    //[HideInInspector]
     public GameObject _notch2;
 
     private void Start()
@@ -54,10 +54,16 @@ public class LineBehavior : MonoBehaviour
         //If no line is being made and this line is clicked, destroy it
         if (!lm.IsDrawing())
         {
-            _notch1.GetComponent<Notches>().isOccupied = false;
-            _notch2.GetComponent<Notches>().isOccupied = false;
-            lm.lineDrawn = false;
-            Destroy(gameObject);
+            SelfDestruct();
         }
+    }
+
+    public void SelfDestruct()
+    {
+        _notch1.GetComponent<Notches>().isOccupied = false;
+        _notch2.GetComponent<Notches>().isOccupied = false;
+
+        lm.lineDrawn = false;
+        Destroy(gameObject);
     }
 }

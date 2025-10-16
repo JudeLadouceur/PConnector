@@ -18,7 +18,7 @@ public class Notches : MonoBehaviour
     private void OnMouseDown()
     {
         if (isOccupied) return;
-        lm.SelectPoint(gameObject.transform.position, gameObject);
+        lm.SelectPoint(gameObject);
         isOccupied = true;
     }
 }

@@ -32,6 +32,8 @@ public class CallManager : MonoBehaviour
     private void Start()
     {
         dm = GameObject.FindAnyObjectByType<DialogueManager>();
+
+        if (FindAnyObjectByType<ForceAssignNotch>().isActive) GameObject.FindAnyObjectByType<DrawLine>().SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
     }
 
     public void StartCall(SO_Character receiver)

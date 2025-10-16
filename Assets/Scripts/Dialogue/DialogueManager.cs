@@ -6,6 +6,9 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     private GameObject dialogueBox;
+    private CallManager callManager;
+    private DrawLine drawLine;
+
     private int lineNumber;
     private bool inDialogue = false;
 
@@ -16,6 +19,9 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         dialogueBox = GameObject.FindGameObjectWithTag("DialogueBox");
+        callManager = GameObject.FindAnyObjectByType<CallManager>();
+        drawLine = GameObject.FindAnyObjectByType<DrawLine>();
+
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
         dialogueBox.SetActive(false);
@@ -72,12 +78,31 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        print("Closing dialogue");
+        print("Closing dialogue box");
+
+        GameObject.FindAnyObjectByType<LineBehavior>().SelfDestruct();
 
         currentDialogue = null;
 
         dialogueBox.SetActive(false);
 
         inDialogue = false;
+
+        if (TimeManager.callNumber < callManager.days[TimeManager.dayNumber].call.Length - 1)
+        {
+            TimeManager.callNumber++;
+
+            //Temporary auto assigning of initial notch for a call
+            if (!FindAnyObjectByType<ForceAssignNotch>().isActive) return;
+            int callNumber = 0;
+            for (int i = 0; i < TimeManager.dayNumber; i++) callNumber += callManager.days[i].call.Length;
+            callNumber += TimeManager.callNumber;
+            if (FindAnyObjectByType<ForceAssignNotch>().autoNotches.Length - 1 <= callNumber) drawLine.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[callNumber].transform.GetChild(1).gameObject);
+        }
+        else
+        {
+            print("End of day");
+            //Insert end of day code
+        }
     }
 }
