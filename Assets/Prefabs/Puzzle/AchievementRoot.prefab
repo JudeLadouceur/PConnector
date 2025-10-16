@@ -745,8 +745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievementName: 3
-  status: 0
-  achievementDescription: 
+  status: 1
+  achievementDescription: Place a puzzle piece in the puzzle.
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
@@ -2076,8 +2076,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievementName: 2
-  status: 0
-  achievementDescription: 
+  status: 1
+  achievementDescription: Connect a caller to someone else with the switchboard.
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
@@ -3012,7 +3012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievementName: 1
   status: 1
-  achievementDescription: Description
+  achievementDescription: Talk to a character when walking to or from work.
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
@@ -3334,6 +3334,14 @@ PrefabInstance:
     - target: {fileID: 802049866572346284, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: m_SortingOrder
       value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: status
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
+      propertyPath: achievementDescription
+      value: Complete your first day.
       objectReference: {fileID: 0}
     - target: {fileID: 1387612851001319586, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: m_Layer
