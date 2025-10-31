@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Town Overworld");
+        SceneManager.LoadScene("GoalIntro");
     }
 
     public void OpenOptionsMenu()
