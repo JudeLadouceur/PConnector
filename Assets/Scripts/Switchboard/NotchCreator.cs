@@ -1,22 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
-
-[CustomEditor(typeof(NotchCreator))]
-class NotchCreatorCE : Editor
-{
-    public override void OnInspectorGUI()
-    {
-        DrawDefaultInspector();
-
-        if (GUILayout.Button("Build Notches"))
-            target.GetComponent<NotchCreator>().BuildNotches();
-    }
-}
 
 [ExecuteInEditMode]
 public class NotchCreator : MonoBehaviour
@@ -36,7 +22,7 @@ public class NotchCreator : MonoBehaviour
     private GameObject notch;
     private GameObject SBbackground;
 
-    
+
     private void Awake()
     {
         LoadReferences();
@@ -55,9 +41,9 @@ public class NotchCreator : MonoBehaviour
     {
         //Get rid of all existing notches
         if (notchParent.transform.childCount != 0) for (int i = notchParent.transform.childCount - 1; i > -1; i--)
-        {
+            {
                 GameObject.DestroyImmediate(notchParent.transform.GetChild(0).gameObject);
-        }
+            }
 
         //Calculate the distance between notches
         float xLength = SBbackground.transform.localScale.x * (5f / 6f) / (notchCount.x - 1);
@@ -72,7 +58,7 @@ public class NotchCreator : MonoBehaviour
             {
                 GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x + SBbackground.transform.position.x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y + SBbackground.transform.position.y, 0), Quaternion.identity, notchParent.transform);
                 target.transform.GetChild(1).localScale = new Vector3(notchSize, notchSize);
-                target.transform.GetChild(0).localPosition = new Vector3(0, -(notchSize - 1f)/2f - 0.75f);
+                target.transform.GetChild(0).localPosition = new Vector3(0, -(notchSize - 1f) / 2f - 0.75f);
 
                 target.transform.GetChild(0).GetComponent<TextMeshPro>().fontSize = textSize;
                 int notchID = (int)(x + y * notchCount.x);

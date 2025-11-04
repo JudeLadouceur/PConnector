@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CallManager : MonoBehaviour
 {
-    private DialogueManager dm;
-
     [System.Serializable]
     public class Days
     {
@@ -31,8 +29,6 @@ public class CallManager : MonoBehaviour
 
     private void Start()
     {
-        dm = GameObject.FindAnyObjectByType<DialogueManager>();
-
         if (FindAnyObjectByType<ForceAssignNotch>().isActive) GameObject.FindAnyObjectByType<DrawLine>().SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
     }
 
@@ -56,7 +52,7 @@ public class CallManager : MonoBehaviour
             value.Achieve();
         }
 
-        if (target != -1) dm.StartDialogue(currentCall.connections[target].dialogue);
+        if (target != -1) DialogueManager.Instance.StartDialogue(currentCall.connections[target].dialogue);
         else Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
     }
 

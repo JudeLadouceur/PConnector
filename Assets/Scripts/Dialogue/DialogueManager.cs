@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEditor;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
+    public static DialogueManager Instance;
+
     private GameObject dialogueBox;
     private CallManager callManager;
     private DrawLine drawLine;
@@ -23,15 +27,16 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        Instance = this;
+
         dialogueBox = GameObject.FindGameObjectWithTag("DialogueBox");
-        callManager = GameObject.FindAnyObjectByType<CallManager>();
-        drawLine = GameObject.FindAnyObjectByType<DrawLine>();
         characterManager = GameObject.FindAnyObjectByType<CharacterManager>();
-        transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
 
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
         dialogueBox.SetActive(false);
+
+        SceneManager.activeSceneChanged += SceneTransition;
     }
 
     private void Update()
@@ -90,13 +95,15 @@ public class DialogueManager : MonoBehaviour
     {
         print("Closing dialogue box");
 
-        GameObject.FindAnyObjectByType<LineBehavior>().SelfDestruct();
-
         currentDialogue = null;
 
         dialogueBox.SetActive(false);
 
         inDialogue = false;
+
+        if (SceneManager.GetActiveScene().name != "Switchboard") return;
+
+        GameObject.FindAnyObjectByType<LineBehavior>().SelfDestruct();
 
         if (TimeManager.callNumber < callManager.days[TimeManager.dayNumber].call.Length - 1)
         {
@@ -116,4 +123,19 @@ public class DialogueManager : MonoBehaviour
             transitionTargets.FindTargetScene();
         }
     }
+
+    private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
+    {
+        string sceneName = scene2.name;
+        if (sceneName == "Switchboard") FindSwitchboardReferences();
+    }
+
+    private void FindSwitchboardReferences()
+    {
+        callManager = GameObject.FindAnyObjectByType<CallManager>();
+        drawLine = GameObject.FindAnyObjectByType<DrawLine>();
+        
+        transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
+    }
+    
 }

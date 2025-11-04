@@ -27,7 +27,7 @@ public class MovementScript : MonoBehaviour
         }
     }
 
-    IEnumerator ToggleMovement()
+    public IEnumerator ToggleMovement()
     {
         canToggle = false;
 

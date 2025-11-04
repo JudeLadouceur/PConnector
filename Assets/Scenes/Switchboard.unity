@@ -3384,8 +3384,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1467770117}
-  - component: {fileID: 1467770118}
   - component: {fileID: 1467770119}
+  - component: {fileID: 1467770120}
   m_Layer: 0
   m_Name: Switchboard
   m_TagString: Untagged
@@ -3415,18 +3415,6 @@ Transform:
   - {fileID: 386061014}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1467770118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467770116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b83b5af033d904dae418597c0223cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1467770119
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3523,6 +3511,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1467770120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467770116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcb6272bfb26e4438b5842b4d1d86be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notchCount: {x: 3, y: 2}
+  textSize: 24
+  notchSize: 1
+  characters:
+  - {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+  - {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+  - {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+  - {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
 --- !u!1 &1521142615
 GameObject:
   m_ObjectHideFlags: 0
@@ -4858,7 +4866,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2120704803
 MonoBehaviour:
   m_ObjectHideFlags: 0
