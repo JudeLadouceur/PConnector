@@ -12,4 +12,9 @@ public class SceneTransitionTrigger : MonoBehaviour
     {
         SceneManager.LoadScene(Scene);
     }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(Scene);
+    }
 }
