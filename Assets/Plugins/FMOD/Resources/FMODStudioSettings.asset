@@ -538,7 +538,7 @@ MonoBehaviour:
   HasPlatforms: 0
   sourceProjectPath: ../../FMOD/The Last Connection - FMOD Project/The Last Connection/The
     Last Connection.fspro
-  sourceBankPath: Assets/StreamingAssets/Desktop
+  sourceBankPath: Assets/StreamingAssets/FMODBanks/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

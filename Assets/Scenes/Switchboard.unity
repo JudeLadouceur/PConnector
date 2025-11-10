@@ -971,7 +971,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2987,8 +2987,6 @@ MonoBehaviour:
       Data4: 494905878
     Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Prompt/Mrs. Perkins - Day 1 - Call
       1 - Prompt
-  parameterName: 
-  parameterValue: 0
 --- !u!1 &1402928700
 GameObject:
   m_ObjectHideFlags: 0

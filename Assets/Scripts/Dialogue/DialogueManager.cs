@@ -102,6 +102,8 @@ public class DialogueManager : MonoBehaviour
 
         DialogueVoiceManager.Instance.PlayVoiceLine(voiceLine);
 
+        Debug.Log(voiceLine);
+
     }
 
     public void EndDialogue()

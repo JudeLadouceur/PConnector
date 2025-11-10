@@ -3504,8 +3504,6 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  parameterName: 
-  parameterValue: 0
 --- !u!1 &1462954291
 GameObject:
   m_ObjectHideFlags: 0
