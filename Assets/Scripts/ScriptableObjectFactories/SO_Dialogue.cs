@@ -21,17 +21,16 @@ public enum Modifier
 public class SO_Dialogue : ScriptableObject
 {
     [System.Serializable]
+
     public class Lines
     {
         public string speakerName;
         public string dialogue;
-
-        public EventReference voiceLineEvent; // FMOD variables for character voice lines
-        public string parameterName;
-        public float parameterValue;
     }
 
     public Lines[] lines;
+
+    public EventReference voiceLineEvent; // FMOD variables for character voice lines
 
     [System.Serializable]
     public class Variables

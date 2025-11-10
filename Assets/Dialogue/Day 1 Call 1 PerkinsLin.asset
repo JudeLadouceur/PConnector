@@ -46,6 +46,14 @@ MonoBehaviour:
       you prove me wrong. I\u2019ll be over later. "
   - speakerName: 
     dialogue: The call ends.
+  voiceLineEvent:
+    Guid:
+      Data1: -96425269
+      Data2: 1093996114
+      Data3: 150968739
+      Data4: -689171658
+    Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Lin Connection/Mrs. Perkins - Day
+      - Call 1 - Lin Connection
   variables:
   - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
     variableName: walkerFixed

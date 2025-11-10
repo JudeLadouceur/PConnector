@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using FMOD.Studio;
 using FMODUnity;
 using TMPro;
 using UnityEditor;
@@ -26,11 +27,9 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI speakerField;
     private TextMeshProUGUI dialogueField;
 
+    private int currentChunkIndex = 0;
 
-    // FMOD Voice Line Variables
-    //public EventReference voiceLine; // Should be assigned in the Inspector.
-    //public string parameterName; // Only used for voice lines that have parameters in FMOD.
-    //public float parameterValue;
+    private EventInstance audioSource;
 
     void Start()
     {
@@ -83,10 +82,15 @@ public class DialogueManager : MonoBehaviour
         else
         {
             lineNumber++;
+
+            if (audioSource.isValid())
+            {
+                audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
+            }
+           
             SetDialogueLine(lineNumber);
         }   
     }
-
 
     //Start the line indicated by the received number
     public void SetDialogueLine(int line)
@@ -100,7 +104,14 @@ public class DialogueManager : MonoBehaviour
         dialogueField.text = currentDialogue.lines[line].dialogue;
         lineNumber = line;
 
-        //DialogueVoiceManager.Instance.PlayVoiceLine(currentDialogue.lines[]);
+        if (!currentDialogue.voiceLineEvent.IsNull)
+        {
+            audioSource = DialogueVoiceManager.Instance.PlayVoiceLine(currentDialogue.voiceLineEvent, lineNumber);
+        }
+        else
+        {
+            Debug.LogWarning("A dialogue scriptable object does not have an audio event assigned to it");
+        }
     }
 
     public void EndDialogue()
