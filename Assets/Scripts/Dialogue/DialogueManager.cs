@@ -5,7 +5,6 @@ using FMOD.Studio;
 using FMODUnity;
 using TMPro;
 using UnityEditor;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
