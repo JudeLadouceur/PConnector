@@ -110,7 +110,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("A dialogue scriptable object does not have an audio event assigned to it");
+            Debug.LogWarning("A dialogue Scriptable Object does not have an audio Event assigned to it.");
         }
     }
 
