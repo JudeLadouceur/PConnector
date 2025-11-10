@@ -551,13 +551,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1468073845}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1468073847}
+        m_TargetAssemblyTypeName: SceneTransitionTrigger, Assembly-CSharp
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 125.25}
+  m_AnchoredPosition: {x: 0, y: 42}
   m_SizeDelta: {x: 697.1676, y: 250.4903}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736934403
@@ -658,12 +658,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Lin Ending:
+  m_text: 'The Promising Start Ending
 
 
-    Congrats! You''ve really helped Lin get started
-    when it comes to getting connected with his community. Everyone has barriers
-    to overcome and it seems your taking the opportunity to assist them!'
+    You have started to become the talk of
+    the town. Residents have become impressed by your attention to detail even if
+    your not always on point. Your making the foundations to becomes a great pillar
+    of your community!
+
+
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -726,7 +732,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -102.52301}
+  m_margin: {x: 0, y: -62.850983, z: 0, w: -102.52301}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
