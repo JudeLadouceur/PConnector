@@ -538,7 +538,7 @@ MonoBehaviour:
   HasPlatforms: 0
   sourceProjectPath: ../../FMOD/The Last Connection - FMOD Project/The Last Connection/The
     Last Connection.fspro
-  sourceBankPath: Assets/FMOD Build Path/Desktop
+  sourceBankPath: Assets/StreamingAssets/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -550,7 +550,7 @@ MonoBehaviour:
   TargetAssetPath: FMODBanks
   TargetBankFolder: 
   EventLinkage: 0
-  LoggingLevel: 2
+  LoggingLevel: 1
   SpeakerModeSettings: []
   SampleRateSettings: []
   LiveUpdateSettings: []
@@ -574,7 +574,7 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131846
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131846
   Platforms:
   - {fileID: -6116306471697650559}

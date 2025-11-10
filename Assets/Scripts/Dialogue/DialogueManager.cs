@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using FMODUnity;
 using TMPro;
 using UnityEditor;
 using UnityEditor.SearchService;
@@ -24,6 +25,12 @@ public class DialogueManager : MonoBehaviour
     private SO_Dialogue currentDialogue;
     private TextMeshProUGUI speakerField;
     private TextMeshProUGUI dialogueField;
+
+
+    // FMOD Voice Line Variables
+    public EventReference voiceLine; // Should be assigned in the Inspector.
+    //public string parameterName; // Only used for voice lines that have parameters in FMOD.
+    //public float parameterValue;
 
     void Start()
     {
@@ -65,18 +72,21 @@ public class DialogueManager : MonoBehaviour
         }
 
         inDialogue = true;
+
+    
     }
 
     //If this is not the last line, increment the line number by 1 and play the new line. If it is, end the dialogue
     public void NextLine()
     {
-        if (lineNumber == currentDialogue.lines.Length - 1) EndDialogue();
+        if (lineNumber == currentDialogue.lines.Length - 1) EndDialogue(); 
         else
         {
             lineNumber++;
             SetDialogueLine(lineNumber);
-        }
+        }   
     }
+
 
     //Start the line indicated by the received number
     public void SetDialogueLine(int line)
@@ -89,6 +99,9 @@ public class DialogueManager : MonoBehaviour
         speakerField.text = currentDialogue.lines[line].speakerName;
         dialogueField.text = currentDialogue.lines[line].dialogue;
         lineNumber = line;
+
+        DialogueVoiceManager.Instance.PlayVoiceLine(voiceLine);
+
     }
 
     public void EndDialogue()
