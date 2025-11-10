@@ -19,7 +19,7 @@ public class DialogueManager : MonoBehaviour
     private SceneTransitionTargets transitionTargets;
 
 
-    private int lineNumber;
+    public int lineNumber;
     private bool inDialogue = false;
 
     private SO_Dialogue currentDialogue;
@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
 
 
     // FMOD Voice Line Variables
-    public EventReference voiceLine; // Should be assigned in the Inspector.
+    //public EventReference voiceLine; // Should be assigned in the Inspector.
     //public string parameterName; // Only used for voice lines that have parameters in FMOD.
     //public float parameterValue;
 
@@ -100,10 +100,7 @@ public class DialogueManager : MonoBehaviour
         dialogueField.text = currentDialogue.lines[line].dialogue;
         lineNumber = line;
 
-        DialogueVoiceManager.Instance.PlayVoiceLine(voiceLine);
-
-        Debug.Log(voiceLine);
-
+        //DialogueVoiceManager.Instance.PlayVoiceLine(currentDialogue.lines[]);
     }
 
     public void EndDialogue()

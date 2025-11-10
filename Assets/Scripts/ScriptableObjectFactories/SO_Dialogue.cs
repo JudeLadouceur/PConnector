@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using FMODUnity;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
@@ -24,6 +25,10 @@ public class SO_Dialogue : ScriptableObject
     {
         public string speakerName;
         public string dialogue;
+
+        public EventReference voiceLineEvent; // FMOD variables for character voice lines
+        public string parameterName;
+        public float parameterValue;
     }
 
     public Lines[] lines;
