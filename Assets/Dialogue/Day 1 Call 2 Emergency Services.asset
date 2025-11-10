@@ -20,4 +20,12 @@ MonoBehaviour:
       you by mistake. I\u2019ll just hang up. "
   - speakerName: Emergency
     dialogue: Alright, have a good day sir.
+  voiceLineEvent:
+    Guid:
+      Data1: -1521474778
+      Data2: 1194428936
+      Data3: -1202560581
+      Data4: -503351756
+    Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Emergency Services Connection/Mrs.
+      Perkins - Day 1 - Call 1 - Emergency Services Connection
   variables: []

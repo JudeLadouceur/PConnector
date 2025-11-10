@@ -19,14 +19,22 @@ MonoBehaviour:
     dialogue: 'Oh, Seth! I was hoping you could help me out, dearie. Your new appointment
       system makes no sense! Can you walk me through it? '
   - speakerName: 'SETH '
-    dialogue: "Ain\u2019t got the time to explain, Mrs. P, but I can just add you
-      to our calendar. Today at 3 work for you? "
+    dialogue: "Ah, sorry. I ain\u2019t got the time to explain, Mrs. P, but I can
+      just add you to our calendar. Today at 3 work for you? "
   - speakerName: 'MRS. PERKINS '
     dialogue: "That\u2019s perfect, I\u2019ll be there at 3. "
   - speakerName: 'SETH '
     dialogue: 'Okay, see ya. NEXT! '
   - speakerName: 
     dialogue: The Call Ends
+  voiceLineEvent:
+    Guid:
+      Data1: 1450095156
+      Data2: 1338198476
+      Data3: -41880156
+      Data4: 1268817168
+    Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Seth Connection/Mrs. Perkins -
+      Day 1 - Call 1 - Seth Connection
   variables:
   - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
     variableName: walkerFixed
