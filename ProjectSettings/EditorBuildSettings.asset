@@ -20,16 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Switchboard.unity
     guid: da90ba941a55e3c41af0022b963a3622
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork A - A.unity
     guid: 8285ab6f0106382499962d133a74e701
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork A - B.unity
     guid: 218b35ad8acb5c741879e9a3e8456e87
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork B - A.unity
     guid: f9ce9d6fdd57b714489725a31bc38c77
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Days/Day 1/Day 1 - Afterwork B - B.unity
     guid: dd5ff355cf00b3545bb0b5b319b322c1
   - enabled: 1

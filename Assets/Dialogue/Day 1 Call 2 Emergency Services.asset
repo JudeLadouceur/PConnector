@@ -22,10 +22,9 @@ MonoBehaviour:
     dialogue: Alright, have a good day sir.
   voiceLineEvent:
     Guid:
-      Data1: -1521474778
-      Data2: 1194428936
-      Data3: -1202560581
-      Data4: -503351756
-    Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Emergency Services Connection/Mrs.
-      Perkins - Day 1 - Call 1 - Emergency Services Connection
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables: []
