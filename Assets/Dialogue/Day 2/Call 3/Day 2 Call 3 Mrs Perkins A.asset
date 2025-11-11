@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 3 Mrs Perkins A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello, this is Mrs. Perkins. May I ask who this is?
+  - speakerName: LIN
+    dialogue: Hello Mrs. Perkins! This is Lin, the pizza guy in town.
+  - speakerName: MRS. PERKINS
+    dialogue: 'Oh, good day to you, Lin! What can I do for you today? '
+  - speakerName: LIN
+    dialogue: "Well, you see, a big group cancelled right when I made their order,
+      and I have some pizza just hanging around. I want to sell it while it\u2019s
+      fresh, but I don\u2019t know who would want a pizza like this."
+  - speakerName: MRS. PERKINS
+    dialogue: Well, I may not be able to eat that whole darned thing myself, but
+      I would be more than happy to buy that and share it with anyone at the park!
+      Would that be okay, dearie?
+  - speakerName: LIN
+    dialogue: "That would be perfect, Mrs. Perkins! Thank you so much. Here, I\u2019ll
+      even give you a thirty percent discount for the inconvenience."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, that won\u2019t be necessary dear. I\u2019ll even give you a tip!
+      You should just make sure to chat with some folks in the park while you\u2019re
+      there. You know, having some close friends can really help you when you\u2019re
+      stuck in a situation like this."
+  - speakerName: LIN
+    dialogue: "That\u2019s a good point Mrs. Perkins. You know what, I think I will
+      take the time to chat to some folks. Thanks for the advice! That means a lot."
+  - speakerName: MRS. PERKINS
+    dialogue: "No worries, dear. I\u2019ll meet you at the park soon"
+  variables: []

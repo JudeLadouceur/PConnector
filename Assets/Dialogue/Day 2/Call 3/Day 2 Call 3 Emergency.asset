@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 3 Emergency
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: ' RECEPTIONIST '
+    dialogue: "Hello, you\u2019ve reached the Smithville emergency line, what do
+      you need?"
+  - speakerName: LIN
+    dialogue: "Oh, uh\u2026 this is the pizza place in town."
+  - speakerName: RECEPTIONIST
+    dialogue: Did something happen? Do you need any help?
+  - speakerName: LIN
+    dialogue: "Well, kind of. You see, a big group cancelled right when I made their
+      order, and I have some pizza just hanging around. I want to sell it while it\u2019s
+      fresh, but I don\u2019t know who would want a pizza like this. I was thinking
+      maybe I could sell it to you guys for a discount?"
+  - speakerName: RECEPTIONIST
+    dialogue: How much of a discount?
+  - speakerName: LIN
+    dialogue: "Say\u2026 thirty percent off?"
+  - speakerName: RECEPTIONIST
+    dialogue: "Lots of cheap pizza for the hungry staff and patients? Sounds great!
+      Thanks for the call, we\u2019ll send someone to come pick it up shortly."
+  - speakerName: LIN
+    dialogue: "Really?! That\u2019s great! Thanks a lot! I\u2019ll have it ready
+      for when you get here."
+  variables: []

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call4 A Pizza A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "This is Lin\u2019s Pizzaria! What can I get for you?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh hello, Lin! It\u2019s great to hear your voice. This is Mrs. Perkins."
+  - speakerName: LIN
+    dialogue: "Oh\u2013uh, hi Mrs. Perkins! Finally deciding to take on that extra
+      large like I keep suggesting?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, no. Sorry dear. But I still don\u2019t think I have the stomach
+      for that. You see, I had quite the adventure yesterday, and was hoping to have
+      a nice chat with some nice folks such as yourself to tell you about it."
+  - speakerName: LIN
+    dialogue: "That sounds nice! Tell you what, I close in about half an hour, so
+      I\u2019ll bring whatever leftovers I have and we can have a nice evening chat
+      and eat some pizza together!"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, that sounds lovely, dear! I\u2019ll meet you at the park in about
+      half an hour then."
+  - speakerName: LIN
+    dialogue: See you then!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

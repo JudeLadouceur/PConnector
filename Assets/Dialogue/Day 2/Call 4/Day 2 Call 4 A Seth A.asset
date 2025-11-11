@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 4 A Seth A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage here! What do you need help with?"
+  - speakerName: MRS. PERKINS
+    dialogue: Oh hello, Seth! Good to hear from you again. This is Mrs. Perkins.
+  - speakerName: SETH
+    dialogue: Oh, hey Mrs. P! Thanks again for helping me with those parts earlier.
+      They should get me just far enough to stay open until my next order of parts.
+  - speakerName: MRS. PERKINS
+    dialogue: Oh, it was my pleasure, dear. Thank you for fixing my walker yesterday.
+      I could have been in a real pickle if not for that.
+  - speakerName: SETH
+    dialogue: "It was no problem at all. Though, do you need the thing repaired again?
+      I swear I fixed it up good\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, don\u2019t worry about that. You did a fantastic job dear! You
+      see, I just had a bit of an adventure that day, and was hoping to be able to
+      talk to someone about it. Would you be willing to lend this old lady your ear
+      and have an evening chat in the park with me?"
+  - speakerName: SETH
+    dialogue: "The park? A chat? Not sure\u2026 I usually just relax here for the
+      night."
+  - speakerName: MRS. PERKINS
+    dialogue: Oh, you always spend all day in that shop. You should get out everyone
+      once in a while!
+  - speakerName: SETH
+    dialogue: "You know what? You\u2019re right. I\u2019ll head down to the park
+      now. Don\u2019t keep me waiting!"
+  - speakerName: MRS. PERKINS
+    dialogue: "Thank you, dear. I won\u2019t be too long."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

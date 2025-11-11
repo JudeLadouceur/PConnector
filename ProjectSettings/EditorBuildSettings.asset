@@ -77,6 +77,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endings/Day 2 Ending B+B.unity
     guid: 4d1e18c830bdac54c92786e19fa36eb3
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 1 Transition A+A.unity
+    guid: d0ecf9e00ff0ecb409eb4b86fa70a2df
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 1 Transition A+B.unity
+    guid: e55806e0af714c445a7c8fac2d9e19de
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 1 Transition B+A.unity
+    guid: 27f713d34cb96594daacf67491bd87af
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 1 Transition B+B.unity
+    guid: e4659736e4b619c45b17ca4218c87645
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}

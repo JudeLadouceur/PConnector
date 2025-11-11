@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 3 Seth A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "This is Seth\u2019s Repair Garage. What can I do for ya?"
+  - speakerName: LIN
+    dialogue: "Oh\u2013uh, hey Seth! This is Lin from the pizza place. I was hoping
+      you could do me a favor."
+  - speakerName: SETH
+    dialogue: "Sure, what\u2019s up? Need the dishwasher fixed again? Because I swear
+      that thing\u2019s just old, fixing can only do so much at this point."
+  - speakerName: LIN
+    dialogue: "No, not this time Seth. You see, a big group cancelled right when
+      I made their order, and I have some pizza just hanging around. I want to sell
+      it while it\u2019s fresh, but\u2026"
+  - speakerName: SETH
+    dialogue: "You can\u2019t just give it away for free?"
+  - speakerName: LIN
+    dialogue: "Yeah\u2026 b-but I could sell it to you for a discount! Thirty percent
+      off"
+  - speakerName: SETH
+    dialogue: "Don\u2019t worry Lin, I'll throw you a bone here. It\u2019s actually
+      rather convenient because I forgot my lunch today, anyways."
+  - speakerName: LIN
+    dialogue: Oh, wow. Thanks a lot, Seth.
+  - speakerName: SETH
+    dialogue: No worries, dude. You know, you should try hanging out with some of
+      the townsfolk sometime. It would make it a lot easier for you to call in favors
+      like this.
+  - speakerName: LIN
+    dialogue: "I guess\u2026 I\u2019ve just got a lot to do here, and\u2013"
+  - speakerName: SETH
+    dialogue: "Then give yourself a break! I swear dude, I never see you let that
+      place close for even a day\u2026"
+  - speakerName: LIN
+    dialogue: "I\u2019ll think about it. Still, I should deliver this while it\u2019s
+      hot! Thanks again for this, I\u2019ll be over soon!"
+  - speakerName: SETH
+    dialogue: See you soon, Lin.
+  variables: []

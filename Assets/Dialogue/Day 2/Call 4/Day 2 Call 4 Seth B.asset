@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 4 Seth B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. Sorry, we\u2019re closed early for the
+      day due to a supply shortage. Sorry about that."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh hello, Seth! That\u2019s rough to hear, but don\u2019t worry about
+      that, I\u2019m not calling for a repair today. Oh, this is Mrs. Perkins by
+      the way."
+  - speakerName: SETH
+    dialogue: "Mrs. P? Sorry, but I\u2019m kind of busy sorting things out with this
+      supply shortage of mine. This important?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, no. I suppose it\u2019s not that important. You focus on your
+      work dear, I\u2019ll just\u2026 spend some time to myself tonight."
+  - speakerName: SETH
+    dialogue: 'Alright. See ya. '
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
