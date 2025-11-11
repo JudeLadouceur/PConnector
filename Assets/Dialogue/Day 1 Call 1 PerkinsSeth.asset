@@ -20,7 +20,7 @@ MonoBehaviour:
       system makes no sense! Can you walk me through it? '
   - speakerName: 'SETH '
     dialogue: "Ah, sorry. I ain\u2019t got time to explain, Mrs. P, but I can just
-      add you to our calendar. Today at 3 work for you? "
+      add you to our calendar. Today at 3 work for ya? "
   - speakerName: 'MRS. PERKINS '
     dialogue: "That\u2019s perfect, I\u2019ll be there at 3. "
   - speakerName: 'SETH '
