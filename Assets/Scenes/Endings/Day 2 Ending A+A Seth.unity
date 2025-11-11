@@ -551,13 +551,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1468073845}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1468073847}
+        m_TargetAssemblyTypeName: SceneTransitionTrigger, Assembly-CSharp
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -658,14 +658,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The unfulfilled Ending:
+  m_text: 'The Seth Ending:
 
 
-    Hmmm. It seem many of the needs of the community
-    haven''t been met. It''s best to spend your timely wisely in order to get to
-    know your neighbors, a lot of what they have to say may help you understand their
-    needs better. While some have come out this situation with resolve, others have
-    been left on hold.'
+    Congrats! You''ve really helped Seth get started
+    when it comes to getting his confidence back. You have more work days of you,
+    but it seems like your making a big difference already! Many in town are grateful
+    to have someone so caring helping to guide them.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
