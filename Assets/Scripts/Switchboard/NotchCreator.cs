@@ -33,7 +33,9 @@ public class NotchCreator : MonoBehaviour
     private void LoadReferences()
     {
         notchParent = GameObject.FindGameObjectWithTag("NotchParent");
+#if (UNITY_EDITOR)
         notch = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Notch.prefab", typeof(GameObject)) as GameObject;
+#endif
         SBbackground = GameObject.FindGameObjectWithTag("BoardBG");
     }
 
