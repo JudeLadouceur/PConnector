@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: "It\u2019s the pizzeria, what toppings do you want? "
+    dialogue: "It\u2019s the Pizzeria, what toppings do you want? "
   - speakerName: 'MRS. PERKINS '
     dialogue: "Oh, Lin dearie. I\u2019m at my wits end with this computer, I don\u2019t
-      know what this queue thing is or how to use it to make an appointment at Seth\u2019s. "
+      know what this queue thing is or how it is used to make an appointment at Seth\u2019s."
   - speakerName: LIN
-    dialogue: "Ah, well, it\u2019s pretty quiet here,if you want I can explain how
+    dialogue: "Ah, well, it\u2019s pretty quiet here, if you want I can explain how
       to use it? "
   - speakerName: 'MRS. PERKINS '
     dialogue: 'That would be lovely! '
@@ -42,8 +42,8 @@ MonoBehaviour:
     dialogue: In exchange, you have to try some of these new pizza ideas I have!
       I think hot sauce in the crust might be my best idea yet!
   - speakerName: 'MRS. PERKINS '
-    dialogue: "I\u2019m not so sure about that, dearie, but I\u2019ll be happy if
-      you prove me wrong. I\u2019ll be over later. "
+    dialogue: "I\u2019m not sure about that, dearie, but I\u2019ll be happy if you
+      prove me wrong. I\u2019ll be over later. "
   - speakerName: 
     dialogue: The call ends.
   voiceLineEvent:
