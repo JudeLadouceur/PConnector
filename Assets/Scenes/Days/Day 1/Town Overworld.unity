@@ -437,6 +437,93 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17d89ce2bc65fa641a94bdf90e224b22, type: 3}
+--- !u!1001 &1830833062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: Dialogue
+      value: 
+      objectReference: {fileID: 5602304745035743289, guid: 2e8c4d8327ee6e644892a2fc72994463, type: 3}
+    - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667182734922841304, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_Name
+      value: Mrs Perkins (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699588995995354, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6407650114888848602, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1830833064}
+  m_SourcePrefab: {fileID: 100100000, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+--- !u!1 &1830833063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6407650114888848602, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+  m_PrefabInstance: {fileID: 1830833062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1830833064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830833063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 11400000, guid: 0fc29bcb9ad6e3949b90b8a76d1f6962, type: 2}
 --- !u!1 &1869154476
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +709,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6407650114888848602, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
   m_PrefabInstance: {fileID: 7783661055251707437}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2104264687
+--- !u!114 &2104264686
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -631,10 +718,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2104264685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
+  m_Script: {fileID: 11500000, guid: ef22012273105e140ae8e2ca105176d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 0fc29bcb9ad6e3949b90b8a76d1f6962, type: 2}
+  Name: Mrs Perkins
+  Dialogue: {fileID: 5602304745035743289, guid: 2e8c4d8327ee6e644892a2fc72994463, type: 3}
+  Character: {fileID: 7783661055251707438}
 --- !u!1001 &179305515311063199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -999,8 +1088,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6407650114888848602, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2104264687}
+      addedObject: {fileID: 2104264686}
   m_SourcePrefab: {fileID: 100100000, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+--- !u!1 &7783661055251707438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4667182734922841304, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+  m_PrefabInstance: {fileID: 7783661055251707437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1011,6 +1105,7 @@ SceneRoots:
   - {fileID: 179305515311063199}
   - {fileID: 5443872990467381277}
   - {fileID: 7783661055251707437}
+  - {fileID: 1830833062}
   - {fileID: 5786153924504492750}
   - {fileID: 5496906104071557687}
   - {fileID: 272883618}
