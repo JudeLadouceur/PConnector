@@ -902,6 +902,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d634f9bbf9ac0a4b928aad32d24fb61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  days:
+  - dayVariables:
+    - walkerFixed
+    - partsGained
+  - dayVariables:
+    - pizzaEaten
+    - goesWalk
+    - walkWithLin
 --- !u!1 &473694785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,7 +2185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba6ce46638449e24d8d61c3f51a4f46b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isActive: 1
+  isActive: 0
   autoNotches:
   - {fileID: 1191607507}
   - {fileID: 1177027116}

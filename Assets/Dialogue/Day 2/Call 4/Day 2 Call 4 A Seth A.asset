@@ -49,4 +49,8 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+    variableName: goesWalk
+    modifier: 2
+    value: 1

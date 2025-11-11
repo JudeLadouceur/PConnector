@@ -137,7 +137,9 @@ public class DialogueManager : MonoBehaviour
         {
             print("End of day");
 
-            transitionTargets.FindTargetScene();
+            string target = "Day "+ (TimeManager.dayNumber+1) +" - Afterwork ";
+
+            transitionTargets.FindTargetScene(target);
         }
     }
 

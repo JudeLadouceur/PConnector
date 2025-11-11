@@ -40,4 +40,15 @@ MonoBehaviour:
       take the time to chat to some folks. Thanks for the advice! That means a lot."
   - speakerName: MRS. PERKINS
     dialogue: "No worries, dear. I\u2019ll meet you at the park soon"
-  variables: []
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+    variableName: pizzaEaten
+    modifier: 2
+    value: 1

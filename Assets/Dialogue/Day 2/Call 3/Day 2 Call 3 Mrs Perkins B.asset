@@ -43,6 +43,15 @@ MonoBehaviour:
       worry about this, you get some rest."
   - speakerName: MRS. PERKINS
     dialogue: If you say so, dear. Have a good day.
-  - speakerName: MRS. PERKINS
-    dialogue: If you say so, dear. Have a good day.
-  variables: []
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+    variableName: pizzaEaten
+    modifier: 2
+    value: 0
