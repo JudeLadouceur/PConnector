@@ -34,7 +34,7 @@ MonoBehaviour:
       press that it will tell you when to go to Seth\u2019s. "
   - speakerName: 'MRS. PERKINS '
     dialogue: "Oh, well why didn\u2019t it say so? You\u2019re a great help, can
-      I call you if you need anything else? "
+      I call you if I need anything else? "
   - speakerName: LIN
     dialogue: "I\u2019ll do you one better, if you come by with your computer once
       you\u2019re done with Seth, I\u2019ll help answer any questions you may have."
