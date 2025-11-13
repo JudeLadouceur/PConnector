@@ -30,6 +30,7 @@ public class CallManager : MonoBehaviour
 
     public Days[] days;
 
+    [HideInInspector]
     public bool inContextCall;
 
     private void Start()
@@ -42,6 +43,12 @@ public class CallManager : MonoBehaviour
     public void ContextCall()
     {
         inContextCall = true;
+
+        if(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall == null)
+        {
+            Debug.LogError("There is no context call for day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please provide a context call.");
+            return;
+        }
 
         DialogueManager.Instance.StartDialogue(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall);
     }
