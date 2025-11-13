@@ -33,8 +33,4 @@ MonoBehaviour:
       Data4: -503351756
     Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Emergency Services Connection/Mrs.
       Perkins - Day 1 - Call 1 - Emergency Services Connection
-  variables:
-  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
-    variableName: walkerFixed
-    modifier: 2
-    value: 0
+  variables: []

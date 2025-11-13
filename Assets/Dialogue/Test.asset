@@ -17,7 +17,11 @@ MonoBehaviour:
     dialogue: This is a test
   - speakerName: Jude
     dialogue: And now I know it works
-  variables:
-  - variableType: 0
-    modifier: 0
-    value: 0
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

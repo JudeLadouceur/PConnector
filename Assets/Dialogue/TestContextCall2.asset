@@ -10,16 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
-  m_Name: Day 1 Call 2 Emergency Services
+  m_Name: TestContextCall2
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: EMERGENCY
-    dialogue: Emergency line, what do you need?
   - speakerName: SETH
-    dialogue: "Wha-emergency? I\u2019m so sorry, I seem to have been connected to
-      you by mistake. I\u2019ll just hang up. "
-  - speakerName: Emergency
-    dialogue: Alright, have a good day sir.
+    dialogue: Hey!
+  - speakerName: SETH
+    dialogue: This is just a test.
   voiceLineEvent:
     Guid:
       Data1: 0

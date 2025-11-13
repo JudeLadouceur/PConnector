@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class DrawLine : MonoBehaviour
+public class LineManager : MonoBehaviour
 {
     public GameObject line;
 
@@ -24,6 +24,15 @@ public class DrawLine : MonoBehaviour
     public AudioClip grabbingWireSound;
     public AudioClip connectingWireSound;
 
+    public static LineManager instance;
+
+    private bool paused;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     private void Start()
     {
         callManager = GameObject.FindObjectOfType<CallManager>();
@@ -32,6 +41,7 @@ public class DrawLine : MonoBehaviour
     //When a notch is pressed, either start drawing a line or finish the line
     public void SelectPoint(GameObject notch)
     {
+        if (paused) return;
         if (!hasPoint1)
         {
             StartDraw(notch);

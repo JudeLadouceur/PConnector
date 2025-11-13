@@ -1616,6 +1616,7 @@ MonoBehaviour:
   days:
   - call:
     - caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+      contextCall: {fileID: 11400000, guid: 0e1d4918678cbef43aab251eb1772951, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
         dialogue: {fileID: 11400000, guid: 09bca46ac10acc043802e8a6bdc56b28, type: 2}
@@ -1624,6 +1625,7 @@ MonoBehaviour:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: b52d840317e99ba49984106929d0ecf0, type: 2}
     - caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+      contextCall: {fileID: 11400000, guid: 4570c6a19678e6e42bb26a371f702f33, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: 32cd2360e1f275b46bb7d81009e33407, type: 2}
@@ -1633,6 +1635,7 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: 3ffda7324513dd342adecbb2725c35eb, type: 2}
   - call:
     - caller: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+      contextCall: {fileID: 11400000, guid: 452cfb54583c5594793fd757d59c668a, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
         dialogue: {fileID: 11400000, guid: 605a88b2c28111a4f89bc1f16c2c28cf, type: 2}
@@ -1641,6 +1644,7 @@ MonoBehaviour:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: 939cea813e499bc4885dbdf5a80a2195, type: 2}
     - caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+      contextCall: {fileID: 0}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: 3a574a7a727ff87488d1c03d0f6665f9, type: 2}
@@ -1648,6 +1652,7 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: 738975054ed8dcd4fb54b9f5c13cee1d, type: 2}
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
         dialogue: {fileID: 11400000, guid: 7e22559fbc7a4be4a95aa36531faddd2, type: 2}
+  inContextCall: 0
 --- !u!1 &876232644
 GameObject:
   m_ObjectHideFlags: 0
