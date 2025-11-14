@@ -36,29 +36,32 @@ public class VolumeManager : MonoBehaviour
 
     void SetSliders()
     {
-        masterSlider.value = PlayerPrefs.GetFloat("masterVolume");
-        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
-        SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
+        mixer.GetFloat("masterVolume", out float master);
+        masterSlider.value = Mathf.Pow(10,(master/20));
+        mixer.GetFloat("musicVolume", out float music);
+        musicSlider.value = Mathf.Pow(10, (music / 20));
+        mixer.GetFloat("SFXVolume", out float sfx);
+        SFXSlider.value = Mathf.Pow(10, (sfx / 20));
     }
 
     // For updating the master slider.
     public void UpdateMasterVolume()
     {
-        mixer.SetFloat("masterVolume", masterSlider.value);
-        PlayerPrefs.SetFloat("masterVolume", masterSlider.value);
+        mixer.SetFloat("masterVolume", Mathf.Log10(masterSlider.value) * 20);
+        PlayerPrefs.SetFloat("masterVolume", Mathf.Log10(masterSlider.value) * 20);
     }
 
     // For updating the music slider.
     public void UpdateMusicVolume()
     {
-        mixer.SetFloat("musicVolume", musicSlider.value);
-        PlayerPrefs.SetFloat("musicVolume", musicSlider.value);
+        mixer.SetFloat("musicVolume", Mathf.Log10(musicSlider.value)*20);
+        PlayerPrefs.SetFloat("musicVolume", Mathf.Log10(musicSlider.value) * 20);
     }
 
     // For updating the SFX slider.
     public void UpdateSFXVolume()
     {
-        mixer.SetFloat("SFXVolume", SFXSlider.value);
-        PlayerPrefs.SetFloat("SFXVolume", SFXSlider.value);
+        mixer.SetFloat("SFXVolume", Mathf.Log10(SFXSlider.value) * 20);
+        PlayerPrefs.SetFloat("SFXVolume", Mathf.Log10(SFXSlider.value) * 20);
     }
 }
