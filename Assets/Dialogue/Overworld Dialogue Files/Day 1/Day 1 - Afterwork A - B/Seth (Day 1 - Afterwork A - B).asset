@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Seth (Day 1 - Afterwork A - B)
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: 'Shoot, my parts are running real low... I really hope I don''t have
+      to close shop. Ugh, I done with today... '
+  - speakerName: SETH
+    dialogue: I don't think I got it in me to do anything besides work tomorrow...
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
