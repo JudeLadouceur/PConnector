@@ -16,7 +16,7 @@ MonoBehaviour:
   - speakerName: 'MRS. PERKINS '
     dialogue: Hello? This is Mrs. Perkins. Who is this?
   - speakerName: SETH
-    dialogue: "Uh, hey Mrs. Perkins. Uh, you wouldn\u2019t happen to have some spare
+    dialogue: "Uh, hey Ms. Perkins. Uh, you wouldn\u2019t happen to have some spare
       parts? Bolts, washers, metal pipes, the like? Uh, I\u2019m afraid I\u2019m
       all out."
   - speakerName: MRS. PERKINS

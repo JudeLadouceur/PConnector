@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: "Hello, hello? Oh, this newfangled thing, what was wrong with my old
-      phone\u2026 Ah, hello! I need to book an appointment to get my walker fixed,
-      but this computer thingy just keeps trying to put me in a \u201Cqueue\u201D,
+    dialogue: "Hello, hello, hello? This newfangled thing, what was wrong with my
+      old phone... Ah... Hello! I need to book an appointment to get my walker fixed,
+      but this computer thingy just keeps trying to put me in a \u201Cqueue,\u201D
       whatever that is. Can you connect me to someone that can help?"
   voiceLineEvent:
     Guid:
