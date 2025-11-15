@@ -10,11 +10,19 @@ public class SceneTransitionTrigger : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!collision.gameObject.CompareTag("Player")) return;
         SceneManager.LoadScene(Scene);
     }
 
     public void NextScene()
     {
+        SceneManager.LoadScene(Scene);
+    }
+
+    public void NextDay()
+    {
+        TimeManager.dayNumber++;
+        TimeManager.callNumber = 0;
         SceneManager.LoadScene(Scene);
     }
 }

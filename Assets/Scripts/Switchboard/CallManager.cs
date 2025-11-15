@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class CallManager : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class CallManager : MonoBehaviour
 
             public SO_Character caller;
 
+            public SO_Dialogue contextCall;
+
             public Connections[] connections;
         }
 
@@ -27,9 +30,27 @@ public class CallManager : MonoBehaviour
 
     public Days[] days;
 
+    [HideInInspector]
+    public bool inContextCall;
+
     private void Start()
     {
-        if (FindAnyObjectByType<ForceAssignNotch>().isActive) GameObject.FindAnyObjectByType<DrawLine>().SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
+        if (FindAnyObjectByType<ForceAssignNotch>().isActive) LineManager.instance.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
+
+        ContextCall();
+    }
+
+    public void ContextCall()
+    {
+        inContextCall = true;
+
+        if(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall == null)
+        {
+            Debug.LogError("There is no context call for day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please provide a context call.");
+            return;
+        }
+
+        DialogueManager.Instance.StartDialogue(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall);
     }
 
     public void StartCall(SO_Character receiver)

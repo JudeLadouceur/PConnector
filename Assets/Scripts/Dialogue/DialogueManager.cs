@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
 
     private GameObject dialogueBox;
     private CallManager callManager;
-    private DrawLine drawLine;
+    private LineManager lm;
     private CharacterManager characterManager;
     private SceneTransitionTargets transitionTargets;
 
@@ -120,24 +120,42 @@ public class DialogueManager : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name != "Switchboard") return;
 
+        if (callManager.inContextCall)
+        {
+            callManager.inContextCall = false;
+
+            Notches[] notches = GameObject.FindGameObjectWithTag("NotchParent").GetComponentsInChildren<Notches>();
+
+            GameObject target;
+
+            foreach (Notches notch in notches)
+            {
+                if (notch.assignedCharacter == callManager.days[TimeManager.dayNumber].call[TimeManager.callNumber].caller)
+                {
+                    target = notch.gameObject;
+                    LineManager.instance.SelectPoint(target);
+                    break;
+                }
+            }
+
+            return;
+        }
+
         GameObject.FindAnyObjectByType<LineBehavior>().SelfDestruct();
 
         if (TimeManager.callNumber < callManager.days[TimeManager.dayNumber].call.Length - 1)
         {
             TimeManager.callNumber++;
 
-            //Temporary auto assigning of initial notch for a call
-            if (!FindAnyObjectByType<ForceAssignNotch>().isActive) return;
-            int callNumber = 0;
-            for (int i = 0; i < TimeManager.dayNumber; i++) callNumber += callManager.days[i].call.Length;
-            callNumber += TimeManager.callNumber;
-            if (FindAnyObjectByType<ForceAssignNotch>().autoNotches.Length - 1 <= callNumber) drawLine.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[callNumber].transform.GetChild(1).gameObject);
+            callManager.ContextCall();
         }
         else
         {
             print("End of day");
 
-            transitionTargets.FindTargetScene();
+            string target = "Day "+ (TimeManager.dayNumber+1) +" - Afterwork ";
+
+            transitionTargets.FindTargetScene(target);
         }
     }
 
@@ -150,7 +168,7 @@ public class DialogueManager : MonoBehaviour
     private void FindSwitchboardReferences()
     {
         callManager = GameObject.FindAnyObjectByType<CallManager>();
-        drawLine = GameObject.FindAnyObjectByType<DrawLine>();
+        lm = GameObject.FindAnyObjectByType<LineManager>();
         
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
     }

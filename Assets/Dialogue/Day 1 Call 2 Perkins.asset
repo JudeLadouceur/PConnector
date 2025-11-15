@@ -16,21 +16,23 @@ MonoBehaviour:
   - speakerName: 'MRS. PERKINS '
     dialogue: Hello? This is Mrs. Perkins. Who is this?
   - speakerName: SETH
-    dialogue: "Hey, Mrs. Perkins. You, uh, wouldn\u2019t happen to have some spare
-      parts? Bolts, washers, metal pipes, the like? I\u2019m afraid I\u2019m out."
+    dialogue: "Uh, hey Ms. Perkins. Uh, you wouldn\u2019t happen to have some spare
+      parts? Bolts, washers, metal pipes, the like? Uh, I\u2019m afraid I\u2019m
+      all out."
   - speakerName: MRS. PERKINS
     dialogue: "Oh, well yes, I do in fact! Why don\u2019t you come by, I have some
-      of the like in the storage room I think. Things that are left over from the
+      of the like in the storage room, I think. Things that are left over from the
       gizmos Howard used to collect. What led to this pickle though? I\u2019ve never
       known you to need parts before."
   - speakerName: SETH
-    dialogue: I, uh, forgot to make an order. Got so busy, I feel just awful even
-      asking. You are supposed to rely on me, and I failed.
+    dialogue: I, uh, forgot to make an order. I, uh, I just got so busy, I just had...
+      I feel just awful even asking. You are supposed to rely on me, and I failed.
   - speakerName: MRS. PERKINS
     dialogue: "Ah, so that\u2019s all. I thought it\u2019d be something much worse,
-      dearie. Happens to the best of us, back in the day I left the door unlocked
-      a couple times and when my husband got home I got such an earful over it. We\u2019re
-      friends, dear, I knew you since you were just born, you can rely on me too. "
+      dearie. Happens to the best of us. Back in the day, I left the door unlocked
+      a couple times and when my husband got home, I got such an earful over it.
+      We\u2019re friends, dear. I knew you since you were just born. You can rely
+      on me too. "
   - speakerName: SETH
     dialogue: "Ah, I guess\u2026still feels wrong though."
   - speakerName: MRS. PERKINS
@@ -38,7 +40,15 @@ MonoBehaviour:
       But until you understand, this can stay our little secret, okay?
   - speakerName: SETH
     dialogue: "Yeah, okay. Our little secret. I\u2019ll be right over for the parts.
-      Thanks, Mrs. Perkins."
+      Thanks, Mrs. P."
+  voiceLineEvent:
+    Guid:
+      Data1: 1680394413
+      Data2: 1120231739
+      Data3: -1083782266
+      Data4: -2038115205
+    Path: event:/Voices/Day 1/Call 2/Mrs. Perkins Connection/Seth - Day 1, Call 2
+      - Mrs. Perkins Connection
   variables:
   - targetCharacter: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
     variableName: partsGained

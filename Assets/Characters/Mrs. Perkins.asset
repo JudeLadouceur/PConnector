@@ -16,3 +16,5 @@ MonoBehaviour:
   variables:
   - name: walkerFixed
     value: 0
+  - name: goesWalk
+    value: 0

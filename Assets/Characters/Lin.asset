@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Lin
   m_EditorClassIdentifier: 
   characterName: Lin's Pizza
-  variables: []
+  variables:
+  - name: pizzaEaten
+    value: 0
+  - name: walkWithLin
+    value: 0

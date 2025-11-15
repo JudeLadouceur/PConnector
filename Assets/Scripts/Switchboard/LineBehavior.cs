@@ -5,7 +5,7 @@ using UnityEngine;
 public class LineBehavior : MonoBehaviour
 {
     private bool isMoving = true;
-    private DrawLine lm;
+    private LineManager lm;
     //[HideInInspector]
     public GameObject _notch1;
     //[HideInInspector]
@@ -13,7 +13,7 @@ public class LineBehavior : MonoBehaviour
 
     private void Start()
     {
-        lm = GameObject.Find("LineManager").GetComponent<DrawLine>();
+        lm = LineManager.instance;
     }
 
     void Update()

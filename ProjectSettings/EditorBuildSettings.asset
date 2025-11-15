@@ -48,19 +48,19 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOver.unity
     guid: 5b4015d58e5abf44697930c19b6d51b5
   - enabled: 1
-    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - A Lin.unity
+    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - A - A.unity
     guid: e369dce346b42094b9d531137fd6dd8b
   - enabled: 1
-    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - A Seth.unity
+    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - A - B.unity
     guid: acdab13eacbc4454f86fa750f59c498e
   - enabled: 1
-    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - B.unity
+    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - B - B.unity
     guid: 5532823bb9dfbdf4190bafbf8e573160
   - enabled: 1
-    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - A.unity
+    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - A -  B.unity
     guid: 594d3d6203632af4683e79df903434e9
   - enabled: 1
-    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - B.unity
+    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - B - B.unity
     guid: a52ca52e65df74348b0a292eca97e773
   - enabled: 1
     path: Assets/Scenes/Endings/Day 2 Ending A+A Lin.unity
