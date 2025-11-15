@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     dialogue: 'Shoot, my parts are running real low... I really hope I don''t have
-      to close shop. Ugh, I done with today... '
+      to close shop. Ugh, I''m done with today... '
   - speakerName: SETH
     dialogue: I don't think I got it in me to do anything besides work tomorrow...
   voiceLineEvent:

@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
-  m_Name: Mrs. Perkins (Day 1 - Afterwork B - A)
+  m_Name: Lin (Day 1 - Afterwork B - B)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    dialogue: "Hi again dearie, oh goodness does my back ever ache, I may have to
-      try getting my walker fixed tomorrow\u2026 Remember to always act on things
-      when you get the chance."
+  - speakerName: LIN
+    dialogue: Oh, hey kid. Heard that emergency services has been getting some false
+      alarms recently.
+  - speakerName: LIN
+    dialogue: Just in case you're connecting people who are having issues, remember
+      only to take serious ones to emergency services, okay?
   voiceLineEvent:
     Guid:
       Data1: 0
