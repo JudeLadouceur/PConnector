@@ -849,7 +849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene: Day 2 - Before Work A - A
+  Scene: Day 2 - Before Work B - B
 --- !u!114 &1818296008
 MonoBehaviour:
   m_ObjectHideFlags: 0
