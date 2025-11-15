@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Mrs. Perkins (Day 1, Before Work)
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, hi there youngin\u2019! Are you new here? "
+  - speakerName: MRS. PERKINS
+    dialogue: "You must be, you\u2019ll have to meet my darling children some time!"
+  - speakerName: MRS. PERKINS
+    dialogue: There's, Mr. Mittens, Yarny, Bottles, oh and so many more!
+  - speakerName: MRS. PERKINS
+    dialogue: Oof! My walker is a bit wobbly, maybe some of the parts down stairs
+      might work to fix it? Well anyways, see you around stranger!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
