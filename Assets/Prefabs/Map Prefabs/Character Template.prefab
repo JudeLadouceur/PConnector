@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5307131438615921434}
-  - component: {fileID: 3309026204793156138}
   - component: {fileID: 6720065765275548372}
   m_Layer: 0
   m_Name: Trigger Field
@@ -33,21 +32,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8958264754405220287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3309026204793156138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5410286760769494463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef22012273105e140ae8e2ca105176d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Test
-  Dialogue: {fileID: 2237143721091703693, guid: bd613dbefc14709448eed42bb455e930, type: 3}
-  Character: {fileID: 5997828269086586301}
 --- !u!70 &6720065765275548372
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
