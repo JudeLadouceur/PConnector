@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: d3f7e2eec8bdeaf4e9e3529e00690fc7, type: 2}
 --- !u!1001 &1118847819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 954bc0d55fb7f5841a5227e55a47b364, type: 2}
 --- !u!1001 &2129248720
 PrefabInstance:
   m_ObjectHideFlags: 0
