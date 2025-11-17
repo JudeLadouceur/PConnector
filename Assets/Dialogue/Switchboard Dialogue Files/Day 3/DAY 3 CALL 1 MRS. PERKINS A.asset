@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 CALL 1 MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello? This is Mrs. Perkins. May I ask who this is?
+  - speakerName: LIN
+    dialogue: Oh, hey Mrs. Perkins. This is Lin! Pizza guy. I was hoping you could
+      help me out. I really need a favor right about now.
+  - speakerName: MRS. PERKINS
+    dialogue: Oh? What is it you need, dear?
+  - speakerName: LIN
+    dialogue: Well I was putting out a ton of pizzas to be delivered today, moving
+      at record speed might I add, uh-but I checked the label and found out that
+      something screwed up with my delivery, it expired before it even got here!
+      I need to get the word out before those deliveries arrive, but I have no idea
+      how!
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh dear, that sounds like quite the pickle. Though I don\u2019t think
+      I\u2019ll be much help here. I would go out and let some folks know, but my
+      hips ain\u2019t what they used to be, and the roads are so worn these days.
+      I won\u2019t get anywhere fast."
+  - speakerName: LIN
+    dialogue: "Yeah, that makes sense. Sorry for bothering you Mrs. Perkins. I think
+      this is a lost cause, I just\u2026 don\u2019t know what to do. I can\u2019t
+      be messing up like this\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "Well you don\u2019t need to deal with it alone, dear. How about you
+      come by my place and we can have a nice chat. You don\u2019t have to deal with
+      this alone, you know."
+  - speakerName: LIN
+    dialogue: "That\u2019s not gonna change anything, but\u2026 If I can\u2019t do
+      anything about it, why not? Sure Mrs. Perkins, I\u2019ll stop by. I think I
+      could really use a listening ear right about now. Maybe even some advice. I
+      really hope I don\u2019t have to give this job up."
+  - speakerName: MRS. PERKINS
+    dialogue: "That\u2019s great to hear, dear. I\u2019m always here to help if you
+      ever need me."
+  - speakerName: LIN
+    dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
+  - speakerName: LIN
+    dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

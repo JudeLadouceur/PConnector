@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 CALL 1 SETH B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. What do you need fixed?"
+  - speakerName: LIN
+    dialogue: Oh, Seth? This is Lin! Pizza guy. I was hoping you could help me out.
+      I really need a favor right about now.
+  - speakerName: SETH
+    dialogue: "Lin? Uh-sure. What\u2019s the problem?"
+  - speakerName: LIN
+    dialogue: Well I was putting out a ton of pizzas to be delivered today, at record
+      time for me honestly, but I checked the label and found out that something
+      screwed up with my delivery, it expired before it even got here!
+  - speakerName: SETH
+    dialogue: "Yeesh, that\u2019s rough. But I didn\u2019t order a pizza today, so
+      you don\u2019t have to worry about me."
+  - speakerName: LIN
+    dialogue: "Yeah, it\u2019s good that you\u2019re okay, but I still need to let
+      the rest of the town know! Do you know of anything I could do to let people
+      know before those deliveries arrive?"
+  - speakerName: SETH
+    dialogue: "Sorry, Lin. I\u2019m just the local repair guy. Not like I really
+      know anyone here that well. I can let people who come to my shop know, but
+      I still got a business to run, I can\u2019t just risk my business like that,
+      you know?"
+  - speakerName: LIN
+    dialogue: "Yeah, I get it. Sorry man, I\u2019ll\u2026 I\u2019ll think of something
+      else. You have a good day."
+  - speakerName: SETH
+    dialogue: You too, Lin. Good luck.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
