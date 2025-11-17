@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 CALL 2 LIN A Else
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza. Sorry, we\u2019re closed for the day."
+  - speakerName: SETH
+    dialogue: "Hey Lin, it\u2019s Seth. You okay?"
+  - speakerName: LIN
+    dialogue: "Oh, hey Seth! What\u2019s up? More pizza?"
+  - speakerName: SETH
+    dialogue: "Well, I just wanted to let you know that I wasn\u2019t gonna be in
+      town tomorrow. I\u2019m heading out to pick up my parts in the next town over.
+      Don\u2019t wanna let people down if they pop by the shop."
+  - speakerName: LIN
+    dialogue: "Oh, good luck with that! Thanks for letting me know, I\u2019ll keep
+      an eye out for you in case someone comes by, maybe waft some fresh pizza over
+      there."
+  - speakerName: SETH
+    dialogue: "You\u2019re a good friend, Lin! Maybe we can share another pizza when
+      I get back. They always hit the spot! Anyways, I just wanted to let you know,
+      take care, Lin!"
+  - speakerName: LIN
+    dialogue: See ya, Seth!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
