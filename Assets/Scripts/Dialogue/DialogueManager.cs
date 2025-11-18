@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour
 
 
     public int lineNumber;
-    private bool inDialogue = false;
+    public bool inDialogue = false;
 
     private SO_Dialogue currentDialogue;
     private TextMeshProUGUI speakerField;
@@ -131,6 +131,7 @@ public class DialogueManager : MonoBehaviour
                 if (notch.assignedCharacter == callManager.days[TimeManager.dayNumber].call[TimeManager.callNumber].caller)
                 {
                     target = notch.gameObject;
+                    notch.isOccupied = true;
                     LineManager.instance.SelectPoint(target);
                     break;
                 }

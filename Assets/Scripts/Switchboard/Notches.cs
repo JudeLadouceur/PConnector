@@ -8,10 +8,12 @@ public class Notches : MonoBehaviour
     public bool isOccupied = false;
 
     public SO_Character assignedCharacter;
+    
 
     private void OnMouseDown()
     {
         if (isOccupied) return;
+        if (DialogueManager.Instance.inDialogue) return;
         LineManager.instance.SelectPoint(gameObject);
         isOccupied = true;
     }
