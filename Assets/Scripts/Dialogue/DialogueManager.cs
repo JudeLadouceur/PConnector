@@ -21,8 +21,6 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI speakerField;
     private TextMeshProUGUI dialogueField;
 
-    private int currentChunkIndex = 0;
-
     private EventInstance audioSource;
 
     void Start()
@@ -173,4 +171,10 @@ public class DialogueManager : MonoBehaviour
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
     }
     
+    public void ResetDialogue()
+    {
+        TimeManager.dayNumber = 0;
+        TimeManager.callNumber = 0;
+        CharacterManager.instance.ResetFlags();
+    }
 }
