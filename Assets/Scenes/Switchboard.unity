@@ -1652,6 +1652,36 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: 738975054ed8dcd4fb54b9f5c13cee1d, type: 2}
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
         dialogue: {fileID: 11400000, guid: 7e22559fbc7a4be4a95aa36531faddd2, type: 2}
+  - call:
+    - caller: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+      contextCall: {fileID: 11400000, guid: 22b7789064391e94f8260c09c9457087, type: 2}
+      connections:
+      - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+        dialogue: {fileID: 11400000, guid: 9cea90f7678e0284cad785e27b769e36, type: 2}
+      - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+        dialogue: {fileID: 11400000, guid: a83e740dd34746347ad1ac51138566e4, type: 2}
+      - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
+        dialogue: {fileID: 11400000, guid: ceec8244bc06b1545bc4aa48b39e8a7f, type: 2}
+    - caller: {fileID: 11400000, guid: 3facb27b91ccc3246ba4b0c265110aa8, type: 2}
+      contextCall: {fileID: 11400000, guid: 4bb77f4f39ab83d4ba310ddc75c81922, type: 2}
+      connections:
+      - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
+        dialogue: {fileID: 11400000, guid: dd3fd651047fb6a4ea183d1fe552eb28, type: 2}
+      - receiver: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+        dialogue: {fileID: 11400000, guid: e6e74cc5a2b01d946ae8a44bce6d7d3f, type: 2}
+      - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+        dialogue: {fileID: 11400000, guid: e59039a8e95169443b28eb62eba0941a, type: 2}
+      - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+        dialogue: {fileID: 11400000, guid: 7e521e299ae34564da93d958464b2a80, type: 2}
+    - caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+      contextCall: {fileID: 11400000, guid: 2868111d8881897418a50000559a3219, type: 2}
+      connections:
+      - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
+        dialogue: {fileID: 11400000, guid: 22c6371f37983964fb0a68c99911eefb, type: 2}
+      - receiver: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+        dialogue: {fileID: 11400000, guid: 22b7789064391e94f8260c09c9457087, type: 2}
+      - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+        dialogue: {fileID: 11400000, guid: 219d7829a6ad0b94d922f1e792626d1b, type: 2}
   inContextCall: 0
 --- !u!1 &876232644
 GameObject:

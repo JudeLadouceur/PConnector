@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5da029a00c38a498228263cd3f53c3, type: 3}
   m_Name: Delivery Guy
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: DELIVERY GUY
   variables: []
