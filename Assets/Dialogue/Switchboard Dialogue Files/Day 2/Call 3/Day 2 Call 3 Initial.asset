@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 3 Initial
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Hi! Uh, thanks for picking up. I\u2019ve got a bit of an issue here.
+      I have a few spare Pizzas here. Last minute cancel, big group. I want to sell
+      it while it\u2019s still fresh, but I don\u2019t know who to ask! Geez\u2026
+      I really need to get to know people better\u2026"
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
