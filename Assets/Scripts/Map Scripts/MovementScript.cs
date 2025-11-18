@@ -23,21 +23,10 @@ public class MovementScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Tab) && canToggle)
         {
-            StartCoroutine(ToggleMovement());
+            Funny = !Funny;
+
+            moveSpeed = Funny ? 0f : 5f;
         }
-    }
-
-    public IEnumerator ToggleMovement()
-    {
-        canToggle = false;
-
-        Funny = !Funny;
-
-        moveSpeed = Funny ? 0f : 5f;
-
-        yield return new WaitForSeconds(toggleCooldown);
-
-        canToggle = true;
     }
 
     private void FixedUpdate()
