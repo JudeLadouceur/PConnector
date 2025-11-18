@@ -158,7 +158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7987439964307354706, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
       propertyPath: m_Name
-      value: Map Variant
+      value: Map V3
       objectReference: {fileID: 0}
     - target: {fileID: 8035391017667360468, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
       propertyPath: m_Sprite
@@ -201,7 +201,11 @@ PrefabInstance:
       value: 23.603092
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7662463445551044382, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
+    - {fileID: 1816667367775148290, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
+    - {fileID: 8150438968987791266, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
+    - {fileID: 7554302276243153969, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339dc0b6f3c456445bc9503147431d73, type: 3}
