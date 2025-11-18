@@ -30,12 +30,16 @@ public class CallManager : MonoBehaviour
 
     public Days[] days;
 
+    public static CallManager instance;
+
     [HideInInspector]
     public bool inContextCall;
 
     private void Start()
     {
         if (FindAnyObjectByType<ForceAssignNotch>().isActive) LineManager.instance.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
+
+
 
         ContextCall();
     }

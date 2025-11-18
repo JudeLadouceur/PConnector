@@ -28,4 +28,12 @@ public class CharacterManager: MonoBehaviour
             }
         }
     }
+
+    public void ResetFlags()
+    {
+        foreach (string flag in flags.Keys)
+        {
+            flags[flag] = 0;
+        }
+    }
 }

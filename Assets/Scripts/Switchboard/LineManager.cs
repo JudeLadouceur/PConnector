@@ -26,8 +26,6 @@ public class LineManager : MonoBehaviour
 
     public static LineManager instance;
 
-    private bool paused;
-
     private void Awake()
     {
         instance = this;
@@ -41,7 +39,6 @@ public class LineManager : MonoBehaviour
     //When a notch is pressed, either start drawing a line or finish the line
     public void SelectPoint(GameObject notch)
     {
-        if (paused) return;
         if (!hasPoint1)
         {
             StartDraw(notch);
