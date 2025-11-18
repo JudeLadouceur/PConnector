@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 CALL 2 MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello? This is Mrs. Perkins. May I ask who this is?
+  - speakerName: SETH
+    dialogue: "Hey, Mrs. Perkins. It\u2019s Seth."
+  - speakerName: MRS. PERKINS
+    dialogue: Oh, good to hear from you again, Seth! Why might you be calling me
+      on this fine day?
+  - speakerName: SETH
+    dialogue: "Well, I just wanted to let you know that I was gonna be out of town
+      tomorrow. I\u2019m taking a trip to the next town over to get some parts, and
+      just wanted to give you a personal heads up since we\u2019re friends."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, thank you dear. It means a lot to me that you\u2019re willing
+      to give this old lady some of your day just to let me know."
+  - speakerName: SETH
+    dialogue: "It\u2019s no worry, Mrs. Perkins. Maybe you and I can have another
+      chat when I get back."
+  - speakerName: MRS. PERKINS
+    dialogue: I would love that, dear. Now you have a safe trip, alright?
+  - speakerName: SETH
+    dialogue: I will Mrs. Perkins. You have a good day.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

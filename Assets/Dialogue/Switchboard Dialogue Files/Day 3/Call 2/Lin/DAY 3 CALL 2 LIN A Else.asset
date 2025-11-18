@@ -18,7 +18,7 @@ MonoBehaviour:
   - speakerName: SETH
     dialogue: "Hey Lin, it\u2019s Seth. You okay?"
   - speakerName: LIN
-    dialogue: "Oh, hey Seth! What\u2019s up? More pizza?"
+    dialogue: "Not really, but I don\u2019t wanna talk about it. What do you need?"
   - speakerName: SETH
     dialogue: "Well, I just wanted to let you know that I wasn\u2019t gonna be in
       town tomorrow. I\u2019m heading out to pick up my parts in the next town over.

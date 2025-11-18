@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 WINDOW DRESSING SETH A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. What\u2019s the deal?"
+  - speakerName: DELIVERY GUY
+    dialogue: "Hey Seth, this is the guy delivering your parts this time \u2018round."
+  - speakerName: SETH
+    dialogue: Ah, finally! You almost here with those parts?
+  - speakerName: DELIVERY GUY
+    dialogue: "Uh\u2026 about that\u2026 My truck broke down while stopping for gas
+      in the next town over, and it looks like I won\u2019t be back up for a bit.
+      I was wondering if you would want to swing by yourself and grab it? You\u2019ll
+      be refunded on the delivery fees, of course."
+  - speakerName: SETH
+    dialogue: "A small trip to save some money? Works for me. I\u2019ll need to let
+      people know though, so I\u2019ll head over first thing tomorrow."
+  - speakerName: DELIVERY GUY
+    dialogue: Sounds great. See you then.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

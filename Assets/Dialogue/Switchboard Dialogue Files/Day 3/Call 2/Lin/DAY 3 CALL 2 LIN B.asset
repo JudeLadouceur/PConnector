@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 CALL 2 LIN B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza! Greatest Pizza on this side of the continent! What
+      do you need?"
+  - speakerName: SETH
+    dialogue: Lin? Sorry, I was looking for Mrs. Perkins. Seems like the switchboard
+      person screwed
+  - speakerName: LIN
+    dialogue: Oh, uh, okay?
+  - speakerName: SETH
+    dialogue: "I just\u2013forget it. Thought I could actually reach out to someone
+      for once. If you see her, let her know that I\u2019m out of town tomorrow,
+      will ya?"
+  - speakerName: LIN
+    dialogue: "Uh, sure. I\u2019ll do that."
+  - speakerName: SETH
+    dialogue: Thanks, Lin. Have a good day.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 3 WINDOW DRESSING LIN A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza! Greatest pizza in the galaxy! What can I get you?"
+  - speakerName: DELIVERY GUY
+    dialogue: Seriously? Is this a joke?
+  - speakerName: LIN
+    dialogue: Wh-what? Sorry, did I do something?
+  - speakerName: DELIVERY GUY
+    dialogue: No, sorry. Nothing on you, man. I was looking to call Seth, but it
+      looks like the switchboard operator thought it would be funny to connect me
+      to you.
+  - speakerName: LIN
+    dialogue: "Oh\u2026 that\u2019s weird. They\u2019re new, maybe they just messed
+      it up? Well, while you\u2019re here\u2026 did you want to order something?"
+  - speakerName: DELIVERY GUY
+    dialogue: "Whatever. I don\u2019t need food right now. I\u2019ll just send Seth
+      an email or whatever. Hopefully he checks it in time."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
