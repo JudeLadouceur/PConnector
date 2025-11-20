@@ -6,22 +6,31 @@ public class OverworldDialogue : MonoBehaviour
 {
     public SO_Dialogue dialogue;
 
+    private bool isInteractable;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            DialogueManager.Instance.StartDialogue(dialogue);
+        if (collision.gameObject.CompareTag("Player")) isInteractable = true;
+    }
 
-            if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed)
-            {
-                value.Achieve();
-            }
-        }
+    private void Update()
+    {
+        if (!isInteractable) return;
 
+        if (Input.GetButtonDown("Interact")) Interact();
+    }
+
+    private void Interact()
+    {
+        if (!isInteractable) return;
+
+        if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
+
+        DialogueManager.Instance.StartDialogue(dialogue);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        DialogueManager.Instance.EndDialogue();
+        if (collision.gameObject.CompareTag("Player")) isInteractable = true;
     }
 }
