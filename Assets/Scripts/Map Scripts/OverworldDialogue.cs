@@ -8,9 +8,22 @@ public class OverworldDialogue : MonoBehaviour
 
     private bool isInteractable;
 
+    private GameObject interactPrompt;
+    private GameObject promptRef;
+
+    private void Start()
+    {
+        interactPrompt = transform.parent.GetChild(1).gameObject;
+        interactPrompt.SetActive(false);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) isInteractable = true;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isInteractable = true;
+            interactPrompt.SetActive(true);
+        }
     }
 
     private void Update()
@@ -32,5 +45,6 @@ public class OverworldDialogue : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player")) isInteractable = true;
+        interactPrompt.SetActive(false);
     }
 }
