@@ -1,0 +1,133 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+
+public class NotebookManager : MonoBehaviour
+{
+    public static NotebookManager Instance;
+
+    //Fill out notes in book
+    public GameObject infoRoot;
+    public GameObject bulletTextPrefab;
+    public CNotes[] notes;
+    //Current maximum based on system
+    private int maxNotes = 11;
+
+    //Scenes the system should be active in
+    public string[] approvedSceneFragments;
+
+    //toggle button stuff
+    public GameObject toggleButton;
+    public Image toggleIcon;
+    public Sprite closedIcon;
+    public Sprite openIcon;
+
+    //objects for open and close
+    public GameObject bookObjects;
+    public GameObject openTarget;
+    public GameObject closeTarget;
+
+    //Active and open tracking
+    private bool isOpen;
+    private bool canBeActive = false;
+    private int currentDay = -100;
+
+    //Messy skip conversation variables for unlocking hints
+    public bool conversationSkip = false;
+    private Dictionary<Characters, bool> characterTalked;
+
+    private List<GameObject> bulletPoints;
+
+    private void Start()
+    {
+        //Manager instance
+        if(Instance == null)
+        {
+            Instance = this;
+        } else
+        {
+            Destroy(this.gameObject);
+        }
+        //Check for too many notes
+        foreach(CNotes noteSet in notes)
+        {
+            if(noteSet.notes.Length > maxNotes)
+            {
+                Debug.LogError("One or more days has more than " + maxNotes + " notes assigned to it. Please make sure you have a maximum of " + maxNotes + " notes assigned to any given day. Notes may look odd or go off screen.");
+            }
+        }
+
+        //Dictionary of characters
+        characterTalked = new Dictionary<Characters, bool>();
+        Characters[] characters = (Characters[])System.Enum.GetValues(typeof(Characters));
+        foreach(Characters c in characters)
+        {
+            if (c != Characters.None)
+            {
+                characterTalked.Add(c, conversationSkip);
+            }
+        }
+        bulletPoints = new List<GameObject>();
+
+        SceneManager.activeSceneChanged += NotebookCheckScene;
+        NotebookCheckScene(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
+    }
+
+    public void NotebookCheckScene(Scene scene1, Scene scene2)
+    {
+        if (isOpen)
+        {
+            ToggleNotebook();
+        }
+        canBeActive = false;
+        foreach(string frag in approvedSceneFragments)
+        {
+            if (SceneManager.GetActiveScene().name.Contains(frag))
+            {
+                canBeActive = true;
+            }
+        }
+        if(TimeManager.dayNumber != currentDay)
+        {
+            currentDay = TimeManager.dayNumber;
+            UpdateNotebook();
+        }
+    }
+    public void ToggleNotebook()
+    {
+        if (isOpen)
+        {
+            toggleIcon.sprite = closedIcon;
+            bookObjects.transform.position = closeTarget.transform.position;
+            isOpen = false;
+        } else
+        {
+            toggleIcon.sprite = openIcon;
+            bookObjects.transform.position=openTarget.transform.position;
+            isOpen = true;
+        }
+    }
+
+    private void UpdateNotebook()
+    {
+        foreach(GameObject i in bulletPoints)
+        {
+            Destroy(i);
+        }
+        foreach(CPersonNote note in notes[currentDay].notes)
+        {
+            if(characterTalked.TryGetValue(note.character, out bool talked))
+            {
+                if (talked)
+                {
+                    GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
+                    bulletPoints.Add(temp);
+                }
+            }
+        }
+    }
+}
