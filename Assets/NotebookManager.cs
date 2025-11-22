@@ -162,4 +162,9 @@ public class NotebookManager : MonoBehaviour
             toggleButton.gameObject.SetActive(false);
         }
     }
+
+    public void CharacterTalked(Characters person)
+    {
+        characterTalked[person] = true;
+    }
 }
