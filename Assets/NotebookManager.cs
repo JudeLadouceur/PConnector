@@ -79,10 +79,13 @@ public class NotebookManager : MonoBehaviour
 
     public void NotebookCheckScene(Scene scene1, Scene scene2)
     {
+        //Toggle notebook closed at new scene
         if (isOpen)
         {
             ToggleNotebook();
         }
+
+        //check if notebook allowed in current scene
         canBeActive = false;
         foreach(string frag in approvedSceneFragments)
         {
@@ -91,9 +94,20 @@ public class NotebookManager : MonoBehaviour
                 canBeActive = true;
             }
         }
+        EnableDisableNotebook();
+
+        //Check if need to update infor for day
         if(TimeManager.dayNumber != currentDay)
         {
             currentDay = TimeManager.dayNumber;
+            Characters[] characters = (Characters[])System.Enum.GetValues(typeof(Characters));
+            foreach (Characters c in characters)
+            {
+                if (c != Characters.None)
+                {
+                    characterTalked[c] = conversationSkip;
+                }
+            }
             UpdateNotebook();
         }
     }
@@ -127,7 +141,22 @@ public class NotebookManager : MonoBehaviour
                     GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
                     bulletPoints.Add(temp);
                 }
+            } else if (note.character==Characters.None)
+            {
+                GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
+                bulletPoints.Add(temp);
             }
+        }
+    }
+
+    private void EnableDisableNotebook()
+    {
+        if (canBeActive)
+        {
+            toggleButton.gameObject.SetActive(true);
+        } else
+        {
+            toggleButton.gameObject.SetActive(false);
         }
     }
 }
