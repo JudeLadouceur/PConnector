@@ -48,6 +48,7 @@ public class NotebookManager : MonoBehaviour
         if(Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         } else
         {
             Destroy(this.gameObject);
@@ -140,11 +141,13 @@ public class NotebookManager : MonoBehaviour
                 {
                     GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
                     bulletPoints.Add(temp);
+                    temp.GetComponent<NotebookTextUpdate>().SetText(note.note);
                 }
             } else if (note.character==Characters.None)
             {
                 GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
                 bulletPoints.Add(temp);
+                temp.GetComponent<NotebookTextUpdate>().SetText(note.note);
             }
         }
     }
