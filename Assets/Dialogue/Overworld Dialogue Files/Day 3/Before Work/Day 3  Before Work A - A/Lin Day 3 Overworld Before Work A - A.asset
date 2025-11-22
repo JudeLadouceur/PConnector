@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Lin Day 3 Overworld Before Work A - A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: 'Phew, hey operator! I know your days just starting, but I''ve been
+      going steady all morning.  '
+  - speakerName: LIN
+    dialogue: We've got a another big set of orders today, hopefully no last minute
+      cancelling this time.
+  - speakerName: LIN
+    dialogue: ' I was playing around with the idea of getting done early to hang
+      out with some folks around town, but I guess the business needs me...'
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
