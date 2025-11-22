@@ -9,6 +9,7 @@ public class CanvasFindCamera : MonoBehaviour
     private void Start()
     {
         SceneManager.activeSceneChanged += FindCamera;
+        FindCamera(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
         
     }
 
