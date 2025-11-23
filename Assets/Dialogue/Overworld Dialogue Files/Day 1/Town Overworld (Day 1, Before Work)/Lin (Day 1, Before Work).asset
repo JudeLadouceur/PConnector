@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: LIN
     dialogue: "Oh, a customer! Hey there! WELCOME TO LIN'S PIZZA! The best pizza
-      this side of Smithville! Unfortunately, I\u2019m still prepping, but whatever
+      this side of Maplegrove! Unfortunately, I\u2019m still prepping, but whatever
       your pizza needs are come back during business hours and I can get you set
       up!"
   - speakerName: LIN

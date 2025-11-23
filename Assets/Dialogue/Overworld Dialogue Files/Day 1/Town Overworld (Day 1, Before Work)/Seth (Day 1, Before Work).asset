@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: "Hey there stranger. I\u2019m the local mechanic, call me Seth."
+    dialogue: "Hey there pal. I\u2019m the local handyman, call me Seth."
   - speakerName: SETH
-    dialogue: Oh, wait, are you that new switchboard operator? Barney told me someone
-      like that was coming into town soon.
+    dialogue: Oh, wait, are you that switchboard operator? Barney told me you were
+      getting replaced soon. Sounds rough.
   - speakerName: SETH
-    dialogue: "Well, if you have any mechanical needs, just let me know! I\u2019ve
-      got quite a few regulars around here!"
+    dialogue: "Well, if you have any fixing needs, just let me know! I\u2019ve got
+      quite a few regulars around here!"
   - speakerName: SETH
-    dialogue: You have a good one, alright?
+    dialogue: Try not to let it get to you. You have a good one, alright?
   voiceLineEvent:
     Guid:
       Data1: 0
