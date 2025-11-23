@@ -127,6 +127,27 @@ MonoBehaviour:
       character: 2
     - note: '[PH] Seth forgot his lunch.'
       character: 3
+  - notes:
+    - note: '[PH] Testing Note'
+      character: 0
+    - note: '[PH] Testing Note'
+      character: 0
+    - note: '[PH] Testing Note'
+      character: 0
+    - note: '[PH] Testing Note'
+      character: 0
+    - note: '[PH] Testing Note'
+      character: 3
+    - note: '[PH] Testing Note'
+      character: 3
+    - note: '[PH] Testing Note'
+      character: 3
+    - note: '[PH] Testing Note'
+      character: 3
+    - note: '[PH] Testing Note'
+      character: 3
+    - note: '[PH] Testing Note'
+      character: 3
   approvedSceneFragments:
   - Notebook
   - Afterwork
