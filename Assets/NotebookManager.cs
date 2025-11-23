@@ -13,7 +13,7 @@ public class NotebookManager : MonoBehaviour
     //Fill out notes in book
     public GameObject infoRoot;
     public GameObject bulletTextPrefab;
-    public CNotes[] notes;
+    public CNotes[] days;
     //Current maximum based on system
     private int maxNotes = 11;
 
@@ -54,7 +54,7 @@ public class NotebookManager : MonoBehaviour
             Destroy(this.gameObject);
         }
         //Check for too many notes
-        foreach(CNotes noteSet in notes)
+        foreach(CNotes noteSet in days)
         {
             if(noteSet.notes.Length > maxNotes)
             {
@@ -133,7 +133,11 @@ public class NotebookManager : MonoBehaviour
         {
             Destroy(i);
         }
-        foreach(CPersonNote note in notes[currentDay].notes)
+        if(currentDay > days.Length + 1)
+        {
+            Debug.LogError("Your current day exceeds the notebook days array. Please ensure the array has all days in the current build.");
+        }
+        foreach(CPersonNote note in days[currentDay].notes)
         {
             if(characterTalked.TryGetValue(note.character, out bool talked))
             {

@@ -117,39 +117,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoRoot: {fileID: 8311373365301713714}
   bulletTextPrefab: {fileID: 8436363353495463392, guid: e69b59a047c54e9488a2db82a5c6c738, type: 3}
-  notes:
+  days:
   - notes:
-    - note: '[PH]Testing Note'
+    - note: '[PH] Testing Note'
       character: 0
-    - note: '[PH]Mrs. Perkins Has Parts in her Basement'
+    - note: '[PH] Mrs. Perkins has parts in her basement.'
       character: 1
-    - note: '[PH]Lin just started a website'
+    - note: '[PH] Lin just started a website.'
       character: 2
-    - note: '[PH]Seth forgot his lunch'
+    - note: '[PH] Seth forgot his lunch.'
       character: 3
-  - notes:
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
-    - note: '[PH]Test'
-      character: 0
   approvedSceneFragments:
   - Notebook
   - Afterwork

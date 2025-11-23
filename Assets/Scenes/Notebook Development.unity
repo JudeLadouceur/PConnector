@@ -374,6 +374,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[0].note
+      value: '[PH] Testing Note'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[1].note
+      value: '[PH] Mrs. Perkins has parts in her basement.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[2].note
+      value: '[PH] Lin just started a website.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[3].note
+      value: '[PH] Seth forgot his lunch.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[1].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[2].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[3].character
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5016310912594549432, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_Camera
       value: 
