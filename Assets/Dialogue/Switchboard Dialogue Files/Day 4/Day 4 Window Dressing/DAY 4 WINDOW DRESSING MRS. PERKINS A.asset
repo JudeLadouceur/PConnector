@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 WINDOW DRESSING MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello! This is Mrs. Perkins.
+  - speakerName: BOB
+    dialogue: Hey Mrs. Perkins! This is Bob. I was wondering if you were missing
+      any of your cats right now.
+  - speakerName: MRS. PERKINS
+    dialogue: "My cats? Oh, dear\u2026 Let me check. Let\u2019s see here\u2026 There\u2019s
+      Mr. Mittens, Bottles, Mable, Yowler, Fluffball, Rascal, Candy, Seavie, Snowy,
+      and\u2026 oh? Oh dear! I think Yarny is missing!"
+  - speakerName: BOB
+    dialogue: "Don\u2019t worry about it Mrs. Perkins. I think I found Yarny in my
+      backyard just now. I have him here, safe and sound."
+  - speakerName: MRS. PERKINS
+    dialogue: Oh, thank you so much, dear! That really worried me for a moment. Would
+      you be okay if I stopped by to pick Yarny up? I say, these cats keep getting
+      more and more out of hand.
+  - speakerName: BOB
+    dialogue: "That would be great Mrs. Perkins. I\u2019ll be waiting at the front
+      door for you."
+  - speakerName: MRS. PERKINS
+    dialogue: "Thanks again, dear. I\u2019ll be over soon."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

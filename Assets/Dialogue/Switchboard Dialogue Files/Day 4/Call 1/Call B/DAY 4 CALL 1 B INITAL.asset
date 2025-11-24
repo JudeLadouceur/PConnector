@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 CALL 1 B INITAL
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh hello, dear. This is Mrs. Perkins. You see, these past few days
+      have been a lot on me. I feel I\u2019ve really been losing my connection to
+      this town in my age. Oh, it gets so hard to keep up when the world moves too
+      fast\u2026 I hate to say it dear, but I think I need to move on. I\u2019ve
+      lost touch with this town, and I\u2019ve decided I\u2019m moving. It\u2019s
+      too hard to get anywhere, and I feel so forgotten all the time. Don\u2019t
+      try and convince me otherwise, I\u2019ve already made the arrangements. All
+      I have left to do is contact the emergency line so I can cancel any upcoming
+      appointments of mine. Could you do this old lady that one last favor?"
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
