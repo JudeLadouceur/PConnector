@@ -12,8 +12,6 @@ public class OverworldDialogue : MonoBehaviour
     private GameObject interactPrompt;
     private GameObject promptRef;
 
-    //private EventInstance audioSource;
-
     private void Start()
     {
         interactPrompt = transform.parent.GetChild(1).gameObject;
