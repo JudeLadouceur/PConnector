@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 CALL 1 A LIN A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
+  - speakerName: MRS. PERKINS
+    dialogue: Oh, hello Lin! This is Mrs. Perkins.
+  - speakerName: LIN
+    dialogue: "Oh, Mrs. Perkins! It\u2019s great to hear from you again. Unfortunately
+      business hasn\u2019t been great after word was getting out about my mess up,
+      but I really appreciate that talk you had with me. It meant a lot. I don\u2019t\u2026
+      have those chats often."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh Lin dear. I\u2019m glad you\u2019re okay. I\u2019m sure people
+      will realize it was just an honest mistake, and your business will be fine."
+  - speakerName: LIN
+    dialogue: "Hey Mrs. Perkins! I\u2026 I\u2019m glad you called! You here to order
+      a pizza? Business has been real bad after an issue I ran into yesterday\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh dear, I do hope you\u2019re okay, sweetie. Is there anything I
+      could do to help?"
+  - speakerName: LIN
+    dialogue: "You could order a pizza! I\u2019m not about to give up on the shop,
+      but\u2026 things have been really rough recently, I\u2019ve been getting tired\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, dear, that doesn\u2019t sound good. Perhaps I could help! You
+      see, I\u2019ve been looking to volunteer somewhere. Would you like some help?"
+  - speakerName: LIN
+    dialogue: Really?! That would be great!
+  - speakerName: MRS. PERKINS
+    dialogue: "Of course, dear! I\u2019m glad you like the idea. I\u2019ll head over
+      now, and I\u2019m sure we can have you back on your feet in no time. "
+  - speakerName: LIN
+    dialogue: Thanks so much Mrs. Perkins! See you soon!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
