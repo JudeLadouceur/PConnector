@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 CALL 1 A LIN A Else (Solved Pizza)
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
+  - speakerName: MRS. PERKINS
+    dialogue: Oh, hello Lin! This is Mrs. Perkins.
+  - speakerName: LIN
+    dialogue: "Oh, hey Mrs. Perkins! You looking to order something? I\u2019ve got
+      a proper backup supply of tomato sauce now, and we\u2019re back in business!"
+  - speakerName: MRS. PERKINS
+    dialogue: "That\u2019s great to hear, dear. Your pizza shop has become a staple
+      in this town, if I do say so myself. It\u2019s good to see you\u2019re still
+      up and kicking."
+  - speakerName: LIN
+    dialogue: Thanks, Mrs. Perkins. That means a lot. So what can I get for you?
+  - speakerName: MRS. PERKINS
+    dialogue: Actually, dear, I was looking to do some volunteering today. Would
+      you like any help running that shop of yours?
+  - speakerName: LIN
+    dialogue: Volunteering? Like without pay?
+  - speakerName: MRS. PERKINS
+    dialogue: "Of course! This old lady is just looking to reach out and help her
+      town a bit more. Besides, it\u2019s nice to chat with the customers sometimes,
+      isn\u2019t it?"
+  - speakerName: LIN
+    dialogue: "Well I would love to have you for a bit, Mrs. Perkins! Come on over,
+      and I\u2019ll find some stuff for you to help me with when you get here. Double
+      pizza, baby!"
+  - speakerName: MRS. PERKINS
+    dialogue: "That\u2019s wonderful! I\u2019ll see you then, dear."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

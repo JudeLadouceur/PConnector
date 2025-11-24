@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 CALL 1 EMERGENCY A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: RECEPTIONIST
+    dialogue: "Smithville emergency line. What\u2019s your situation?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, hello! This is Mrs. Perkins. You don\u2019t need to worry, I\u2019m
+      not in any trouble at the moment, but I was looking to do some volunteering
+      today. Would you be willing to have me for a bit?"
+  - speakerName: RECEPTIONIST
+    dialogue: "Volunteering? Of course! We always love the help. I\u2019ll have to
+      talk to my boss about what you could do, but if you come over now, I\u2019m
+      sure we can have something sorted out by then."
+  - speakerName: MRS. PERKINS
+    dialogue: "That\u2019s wonderful! Thank you so much, dear. I\u2019ll be over
+      soon. I\u2019m really glad I can help out people working for such a heartfelt
+      cause."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
