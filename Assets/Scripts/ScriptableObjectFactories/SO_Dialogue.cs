@@ -30,7 +30,9 @@ public class SO_Dialogue : ScriptableObject
 
     public Lines[] lines;
 
-    public EventReference voiceLineEvent; // FMOD variables for character voice lines
+    public EventReference voiceLineEvent; // FMOD Event for character voice lines.
+
+    public EventReference barkEvent; // FMOD Event for character barks.
 
     [System.Serializable]
     public class Variables
