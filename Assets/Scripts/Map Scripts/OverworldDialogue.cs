@@ -56,5 +56,6 @@ public class OverworldDialogue : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player")) isInteractable = false;
+        interactPrompt.SetActive(false);
     }
 }
