@@ -58,4 +58,15 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+    variableName: PizzaRecall
+    modifier: 2
+    value: 0

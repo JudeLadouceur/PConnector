@@ -18,3 +18,5 @@ MonoBehaviour:
     value: 0
   - name: goesWalk
     value: 0
+  - name: PerkinsPizzaTalk
+    value: 0

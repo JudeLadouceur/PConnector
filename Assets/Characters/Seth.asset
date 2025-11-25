@@ -16,3 +16,5 @@ MonoBehaviour:
   variables:
   - name: partsGained
     value: 0
+  - name: 'LeaveNotified '
+    value: 0
