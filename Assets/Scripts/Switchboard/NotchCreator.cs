@@ -34,7 +34,7 @@ public class NotchCreator : MonoBehaviour
     {
         notchParent = GameObject.FindGameObjectWithTag("NotchParent");
 #if (UNITY_EDITOR)
-        notch = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Notch.prefab", typeof(GameObject)) as GameObject;
+        notch = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Switchboard/Notch.prefab", typeof(GameObject)) as GameObject;
 #endif
         SBbackground = GameObject.FindGameObjectWithTag("BoardBG");
     }
