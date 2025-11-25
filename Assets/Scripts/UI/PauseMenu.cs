@@ -105,6 +105,10 @@ public class PauseMenu : MonoBehaviour
     {
         //playerInput.SwitchCurrentActionMap("Player");
         Time.timeScale = 1;
+        if (AchievementManager.instance.viewRoot.activeInHierarchy)
+        {
+            AchievementManager.instance.viewRoot.SetActive(false);
+        }
         SceneManager.LoadScene("Main Menu");
     }
 }

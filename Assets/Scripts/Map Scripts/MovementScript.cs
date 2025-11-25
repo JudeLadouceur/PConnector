@@ -23,12 +23,6 @@ public class MovementScript : MonoBehaviour
 
     void Update()
     {
-        if (Funny) return;
-        
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-
-        moveDirection = new Vector2(moveX, moveY).normalized;
 
         if (Input.GetKeyDown(KeyCode.Tab) && canToggle)
         {
@@ -36,6 +30,14 @@ public class MovementScript : MonoBehaviour
 
             moveSpeed = Funny ? 0f : 5f;
         }
+        if (Funny) return;
+        
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        moveDirection = new Vector2(moveX, moveY).normalized;
+
+        
     }
 
     private void FixedUpdate()
