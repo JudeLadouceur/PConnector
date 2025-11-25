@@ -10,12 +10,21 @@ public class MovementScript : MonoBehaviour
 
     private Vector2 moveDirection;
 
+    public static MovementScript instance;
+
     // Delay control
     private bool canToggle = true;
     public float toggleCooldown = 0.3f; // seconds between toggles
 
+    private void Start()
+    {
+        instance = this;
+    }
+
     void Update()
     {
+        if (Funny) return;
+        
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 

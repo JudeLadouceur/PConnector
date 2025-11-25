@@ -121,7 +121,11 @@ public class DialogueManager : MonoBehaviour
             audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
         }
 
-        if (SceneManager.GetActiveScene().name != "Switchboard") return;
+        if (SceneManager.GetActiveScene().name != "Switchboard")
+        {
+            MovementScript.instance.Funny = false;
+            return;
+        }
 
         if (callManager.inContextCall)
         {

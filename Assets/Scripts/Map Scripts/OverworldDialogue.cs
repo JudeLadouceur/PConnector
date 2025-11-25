@@ -40,6 +40,8 @@ public class OverworldDialogue : MonoBehaviour
 
         if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
 
+        MovementScript.instance.Funny = true;
+
         DialogueManager.Instance.StartDialogue(dialogue);
 
         // If the Event is not null and assigned in the Inspector, play the bark line (at random based on the FMOD setup).
