@@ -114,16 +114,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Days/Day 3/Before Work/Day 3 - Before Work B - B.unity
     guid: c7c348c8811fe97448d274ad0a627a6f
   - enabled: 1
-    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work A - A.unity
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - AfterWork A - A.unity
     guid: 73d21c409c0cb5b4a9b326a384282246
   - enabled: 1
-    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work A - B.unity
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - AfterWork A - B.unity
     guid: 407917d082266a64caa0bf9150f11894
   - enabled: 1
-    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work B - A.unity
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - AfterWork B - A.unity
     guid: 18127c4b051c4d4479a49ce654eb7773
   - enabled: 1
-    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work B - B.unity
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - AfterWork B - B.unity
     guid: ef52b065230ca56469ceaf1851563381
   - enabled: 1
     path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition A+A.unity
