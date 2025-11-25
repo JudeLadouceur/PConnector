@@ -102,7 +102,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("A dialogue Scriptable Object does not have an audio Event assigned to it.");
+            Debug.LogWarning("A dialogue Scriptable Object does not have a VOICE LINE Event assigned to it.");
         }
     }
 
@@ -115,6 +115,11 @@ public class DialogueManager : MonoBehaviour
         dialogueBox.SetActive(false);
 
         inDialogue = false;
+
+        if (audioSource.isValid())
+        {
+            audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
+        }
 
         if (SceneManager.GetActiveScene().name != "Switchboard") return;
 

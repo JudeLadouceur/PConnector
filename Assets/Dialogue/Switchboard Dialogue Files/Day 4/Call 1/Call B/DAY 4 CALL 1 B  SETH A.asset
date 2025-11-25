@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 CALL 1 B  SETH A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, did you try to connect me to Seth, dear? Didn\u2019t you hear?
+      He\u2019s out of town today. This kind of thing is why I need to go, nobody
+      listens to me or understands me\u2026 my mind is made up. Thank you for all
+      the help and care you\u2019ve given the town, even if you\u2019ve only been
+      here briefly. I\u2019m sure it means a lot to them, but I really must be going.
+      I\u2019ll be sure to leave Seth a note before I leave, though. Now I guess
+      I\u2019ll have to walk to the health centre to cancel those appointments\u2026
+      You have a good day, dear."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork A - B - B.unity
     guid: 5532823bb9dfbdf4190bafbf8e573160
   - enabled: 1
-    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - A -  B.unity
+    path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - A - B.unity
     guid: 594d3d6203632af4683e79df903434e9
   - enabled: 1
     path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - B - B.unity
@@ -89,6 +89,60 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day Transitions/Day 1/Day 1 Transition B+B.unity
     guid: e4659736e4b619c45b17ca4218c87645
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 2/Day 2 Transition A+A.unity
+    guid: 6ad53e687e2ea70419027509928fec93
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 2/Day 2 Transition A+B.unity
+    guid: eda5759769ae6554a8b65891d4b7b6c6
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 2/Day 2 Transition B+A.unity
+    guid: eaa3fde8a4fc29449a0ba5f0f9e060ca
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 2/Day 2 Transition B+B.unity
+    guid: 72e46c939c455a747a506acb4fe40cb9
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/Before Work/Day 3 - Before Work A - A.unity
+    guid: e87527c9ad73993439d9dcea059ec9fe
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/Before Work/Day 3 - Before Work A - B.unity
+    guid: c9e1c5535b54b8745b04087d8fb322d7
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/Before Work/Day 3 - Before Work B - A.unity
+    guid: 6c47b5e489dd8ce48a68c480281271f8
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/Before Work/Day 3 - Before Work B - B.unity
+    guid: c7c348c8811fe97448d274ad0a627a6f
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work A - A.unity
+    guid: 73d21c409c0cb5b4a9b326a384282246
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work A - B.unity
+    guid: 407917d082266a64caa0bf9150f11894
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work B - A.unity
+    guid: 18127c4b051c4d4479a49ce654eb7773
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 3/After Work/Day 3 - After Work B - B.unity
+    guid: ef52b065230ca56469ceaf1851563381
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition A+A.unity
+    guid: e77f6457e439e5c4099b5db00b96ea96
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition A+B.unity
+    guid: 86af811dceebb604e958e4a7687c0fcc
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition B+A.unity
+    guid: 8ac8fa832c27bfd4d982881a0bf1d334
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition B+B.unity
+    guid: 3aab70f09772cd740b32407dd1d4d32f
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition C+A.unity
+    guid: 898c0d144ab40574582a9ad3373e4162
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition C+B.unity
+    guid: c2c5c0ca0488a9c41bf4bae9dc77220e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}

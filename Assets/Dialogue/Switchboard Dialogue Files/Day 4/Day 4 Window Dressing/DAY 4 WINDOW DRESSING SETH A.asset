@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 4 WINDOW DRESSING SETH A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. What\u2019s up?"
+  - speakerName: BOB
+    dialogue: "Uh, hey Seth. It\u2019s Bob. Do you know if Mrs. Perkins is missing
+      one of her cats? I think I found one in my backyard."
+  - speakerName: SETH
+    dialogue: Again? Probably. Why call me though? Just call Mrs. Perkins herself.
+  - speakerName: BOB
+    dialogue: "Well\u2026 I tried. I think the switchboard operator messed it up."
+  - speakerName: SETH
+    dialogue: "Ah, well forget it. I have Mrs. Perkins\u2019s email. I\u2019ll shoot
+      her a message and ask for ya."
+  - speakerName: BOB
+    dialogue: Thanks so much, Seth. Let me know what she says.
+  - speakerName: SETH
+    dialogue: I will, see ya.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

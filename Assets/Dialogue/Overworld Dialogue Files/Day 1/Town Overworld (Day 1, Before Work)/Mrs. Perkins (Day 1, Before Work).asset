@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: "Oh, hi there youngin\u2019! Are you new here? "
+    dialogue: "Oh, hi there youngin\u2019! Good to see you out again! "
   - speakerName: MRS. PERKINS
-    dialogue: "You must be, you\u2019ll have to meet my darling children some time!"
+    dialogue: "It's been a while, you\u2019ll have to some see my darling children
+      some time!"
   - speakerName: MRS. PERKINS
     dialogue: There's, Mr. Mittens, Yarny, Bottles, oh and so many more!
   - speakerName: MRS. PERKINS
