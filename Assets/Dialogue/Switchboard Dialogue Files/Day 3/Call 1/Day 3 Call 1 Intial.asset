@@ -16,10 +16,19 @@ MonoBehaviour:
   - speakerName: LIN
     dialogue: "H-hey! This is Lin! Man do I need some help. I\u2019ve been selling
       a ton of pizzas this morning, b-but I just checked the label on my recent delivery
-      of tomato sauce, and I think they screwed up the order! It expired a month
-      ago! Ahhhhh, I don\u2019t know what to do! I want to get the word out as fast
-      as I can, but I don\u2019t know who to talk to! Could you help me out?"
+      of tomato sauce, and I think they screwed up the order!"
+  - speakerName: LIN
+    dialogue: " It expired a month ago! Ahhhhh, I don\u2019t know what to do! I want
+      to get the word out as fast as I can, but I don\u2019t know who to talk to!
+      Could you help me out?"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
