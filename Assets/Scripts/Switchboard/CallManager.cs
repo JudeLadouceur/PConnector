@@ -11,6 +11,8 @@ public class CallManager : MonoBehaviour
         [System.Serializable]
         public class Call
         {
+            public DialogueVar[] requiredVariables; 
+            
             [System.Serializable]
             public class Connections
             {

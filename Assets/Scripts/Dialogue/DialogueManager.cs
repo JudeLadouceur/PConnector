@@ -9,7 +9,6 @@ public class DialogueManager : MonoBehaviour
 
     private GameObject dialogueBox;
     private CallManager callManager;
-    private LineManager lm;
     private CharacterManager characterManager;
     private SceneTransitionTargets transitionTargets;
 
@@ -25,6 +24,12 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        
         Instance = this;
 
         dialogueBox = GameObject.FindGameObjectWithTag("DialogueBox");
@@ -50,6 +55,8 @@ public class DialogueManager : MonoBehaviour
         print("Begin dialogue " + dialogue.name);
 
         dialogueBox.SetActive(true);
+
+
 
         currentDialogue = dialogue;
         
@@ -176,7 +183,6 @@ public class DialogueManager : MonoBehaviour
     private void FindSwitchboardReferences()
     {
         callManager = GameObject.FindAnyObjectByType<CallManager>();
-        lm = GameObject.FindAnyObjectByType<LineManager>();
         
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
     }
@@ -186,5 +192,7 @@ public class DialogueManager : MonoBehaviour
         TimeManager.dayNumber = 0;
         TimeManager.callNumber = 0;
         CharacterManager.instance.ResetFlags();
+
+        Debug.Log("Time manager reset. Day number now: " + TimeManager.dayNumber);
     }
 }
