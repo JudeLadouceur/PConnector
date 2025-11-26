@@ -1315,7 +1315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   days:
   - call:
-    - caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+    - requiredVariables: 00000000
+      caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
       contextCall: {fileID: 11400000, guid: 0e1d4918678cbef43aab251eb1772951, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
@@ -1324,7 +1325,8 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: 6f24fb90428be584fa5a714dab77f2c5, type: 2}
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: b52d840317e99ba49984106929d0ecf0, type: 2}
-    - caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
       contextCall: {fileID: 11400000, guid: 4570c6a19678e6e42bb26a371f702f33, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
@@ -1334,7 +1336,8 @@ MonoBehaviour:
       - receiver: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
         dialogue: {fileID: 11400000, guid: 3ffda7324513dd342adecbb2725c35eb, type: 2}
   - call:
-    - caller: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
       contextCall: {fileID: 11400000, guid: 0ec391e069355c74eb3e1d1dbc8acc62, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
@@ -1343,7 +1346,8 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: b64658f6085eb9a4bacecbcb3fb78254, type: 2}
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: 939cea813e499bc4885dbdf5a80a2195, type: 2}
-    - caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
       contextCall: {fileID: 11400000, guid: a74121ae32faabd42bc427f57d47ea53, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
@@ -1353,7 +1357,8 @@ MonoBehaviour:
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
         dialogue: {fileID: 11400000, guid: 7e22559fbc7a4be4a95aa36531faddd2, type: 2}
   - call:
-    - caller: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
       contextCall: {fileID: 11400000, guid: 36f509250b09df0449f22a8cf604f458, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
@@ -1362,7 +1367,8 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: a83e740dd34746347ad1ac51138566e4, type: 2}
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: ceec8244bc06b1545bc4aa48b39e8a7f, type: 2}
-    - caller: {fileID: 11400000, guid: 3facb27b91ccc3246ba4b0c265110aa8, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 3facb27b91ccc3246ba4b0c265110aa8, type: 2}
       contextCall: {fileID: 11400000, guid: 4bb77f4f39ab83d4ba310ddc75c81922, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
@@ -1373,7 +1379,8 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: e59039a8e95169443b28eb62eba0941a, type: 2}
       - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
         dialogue: {fileID: 11400000, guid: 7e521e299ae34564da93d958464b2a80, type: 2}
-    - caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
       contextCall: {fileID: 11400000, guid: 2868111d8881897418a50000559a3219, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
@@ -1383,7 +1390,8 @@ MonoBehaviour:
       - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
         dialogue: {fileID: 11400000, guid: 219d7829a6ad0b94d922f1e792626d1b, type: 2}
   - call:
-    - caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
       contextCall: {fileID: 11400000, guid: c87ffeff457c80d439e29f9a6b88da2f, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
@@ -1392,7 +1400,8 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: 02916db60547ec24cab431f07d1d1d78, type: 2}
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
         dialogue: {fileID: 11400000, guid: 5d05060a1f07e2249b99b0ad44f61e4a, type: 2}
-    - caller: {fileID: 11400000, guid: dd1128ca62960f2459f567fd56de0b73, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: dd1128ca62960f2459f567fd56de0b73, type: 2}
       contextCall: {fileID: 11400000, guid: 82566dd722417804692db8a7a7790304, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
@@ -1403,7 +1412,8 @@ MonoBehaviour:
         dialogue: {fileID: 11400000, guid: cd6b96618d6fbf041aea88df73728a4e, type: 2}
       - receiver: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
         dialogue: {fileID: 11400000, guid: 4dbd2a9f0149ee84fad6fe4b383b7bb9, type: 2}
-    - caller: {fileID: 11400000, guid: 1b070a463bd92104fa62a128c63f5ebd, type: 2}
+    - requiredVariables: 
+      caller: {fileID: 11400000, guid: 1b070a463bd92104fa62a128c63f5ebd, type: 2}
       contextCall: {fileID: 11400000, guid: d5d5fd66cd98a5c46abb727ca819b5b6, type: 2}
       connections:
       - receiver: {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
@@ -2861,6 +2871,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
   - {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
   - {fileID: 11400000, guid: 3facb27b91ccc3246ba4b0c265110aa8, type: 2}
+  tapeSheet:
+  - {fileID: -593313276, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}
+  - {fileID: 251797576, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}
+  - {fileID: 1402310832, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}
+  - {fileID: -79161059, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}
+  - {fileID: 254144483, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}
 --- !u!1 &1663298282
 GameObject:
   m_ObjectHideFlags: 0

@@ -109,6 +109,9 @@ public class PauseMenu : MonoBehaviour
         {
             AchievementManager.instance.viewRoot.SetActive(false);
         }
+
+        DialogueManager.Instance.ResetDialogue();
+
         SceneManager.LoadScene("Main Menu");
     }
 }

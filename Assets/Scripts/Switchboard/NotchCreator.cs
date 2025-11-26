@@ -21,6 +21,7 @@ public class NotchCreator : MonoBehaviour
     private GameObject notchParent;
     private GameObject notch;
     private GameObject SBbackground;
+    public List<Sprite> tapeSheet;
 
 
     private void Awake()

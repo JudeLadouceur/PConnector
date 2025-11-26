@@ -21,19 +21,23 @@ public class CharacterManager: MonoBehaviour
         {
             foreach (SO_Character.Heuristics heuristics in character.variables)
             {
-                print(heuristics.name);
-                print(heuristics.value);
+                //print(heuristics.name);
+                //print(heuristics.value);
                 flags.TryAdd(heuristics.name, heuristics.value);
-                print(flags.Count);
+                //print(flags.Count);
             }
         }
     }
 
     public void ResetFlags()
     {
-        foreach (string flag in flags.Keys)
+        List<string> keys = new List<string>(flags.Keys);
+        
+        foreach (string flag in keys)
         {
             flags[flag] = 0;
+
+            Debug.Log("Successfully reset " + flag + " to: " + flags[flag]);
         }
     }
 }
