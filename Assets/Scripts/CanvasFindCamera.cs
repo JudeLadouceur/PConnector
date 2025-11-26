@@ -17,4 +17,9 @@ public class CanvasFindCamera : MonoBehaviour
     {
         GetComponent<Canvas>().worldCamera = Camera.main;
     }
+
+    private void OnDestroy()
+    {
+        SceneManager.activeSceneChanged -= FindCamera;
+    }
 }
