@@ -61,7 +61,7 @@ public class NotchCreator : MonoBehaviour
             {
                 GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x + SBbackground.transform.position.x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y + SBbackground.transform.position.y, 0), Quaternion.identity, notchParent.transform);
                 target.transform.GetChild(1).localScale = new Vector3(notchSize, notchSize);
-                target.transform.GetChild(0).localPosition = new Vector3(0, -(notchSize - 1f) / 2f - 0.75f);
+                target.transform.GetChild(0).localPosition = new Vector3(0, -(notchSize - 1f) / 2f - 0.8f);
 
                 target.transform.GetChild(0).GetComponent<TextMeshPro>().fontSize = textSize;
                 int notchID = (int)(x + y * notchCount.x);
