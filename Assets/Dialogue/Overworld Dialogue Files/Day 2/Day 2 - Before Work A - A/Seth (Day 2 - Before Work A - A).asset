@@ -14,12 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: Hey again newbie! Keeping busy? Any chance I could get you to grab
-      me lunch?
+    dialogue: Hey again pal! Keeping busy? Any chance I could get you to grab me
+      lunch?
   - speakerName: SETH
     dialogue: "HAHA, only kidding kid, though I am kicking myself for forgetting
       my lunch\u2026"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
