@@ -48,6 +48,6 @@ public class SceneTransitionTargets : MonoBehaviour
 
         SceneManager.LoadScene(targetName);
 
-        Vars.Clear();
+        //Vars.Clear();
     }
 }

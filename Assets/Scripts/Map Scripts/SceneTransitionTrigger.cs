@@ -22,6 +22,9 @@ public class SceneTransitionTrigger : MonoBehaviour
     public void NextDay()
     {
         TimeManager.dayNumber++;
+
+        Debug.Log("Day number: " + TimeManager.dayNumber);
+
         TimeManager.callNumber = 0;
         SceneManager.LoadScene(Scene);
     }
