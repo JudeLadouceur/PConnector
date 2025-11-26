@@ -14,9 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: Hey newbie... *huff* I can't believe I forgot my lunch; I can't keep
-      screwing up like this!
+    dialogue: Hey pal... *huff* I can't believe I forgot my lunch; I can't keep screwing
+      up like this!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
