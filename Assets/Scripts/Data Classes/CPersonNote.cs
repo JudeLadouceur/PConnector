@@ -7,5 +7,8 @@ public class CPersonNote
 {
     public string note;
     public Characters character;
+    public bool usesVariable;
+    public string varName;
+    public string varFalseNote;
 }
     
