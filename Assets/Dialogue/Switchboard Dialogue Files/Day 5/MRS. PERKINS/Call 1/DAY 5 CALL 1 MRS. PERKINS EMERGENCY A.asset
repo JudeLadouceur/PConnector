@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 MRS. PERKINS EMERGENCY A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: RECEPTIONIST
+    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Hello, dear. This is Mrs. Perkins. I apologize, as this isn\u2019t
+      much of an emergency, but I need to cancel some appointments I have with the
+      health centre."
+  - speakerName: RECEPTIONIST
+    dialogue: Of course, Mrs. Perkins. This would be the line to do it. Which appointments
+      do you need cancelled? Can I reschedule them for you?
+  - speakerName: MRS. PERKINS
+    dialogue: "That won\u2019t be necessary, dear. You see, I\u2019m moving out of
+      town, and I\u2019ll be setting up my appointments elsewhere."
+  - speakerName: RECEPTIONIST
+    dialogue: "You\u2019re\u2026 leaving? I had no idea. Well, good luck to you,
+      Mrs. Perkins. I hope things work out for you."
+  - speakerName: MRS. PERKINS
+    dialogue: "Thank you dear. I\u2019m sure things will go fine. I\u2019m just looking
+      to get things ready."
+  - speakerName: RECEPTIONIST
+    dialogue: "Well I\u2019ve put it into the system just now, Mrs. Perkins. All
+      your upcoming appointments have been cancelled, and you\u2019re all good to
+      go."
+  - speakerName: MRS. PERKINS
+    dialogue: "Thank you so much, dear. You\u2019ve been a great help. Though I must
+      be going now, I have much to do to get ready."
+  - speakerName: RECEPTIONIST
+    dialogue: Of course, Mrs. Perkins. Safe travels.
+  - speakerName: MRS. PERKINS
+    dialogue: "You have a good day dear, it\u2019s been wonderful."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

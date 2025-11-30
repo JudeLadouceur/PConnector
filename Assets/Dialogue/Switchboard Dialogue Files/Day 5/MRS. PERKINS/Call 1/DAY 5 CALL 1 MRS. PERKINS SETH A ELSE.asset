@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 MRS. PERKINS SETH A ELSE
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage! What needs fixing today?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Seth? Oh, dear, I\u2019m sorry. It seems I\u2019ve been connected
+      to the wrong line."
+  - speakerName: SETH
+    dialogue: "Mrs. Perkins? That you? I gotta say, you don\u2019t sound too good.
+      Everything alright?"
+  - speakerName: MRS. PERKINS
+    dialogue: "I suppose this is a bit bittersweet for me, dear. You see, I\u2019ve
+      made plans to move out of town. I can\u2019t connect with the people here anymore,
+      and am looking to start anew."
+  - speakerName: SETH
+    dialogue: "What? Moving out? Why on earth would you think you can\u2019t connect
+      with the people of this town anymore?"
+  - speakerName: MRS. PERKINS
+    dialogue: "I\u2019m just getting old, dear. I can\u2019t do things like I used
+      to. I just can\u2019t keep up with how fast everything moves like I used to.
+      I fear I\u2019m being left behind, I just can\u2019t help this town anymore."
+  - speakerName: SETH
+    dialogue: "Can\u2019t help the town anymore? Mrs. Perkins, what are you talking
+      about? You still help people out all the time here."
+  - speakerName: MRS. PERKINS
+    dialogue: "I appreciate you trying, dear. But you\u2019re the one who fixes things
+      and helps people, not me."
+  - speakerName: SETH
+    dialogue: Need I remind you who was the one who got me those parts when I needed
+      them?
+  - speakerName: MRS. PERKINS
+    dialogue: "Well\u2026 those were Howard\u2019s parts."
+  - speakerName: SETH
+    dialogue: "And you chose to help me out. Not just that, you\u2019ve given me
+      some small pep talks here and there. I\u2019ve often worried that I\u2019m
+      not good enough in this town, that anything I do just isn\u2019t enough."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, but you are dear. That\u2019s what I keep telling you"
+  - speakerName: SETH
+    dialogue: "And that\u2019s exactly what I\u2019m talking about. I\u2019ve been
+      able to stay on my feet thanks to you! Not just once, either. I would have
+      closed shop long ago if not for your support, Mrs. P."
+  - speakerName: MRS. PERKINS
+    dialogue: "I\u2026 I suppose I never thought of it that way."
+  - speakerName: SETH
+    dialogue: "Things might feel like they\u2019re moving fast, Mrs. Perkins. But
+      I assure you, you haven\u2019t slowed down at all. You\u2019ve kept this town
+      in good shape for years. So many of us owe you more than you know."
+  - speakerName: MRS. PERKINS
+    dialogue: "Perhaps\u2026 I was too rash to decide to move out like that. I think
+      I\u2019ll reconsider."
+  - speakerName: SETH
+    dialogue: "That\u2019s what I like to hear Mrs. Perkins."
+  - speakerName: MRS. PERKINS
+    dialogue: "I suppose you\u2019re the one who got to give me a pep talk this time."
+  - speakerName: SETH
+    dialogue: "We all need one sometimes. Don\u2019t worry about it. I\u2019m just
+      glad you\u2019re here."
+  - speakerName: MRS. PERKINS
+    dialogue: "Thanks a lot, dear. Maybe I\u2019ll stop by later and say hi."
+  - speakerName: SETH
+    dialogue: Sounds like a plan, Mrs. P. See you around.
+  - speakerName: MRS. PERKINS
+    dialogue: You have a good day, dear.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

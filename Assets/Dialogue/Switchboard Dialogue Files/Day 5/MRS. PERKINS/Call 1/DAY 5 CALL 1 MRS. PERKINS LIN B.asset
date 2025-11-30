@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 MRS. PERKINS LIN B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, hello Lin. This is Mrs. Perkins. I\u2019m sorry, but it seems
+      I\u2019ve been connected to the wrong line."
+  - speakerName: LIN
+    dialogue: "Oh? You don\u2019t sound great, Mrs. Perkins. Are you alright? Maybe
+      a pizza will help."
+  - speakerName: MRS. PERKINS
+    dialogue: "I suppose this is a bit bittersweet for me, dear. You see, I\u2019ve
+      made plans to move out of town. I can\u2019t connect with the people here anymore,
+      and am looking to start anew."
+  - speakerName: LIN
+    dialogue: "Oh\u2026 I\u2026 I\u2019m terribly sorry to hear that Mrs. Perkins.
+      And now you can\u2019t even get connected to the right line? Gosh, I wish I
+      had talked to you more\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, don\u2019t worry about it dear. I think it\u2019s me more than
+      it is you. Though I\u2019ll tell you, your pizza has been some of the finest
+      pizza I\u2019ve ever had. If I\u2019m going to miss anything from this town,
+      it will be the taste of that glorious cooking of yours."
+  - speakerName: LIN
+    dialogue: "Aw, Mrs. Perkins\u2026 That means a lot coming from you, I\u2026 I
+      don\u2019t know what to say. How about this? I\u2019ll send you a pizza to
+      go, the biggest and best I have, free of charge."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, you don\u2019t have to do that, dear. "
+  - speakerName: LIN
+    dialogue: "But I will, Mrs. Perkins! You can always order from afar! I\u2019m
+      getting you that pizza, and I hope it will be something you can remember me
+      by."
+  - speakerName: MRS. PERKINS
+    dialogue: "You\u2019re such a kind soul, dear. I\u2019ll look forward to it.
+      Though I must go now. I will have to walk to the health centre to cancel my
+      appointments. You take care of yourself, dear."
+  - speakerName: LIN
+    dialogue: And you, Mrs. Perkins. Good luck, I hope things work out for you.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
