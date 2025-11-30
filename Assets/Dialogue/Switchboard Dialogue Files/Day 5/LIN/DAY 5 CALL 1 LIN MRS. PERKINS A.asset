@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 LIN MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello? This is Mrs. Perkins. Who is this?
+  - speakerName: LIN
+    dialogue: "Um\u2026 hi Mrs. Perkins. This is Lin. I\u2026 need some help."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh? What is it you need, Lin? I say, you don\u2019t sound too good."
+  - speakerName: LIN
+    dialogue: "I\u2019m not doing too good I\u2019m afraid, Mrs. P. I feel awful.
+      I don\u2019t have the energy to do anything. I\u2026 I barely had the effort
+      to use the phone. I might have to close shop for the day, I just can\u2019t
+      do it. GAH! I hate having to close shop like this, I never do. I never should."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, Lin, dear. You can\u2019t be talking to yourself like that. It\u2019s
+      alright if you\u2019re feeling burnt out, you should take a break."
+  - speakerName: LIN
+    dialogue: "No, I shouldn\u2019t take a break. Sorry, Mrs. P, but that\u2019s
+      one of the main things I advertise about my shop. We\u2019re always open, seven
+      days a week. I\u2019m supposed to be the guy so passionate about pizza that
+      I never close for a day, but\u2026 here I am."
+  - speakerName: MRS. PERKINS
+    dialogue: "Now you listen to me, young man. There is nobody telling you that
+      this is who you need to be. It\u2019s a miracle you\u2019ve managed to push
+      yourself like this for so long, anyhow. Not a single other person in this town
+      works as hard as you do, dear. You don\u2019t just need a break, you deserve
+      one."
+  - speakerName: LIN
+    dialogue: "But\u2026 the business, it\u2013... people want their pizza, I could
+      lose customers for that, and if the pizza shop goes under\u2026 Ugh, it probably
+      will now. Dad was right."
+  - speakerName: MRS. PERKINS
+    dialogue: "I think you\u2019re worried over nothing, dear. Everyone in this town
+      loves your pizza. Losing a few dollars on a few days won\u2019t drag you under.
+      It\u2019s alright to take a day off sometimes if it means keeping yourself
+      healthy."
+  - speakerName: LIN
+    dialogue: "I\u2026 I guess\u2026 but, the shop\u2019s reputation is built around
+      that. My father\u2013"
+  - speakerName: MRS. PERKINS
+    dialogue: "Your father was a grumpy old crook who only cared about the dollars.
+      You care about the pizza. The community. It\u2019s not how often you\u2019re
+      open that\u2019s defined your shop\u2019s reputation, dear. It\u2019s the heart
+      you\u2019ve put into running it the best way you can. That\u2019s what\u2019s
+      made the difference in this community. Take from this old lady who\u2019s watched
+      this town grow for some time. Your pizza shop has inspired so many others to
+      put as much love into their work as you do."
+  - speakerName: LIN
+    dialogue: "Aw, gee, Mrs. P. I\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "You can take a day off, dear. You should start taking days off each
+      week! Get some rest, recover! It\u2019ll do you good! "
+  - speakerName: LIN
+    dialogue: "You know what, Mrs. P? I think I\u2019ll give it a shot. Maybe I don\u2019t
+      have to think about pizza all the time. Thanks. This talk helped a lot."
+  - speakerName: MRS. PERKINS
+    dialogue: "I\u2019m glad to hear it dear. How about you meet me in the park for
+      a nice chat for the day? Enjoy having a day of rest for once."
+  - speakerName: LIN
+    dialogue: That sounds great, Mrs. P. Thank you so much.
+  - speakerName: MRS. PERKINS
+    dialogue: "It\u2019s my pleasure, dear. See you there."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
