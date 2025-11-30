@@ -167,6 +167,12 @@ public class NotebookManager : MonoBehaviour
     public void CharacterTalked(Characters person)
     {
         characterTalked[person] = true;
+        UpdateNotebook();
+    }
+
+    public bool CheckCharacterTalked(Characters person)
+    {
+        return characterTalked[person];
     }
 
     private void AddNote(CPersonNote n)
