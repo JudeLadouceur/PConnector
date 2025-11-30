@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 B MRS. PERKINS SETH INITAL
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Howdy! This is Seth. I had planned to have a chat with Mrs. Perkins,
+      and wanted to do something extra. I was looking through some old files in the
+      town hall of things she\u2019s done, thinking I could find some of her accomplishments,
+      and I think I found an old voice recording of a message her husband had for
+      her. Could you connect me to her so I could play it over the phone? I think
+      she\u2019d really appreciate it."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
