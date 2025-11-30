@@ -1589,7 +1589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3113164541069840106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3016,7 +3016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievementName: 1
   status: 1
-  achievementDescription: Talk to a character when walking to or from work.
+  achievementDescription: "Find Lin a friend to help him focus on things and escape
+    his father\u2019s shadow. "
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
@@ -3351,7 +3352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: status
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: baseSprite
@@ -3363,7 +3364,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 7a79c5d3563022e49a5c0fe30b884558, type: 3}
     - target: {fileID: 925632684754583683, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: achievementDescription
-      value: Complete your first day.
+      value: 'Connect Mrs. Perkins to a younger crowd and keep her from leaving town. '
       objectReference: {fileID: 0}
     - target: {fileID: 1387612851001319586, guid: 3ec6fa1384426db4bb1d337c4df108b0, type: 3}
       propertyPath: m_Layer
@@ -3467,6 +3468,38 @@ PrefabInstance:
       propertyPath: puzzleCanvas
       value: 
       objectReference: {fileID: 163204870587480497}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[1].name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[2].name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[3].name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[0].displayName
+      value: Cat Sanctuary
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[1].displayName
+      value: Fresh and Flavourful Guarantee
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[2].displayName
+      value: All Fixed Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
+      propertyPath: namesCorrelation.Array.data[3].displayName
+      value: The End...?
+      objectReference: {fileID: 0}
     - target: {fileID: 4202033235294199179, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
       propertyPath: m_Name
       value: AchievementManager
