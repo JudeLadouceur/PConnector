@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 A LIN MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello! Mrs. Perkins speaking.
+  - speakerName: LIN
+    dialogue: "Hey, Mrs. P! It\u2019s me again!"
+  - speakerName: MRS. PERKINS
+    dialogue: "Ah, Lin! Weren\u2019t we going to chat shortly? Why might you be calling
+      me?"
+  - speakerName: LIN
+    dialogue: Well, I was doing some digging, and I found something that I felt you
+      just had to hear. Let me hook it up.
+  - speakerName: MRS. PERKINS
+    dialogue: Something I need to hear? What might you be-
+  - speakerName: HOWARD
+    dialogue: Hello, my sweet, dear Emilia Perkins.
+  - speakerName: MRS. PERKINS
+    dialogue: What?! This is-
+  - speakerName: HOWARD
+    dialogue: "I have gotten quite ill as of late, and I am aware I don\u2019t have
+      much time left."
+  - speakerName: MRS. PERKINS
+    dialogue: "\u2026"
+  - speakerName: HOWARD
+    dialogue: But I thought I would leave you this message, so you may carry your
+      positivity and care with you even as I pass onto the afterlife.
+  - speakerName: HOWARD
+    dialogue: 'When I fell in love with you, I did not just because of your beauty,
+      but your care, your love for everyone around you, and your unending determination
+      to do the right thing. '
+  - speakerName: HOWARD
+    dialogue: You have brought me so much joy, and every one of those things about
+      you has only grown as we have gotten old together.
+  - speakerName: HOWARD
+    dialogue: My time may be up, but yours is not. I know it may hurt when I am gone.
+      It may make you feel lost, alone. But know that you are never alone my dear.
+      The connections you have fostered in our growing community have brought you
+      all together in a way I never could have dreamed.
+  - speakerName: HOWARD
+    dialogue: "You are the greatest thing to happen to me, Emilia. You matter not
+      just to me, but to everyone whose lives you\u2019ve touched. So never lose
+      that love and unending care that makes you who you are, because you never stop
+      making a difference."
+  - speakerName: HOWARD
+    dialogue: I love you, Emilia Perkins. Thank you for being part of my life. I
+      will see you in the next.
+  - speakerName: MRS. PERKINS
+    dialogue: "\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: Th-thank you, Lin.
+  - speakerName: LIN
+    dialogue: Of course, Mrs. Perkins. You still up for pizza later?
+  - speakerName: MRS. PERKINS
+    dialogue: Of course, dear. This means more to me than you know. Thank you
+  - speakerName: LIN
+    dialogue: "Always happy to help Mrs. Perkins. I\u2019m glad you finally got to
+      hear that."
+  - speakerName: MRS. PERKINS
+    dialogue: "Me too, dear. Everything you\u2019ve done today has really meant a
+      lot to me. Thank you. Really"
+  - speakerName: LIN
+    dialogue: "Of course! I\u2019ll see you soon!"
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

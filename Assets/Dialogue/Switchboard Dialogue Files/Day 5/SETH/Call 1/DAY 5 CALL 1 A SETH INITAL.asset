@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 A SETH INITAL
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Hey, it\u2019s Seth. I\u2026 I\u2019m done. I\u2019ve messed up for
+      the last time. While I was out yesterday, I\u2026 I tried to fix the engine
+      of my delivery guy\u2019s car, and\u2026 it blew up in my face. The thing\u2019s
+      completely unusable now. I\u2019ve got the parts but, I\u2019m just\u2026 not
+      the kind of repair guy I wanted to be. I\u2019m not doing enough, messing up
+      too often, and at this point\u2026 am just causing problems for the town. I\u2019m
+      closing shop, I\u2019ve decided. This is it. Could you connect me to the emergency
+      line? I\u2019ve got a lot of dangerous tools that need to be taken away. I\u2019m
+      sure they can help with that."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

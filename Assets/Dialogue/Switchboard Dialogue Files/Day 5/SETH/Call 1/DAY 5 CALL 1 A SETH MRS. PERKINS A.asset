@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 A SETH MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello! Mrs. Perkins speaking.
+  - speakerName: SETH
+    dialogue: "I\u2026 ugh, sorry Mrs. Perkins. Wrong line."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, Seth? I must say, you don\u2019t sound like you're doing too good.
+      Is everything alright?"
+  - speakerName: SETH
+    dialogue: "Yeah, you could say that. Guess I should tell you while I\u2019m here.
+      I\u2019m closing shop. I won\u2019t be repairing things anymore"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, no! That\u2019s terrible, dear. What made you come to this decision?"
+  - speakerName: SETH
+    dialogue: "I\u2026 I keep trying to be there for people, to fix things and help
+      them out. But I keep screwing up. I messed up again, destroyed my own delivery
+      guy\u2019s car. So I\u2019ve decided I\u2019m done with this stuff."
+  - speakerName: MRS. PERKINS
+    dialogue: "Everyone will mess up at some point, dear! You shouldn\u2019t worry
+      so much about it. Besides, isn\u2019t this your passion? You shouldn\u2019t
+      give that up!"
+  - speakerName: SETH
+    dialogue: "What choice do I have? Yeah, I want to fix things, but I\u2019m just
+      not good at it. I mean, look at my brother. He\u2019s out there making a difference
+      in the world wherever he goes and I\u2019m just\u2026 here. Messing up over
+      and over."
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, don\u2019t talk to yourself like that. You don\u2019t mess up
+      nearly as often as you think. You\u2019ve done plenty of helpful things! You
+      fixed my walker, remember? I could have been seriously hurt otherwise. That\u2019s
+      one of the hard things about being as good as you are, there are so many good
+      things that you do, and the bad things are so rare that when they happen, they
+      stand out from the rest. But that doesn\u2019t take away from all the good
+      you\u2019ve done"
+  - speakerName: SETH
+    dialogue: "All the good I\u2019ve done? Like what? Aside from your walker, I
+      guess. "
+  - speakerName: MRS. PERKINS
+    dialogue: "Dear, I\u2019ve lived in this town for a long time, and I can tell
+      you that you have done plenty over the years. Anything from fixing small things
+      for my neighbor to repairing the lighting system in the town hall! I\u2019ve
+      seen you repair things so well even Howard was flabbergasted, and I\u2019ll
+      tell you, my husband was rarely speechless."
+  - speakerName: SETH
+    dialogue: "R-really? Howard? I\u2026 I guess\u2026"
+  - speakerName: MRS. PERKINS
+    dialogue: "You\u2019re allowed to say it, dear. You have done a lot for this
+      town. It doesn\u2019t matter what your brother is off doing. You\u2019re you,
+      and are making your own kind of difference. This town has been kept together
+      by your repairs. Just because it hasn\u2019t resulted in some world-altering
+      achievement, doesn\u2019t mean that it doesn\u2019t matter to each and every
+      person you\u2019ve helped here."
+  - speakerName: SETH
+    dialogue: "I guess\u2026 I never thought of it that way. Wow, thanks, Mrs. P.
+      I never looked at it that way."
+  - speakerName: MRS. PERKINS
+    dialogue: "Of course, dear. Sometimes you just need a change in perspective.
+      I may be old, but that just means I\u2019ve been around longer to see all the
+      great things you\u2019ve done for this town. Don\u2019t discredit yourself!"
+  - speakerName: SETH
+    dialogue: Aw, gee Mrs. Perkins. That means a lot coming from you. Thanks again.
+      Really. This means a lot to me.
+  - speakerName: MRS. PERKINS
+    dialogue: "Of course! I\u2019m always happy to have a chat if you need someone
+      to talk to."
+  - speakerName: SETH
+    dialogue: "You know what, Mrs. Perkins? I think I\u2019ll take you up on that
+      offer. Would you want to sit down and talk later today?"
+  - speakerName: MRS. PERKINS
+    dialogue: "That would be lovely, dear! I\u2019m going to be here all day, so
+      you just stop by whenever you\u2019re feeling like it."
+  - speakerName: SETH
+    dialogue: Sounds good. Thanks again, Mrs. Perkins!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
