@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 MRS. PERKINS LIN A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, hello Lin. This is Mrs. Perkins. I\u2019m sorry, but it seems
+      I\u2019ve been connected to the wrong line."
+  - speakerName: LIN
+    dialogue: "Oh? You don\u2019t sound great, Mrs. Perkins. Are you alright? Maybe
+      a pizza will help."
+  - speakerName: MRS. PERKINS
+    dialogue: "I suppose this is a bit bittersweet for me, dear. You see, I\u2019ve
+      made plans to move out of town. I can\u2019t connect with the people here anymore,
+      and am looking to start anew."
+  - speakerName: LIN
+    dialogue: "What\u2026? Can\u2019t connect to the people here anymore? Mrs. Perkins,
+      you\u2019re my most loyal customer! My pizza shop wouldn\u2019t have even gotten
+      off the ground if not for you!"
+  - speakerName: MRS. PERKINS
+    dialogue: "Lin, dear, I think you might be exaggerating a bit. I know I buy your
+      delicious pizza frequently, but I\u2019m not your only source of business.
+      I don\u2019t make that kind of a difference in this town."
+  - speakerName: LIN
+    dialogue: "It\u2019s not just that, Mrs. P! You\u2019re forgetting all the great
+      things you\u2019ve done for this town! After my father walked away from the
+      shop, I wasn\u2019t quite ready for the responsibility, I was so unorganized.
+      It was only because you stayed with me three days in a row that I managed to
+      get things in working order. I never would have even opened shop if not for
+      you!"
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh my\u2026. Did I really do that?"
+  - speakerName: LIN
+    dialogue: "You sure did, Mrs. Perkins. I\u2019m thinking you might have lost
+      sight of all the wonderful contributions you\u2019ve made to this town over
+      the years. You\u2019ve done so much, none of us could ever forget about you."
+  - speakerName: MRS. PERKINS
+    dialogue: "Well, I suppose I have been in this town for some time now\u2026 but
+      it\u2019s Howard who made all the most meaningful contributions."
+  - speakerName: LIN
+    dialogue: "And how far would Howard have gotten without you? Howard may have
+      done a lot of technical stuff, but you\u2019ve always been the one to make
+      people happy and bring the community together Mrs. Perkins. You matter here."
+  - speakerName: MRS. PERKINS
+    dialogue: You really think so, dear?
+  - speakerName: LIN
+    dialogue: I know so, Mrs. Perkins.
+  - speakerName: MRS. PERKINS
+    dialogue: "Well\u2026 maybe I was too rash to try to move out so soon. I think
+      I\u2019ll reconsider my options. Thanks a lot for this Lin, I\u2019m glad I
+      got to talk to you."
+  - speakerName: LIN
+    dialogue: Of course Mrs. P! If you ever want to talk more, I can have a pizza
+      cooked and ready in minutes, and we can have a chat at the park or something.
+      Just give me a call!
+  - speakerName: MRS. PERKINS
+    dialogue: I will, dear. Thanks again.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

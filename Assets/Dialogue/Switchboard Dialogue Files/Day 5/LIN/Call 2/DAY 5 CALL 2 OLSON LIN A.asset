@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 OLSON LIN A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Hey, this is Lin\u2019s pizza. Sorry, but we\u2019re closed today."
+  - speakerName: OLSON
+    dialogue: "So I\u2019ve heard."
+  - speakerName: LIN
+    dialogue: "Wha\u2013DAD?! Is that you?!"
+  - speakerName: OLSON
+    dialogue: "Indeed it is, Lin. So I\u2019ve received word that you\u2019ve actually
+      closed for today. On a Friday of all days. Don\u2019t you know Friday\u2019s
+      are best for business?"
+  - speakerName: LIN
+    dialogue: "Oh, you don\u2019t get to lecture me on how to run this business!
+      You walked away!"
+  - speakerName: OLSON
+    dialogue: "And you declared you could run it better without me. I\u2019ve been
+      watching from afar. So much for \u2018open seven days a week\u2019, huh?"
+  - speakerName: LIN
+    dialogue: "Oh please. I\u2019m allowed to take breaks every once in a while.
+      I\u2019ve learned that thanks to a close friend. Why did you call, anyways?
+      Just to rub it in?"
+  - speakerName: OLSON
+    dialogue: "I\u2019ve called to give you some advice. Leave the shop, come to
+      me in the city. We\u2019ll start anew here."
+  - speakerName: LIN
+    dialogue: And why would I do that?!
+  - speakerName: OLSON
+    dialogue: "What else do you have going for you? What happens when the shop goes
+      out of business? I\u2019m offering you a chance at a better life now that you\u2019ve
+      failed there."
+  - speakerName: LIN
+    dialogue: "It\u2019s not a failure, dad. I\u2019ve got people here who support
+      and care about me. Unlike you. I might be real tired right now, but I\u2019ll
+      be back open soon enough. This won\u2019t be the end of my shop, I\u2019ll
+      make sure of it. "
+  - speakerName: OLSON
+    dialogue: "Unless you seriously think this failure won\u2019t affect your shop
+      at all?"
+  - speakerName: OLSON
+    dialogue: "Unless you seriously think this failure won\u2019t affect your shop
+      at all?"
+  - speakerName: LIN
+    dialogue: "Maybe, maybe not. But I sure don\u2019t need to be lectured on it
+      by someone like you. I\u2019m not coming back to you, and I never will."
+  - speakerName: OLSON
+    dialogue: "This won\u2019t be the end of it, Lin. How much longer until this
+      happens again? You need me! You hear me?! I\u2019m your father! Your flesh
+      and blood! Your shop will fail, and you will lose everything if you don\u2019t
+      take this chance. I\u2019m trying to save you from this!"
+  - speakerName: LIN
+    dialogue: "Last I checked, you weren\u2019t a fortune teller, dad. You might
+      be my father, but that doesn\u2019t mean I have to call you my family. My family\u2019s
+      here. With the people who actually care about me. My answer is no, and that\u2019s
+      final."
+  - speakerName: OLSON
+    dialogue: You will regret this.
+  - speakerName: LIN
+    dialogue: "No, I don\u2019t think I will."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 LIN A INITAL
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "I\u2026 I need help. I think being open seven days a week has finally
+      caught up to me. I don\u2019t feel like moving, I can barely bring myself to
+      even stand! I-UGH- I HATE THIS! I\u2019m supposed to be open all the time!
+      I\u2019m the pizza guy that makes everyone smile, I\u2013... *sigh* I don\u2019t
+      know what to do. I can\u2019t think straight, I don\u2019t feel like doing
+      anything, I\u2019m just\u2026 totally burnt out. Sorry for rambling at you,
+      I just\u2026 haven\u2019t had to close shop like this before. People are gonna
+      hate me for this\u2026 I was\u2026 hoping you could connect me to someone that
+      can help? I\u2026 I\u2019m not sure who to talk to, but\u2026 I don\u2019t
+      know. Could you just\u2026 connect me to someone? Maybe they can get me back
+      on my feet."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

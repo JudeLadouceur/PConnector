@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 LIN SETH A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
+  - speakerName: LIN
+    dialogue: "I\u2026 I think I need fixing, Seth."
+  - speakerName: SETH
+    dialogue: Lin? Buddy? Is that you? You alright?
+  - speakerName: LIN
+    dialogue: "Yeah it\u2019s me. But no, I\u2019m not alright, I\u2026 I need your
+      help."
+  - speakerName: SETH
+    dialogue: "Oh, uh\u2013alright, man. What\u2019s up? How can I help?"
+  - speakerName: LIN
+    dialogue: "I might not be able to open my shop today, I suddenly feel like I\u2019ve
+      completely crashed, I\u2026 I barely had the energy to use the phone. I hate
+      having to close shop like this, I never do. I never should. I\u2013"
+  - speakerName: SETH
+    dialogue: "Hold on, I\u2019m gonna stop you right there, Lin."
+  - speakerName: LIN
+    dialogue: What?
+  - speakerName: SETH
+    dialogue: "You don\u2019t need to be open seven days a week. You\u2019ve already
+      baffled the whole town on how you\u2019ve been doing it for so long. It\u2019s
+      alright to close shop every once in a while. You just need a break, and that\u2019s
+      normal. Don\u2019t beat yourself up over it."
+  - speakerName: LIN
+    dialogue: "I\u2026 well\u2026"
+  - speakerName: SETH
+    dialogue: "Don\u2019t you know that literally everybody else with a job in this
+      town takes days off on weekends? I take weekends off, and I literally work
+      out of my own garage. You should too! Don\u2019t worry about it, it will be
+      fine. You need the break."
+  - speakerName: LIN
+    dialogue: "But\u2026 it will cost me business\u2026 I shouldn\u2019t do that.
+      I\u2019ve gotta be there to make the town pizza."
+  - speakerName: SETH
+    dialogue: A few less pizzas sold never killed anyone, Lin. Take a break. You
+      need it. Please. For me?
+  - speakerName: LIN
+    dialogue: "No, I\u2019m thinking of the long run. I\u2019m known as the pizza
+      shop that\u2019s always open! The one-man army! The pizza shop could go under,
+      it\u2019s probably going to now that I\u2019m like this, I\u2026 dad was right.
+      I can\u2019t do this."
+  - speakerName: SETH
+    dialogue: Hey, Lin.
+  - speakerName: LIN
+    dialogue: Yeah?
+  - speakerName: SETH
+    dialogue: "You don\u2019t need to prove anything to your father. This isn\u2019t
+      his pizza shop, last time I checked. Not anymore. It\u2019s yours."
+  - speakerName: LIN
+    dialogue: "But\u2013"
+  - speakerName: SETH
+    dialogue: "You\u2019re overthinking this. People love your pizza shop and respect
+      all the effort you put into it. Closing down for a couple days a week to keep
+      yourself healthy isn\u2019t going to change that. You\u2019ve put more love
+      and care into this shop than your father ever did. He was the one who walked
+      away. You didn\u2019t give up. Taking some time to take care of yourself isn\u2019t
+      giving up, either. It\u2019s just a break. That\u2019s all it is, and you\u2019re
+      allowed to take on every once in a while."
+  - speakerName: LIN
+    dialogue: "Seth, I\u2026 wow. That\u2026 means a lot. I had no idea you were
+      one for giving pep talks to strangers."
+  - speakerName: SETH
+    dialogue: "Ha! You ain\u2019t a stranger, pal. You\u2019re my friend. I\u2019m
+      here to look out for ya. Now how about this? You meet me in the park, and I\u2019ll
+      make us a pizza this time. It might not be up to your standards, but it\u2019ll
+      be enough for you and I do have a nice chat on your day off."
+  - speakerName: LIN
+    dialogue: "I\u2026 that sounds great, Seth. Thank you so much. I\u2019ll be there."
+  - speakerName: SETH
+    dialogue: "That\u2019s what friends are for, Lin. See you there."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
