@@ -3854,6 +3854,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: conversationSkip
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[1].varName
       value: walkerFixed
       objectReference: {fileID: 0}

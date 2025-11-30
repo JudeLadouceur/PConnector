@@ -640,6 +640,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 0fc29bcb9ad6e3949b90b8a76d1f6962, type: 2}
+  character: 0
+  canAddNotes: 0
 --- !u!1 &1869154476
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 5f67c8f4bae231f4f83bf1e47de1978a, type: 2}
+  character: 1
+  canAddNotes: 1
 --- !u!1001 &179305515311063199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1104,6 +1108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 697c23b4910f7b5438e993d1b0fd604f, type: 2}
+  character: 3
+  canAddNotes: 1
 --- !u!1001 &5786153924504492750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1183,6 +1189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 2f34d549f33a84e4382b6b18db18f609, type: 2}
+  character: 2
+  canAddNotes: 1
 --- !u!1001 &7783661055251707437
 PrefabInstance:
   m_ObjectHideFlags: 0
