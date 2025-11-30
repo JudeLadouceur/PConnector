@@ -35,14 +35,14 @@ public class Achievement : MonoBehaviour
     {
         if (status == AchievementStatus.Hidden)
         {
-            achievementPiece.color = Color.black;
+            achievementPiece.color = Color.grey;
             nameText.text = "???";
             descriptionText.text = "???";
             pickupPiece.SetActive(false);
         }
         else if (status == AchievementStatus.Revealed)
         {
-            achievementPiece.color = Color.black;
+            achievementPiece.color = Color.grey;
             nameText.text = AchievementManager.instance.namesDict[achievementName];
             descriptionText.text = achievementDescription;
             pickupPiece.SetActive(false);
