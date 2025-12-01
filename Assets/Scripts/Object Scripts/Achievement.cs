@@ -35,15 +35,15 @@ public class Achievement : MonoBehaviour
     {
         if (status == AchievementStatus.Hidden)
         {
-            achievementPiece.color = Color.black;
+            achievementPiece.color = Color.grey;
             nameText.text = "???";
             descriptionText.text = "???";
             pickupPiece.SetActive(false);
         }
         else if (status == AchievementStatus.Revealed)
         {
-            achievementPiece.color = Color.black;
-            nameText.text = achievementName.ToString();
+            achievementPiece.color = Color.grey;
+            nameText.text = AchievementManager.instance.namesDict[achievementName];
             descriptionText.text = achievementDescription;
             pickupPiece.SetActive(false);
         }
@@ -103,14 +103,14 @@ public class Achievement : MonoBehaviour
             SetStatus(AchievementStatus.Placed);
             if (AchievementManager.instance)
             {
-                if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.PuzzleIntern, out Achievement puzzlePiece))
+                /*if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.PuzzleIntern, out Achievement puzzlePiece))
                 {
                     puzzlePiece.Achieve();
                 }
                 else
                 {
                     Debug.Log("Failed to find achievement");
-                }
+                }*/
             }
             else
             {

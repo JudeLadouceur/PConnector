@@ -13,6 +13,8 @@ public class AchievementManager : MonoBehaviour
     public Canvas puzzleCanvas;
     public Camera sceneCamera;
     public bool endDayRevealed = false;
+    public AchieveNameClass[] namesCorrelation;
+    public Dictionary<AchievementNames,string> namesDict;
 
     // Start is called before the first frame update
     void Start()
@@ -20,10 +22,19 @@ public class AchievementManager : MonoBehaviour
         if(instance == null)
         {
             instance = this;
+        } else
+        {
+            Destroy(this.gameObject);
         }
         achievementDictionary = new Dictionary<AchievementNames, Achievement>();
         SceneManager.activeSceneChanged += SetNewCameraInScene;
         SetNewCameraInScene(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
+        
+        namesDict = new Dictionary<AchievementNames, string>();
+        foreach(AchieveNameClass nameObj in namesCorrelation)
+        {
+            namesDict.Add(nameObj.name, nameObj.displayName);
+        }
         viewRoot.SetActive(true);
         viewRoot.SetActive(false);
     }
@@ -33,11 +44,15 @@ public class AchievementManager : MonoBehaviour
         viewRoot.SetActive(!viewRoot.activeInHierarchy);
         if (viewRoot.activeInHierarchy)
         {
-            MovementScript player = FindObjectOfType<MovementScript>();
-            if (player)
+            if (FindObjectOfType<MovementScript>())
             {
-                viewRoot.transform.position = player.gameObject.transform.position;
+                MovementScript player = FindObjectOfType<MovementScript>();
+                if (player)
+                {
+                    viewRoot.transform.position = player.gameObject.transform.position;
+                }
             }
+            
         }
     }
 
@@ -65,7 +80,7 @@ public class AchievementManager : MonoBehaviour
     }
     public void CheckForEndDayAchieveReveal()
     {
-        if(achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement value))
+        /*if(achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement value))
         {
             if(value.status == AchievementStatus.Hidden)
             {
@@ -75,6 +90,6 @@ public class AchievementManager : MonoBehaviour
                     endDayRevealed = true;
                 }
             }
-        }
+        }*/
     }
 }
