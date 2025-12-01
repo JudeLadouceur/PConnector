@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 1 MRS. PERKINS SETH B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage! What needs fixing today?"
+  - speakerName: MRS. PERKINS
+    dialogue: "Seth? Oh, dear, I\u2019m sorry. It seems I\u2019ve been connected
+      to the wrong line."
+  - speakerName: SETH
+    dialogue: "Mrs. Perkins? That you? I gotta say, you don\u2019t sound too good.
+      Everything alright?"
+  - speakerName: MRS. PERKINS
+    dialogue: "I suppose this is a bit bittersweet for me, dear. You see, I\u2019ve
+      made plans to move out of town. I can\u2019t connect with the people here anymore,
+      and am looking to start anew."
+  - speakerName: SETH
+    dialogue: "What? Moving out? Oh, man. I\u2019m sorry to hear that, Mrs. P. You
+      sure about this?"
+  - speakerName: MRS. PERKINS
+    dialogue: "I\u2019m afraid I am, dear. Everything just feels like it\u2019s been
+      moving so fast. I\u2019m afraid I just can\u2019t keep up anymore."
+  - speakerName: SETH
+    dialogue: "Wow\u2026 I never thought I\u2019de see the day. I\u2026 I wish I
+      could have done more for you. I should have done more for you."
+  - speakerName: MRS. PERKINS
+    dialogue: "You didn\u2019t need to do anything more, dear. You\u2019ve done plenty
+      for the town, and I\u2019m sure you\u2019ll do plenty mor"
+  - speakerName: SETH
+    dialogue: "Thanks, Mrs. P. I\u2026 I hope you find a nice place where you can
+      be happy."
+  - speakerName: MRS. PERKINS
+    dialogue: "I\u2019m sure I will, dear. You don\u2019t have to worry about me."
+  - speakerName: SETH
+    dialogue: Alright, well, it was nice to at least be able to talk to you one more
+      time. If you ever need anything repaired, you know where to find me.
+  - speakerName: MRS. PERKINS
+    dialogue: Of course, dear. It was nice to talk to you too. Good luck out there.
+  - speakerName: SETH
+    dialogue: Same to you, Mrs. Perkins.
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

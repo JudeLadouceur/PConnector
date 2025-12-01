@@ -10,7 +10,7 @@ public class CharacterManager: MonoBehaviour
 
     public static CharacterManager instance;
 
-    private void Start()
+    private void Awake()
     {
         if (instance == null) instance = this;
         else Destroy(gameObject);

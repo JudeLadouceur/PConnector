@@ -9,6 +9,9 @@ public class OverworldDialogue : MonoBehaviour
 
     private bool isInteractable;
 
+    public Characters character;
+    public bool canAddNotes = false;
+
     private GameObject interactPrompt;
     private GameObject promptRef;
 
@@ -38,7 +41,13 @@ public class OverworldDialogue : MonoBehaviour
     {
         if (!isInteractable) return;
 
-        if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
+        //if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
+
+        if (canAddNotes && !NotebookManager.Instance.CheckCharacterTalked(character))
+        {
+            //Debug.Log("Talking");
+            NotebookManager.Instance.CharacterTalked(character);
+        }
 
         MovementScript.instance.Funny = true;
 

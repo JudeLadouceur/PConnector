@@ -32,11 +32,11 @@ public class SceneTransitionTargets : MonoBehaviour
             }
         }
 
-        if(AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement achieve) &&achieve.status!=AchievementStatus.Placed)
+        /*if(AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement achieve) &&achieve.status!=AchievementStatus.Placed)
         {
             Debug.Log("Reveal NewJobBlues");
             achieve.Achieve();
-        }
+        }*/
         
         for (int i = 0; i < Vars.Count; i++)
         {

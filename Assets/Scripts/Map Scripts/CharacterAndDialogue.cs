@@ -24,10 +24,10 @@ public class CharacterAndDialogue : MonoBehaviour
         {
             DialogueIntsatiate.SetActive(true);
 
-            if(AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed)
+            /*if(AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed)
             {
                 value.Achieve();
-            }
+            }*/
         }
     }
 

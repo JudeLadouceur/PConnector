@@ -7,8 +7,8 @@ public enum AchievementStatus
 }
 public enum AchievementNames
 {
-    NewJobBlues,
-    LittleTalks,
-    TheFirstConnection,
-    PuzzleIntern
+    CatSanctuary,
+    FreshAndFlavourfulGuarantee,
+    AllFixedUp,
+    TheEnd
 }

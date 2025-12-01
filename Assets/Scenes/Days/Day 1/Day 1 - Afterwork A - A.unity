@@ -278,6 +278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 2fa1b52acb3b9294981177050bb2a333, type: 2}
+  character: 0
+  canAddNotes: 0
 --- !u!1001 &1053602275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -656,6 +658,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 29626b6545b2f1847b3f931ee9730f55, type: 2}
+  character: 0
+  canAddNotes: 0
 --- !u!1001 &1510531492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -800,6 +804,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 21c4b9b1a17a244429c2d77dce74203f, type: 2}
+  character: 0
+  canAddNotes: 0
 --- !u!1001 &1982309250
 PrefabInstance:
   m_ObjectHideFlags: 0

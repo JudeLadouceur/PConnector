@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 LUCIN MRS. PERKINS A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: Hello! This is Mrs. Perkins.
+  - speakerName: LUCIN
+    dialogue: "What? I\u2019m sorry, I was hoping to talk to Seth."
+  - speakerName: MRS. PERKINS
+    dialogue: "Seth? Hold on, I recognize your voice\u2026 your Seth\u2019s brother,
+      aren\u2019t you? Lucin?"
+  - speakerName: LUCIN
+    dialogue: Perceptive as always, Mrs. Perkins.
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, it\u2019s good to hear from you, Lucin! How\u2019s life in the
+      big city for a famous fellow like you?"
+  - speakerName: LUCIN
+    dialogue: Well, as busy as you would expect. Too many business meetings for my
+      taste. Now, sorry, but I was hoping to talk to Seth. I heard he might be closing
+      shop, and was hoping to check up on him.
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, you\u2019re still caring as always, Lucin. But you don\u2019t
+      need to worry about him. I just talked to him earlier, and he\u2019s feeling
+      much better now. He won\u2019t be closing down shop. "
+  - speakerName: LUCIN
+    dialogue: "Really? That\u2019s great to hear, Mrs. Perkins. Thank you so much."
+  - speakerName: MRS. PERKINS
+    dialogue: "But of course! Seth has done so much for this community, and hasn\u2019t
+      given himself nearly enough credit. He just needed some help realizing it."
+  - speakerName: LUCIN
+    dialogue: "Well I\u2019m really grateful for your help, Mrs. Perkins. I guess
+      I won\u2019t be needed, then."
+  - speakerName: MRS. PERKINS
+    dialogue: "Well I\u2019m sure Seth would still be happy to know you called! I\u2019m
+      actually going to have a chat with him later today, I can let him know you
+      called, and I\u2019m sure he will call you back when he has the time."
+  - speakerName: LUCIN
+    dialogue: That would be nice, Mrs. Perkins. Thank you!
+  - speakerName: MRS. PERKINS
+    dialogue: "Of course, dear. It was really nice of you to call. I know he\u2019ll
+      appreciate it."
+  - speakerName: LUCIN
+    dialogue: Thanks again, Mrs. Perkins. Have a good day!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

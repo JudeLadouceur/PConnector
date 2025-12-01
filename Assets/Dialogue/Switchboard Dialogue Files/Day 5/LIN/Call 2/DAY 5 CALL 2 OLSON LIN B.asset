@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 OLSON LIN B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "Lin\u2019s pizza. We\u2019re closed. \u2026Sorry."
+  - speakerName: OLSON
+    dialogue: "So I\u2019ve heard."
+  - speakerName: LIN
+    dialogue: "Wha\u2013DAD?! Is that you?!"
+  - speakerName: OLSON
+    dialogue: "Indeed it is, Lin. So I\u2019ve received word that you\u2019ve actually
+      closed for today. On a Friday of all days. Don\u2019t you know Friday\u2019s
+      are best for business?"
+  - speakerName: LIN
+    dialogue: "Oh, you don\u2019t get to lecture me on how to run this business!
+      You walked away!"
+  - speakerName: OLSON
+    dialogue: "And you declared you could run it better without me. I\u2019ve been
+      watching from afar. So much for \u2018open seven days a week\u2019, huh?"
+  - speakerName: LIN
+    dialogue: "I\u2026 why did you call? Just to rub it in? I don\u2019t need this
+      right now."
+  - speakerName: OLSON
+    dialogue: "I\u2019ve called to give you some advice. Leave the shop, come to
+      me in the city. We\u2019ll start anew here."
+  - speakerName: LIN
+    dialogue: And why would I do that?!
+  - speakerName: OLSON
+    dialogue: "What else do you have going for you? What happens when the shop goes
+      out of business? I\u2019m offering you a chance at a better life now that you\u2019ve
+      failed there."
+  - speakerName: LIN
+    dialogue: "I\u2026 You can\u2019t just\u2026"
+  - speakerName: OLSON
+    dialogue: "Unless you seriously think this failure won\u2019t affect your shop
+      at all?"
+  - speakerName: LIN
+    dialogue: "Y\u2026 you\u2019re right. You were always right. I\u2019m done. I\u2019ll\u2026
+      pack up and come see you soon. The pizza shop is done."
+  - speakerName: OLSON
+    dialogue: "Of course I\u2019m right. I\u2019m your father. Now don\u2019t keep
+      me waiting too long. We have lots of work ahead of us."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

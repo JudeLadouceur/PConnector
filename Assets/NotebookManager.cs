@@ -133,7 +133,7 @@ public class NotebookManager : MonoBehaviour
         {
             Destroy(i);
         }
-        if(currentDay > days.Length + 1)
+        if(currentDay > days.Length)
         {
             Debug.LogError("Your current day exceeds the notebook days array. Please ensure the array has all days in the current build.");
         }
@@ -143,15 +143,11 @@ public class NotebookManager : MonoBehaviour
             {
                 if (talked)
                 {
-                    GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
-                    bulletPoints.Add(temp);
-                    temp.GetComponent<NotebookTextUpdate>().SetText(note.note);
+                    AddNote(note);
                 }
             } else if (note.character==Characters.None)
             {
-                GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
-                bulletPoints.Add(temp);
-                temp.GetComponent<NotebookTextUpdate>().SetText(note.note);
+                AddNote(note);
             }
         }
     }
@@ -170,5 +166,44 @@ public class NotebookManager : MonoBehaviour
     public void CharacterTalked(Characters person)
     {
         characterTalked[person] = true;
+        UpdateNotebook();
+    }
+
+    public bool CheckCharacterTalked(Characters person)
+    {
+        return characterTalked[person];
+    }
+
+    private void AddNote(CPersonNote n)
+    {
+        if (n.usesVariable)
+        {
+            if(CharacterManager.instance.flags.TryGetValue(n.varName, out int val))
+            {
+                if (val != 0)
+                {
+                    GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
+                    bulletPoints.Add(temp);
+                    temp.GetComponent<NotebookTextUpdate>().SetText(n.note);
+                }
+                else
+                {
+                    GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
+                    bulletPoints.Add(temp);
+                    temp.GetComponent<NotebookTextUpdate>().SetText(n.varFalseNote);
+                }
+            }
+            else
+            {
+                Debug.Log("No variable found for note, check your spelling");
+            }
+            
+        } else
+        {
+            GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
+            bulletPoints.Add(temp);
+            temp.GetComponent<NotebookTextUpdate>().SetText(n.note);
+        }
+            
     }
 }

@@ -52,10 +52,9 @@ public class LineBehavior : MonoBehaviour
     public void OnMouseDown()
     {
         //If no line is being made and this line is clicked, destroy it
-        if (!lm.IsDrawing())
-        {
-            SelfDestruct();
-        }
+        if (lm.IsDrawing()) return;
+        if (DialogueManager.Instance.inDialogue) return;
+        SelfDestruct();
     }
 
     public void SelfDestruct()

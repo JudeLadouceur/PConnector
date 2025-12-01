@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 OLSON SETH A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
+  - speakerName: OLSON
+    dialogue: Hmph. I see how it is. Fine. Let him live with his own failure and
+      get nothing out of it.
+  - speakerName: SETH
+    dialogue: "Um, excuse me? Oh, hold on, let me take a wild guess. Lin\u2019s dad?"
+  - speakerName: OLSON
+    dialogue: "Why yes, I am Lin\u2019s father. You\u2019ve heard of me, I take it?"
+  - speakerName: SETH
+    dialogue: 'You bet I have. Lin and I just got done talking about how much more
+      successful his pizza shop has been without you around. '
+  - speakerName: OLSON
+    dialogue: "Oh really? Well from what I\u2019ve heard, things have gone down hill
+      for him quite quickly."
+  - speakerName: SETH
+    dialogue: "What? The fact he had to close today? Turns out people like his pizza
+      shop so much everyone\u2019s been pitching in to make him feel better. The
+      guy\u2019s been a huge part of the town recently. But you would know all about
+      that, right? Being his father and all, I\u2019m sure you keep track of that
+      stuff."
+  - speakerName: OLSON
+    dialogue: "Don\u2019t toy with me. You\u2019re the brother of Lucin, right? That
+      so-called great inventor? I\u2019m sure that does wonders for your self confidence.
+      You don\u2019t want to know what I can do to you."
+  - speakerName: SETH
+    dialogue: "I don\u2019t need to be confident to tell a jerk to back off. You
+      don\u2019t scare me."
+  - speakerName: OLSON
+    dialogue: I called to talk to Lin, not waste my time with you.
+  - speakerName: SETH
+    dialogue: "Well forget it. Lin\u2019s my pal, and I\u2019m not gonna stand for
+      this if you\u2019re so insistent on nagging him. Get lost."
+  - speakerName: OLSON
+    dialogue: Fine. I have no need to entertain this circus of a town any longer.
+  - speakerName: SETH
+    dialogue: "Good. I don\u2019t want to hear of you talking to anyone in this town
+      ever again."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
