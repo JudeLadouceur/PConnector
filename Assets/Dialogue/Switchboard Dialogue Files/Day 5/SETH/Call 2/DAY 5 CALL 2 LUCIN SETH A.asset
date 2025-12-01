@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 LUCIN SETH A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
+  - speakerName: LUCIN
+    dialogue: "Glad to know the title\u2019s still the same."
+  - speakerName: SETH
+    dialogue: Wha- Lucin?! That you?
+  - speakerName: LUCIN
+    dialogue: "Of course it\u2019s me. How you doing, dude? I heard you might be
+      closing shop, and I was worried. You love that town, man. You shouldn\u2019t
+      give up like that!"
+  - speakerName: SETH
+    dialogue: "Oh, yeah. I was having a pretty bad day. But I talked to a close friend
+      about it, and I\u2019m doing much better now, so you don\u2019t have to worry
+      about me."
+  - speakerName: LUCIN
+    dialogue: "Oh, that\u2019s great to hear. I guess I\u2019m not needed then. I\u2026
+      I can leave you be."
+  - speakerName: SETH
+    dialogue: "Leave me be? It\u2019s been way too long since I\u2019ve heard from
+      you! You should stay and chat for a bit! I\u2019m more worried about taking
+      up your time, seeing how busy you usually are\u2026"
+  - speakerName: LUCIN
+    dialogue: "Well, I wasn't sure how much you wanted to talk to me, after I moved
+      to the big city and all\u2026"
+  - speakerName: SETH
+    dialogue: "You were just following your dream, dude. You got an offer, and I\u2019m
+      glad you took it. Though\u2026 it really means a lot to know you haven\u2019t
+      just forgotten about me up there."
+  - speakerName: LUCIN
+    dialogue: "I could never forget you, man. I wouldn\u2019t have gotten that offer
+      in the first place if you didn\u2019t help me have the guts to send that letter.
+      And don\u2019t worry about taking up my time. Sure I\u2019ve got meetings and
+      whatnot, but they\u2019re way too boring. I\u2019ll take any excuse to miss
+      a few if I can."
+  - speakerName: SETH
+    dialogue: Ha! Well, if you really need some time away, why not come down for
+      a visit? It would be nice to chat with you face to face, you know.
+  - speakerName: LUCIN
+    dialogue: "Yeah, I'd like that! I\u2019ll find some time and come down for a
+      day or two."
+  - speakerName: SETH
+    dialogue: "But if you can\u2019t find time?"
+  - speakerName: LUCIN
+    dialogue: "Then I\u2019ll make time. I\u2019m not gonna let some fancy knowitall
+      in a business suit tell me that I can\u2019t talk to my brother."
+  - speakerName: SETH
+    dialogue: "Sounds like a plan, then. You just let me know when you\u2019re on
+      your way."
+  - speakerName: LUCIN
+    dialogue: Will do! See you soon!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

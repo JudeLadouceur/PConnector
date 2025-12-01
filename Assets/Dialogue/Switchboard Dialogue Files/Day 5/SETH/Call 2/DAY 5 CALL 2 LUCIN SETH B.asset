@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: DAY 5 CALL 2 LUCIN SETH B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    dialogue: "Seth\u2019s Repair Garage is permanently closed. Sorry."
+  - speakerName: LUCIN
+    dialogue: "I didn\u2019t think I\u2019d really hear that from you. You wanna
+      talk?"
+  - speakerName: SETH
+    dialogue: Wha- Lucin?! Why are you of all people calling me?
+  - speakerName: LUCIN
+    dialogue: "What do you mean \u2018me of all people\u2019? You\u2019re my brother!
+      I heard that you might be closing shop, and I wanted to check in on you."
+  - speakerName: SETH
+    dialogue: "Just\u2026 Don't worry about it, dude. I\u2019ve already made my decision."
+  - speakerName: LUCIN
+    dialogue: "But\u2026 you love that town! You love repairing things! You can\u2019t
+      just give up now!"
+  - speakerName: SETH
+    dialogue: "I know. But I\u2019ve already thought it over. I\u2019ve messed up
+      too much. I\u2019m not like you. I\u2019m not making grand differences, and
+      I keep letting things fall apart. I\u2019m sorry."
+  - speakerName: LUCIN
+    dialogue: "It\u2019s not about me, Seth! It\u2019s about you! I know that you
+      do a ton for that town! Please, I know this hurts you. I\u2019m sure you\u2019re
+      much more capable than you\u2019ve given yourself credit for."
+  - speakerName: SETH
+    dialogue: "Sorry, dude. But I\u2019m not. You just focus on your fancy city stuff.
+      It\u2019s far more important than anything that\u2019s going on here, anyways."
+  - speakerName: LUCIN
+    dialogue: Hold on, I-
+  - speakerName: SETH
+    dialogue: Have a good day, Lucin. Go do important things.
+  - speakerName: LUCIN
+    dialogue: Wait, I-
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
