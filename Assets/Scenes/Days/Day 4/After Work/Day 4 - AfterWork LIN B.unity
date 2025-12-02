@@ -346,7 +346,7 @@ PrefabInstance:
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 443dfe9132e46a942b5098d2dd8ca094, type: 2}
+      objectReference: {fileID: 11400000, guid: 9f5f51c0b41e55645ba2bbdcec1bf544, type: 2}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: canAddNotes
       value: 0
@@ -490,7 +490,7 @@ PrefabInstance:
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 70fe4456bdfae1a49b83508dbf611de9, type: 2}
+      objectReference: {fileID: 11400000, guid: e6fbe1dbb8832914397fbb946744e562, type: 2}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: Dialogue
       value: 
