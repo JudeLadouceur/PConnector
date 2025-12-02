@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuCanvas;
     public GameObject pauseMenuButtons;
     public GameObject optionsMenu;
+    public GameObject controlsMenu;
     public GameObject exitPanel;
 
     private bool gameIsPaused;
@@ -84,6 +85,19 @@ public class PauseMenu : MonoBehaviour
     public void CloseOptionsMenu()
     {
         optionsMenu.SetActive(false);
+        pauseMenuButtons.SetActive(true);
+    }
+
+
+    public void OpenControlsMenu()
+    {
+        controlsMenu.SetActive(true);
+        pauseMenuButtons.SetActive(false);
+    }
+
+    public void CloseControlsMenu()
+    {
+        controlsMenu.SetActive(false);
         pauseMenuButtons.SetActive(true);
     }
 
