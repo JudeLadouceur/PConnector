@@ -9,7 +9,7 @@ public class SceneTransitionTargets : MonoBehaviour
     [Serializable]
     public class Days
     {
-        public string[] dayVariables;
+        public DialogueVar[] dayVariables;
     }
 
     public Days[] days;
@@ -21,7 +21,7 @@ public class SceneTransitionTargets : MonoBehaviour
 
         for (int i = 0; i < days[TimeManager.dayNumber].dayVariables.Length; i++)
         {
-            if (CharacterManager.instance.flags.TryGetValue(days[TimeManager.dayNumber].dayVariables[i], out int var))
+            if (VariableManager.instance.flags.TryGetValue(days[TimeManager.dayNumber].dayVariables[i], out int var))
             {
                 if (var == 1)
                     Vars.Add("A");

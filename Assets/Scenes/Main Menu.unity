@@ -1306,7 +1306,7 @@ GameObject:
   - component: {fileID: 381818501}
   - component: {fileID: 381818502}
   m_Layer: 0
-  m_Name: CharacterManager
+  m_Name: VariableManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1339,11 +1339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce69eb1e5ddcb4a47a5c5bcc29bd6c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characters:
-  - {fileID: 11400000, guid: 0d144bebae7c5654894bb0cb40d647f9, type: 2}
-  - {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-  - {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
-  - {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
 --- !u!1 &405153903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3853,180 +3848,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: conversationSkip
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[3].notes.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[4].notes.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[5].notes.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[0].note
-      value: Final week of work! Day 1 of 5!
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[1].note
-      value: 'Mrs. Perkins keeps stuff in her basement. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[2].note
-      value: Lin really likes pizza.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[3].note
-      value: Seth is a repair guy
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[0].note
-      value: Day 2 of 5!
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[1].note
-      value: Seth forgot his lunch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[0].note
-      value: Day 3, over halfway there. Have I made an impact?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[1].note
-      value: Seth forgot his lunch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[3].notes.Array.data[0].note
-      value: Day 4 of 5!
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[3].notes.Array.data[1].note
-      value: Seth said he would be out today.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[4].notes.Array.data[0].note
-      value: "Final day! I hope I didn\u2019t put too much pressure on (person who
-        was chosen) yesterday."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[4].notes.Array.data[1].note
-      value: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[4].notes.Array.data[2].note
-      value: Is Seth okay? Is he upset?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[4].notes.Array.data[3].note
-      value: What is Mrs. Perkins doing? She seems busy.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[5].notes.Array.data[0].note
-      value: Day 4 of 5!
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[5].notes.Array.data[1].note
-      value: Seth said he would be out today.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[5].notes.Array.data[2].note
-      value: Seth said he would be out today.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[1].varName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[1].varName
-      value: partsGained
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[0].varName
-      value: walkerFixed
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[1].varName
-      value: partsGained
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[3].notes.Array.data[0].varName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[1].character
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[3].character
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[1].character
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[1].usesVariable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[0].notes.Array.data[1].varFalseNote
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[1].usesVariable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[1].varFalseNote
-      value: Seth seems upset today
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[1].notes.Array.data[9].usesVariable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[0].usesVariable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[0].varFalseNote
-      value: Mrs. Perkins got hurt yesterday, I should be careful with who I connect
-        where.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[1].usesVariable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[2].notes.Array.data[1].varFalseNote
-      value: Seth seems upset today
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[3].notes.Array.data[0].usesVariable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: days.Array.data[3].notes.Array.data[0].varFalseNote
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6104,10 +5925,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3670539535591273779, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5969150987622861011, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Name
       value: AchievementRoot

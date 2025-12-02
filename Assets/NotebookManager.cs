@@ -178,7 +178,7 @@ public class NotebookManager : MonoBehaviour
     {
         if (n.usesVariable)
         {
-            if(CharacterManager.instance.flags.TryGetValue(n.varName, out int val))
+            if(VariableManager.instance.flags.TryGetValue(n.varName, out int val))
             {
                 if (val != 0)
                 {
