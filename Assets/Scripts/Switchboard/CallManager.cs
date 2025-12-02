@@ -60,7 +60,8 @@ public class CallManager : MonoBehaviour
             if (var.value != VariableManager.instance.flags[var.variable])
             {
                 TimeManager.callNumber++;
-                ContextCall();
+                if (TimeManager.callNumber > days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
+                else ContextCall();
                 return;
             }
         }

@@ -164,14 +164,7 @@ public class DialogueManager : MonoBehaviour
 
             callManager.ContextCall();
         }
-        else
-        {
-            print("End of day");
-
-            string target = "Day "+ (TimeManager.dayNumber+1) +" - Afterwork ";
-
-            transitionTargets.FindTargetScene(target);
-        }
+        else EndDay();
     }
 
     private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
@@ -187,6 +180,15 @@ public class DialogueManager : MonoBehaviour
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
     }
     
+    public void EndDay()
+    {
+        print("End of day");
+
+        string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
+
+        transitionTargets.FindTargetScene(target);
+    }
+
     public void ResetDialogue()
     {
         TimeManager.dayNumber = 0;
