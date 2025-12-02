@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenu;
     public GameObject optionsMenu;
 
+    public GameObject controlsPage;
     public GameObject creditsPage;
 
     public GameObject quitButton;
@@ -37,6 +38,20 @@ public class MainMenu : MonoBehaviour
         achieveBackButton.SetActive(!achieveBackButton.activeInHierarchy);
 
         mainMenu.SetActive(!mainMenu.activeInHierarchy);
+    }
+
+    public void OpenControls()
+    {
+        controlsPage.gameObject.SetActive(true);
+
+        mainMenu.SetActive(false);
+    }
+
+    public void CloseControls()
+    {
+        controlsPage.gameObject.SetActive(false);
+
+        mainMenu.SetActive(true);
     }
 
     public void OpenCredits()
