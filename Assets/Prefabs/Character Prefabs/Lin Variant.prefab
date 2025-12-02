@@ -122,6 +122,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2446444046879267236, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: character
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3309026204793156138, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: Name
       value: Lin
