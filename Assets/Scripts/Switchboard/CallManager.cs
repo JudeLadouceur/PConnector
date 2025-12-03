@@ -101,25 +101,36 @@ public class CallManager : MonoBehaviour
 
         Days.Call.RequiredVars variable = null;
 
+
         for (int i = 0; i < currentCall.connections[target].dialogueOptions.Length; i++)
         {
+            Debug.Log("Checking option: " + i);
+            Debug.Log("Number of variable checks: " + currentCall.connections[target].dialogueOptions[i].variables.Length);
+
             if (currentCall.connections[target].dialogueOptions[i].variables.Length == 0)
             {
                 dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                Debug.Log("No variable checks, playing: " + currentCall.connections[target].dialogueOptions[i].dialogue);
+
+                if (i + 1 < currentCall.connections[target].dialogueOptions.Length) Debug.LogWarning("Unreachable dialogue detected. Dialogue with no requirements is placed above other dialogue possibilities, making them unreachable.");
                 break;
             }
             
             for (int o = 0; o < currentCall.connections[target].dialogueOptions[i].variables.Length; o++)
             {
                 variable = currentCall.connections[target].dialogueOptions[i].variables[o];
+                Debug.Log("Checking: " + variable.variableName);
+
                 if (VariableManager.instance.flags[variable.variableName] == variable.value)
                 {
+                    Debug.Log("Variable " + variable.variableName + " is the correct value.");
                     dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
                     break;
                 }
+                Debug.Log("Variable " + variable.variableName + " was " + variable.value + ", but was looking for " + VariableManager.instance.flags[variable.variableName]);
             }
 
-            if (dialogue == null) break;
+            if (dialogue != null) break;
         }
 
         /*if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheFirstConnection, out Achievement value) && value.status == AchievementStatus.Revealed)
