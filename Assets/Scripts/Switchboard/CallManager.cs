@@ -97,6 +97,12 @@ public class CallManager : MonoBehaviour
             }
         }
 
+        if (target == -1)
+        {
+            Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
+            return;
+        }
+
         SO_Dialogue dialogue = null;
 
         Days.Call.RequiredVars variable = null;
@@ -138,8 +144,13 @@ public class CallManager : MonoBehaviour
             value.Achieve();
         }*/
 
-        if (target != -1) DialogueManager.Instance.StartDialogue(dialogue);
-        else Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
+        if (dialogue == null)
+        {
+            Debug.LogError("There is no valid dialogue to play in this notch. Please ensure that a dialogue can play with the variable values you currently have (or have a dialogue with no variable requiremnets).");
+            return;
+        }
+
+        DialogueManager.Instance.StartDialogue(dialogue);
     }
 
     public IEnumerator StartCallDelay()
