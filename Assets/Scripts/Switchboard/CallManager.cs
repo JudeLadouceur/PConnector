@@ -82,7 +82,7 @@ public class CallManager : MonoBehaviour
         DialogueManager.Instance.StartDialogue(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall);
     }
 
-    public void StartCall(Characters receiver)
+    public bool StartCall(Characters receiver)
     {
         Days.Call currentCall = days[TimeManager.dayNumber].call[TimeManager.callNumber];
 
@@ -100,7 +100,7 @@ public class CallManager : MonoBehaviour
         if (target == -1)
         {
             Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
-            return;
+            return false;
         }
 
         SO_Dialogue dialogue = null;
@@ -147,10 +147,11 @@ public class CallManager : MonoBehaviour
         if (dialogue == null)
         {
             Debug.LogError("There is no valid dialogue to play in this notch. Please ensure that a dialogue can play with the variable values you currently have (or have a dialogue with no variable requiremnets).");
-            return;
+            return false;
         }
 
         DialogueManager.Instance.StartDialogue(dialogue);
+        return true;
     }
 
     public IEnumerator StartCallDelay()

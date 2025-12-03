@@ -85,9 +85,9 @@ public class LineManager : MonoBehaviour
             return false;
         }
 
-        print("start call");
+        if(!callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter)) return false;
 
-        callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter);
+        print("start call");
 
         //Set the end point for the connection and stop it from moving
         currentLine.GetComponent<LineBehavior>().FinishMoving(notch.transform.position, notch1, notch);
