@@ -144,6 +144,8 @@ public class DialogueManager : MonoBehaviour
 
             GameObject target;
 
+            LineManager.instance.canDraw = true;
+
             foreach (Notches notch in notches)
             {
                 if (notch.assignedCharacter == callManager.days[TimeManager.dayNumber].call[TimeManager.callNumber].caller)

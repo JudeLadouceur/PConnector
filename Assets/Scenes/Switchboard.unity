@@ -1623,9 +1623,7 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: 6f24fb90428be584fa5a714dab77f2c5, type: 2}
       - receiver: 4
         dialogueOptions:
-        - variables:
-          - variableName: 1
-            value: 1
+        - variables: []
           dialogue: {fileID: 11400000, guid: b52d840317e99ba49984106929d0ecf0, type: 2}
     - requiredVars: []
       caller: 3
@@ -2318,6 +2316,7 @@ MonoBehaviour:
   audioSource: {fileID: 1467770119}
   grabbingWireSound: {fileID: 8300000, guid: 57946a262bc95f44eb82601d1ef09d0f, type: 3}
   connectingWireSound: {fileID: 8300000, guid: 7e8f44ba781d0314ca90a1d666cac14d, type: 3}
+  canDraw: 0
 --- !u!1 &976516258
 GameObject:
   m_ObjectHideFlags: 0

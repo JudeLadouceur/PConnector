@@ -26,6 +26,8 @@ public class LineManager : MonoBehaviour
 
     public static LineManager instance;
 
+    public bool canDraw = false;
+
     private void Awake()
     {
         instance = this;
@@ -60,6 +62,8 @@ public class LineManager : MonoBehaviour
 
     private void StartDraw(GameObject notch)
     {
+        if (!canDraw) return;
+        
         //If a line is already drawn, don't start another
         if (lineDrawn == true) return;
 

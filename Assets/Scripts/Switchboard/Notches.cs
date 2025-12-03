@@ -12,6 +12,7 @@ public class Notches : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (!LineManager.instance.canDraw) return;
         if (isOccupied) return;
         if (assignedCharacter == Characters.None) return;
         if (DialogueManager.Instance.inDialogue) return;
