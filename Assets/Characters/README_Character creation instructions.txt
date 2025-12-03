@@ -1,5 +1,8 @@
 
 
+
+----------------------THIS SYSTEM IS NO LONGER IN USE. DO NOT USE, GO TO THE SCRIPTS -> ENUMS FOLDER INSTEAD----------------------------------
+
 In order to create a character asset (please do this in the character folder), right click in assets, go to Create / ScriptableObjects(at the top) / Character.
 
 From there, you can assign them a name and variables. Currently, you can give them bools and ints.

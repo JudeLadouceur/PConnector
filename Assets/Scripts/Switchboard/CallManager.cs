@@ -21,13 +21,13 @@ public class CallManager : MonoBehaviour
             [System.Serializable]
             public class Connections
             {
-                public SO_Character receiver;
+                public Characters receiver;
                 public SO_Dialogue dialogue;
             }
 
             public RequiredVars[] requiredVars;
 
-            public SO_Character caller;
+            public Characters caller;
 
             public SO_Dialogue contextCall;
 
@@ -48,9 +48,7 @@ public class CallManager : MonoBehaviour
     {
         if (FindAnyObjectByType<ForceAssignNotch>().isActive) LineManager.instance.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
 
-
-
-        ContextCall();
+        StartCoroutine(StartCallDelay());
     }
 
     public void ContextCall()
@@ -77,7 +75,7 @@ public class CallManager : MonoBehaviour
         DialogueManager.Instance.StartDialogue(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall);
     }
 
-    public void StartCall(SO_Character receiver)
+    public void StartCall(Characters receiver)
     {
         Days.Call currentCall = days[TimeManager.dayNumber].call[TimeManager.callNumber];
 
@@ -101,5 +99,10 @@ public class CallManager : MonoBehaviour
         else Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
     }
 
+    public IEnumerator StartCallDelay()
+    {
+        yield return new WaitForSeconds(2.5f);
 
+        ContextCall();
+    }
 }

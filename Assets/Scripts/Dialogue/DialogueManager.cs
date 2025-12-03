@@ -40,6 +40,8 @@ public class DialogueManager : MonoBehaviour
         dialogueBox.SetActive(false);
 
         SceneManager.activeSceneChanged += SceneTransition;
+
+        if(SceneManager.GetActiveScene().name == "Switchboard") FindSwitchboardReferences();
     }
 
     private void Update()
@@ -162,15 +164,14 @@ public class DialogueManager : MonoBehaviour
         {
             TimeManager.callNumber++;
 
-            callManager.ContextCall();
+            callManager.StartCoroutine(callManager.StartCallDelay());
         }
         else EndDay();
     }
 
     private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
     {
-        string sceneName = scene2.name;
-        if (sceneName == "Switchboard") FindSwitchboardReferences();
+        if (scene2.name == "Switchboard") FindSwitchboardReferences();
     }
 
     private void FindSwitchboardReferences()

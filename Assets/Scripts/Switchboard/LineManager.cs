@@ -75,11 +75,11 @@ public class LineManager : MonoBehaviour
 
     private bool EndDraw(GameObject notch)
     {
-        SO_Character target = (notch.GetComponent<Notches>().assignedCharacter);
+        Characters target = (notch.GetComponent<Notches>().assignedCharacter);
 
         print(target);
 
-        if (target == null)
+        if (target == Characters.None)
         {
             Debug.LogError("There is no character assigned to this notch. Please assign someone by opening the Switchboard object, opening the notches variable, and assigning a character ScriptableObject to their character field. (instructions for creating a character ScriptableObject are in Assets -> Characters).");
             return false;
