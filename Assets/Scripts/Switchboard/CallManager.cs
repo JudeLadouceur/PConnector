@@ -14,15 +14,22 @@ public class CallManager : MonoBehaviour
             [System.Serializable]
             public class RequiredVars
             {
-                public DialogueVar variable;
+                public DialogueVar variableName;
                 public int value;
             }
 
             [System.Serializable]
             public class Connections
             {
+                [System.Serializable]
+                public class Option
+                {
+                    public RequiredVars[] variables;
+                    public SO_Dialogue dialogue;
+                }
+                
                 public Characters receiver;
-                public SO_Dialogue dialogue;
+                public Option[] dialogueOptions;
             }
 
             public RequiredVars[] requiredVars;
@@ -55,7 +62,7 @@ public class CallManager : MonoBehaviour
     {
         foreach (Days.Call.RequiredVars var in days[TimeManager.dayNumber].call[TimeManager.callNumber].requiredVars)
         {
-            if (var.value != VariableManager.instance.flags[var.variable])
+            if (var.value != VariableManager.instance.flags[var.variableName])
             {
                 TimeManager.callNumber++;
                 if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
@@ -90,12 +97,37 @@ public class CallManager : MonoBehaviour
             }
         }
 
+        SO_Dialogue dialogue = null;
+
+        Days.Call.RequiredVars variable = null;
+
+        for (int i = 0; i < currentCall.connections[target].dialogueOptions.Length; i++)
+        {
+            if (currentCall.connections[target].dialogueOptions[i].variables.Length == 0)
+            {
+                dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                break;
+            }
+            
+            for (int o = 0; o < currentCall.connections[target].dialogueOptions[i].variables.Length; o++)
+            {
+                variable = currentCall.connections[target].dialogueOptions[i].variables[o];
+                if (VariableManager.instance.flags[variable.variableName] == variable.value)
+                {
+                    dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                    break;
+                }
+            }
+
+            if (dialogue == null) break;
+        }
+
         /*if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheFirstConnection, out Achievement value) && value.status == AchievementStatus.Revealed)
         {
             value.Achieve();
         }*/
 
-        if (target != -1) DialogueManager.Instance.StartDialogue(currentCall.connections[target].dialogue);
+        if (target != -1) DialogueManager.Instance.StartDialogue(dialogue);
         else Debug.LogError("There is no dialogue assigned to that receiver. Assign someone by opening the dialogueCanvas -> Call manager, and opening days -> call -> caller and assigning a dialogue prefab to the dialogue field. (instructions for creating a dialogue ScriptableObject is in Assets -> Dialogue)");
     }
 
