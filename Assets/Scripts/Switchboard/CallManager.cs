@@ -101,7 +101,9 @@ public class CallManager : MonoBehaviour
 
     public IEnumerator StartCallDelay()
     {
-        yield return new WaitForSeconds(2.5f);
+        //------------Insert ring noise here----------------
+        
+        yield return new WaitForSeconds(2f);
 
         ContextCall();
     }
