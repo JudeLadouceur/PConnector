@@ -10,13 +10,16 @@ public class LineBehavior : MonoBehaviour
     public GameObject _notch1;
     //[HideInInspector]
     public GameObject _notch2;
+    public RopeObject rope;
 
     private void Start()
     {
+        rope=FindObjectOfType<RopeObject>();
         lm = LineManager.instance;
+        rope.StartLine(gameObject);
     }
 
-    void Update()
+    /*void Update()
     {
         if (!isMoving) return;
         Vector3 mouse = Input.mousePosition;
@@ -29,12 +32,12 @@ public class LineBehavior : MonoBehaviour
 
         //Scale just slightly less than enough to reach the mouse (so that the collider of the wire doesn't overlap the notch's collider)
         transform.localScale = new Vector2(transform.localScale.x, Mathf.Clamp(lookDir.magnitude - 0.01f, 0, 1000));
-    }
+    }*/
 
     public void FinishMoving(Vector3 endPos, GameObject notch1, GameObject notch2)
     {
         //Rotate towards the ending
-        Vector2 lookDir = endPos - transform.position;
+        /*Vector2 lookDir = endPos - transform.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90;
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
@@ -43,7 +46,9 @@ public class LineBehavior : MonoBehaviour
         isMoving = false;
 
         _notch1 = notch1;
-        _notch2 = notch2;
+        _notch2 = notch2;*/
+
+        rope.LockLine(notch2);
 
         lm.lineDrawn = true;
         this.enabled = false;
@@ -61,6 +66,8 @@ public class LineBehavior : MonoBehaviour
     {
         _notch1.GetComponent<Notches>().isOccupied = false;
         _notch2.GetComponent<Notches>().isOccupied = false;
+
+        rope.EliminateLine();
 
         lm.lineDrawn = false;
         Destroy(gameObject);
