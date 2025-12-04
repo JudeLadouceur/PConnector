@@ -63,16 +63,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Days/Day 2/After Work/Day 2 - Afterwork B - B - B.unity
     guid: a52ca52e65df74348b0a292eca97e773
   - enabled: 1
-    path: Assets/Scenes/Endings/Ending Lin.unity
+    path: Assets/Scenes/Endings/Day 2 Ending A+A Lin.unity
     guid: c2ee9ff973543cd48aa623717cc4d7b7
   - enabled: 1
-    path: Assets/Scenes/Endings/Ending Seth.unity
+    path: Assets/Scenes/Endings/Day 2 Ending A+A Seth.unity
     guid: a7f41603d83946049b487d54f7845941
   - enabled: 1
-    path: Assets/Scenes/Endings/Ending Perkins.unity
+    path: Assets/Scenes/Endings/Day 2 Ending A+B.unity
     guid: b672c487322180b44b8e3a03d1d67f41
   - enabled: 1
-    path: Assets/Scenes/Endings/Ending Fail.unity
+    path: Assets/Scenes/Endings/Day 2 Ending B+A.unity
     guid: 741b8de4955fba5428336584c25d9895
   - enabled: 1
     path: Assets/Scenes/Endings/Day 2 Ending B+B.unity
