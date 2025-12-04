@@ -9,6 +9,7 @@ public class RopeObject : MonoBehaviour
     public GameObject lineRoot;
     private bool isMoving = true;
     private LineManager lm;
+    public PlugEnd plug;
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +30,15 @@ public class RopeObject : MonoBehaviour
         lineRoot.SetActive(true);
         startPos.transform.position = startNotch.transform.position - new Vector3(0, 0, 1);
         isMoving = true;
+        plug.Unplaced();
     }
 
     public void LockLine(GameObject endNotch)
     {
+        plug.Placed();
         isMoving = false;
         endPos.transform.position = endNotch.transform.position - new Vector3(0, 0, 1);
+        
     }
 
     public void EliminateLine()

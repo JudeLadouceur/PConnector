@@ -43,10 +43,10 @@ public class LineBehavior : MonoBehaviour
 
         //Scale just enough to reach the end point
         transform.localScale = new Vector2(transform.localScale.x, lookDir.magnitude);
-        isMoving = false;
+        isMoving = false;*/
 
         _notch1 = notch1;
-        _notch2 = notch2;*/
+        _notch2 = notch2;
 
         rope.LockLine(notch2);
 
