@@ -14,16 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: 'EMERGENCY '
+    NewSpeakerName: 4
     dialogue: "Emergency line, what\u2019s your emergency? "
   - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
     dialogue: "Oh, you must know a lot to be working there! I need help with my computer.
       It\u2019s asking me to join a queue, but I don\u2019t know what that means. "
   - speakerName: 'EMERGENCY '
+    NewSpeakerName: 4
     dialogue: "Ma\u2019m, that\u2019s not an emergency. I\u2019ll be transferring
       you to the waitlist for now, you\u2019ll be put into the queue at spot number..."
   - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
     dialogue: 'Never mind! '
   - speakerName: 
+    NewSpeakerName: 0
     dialogue: The call ends.
   voiceLineEvent:
     Guid:
@@ -33,4 +38,11 @@ MonoBehaviour:
       Data4: -503351756
     Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Emergency Services Connection/Mrs.
       Perkins - Day 1 - Call 1 - Emergency Services Connection
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables: []

@@ -16,9 +16,12 @@ public class DialogueManager : MonoBehaviour
     public int lineNumber;
     public bool inDialogue = false;
 
+    public Sprite[] speakerProfilePictures;
+
     private SO_Dialogue currentDialogue;
     private TextMeshProUGUI speakerField;
     private TextMeshProUGUI dialogueField;
+    private UnityEngine.UI.Image speakerProfile;
 
     private EventInstance audioSource;
 
@@ -37,6 +40,7 @@ public class DialogueManager : MonoBehaviour
 
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
+        speakerProfile = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 3).GetComponent<UnityEngine.UI.Image>();
         dialogueBox.SetActive(false);
 
         SceneManager.activeSceneChanged += SceneTransition;
@@ -99,10 +103,30 @@ public class DialogueManager : MonoBehaviour
         if(line >= currentDialogue.lines.Length)
         {
             Debug.LogError("This line is out of range, this script can only use a line number that is " + (currentDialogue.lines.Length - 1) + " or lower");
+            EndDialogue();
+            return;
         }
+
         print("Go to line " + line);
-        speakerField.text = currentDialogue.lines[line].speakerName;
+
+        string speakerName = currentDialogue.lines[line].NewSpeakerName.ToString();
+
+        if (speakerName == "Perkins") speakerName = "Mrs. Perkins";
+
+        speakerField.text = speakerName;
         dialogueField.text = currentDialogue.lines[line].dialogue;
+        Characters[] characters = (Characters[])System.Enum.GetValues(typeof(Characters));
+        for (int i = 0; i < speakerProfilePictures.Length; i++)
+        {
+            if (speakerName == speakerProfilePictures[i].name)
+            {
+                speakerProfile.sprite = speakerProfilePictures[i];
+                break;
+            }
+        }
+
+        if (speakerProfile == null) Debug.LogError("There is no profile picture with the same name as the character");
+
         lineNumber = line;
 
         if (!currentDialogue.voiceLineEvent.IsNull)
