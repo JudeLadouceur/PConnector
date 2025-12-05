@@ -52,6 +52,7 @@ public class NotebookManager : MonoBehaviour
         } else
         {
             Destroy(this.gameObject);
+            return;
         }
         //Check for too many notes
         foreach(CNotes noteSet in days)
