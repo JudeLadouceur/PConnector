@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: "Hey\u2026\u2026 Sorry, I\u2019m not feeling it right now for some
-      reason. I\u2019m going to get some rest and see if I feel better tomorrow.
-      Friday\u2019s the biggest day for business, you know. "
+    dialogue: "Hey\u2026 "
+  - speakerName: LIN
+    dialogue: ...
+  - speakerName: LIN
+    dialogue: "Sorry, I\u2019m not feeling it right now for some reason. I\u2019m
+      going to get some rest and see if I feel better tomorrow. Friday\u2019s the
+      biggest day for business, you know."
   voiceLineEvent:
     Guid:
       Data1: 0

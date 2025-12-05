@@ -14,13 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: Oh hello! I had such a good time taking a walk with company the other
-      day, I've decided to spend some time out and about, talking to everyone I see!
+    dialogue: Good morning, youngin! Back to work again, are you?
   - speakerName: MRS. PERKINS
-    dialogue: Its great to educate the young ones on some of the towns great history,
-      but it was nice talking to someone like Seth who appreciates a quiet conversation
-      as well.
+    dialogue: "I say, you\u2019re doing a fine job! Keep up the good work."
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

@@ -14,13 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: Oh hey Operator.... Another day of working away for me, I certainly
-      don't mind honing my craft, but I've got another big set of deliveries again
-      today.
+    dialogue: "Morning, hope you're doing good. Sorry, I\u2019m not feeling too great
+      after yesterday, and now I also have an order of tomato sauce coming in."
   - speakerName: LIN
-    dialogue: ' I''d be lying if I said I didn''t want to be done already... Hopefully
-      these ones don''t go to waste at least...'
+    dialogue: "Hopefully all goes fine with that, if something happens I wouldn\u2019t
+      want to drag anyone down like I\u2019ve been recently. Working so much makes
+      it hard to make real friends, you know."
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
