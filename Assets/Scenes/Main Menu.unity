@@ -4357,6 +4357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: conversationSkip
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4408,6 +4412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineNumber: 0
   inDialogue: 0
+  speakerProfilePictures: []
 --- !u!1 &1462954291
 GameObject:
   m_ObjectHideFlags: 0

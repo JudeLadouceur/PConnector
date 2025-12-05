@@ -198,6 +198,20 @@ public class DialogueManager : MonoBehaviour
     private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
     {
         if (scene2.name == "Switchboard") FindSwitchboardReferences();
+        if (inDialogue)
+        {
+            currentDialogue = null;
+
+            dialogueBox.SetActive(false);
+
+            inDialogue = false;
+
+            if (audioSource.isValid())
+            {
+                audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
+            }
+
+        }
     }
 
     private void FindSwitchboardReferences()

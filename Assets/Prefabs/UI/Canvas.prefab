@@ -119,35 +119,77 @@ MonoBehaviour:
   bulletTextPrefab: {fileID: 8436363353495463392, guid: e69b59a047c54e9488a2db82a5c6c738, type: 3}
   days:
   - notes:
-    - note: '[PH] Testing Note'
+    - note: Final week of work! Day 1 of 5!
       character: 0
-    - note: '[PH] Mrs. Perkins has parts in her basement.'
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: 'Mrs. Perkins keeps stuff in her basement. '
       character: 1
-    - note: '[PH] Lin just started a website.'
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: Lin really likes pizza.
       character: 2
-    - note: '[PH] Seth forgot his lunch.'
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: Seth is a repair guy
       character: 3
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
   - notes:
-    - note: '[PH] Testing Note'
+    - note: Day 2 of 5!
       character: 0
-    - note: '[PH] Testing Note'
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: Seth forgot his lunch
+      character: 3
+      usesVariable: 1
+      varName: 0
+      varFalseNote: Seth seems upset today
+  - notes:
+    - note: Day 3, over halfway there. Have I made an impact?
       character: 0
-    - note: '[PH] Testing Note'
+      usesVariable: 1
+      varName: 0
+      varFalseNote: Mrs. Perkins got hurt yesterday, I should be careful with who
+        I connect where.
+  - notes:
+    - note: Day 4 of 5!
       character: 0
-    - note: '[PH] Testing Note'
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: Seth said he would be out today.
       character: 0
-    - note: '[PH] Testing Note'
-      character: 3
-    - note: '[PH] Testing Note'
-      character: 3
-    - note: '[PH] Testing Note'
-      character: 3
-    - note: '[PH] Testing Note'
-      character: 3
-    - note: '[PH] Testing Note'
-      character: 3
-    - note: '[PH] Testing Note'
-      character: 3
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+  - notes:
+    - note: "Final day! I hope I didn\u2019t put too much pressure on (person who
+        was chosen) yesterday."
+      character: 0
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
+      character: 0
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: Is Seth okay? Is he upset?
+      character: 0
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: What is Mrs. Perkins doing? She seems busy.
+      character: 0
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
   approvedSceneFragments:
   - Notebook
   - Afterwork
