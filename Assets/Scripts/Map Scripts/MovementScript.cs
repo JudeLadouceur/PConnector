@@ -23,15 +23,14 @@ public class MovementScript : MonoBehaviour
 
     void Update()
     {
-
+        
         if (Input.GetKeyDown(KeyCode.Tab) && canToggle)
         {
             Funny = !Funny;
-
-            moveSpeed = Funny ? 0f : 5f;
         }
+        moveSpeed = Funny ? 0f : 5f;
         if (Funny) return;
-        
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
