@@ -4408,6 +4408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineNumber: 0
   inDialogue: 0
+  speakerProfilePictures: []
 --- !u!1 &1462954291
 GameObject:
   m_ObjectHideFlags: 0
