@@ -14,12 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: 'Oh hi again dearie, I''m glad that at least you''ll take the time
-      to talk to me. '
+    dialogue: "Hey, dearie. I\u2019m glad you are at least taking some time to talk
+      to me."
   - speakerName: MRS. PERKINS
-    dialogue: I'm worried there's not much left in town for me, maybe its about time
-      I start thinking about my remaining future...
+    dialogue: "Those kind folks at the infirmary helped repair my walker. Hopefully
+      that doesn\u2019t happen again. Oh, I can\u2019t take this in my old age\u2026"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

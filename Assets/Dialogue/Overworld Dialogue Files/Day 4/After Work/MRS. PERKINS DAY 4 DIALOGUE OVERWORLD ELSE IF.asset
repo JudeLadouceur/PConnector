@@ -16,7 +16,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     dialogue: "Hello, dear. Sorry, I\u2019m quite tired. I didn\u2019t get to do
       much today, but for some reason I\u2019m even more exhausted. I should get
-      home."
+      home. "
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Lin Mrs. Perkins Afterwork C
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    dialogue: "H-have you seen Mrs. Perkins?! Did she really move out?! No\u2026
+      that can\u2019t be true. I\u2026 I\u2019m really gonna miss her. She was so
+      important to so many of us. Why would she do that? I\u2026 I might close shop
+      tomorrow. I don\u2019t know what to do right now."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

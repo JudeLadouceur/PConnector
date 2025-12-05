@@ -26,6 +26,8 @@ public class LineManager : MonoBehaviour
 
     public static LineManager instance;
 
+    public bool canDraw = false;
+
     private void Awake()
     {
         instance = this;
@@ -60,6 +62,8 @@ public class LineManager : MonoBehaviour
 
     private void StartDraw(GameObject notch)
     {
+        if (!canDraw) return;
+        
         //If a line is already drawn, don't start another
         if (lineDrawn == true) return;
 
@@ -75,19 +79,19 @@ public class LineManager : MonoBehaviour
 
     private bool EndDraw(GameObject notch)
     {
-        SO_Character target = (notch.GetComponent<Notches>().assignedCharacter);
+        Characters target = (notch.GetComponent<Notches>().assignedCharacter);
 
         print(target);
 
-        if (target == null)
+        if (target == Characters.None)
         {
             Debug.LogError("There is no character assigned to this notch. Please assign someone by opening the Switchboard object, opening the notches variable, and assigning a character ScriptableObject to their character field. (instructions for creating a character ScriptableObject are in Assets -> Characters).");
             return false;
         }
 
-        print("start call");
+        if(!callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter)) return false;
 
-        callManager.StartCall(notch.GetComponent<Notches>().assignedCharacter);
+        print("start call");
 
         //Set the end point for the connection and stop it from moving
         currentLine.GetComponent<LineBehavior>().FinishMoving(notch.transform.position, notch1, notch);

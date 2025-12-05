@@ -16,7 +16,7 @@ public class NotchCreator : MonoBehaviour
     [Range(0.1f, 2)]
     public float notchSize;
 
-    public SO_Character[] characters;
+    public Characters[] characters;
 
     private GameObject notchParent;
     private GameObject notch;
@@ -50,7 +50,7 @@ public class NotchCreator : MonoBehaviour
 
         //Calculate the distance between notches
         float xLength = SBbackground.transform.localScale.x * (5f / 6f) / (notchCount.x - 1);
-        float yLength = SBbackground.transform.localScale.y * (3f / 4f) / (notchCount.y - 1);
+        float yLength = SBbackground.transform.localScale.y * (2f / 3f) / (notchCount.y - 1);
 
         notchParent.transform.position = SBbackground.transform.position;
 
@@ -59,22 +59,25 @@ public class NotchCreator : MonoBehaviour
         {
             for (int x = 0; x < notchCount.x; x++)
             {
-                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x + SBbackground.transform.position.x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y + SBbackground.transform.position.y, 0), Quaternion.identity, notchParent.transform);
+                GameObject target = Instantiate(notch, new Vector3(-SBbackground.transform.localScale.x * (5f / 12f) + xLength * x + SBbackground.transform.position.x, SBbackground.transform.localScale.y * (3f / 8f) - yLength * y + SBbackground.transform.position.y + 0.1f, 0), Quaternion.identity, notchParent.transform);
                 target.transform.GetChild(1).localScale = new Vector3(notchSize, notchSize);
                 target.transform.GetChild(0).localPosition = new Vector3(0, -(notchSize - 1f) / 2f - 0.8f);
 
                 target.transform.GetChild(0).GetComponent<TextMeshPro>().fontSize = textSize;
+
+                target.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = tapeSheet[Random.Range(0, 5)];
+                
                 int notchID = (int)(x + y * notchCount.x);
 
                 //Assign them the name in the notch name list equal to their value, if it exists
                 if (notchID < characters.Length)
                 {
-                    if (characters[notchID] != null)
+                    if (characters[notchID] != Characters.None)
                     {
-                        target.transform.GetChild(0).GetComponent<TextMeshPro>().text = characters[notchID].characterName;
+                        target.transform.GetChild(0).GetComponent<TextMeshPro>().text = characters[notchID].ToString();
                         target.transform.GetChild(1).GetComponent<Notches>().assignedCharacter = characters[notchID];
                     }
-                    else Debug.LogError("There was no character assigned to notch number " + notchID);
+                    else Debug.LogError("There was no character assigned to notch number " + (notchID + 1));
                 }
             }
         }

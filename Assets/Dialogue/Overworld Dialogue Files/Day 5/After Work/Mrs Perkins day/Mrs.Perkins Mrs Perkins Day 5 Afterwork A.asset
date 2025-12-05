@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Mrs.Perkins Mrs Perkins Day 5 Afterwork A
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    dialogue: "Oh, hello dear! Sorry if I scared you earlier. I\u2019ve really decided
+      not to move out, and I\u2019m glad I made that choice. I\u2019m realizing just
+      how much this town means to me. Thank you so much for your help, I\u2019ll
+      make sure to make use of it and keep spreading this old lady\u2019s wisdom
+      to anyone in the town who needs it. You\u2019ve really made a difference for
+      me, dearie. Thank you."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: "\u201CLIN\u2019S PIZZA! Never giving up even in the darkest of times!
-      Hmm\u2026 I might need to work on that one. It feels a bit too foreboding."
+    dialogue: "LIN\u2019S PIZZA! Never giving up even in the darkest of times! Hmm\u2026
+      I might need to work on that one. It feels a bit too foreboding."
   voiceLineEvent:
     Guid:
       Data1: 0

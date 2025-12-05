@@ -14,13 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: 'Hey kid! Just taking my time to relax on my way to work today, definitely
-      been a little too exciting around here as of late. '
+    dialogue: "Good morning there, pal. Hope you\u2019re doing well."
   - speakerName: SETH
-    dialogue: Though, speaking of exciting my parts are finally getting delivered
-      today! I might have to make a toast with the delivery driver when he gets here,
-      feels like cause to celebrate haha!
+    dialogue: I should finally have that parts delivery getting here soon. Let me
+      know if you hear anything about it.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

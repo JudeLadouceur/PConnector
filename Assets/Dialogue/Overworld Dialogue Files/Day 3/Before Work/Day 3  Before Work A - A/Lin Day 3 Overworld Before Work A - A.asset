@@ -14,15 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: 'Phew, hey operator! I know your days just starting, but I''ve been
-      going steady all morning.  '
+    dialogue: Hey there! Boy am I glad I got to sell that pizza yesterday.
   - speakerName: LIN
-    dialogue: We've got a another big set of orders today, hopefully no last minute
-      cancelling this time.
+    dialogue: "I\u2019ve got a new order of tomato sauce coming in today, so that
+      should keep me plenty busy."
   - speakerName: LIN
-    dialogue: ' I was playing around with the idea of getting done early to hang
-      out with some folks around town, but I guess the business needs me...'
+    dialogue: Ha, imagine if something went wrong again. Someone would need to really
+      tolerate me to help me out like that.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
