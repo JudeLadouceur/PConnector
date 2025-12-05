@@ -324,14 +324,14 @@ PrefabInstance:
     - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 1d7e2f6ce0407f3469b785d8911a13c7, type: 2}
+      objectReference: {fileID: 11400000, guid: 55ab5faa03b7a384c9e042b0174590b9, type: 2}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.29
+      value: -2.04
       objectReference: {fileID: 0}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.54
+      value: 27.59
       objectReference: {fileID: 0}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -389,7 +389,7 @@ PrefabInstance:
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 05e9b323ebff04840a15daaa1ee5d93b, type: 2}
+      objectReference: {fileID: 11400000, guid: 7f8596601702a3c42a0085c1c28638ed, type: 2}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: Dialogue
       value: 
@@ -805,11 +805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.65
+      value: -12.63
       objectReference: {fileID: 0}
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.22
+      value: 10.05
       objectReference: {fileID: 0}
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalPosition.z
@@ -846,7 +846,7 @@ PrefabInstance:
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 28457a4c37bc38c42beb6f31b42b9c61, type: 2}
+      objectReference: {fileID: 11400000, guid: bf7889f1acaabcf4980b330eab0bb5d6, type: 2}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
