@@ -4,5 +4,6 @@ public enum Characters
     None,
     Perkins,
     Lin,
-    Seth
+    Seth,
+    Emergency
 }
