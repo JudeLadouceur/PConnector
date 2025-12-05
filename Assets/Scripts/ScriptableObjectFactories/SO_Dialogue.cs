@@ -38,8 +38,7 @@ public class SO_Dialogue : ScriptableObject
     [System.Serializable]
     public class Variables
     {
-        public SO_Character targetCharacter;
-        public string variableName;
+        public DialogueVar variable;
         public Modifier modifier;
         public int value;
     }

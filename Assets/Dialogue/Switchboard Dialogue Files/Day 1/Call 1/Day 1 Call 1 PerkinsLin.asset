@@ -54,8 +54,14 @@ MonoBehaviour:
       Data4: -689171658
     Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Lin Connection/Mrs. Perkins - Day
       - Call 1 - Lin Connection
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
-    variableName: walkerFixed
+  - variable: 0
     modifier: 2
     value: 1

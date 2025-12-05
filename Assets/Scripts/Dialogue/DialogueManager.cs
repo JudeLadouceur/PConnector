@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
 
     private GameObject dialogueBox;
     private CallManager callManager;
-    private CharacterManager characterManager;
+    private VariableManager characterManager;
     private SceneTransitionTargets transitionTargets;
 
 
@@ -33,7 +33,7 @@ public class DialogueManager : MonoBehaviour
         Instance = this;
 
         dialogueBox = GameObject.FindGameObjectWithTag("DialogueBox");
-        characterManager = GameObject.FindAnyObjectByType<CharacterManager>();
+        characterManager = GameObject.FindAnyObjectByType<VariableManager>();
 
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
@@ -66,7 +66,7 @@ public class DialogueManager : MonoBehaviour
 
         for (int i = 0; i < dialogue.variables.Length; i++) 
         {
-            characterManager.flags[dialogue.variables[i].variableName] = dialogue.variables[i].value;
+            characterManager.flags[dialogue.variables[i].variable] = dialogue.variables[i].value;
         }
 
         inDialogue = true;
@@ -164,14 +164,7 @@ public class DialogueManager : MonoBehaviour
 
             callManager.ContextCall();
         }
-        else
-        {
-            print("End of day");
-
-            string target = "Day "+ (TimeManager.dayNumber+1) +" - Afterwork ";
-
-            transitionTargets.FindTargetScene(target);
-        }
+        else EndDay();
     }
 
     private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
@@ -187,11 +180,20 @@ public class DialogueManager : MonoBehaviour
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
     }
     
+    public void EndDay()
+    {
+        print("End of day");
+
+        string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
+
+        transitionTargets.FindTargetScene(target);
+    }
+
     public void ResetDialogue()
     {
         TimeManager.dayNumber = 0;
         TimeManager.callNumber = 0;
-        CharacterManager.instance.ResetFlags();
+        VariableManager.instance.ResetFlags();
 
         Debug.Log("Time manager reset. Day number now: " + TimeManager.dayNumber);
     }

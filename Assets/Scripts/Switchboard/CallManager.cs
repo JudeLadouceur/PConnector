@@ -11,14 +11,21 @@ public class CallManager : MonoBehaviour
         [System.Serializable]
         public class Call
         {
-            public DialogueVar[] requiredVariables; 
-            
+            [System.Serializable]
+            public class RequiredVars
+            {
+                public DialogueVar variable;
+                public int value;
+            }
+
             [System.Serializable]
             public class Connections
             {
                 public SO_Character receiver;
                 public SO_Dialogue dialogue;
             }
+
+            public RequiredVars[] requiredVars;
 
             public SO_Character caller;
 
@@ -48,6 +55,17 @@ public class CallManager : MonoBehaviour
 
     public void ContextCall()
     {
+        foreach (Days.Call.RequiredVars var in days[TimeManager.dayNumber].call[TimeManager.callNumber].requiredVars)
+        {
+            if (var.value != VariableManager.instance.flags[var.variable])
+            {
+                TimeManager.callNumber++;
+                if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
+                else ContextCall();
+                return;
+            }
+        }
+
         inContextCall = true;
 
         if(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall == null)
