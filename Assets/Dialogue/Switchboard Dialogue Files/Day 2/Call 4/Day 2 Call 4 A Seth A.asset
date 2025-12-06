@@ -14,33 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage here! What do you need help with?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh hello, Seth! Good to hear from you again. This is Mrs. Perkins.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Oh, hey Mrs. P! Thanks again for helping me with those parts earlier.
       They should get me just far enough to stay open until my next order of parts.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, it was my pleasure, dear. Thank you for fixing my walker yesterday.
       I could have been in a real pickle if not for that.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "It was no problem at all. Though, do you need the thing repaired again?
       I swear I fixed it up good\u2026"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, don\u2019t worry about that. You did a fantastic job dear! You
       see, I just had a bit of an adventure that day, and was hoping to be able to
       talk to someone about it. Would you be willing to lend this old lady your ear
       and have an evening chat in the park with me?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "The park? A chat? Not sure\u2026 I usually just relax here for the
       night."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, you always spend all day in that shop. You should get out everyone
       once in a while!
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "You know what? You\u2019re right. I\u2019ll head down to the park
       now. Don\u2019t keep me waiting!"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Thank you, dear. I won\u2019t be too long."
   voiceLineEvent:
     Guid:
@@ -49,8 +59,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
-    variableName: goesWalk
+  - variable: 4
     modifier: 2
     value: 1
