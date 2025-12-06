@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Mrs. Perkins Lin Day 5 Before Work
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Hey, dear. I\u2019m feeling much better and more energized today!
       I was hoping to buy an early pizza from Lin, but haven\u2019t seen him around
       anywhere. I wonder where he could be\u2026"
