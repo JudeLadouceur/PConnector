@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: WD2-Lin
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Lin\u2019s Pizza! Greatest pizza ever conceived! What can I get you? "
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: 'Apologies. We have been connected to the wrong line. '
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Oh, uh\u2026 okay? You sure you don\u2019t want some pizza? "
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: "There\u2019s no need. We will send somebody to deliver our message
+      in person. Sorry for the trouble. "
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 0
+    modifier: 2
+    value: 1

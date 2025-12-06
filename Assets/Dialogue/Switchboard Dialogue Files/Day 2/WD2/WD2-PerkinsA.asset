@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: WD2-PerkinsA
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: 'Hello! This is Mrs. Perkins. '
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: "Hello Mrs. Perkins. This is the Maplegrove  doctor\u2019s office.
+      We would like to book a follow up appointment regarding your head injury. "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Oh, that would be wonderful! My head has still been bothering me\u2026
+      I really have nothing else to do, book me in anytime tomorrow."
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: "Alright, Mrs. Perkins. We\u2019ll book you in tomorrow at 2PM then,
+      please make sure to remember. "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Thank you dear, I\u2019ll be there. "
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 0
+    modifier: 2
+    value: 1

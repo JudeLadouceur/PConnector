@@ -1996,6 +1996,42 @@ MonoBehaviour:
         dialogueOptions:
         - variables: []
           dialogue: {fileID: 11400000, guid: 939cea813e499bc4885dbdf5a80a2195, type: 2}
+    - requiredVars:
+      - variableName: 3
+        value: 0
+      caller: 4
+      contextCall: {fileID: 11400000, guid: 4dbaab937c8cb8a4092360a783629fc3, type: 2}
+      connections:
+      - receiver: 2
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 55212c117b90b324daca27d0e8e52357, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: dd48ad655632a6043b6e50a2edf04098, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 324c46d27b4cb274dade49d2984f6493, type: 2}
+    - requiredVars:
+      - variableName: 3
+        value: 1
+      caller: 1
+      contextCall: {fileID: 11400000, guid: a69a1d52637910e4eaffd69acdefd316, type: 2}
+      connections:
+      - receiver: 2
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 55212c117b90b324daca27d0e8e52357, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: dd48ad655632a6043b6e50a2edf04098, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: adb106774c7fdde46996e064ee236cb1, type: 2}
     - requiredVars: []
       caller: 1
       contextCall: {fileID: 11400000, guid: a74121ae32faabd42bc427f57d47ea53, type: 2}
