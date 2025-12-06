@@ -120,6 +120,9 @@ public class DialogueManager : MonoBehaviour
         {
             if (speakerName == speakerProfilePictures[i].name)
             {
+                print(speakerProfile.sprite);
+
+                
                 speakerProfile.sprite = speakerProfilePictures[i];
                 break;
             }
