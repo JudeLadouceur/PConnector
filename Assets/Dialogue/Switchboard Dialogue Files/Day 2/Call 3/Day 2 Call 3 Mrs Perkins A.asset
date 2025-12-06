@@ -14,31 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello, this is Mrs. Perkins. May I ask who this is?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Hello Mrs. Perkins! This is Lin, the pizza guy in town.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: 'Oh, good day to you, Lin! What can I do for you today? '
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Well, you see, a big group cancelled right when I made their order,
       and I have some pizza just hanging around. I want to sell it while it\u2019s
       fresh, but I don\u2019t know who would want a pizza like this."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Well, I may not be able to eat that whole darned thing myself, but
       I would be more than happy to buy that and share it with anyone at the park!
       Would that be okay, dearie?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "That would be perfect, Mrs. Perkins! Thank you so much. Here, I\u2019ll
       even give you a thirty percent discount for the inconvenience."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, that won\u2019t be necessary dear. I\u2019ll even give you a tip!
       You should just make sure to chat with some folks in the park while you\u2019re
       there. You know, having some close friends can really help you when you\u2019re
       stuck in a situation like this."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "That\u2019s a good point Mrs. Perkins. You know what, I think I will
       take the time to chat to some folks. Thanks for the advice! That means a lot."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "No worries, dear. I\u2019ll meet you at the park soon"
   voiceLineEvent:
     Guid:
@@ -47,8 +56,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: pizzaEaten
+  - variable: 1
     modifier: 2
     value: 1

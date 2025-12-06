@@ -14,40 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "This is Seth\u2019s Repair Garage. What can I do for ya?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh\u2013uh, hey Seth! This is Lin from the pizza place. I was hoping
       you could do me a favor."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Sure, what\u2019s up? Need the dishwasher fixed again? Because I swear
       that thing\u2019s just old, fixing can only do so much at this point."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "No, not this time Seth. You see, a big group cancelled right when
       I made their order, and I have some pizza just hanging around. I want to sell
       it while it\u2019s fresh, but\u2026"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "You can\u2019t just give it away for free?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Yeah\u2026 b-but I could sell it to you for a discount! Thirty percent
       off"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Don\u2019t worry Lin, I'll throw you a bone here. It\u2019s actually
       rather convenient because I forgot my lunch today, anyways."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, wow. Thanks a lot, Seth.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: No worries, dude. You know, you should try hanging out with some of
       the townsfolk sometime. It would make it a lot easier for you to call in favors
       like this.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I guess\u2026 I\u2019ve just got a lot to do here, and\u2013"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Then give yourself a break! I swear dude, I never see you let that
       place close for even a day\u2026"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I\u2019ll think about it. Still, I should deliver this while it\u2019s
       hot! Thanks again for this, I\u2019ll be over soon!"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: See you soon, Lin.
   voiceLineEvent:
     Guid:
@@ -56,8 +69,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: pizzaEaten
+  - variable: 1
     modifier: 2
     value: 1

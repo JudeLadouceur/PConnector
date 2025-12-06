@@ -14,34 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, my hip\u2026 Hello, this is Mrs. Perkins. May I ask who this is?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: 'Hello Mrs. Perkins! This is Lin, the pizza guy in town. '
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, hello Lin. Do you need help with something?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "As a matter of fact, I do. You see, a big group cancelled right when
       I made their order, and I have some pizza just hanging around. I want to sell
       it while it\u2019s fresh, but I don\u2019t know who would want a pizza like
       this"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, I\u2019m afraid I can\u2019t help you there, dear. I can\u2019t
       eat that whole thing myself, and I\u2019m especially not feeling well after
       my walker broke today. I haven\u2019t gotten that fixed yet\u2026 "
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh geez, I\u2019m sorry Mrs. Perkins! Don\u2019t worry about it, I\u2019ll\u2026
       think of something else. You just take it easy."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Wouldn\u2019t it be easier to just call a friend of yours? I\u2019m
       sure they would be happy to help you out."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I\u2026 wish I could."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, dear. Did I say something wrong? I\u2019m terribly sorry."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, no no no! Don\u2019t worry about it Mrs. Perkins. Just let me
       worry about this, you get some rest."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: If you say so, dear. Have a good day.
   voiceLineEvent:
     Guid:
@@ -50,8 +61,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: pizzaEaten
+  - variable: 1
     modifier: 2
     value: 0

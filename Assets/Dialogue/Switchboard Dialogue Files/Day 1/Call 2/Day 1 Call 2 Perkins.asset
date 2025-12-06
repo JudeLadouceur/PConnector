@@ -65,6 +65,6 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - variable: 0
+  - variable: 5
     modifier: 2
     value: 1

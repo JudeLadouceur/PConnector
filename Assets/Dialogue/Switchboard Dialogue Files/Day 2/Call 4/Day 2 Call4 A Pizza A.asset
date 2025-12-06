@@ -14,24 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "This is Lin\u2019s Pizzaria! What can I get for you?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh hello, Lin! It\u2019s great to hear your voice. This is Mrs. Perkins."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh\u2013uh, hi Mrs. Perkins! Finally deciding to take on that extra
       large like I keep suggesting?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, no. Sorry dear. But I still don\u2019t think I have the stomach
       for that. You see, I had quite the adventure yesterday, and was hoping to have
       a nice chat with some nice folks such as yourself to tell you about it."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "That sounds nice! Tell you what, I close in about half an hour, so
       I\u2019ll bring whatever leftovers I have and we can have a nice evening chat
       and eat some pizza together!"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, that sounds lovely, dear! I\u2019ll meet you at the park in about
       half an hour then."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: See you then!
   voiceLineEvent:
     Guid:
@@ -40,12 +47,17 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
-    variableName: goesWalk
+  - variable: 2
     modifier: 2
     value: 1
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: walkWithLin
+  - variable: 4
     modifier: 2
     value: 1
