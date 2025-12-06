@@ -21,6 +21,17 @@ public class VariableManager: MonoBehaviour
         }
     }
 
+    [ContextMenu("Print Variables")]
+    private void PrintVariables()
+    {
+        List<DialogueVar> keys = new List<DialogueVar>(flags.Keys);
+
+        foreach (DialogueVar flag in keys)
+        {
+            Debug.Log("Variable " + flag + ". value: " + flags[flag]);
+        }
+    }
+
     public void ResetFlags()
     {
         List<DialogueVar> keys = new List<DialogueVar>(flags.Keys);
