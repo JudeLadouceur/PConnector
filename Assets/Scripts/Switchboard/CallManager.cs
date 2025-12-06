@@ -199,8 +199,10 @@ public class CallManager : MonoBehaviour
     public IEnumerator StartCallDelay()
     {
         //------------Insert ring noise here----------------
+
+        FMODSoundPlayer.Instance.PlayFMODSound();
         
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
 
         ContextCall();
     }
