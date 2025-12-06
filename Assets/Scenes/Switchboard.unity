@@ -781,8 +781,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   days:
-  - dayVariables: 0000000000000000
-  - dayVariables: 000000000000000000000000
+  - dayVariables: 0300000005000000
+  - dayVariables: 010000000400000002000000
   - dayVariables: 0000000000000000
 --- !u!1 &473694785
 GameObject:

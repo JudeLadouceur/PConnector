@@ -259,31 +259,8 @@ PrefabInstance:
     - {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2130653912814870798, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 429130172}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
---- !u!1 &429130171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2130653912814870798, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
-  m_PrefabInstance: {fileID: 429130170}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &429130172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 429130171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 2fa1b52acb3b9294981177050bb2a333, type: 2}
-  character: 0
-  canAddNotes: 0
 --- !u!1001 &1053602275
 PrefabInstance:
   m_ObjectHideFlags: 0
