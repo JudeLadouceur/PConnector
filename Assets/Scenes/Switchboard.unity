@@ -2044,7 +2044,9 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: adb106774c7fdde46996e064ee236cb1, type: 2}
     - requiredVars: []
       caller: 1
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: a74121ae32faabd42bc427f57d47ea53, type: 2}
       connections:
       - receiver: 4
         dialogueOptions:
@@ -2061,7 +2063,9 @@ MonoBehaviour:
   - call:
     - requiredVars: []
       caller: 2
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 36f509250b09df0449f22a8cf604f458, type: 2}
       connections:
       - receiver: 3
         dialogueOptions:
@@ -2077,7 +2081,9 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: ceec8244bc06b1545bc4aa48b39e8a7f, type: 2}
     - requiredVars: []
       caller: 0
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 4bb77f4f39ab83d4ba310ddc75c81922, type: 2}
       connections:
       - receiver: 4
         dialogueOptions:
@@ -2097,7 +2103,9 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: 219d7829a6ad0b94d922f1e792626d1b, type: 2}
     - requiredVars: []
       caller: 3
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 2868111d8881897418a50000559a3219, type: 2}
       connections:
       - receiver: 0
         dialogueOptions:
@@ -2110,7 +2118,9 @@ MonoBehaviour:
   - call:
     - requiredVars: []
       caller: 1
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: c87ffeff457c80d439e29f9a6b88da2f, type: 2}
       connections:
       - receiver: 3
         dialogueOptions: []
@@ -2120,7 +2130,9 @@ MonoBehaviour:
         dialogueOptions: []
     - requiredVars: []
       caller: 0
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 82566dd722417804692db8a7a7790304, type: 2}
       connections:
       - receiver: 4
         dialogueOptions: []
@@ -2132,7 +2144,9 @@ MonoBehaviour:
         dialogueOptions: []
     - requiredVars: []
       caller: 0
-      contextCalls: []
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: d5d5fd66cd98a5c46abb727ca819b5b6, type: 2}
       connections:
       - receiver: 0
         dialogueOptions: []

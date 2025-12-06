@@ -14,18 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage, what do you need? "
   - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
     dialogue: 'Oh, Seth! I was hoping you could help me out, dearie. Your new appointment
       system makes no sense! Can you walk me through it? '
   - speakerName: 'SETH '
+    NewSpeakerName: 3
     dialogue: "Ah, sorry. I ain\u2019t got time to explain, Mrs. P, but I can just
       add you to our calendar. Today at 3 work for ya? "
   - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
     dialogue: "That\u2019s perfect, I\u2019ll be there at 3. "
   - speakerName: 'SETH '
+    NewSpeakerName: 3
     dialogue: 'Okay, see ya. NEXT! '
   - speakerName: 
+    NewSpeakerName: 0
     dialogue: The Call Ends
   voiceLineEvent:
     Guid:
@@ -35,8 +41,14 @@ MonoBehaviour:
       Data4: 1268817168
     Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Seth Connection/Mrs. Perkins -
       Day 1 - Call 1 - Seth Connection
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 552e117ed990b554281e0ab2527762fb, type: 2}
-    variableName: walkerFixed
+  - variable: 3
     modifier: 2
     value: 1
