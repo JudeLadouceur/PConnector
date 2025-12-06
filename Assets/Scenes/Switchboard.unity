@@ -1949,7 +1949,9 @@ MonoBehaviour:
   - call:
     - requiredVars: []
       caller: 1
-      contextCall: {fileID: 11400000, guid: 0e1d4918678cbef43aab251eb1772951, type: 2}
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 0e1d4918678cbef43aab251eb1772951, type: 2}
       connections:
       - receiver: 2
         dialogueOptions:
@@ -1965,7 +1967,9 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: b52d840317e99ba49984106929d0ecf0, type: 2}
     - requiredVars: []
       caller: 3
-      contextCall: {fileID: 11400000, guid: 4570c6a19678e6e42bb26a371f702f33, type: 2}
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 4570c6a19678e6e42bb26a371f702f33, type: 2}
       connections:
       - receiver: 4
         dialogueOptions:
@@ -1982,7 +1986,9 @@ MonoBehaviour:
   - call:
     - requiredVars: []
       caller: 2
-      contextCall: {fileID: 11400000, guid: 0ec391e069355c74eb3e1d1dbc8acc62, type: 2}
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 0ec391e069355c74eb3e1d1dbc8acc62, type: 2}
       connections:
       - receiver: 3
         dialogueOptions:
@@ -2000,7 +2006,9 @@ MonoBehaviour:
       - variableName: 3
         value: 0
       caller: 4
-      contextCall: {fileID: 11400000, guid: 4dbaab937c8cb8a4092360a783629fc3, type: 2}
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 4dbaab937c8cb8a4092360a783629fc3, type: 2}
       connections:
       - receiver: 2
         dialogueOptions:
@@ -2018,7 +2026,9 @@ MonoBehaviour:
       - variableName: 3
         value: 1
       caller: 1
-      contextCall: {fileID: 11400000, guid: a69a1d52637910e4eaffd69acdefd316, type: 2}
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: a69a1d52637910e4eaffd69acdefd316, type: 2}
       connections:
       - receiver: 2
         dialogueOptions:
@@ -2034,7 +2044,7 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: adb106774c7fdde46996e064ee236cb1, type: 2}
     - requiredVars: []
       caller: 1
-      contextCall: {fileID: 11400000, guid: a74121ae32faabd42bc427f57d47ea53, type: 2}
+      contextCalls: []
       connections:
       - receiver: 4
         dialogueOptions:
@@ -2051,7 +2061,7 @@ MonoBehaviour:
   - call:
     - requiredVars: []
       caller: 2
-      contextCall: {fileID: 11400000, guid: 36f509250b09df0449f22a8cf604f458, type: 2}
+      contextCalls: []
       connections:
       - receiver: 3
         dialogueOptions:
@@ -2067,7 +2077,7 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: ceec8244bc06b1545bc4aa48b39e8a7f, type: 2}
     - requiredVars: []
       caller: 0
-      contextCall: {fileID: 11400000, guid: 4bb77f4f39ab83d4ba310ddc75c81922, type: 2}
+      contextCalls: []
       connections:
       - receiver: 4
         dialogueOptions:
@@ -2087,7 +2097,7 @@ MonoBehaviour:
           dialogue: {fileID: 11400000, guid: 219d7829a6ad0b94d922f1e792626d1b, type: 2}
     - requiredVars: []
       caller: 3
-      contextCall: {fileID: 11400000, guid: 2868111d8881897418a50000559a3219, type: 2}
+      contextCalls: []
       connections:
       - receiver: 0
         dialogueOptions:
@@ -2100,7 +2110,7 @@ MonoBehaviour:
   - call:
     - requiredVars: []
       caller: 1
-      contextCall: {fileID: 11400000, guid: c87ffeff457c80d439e29f9a6b88da2f, type: 2}
+      contextCalls: []
       connections:
       - receiver: 3
         dialogueOptions: []
@@ -2110,7 +2120,7 @@ MonoBehaviour:
         dialogueOptions: []
     - requiredVars: []
       caller: 0
-      contextCall: {fileID: 11400000, guid: 82566dd722417804692db8a7a7790304, type: 2}
+      contextCalls: []
       connections:
       - receiver: 4
         dialogueOptions: []
@@ -2122,7 +2132,7 @@ MonoBehaviour:
         dialogueOptions: []
     - requiredVars: []
       caller: 0
-      contextCall: {fileID: 11400000, guid: d5d5fd66cd98a5c46abb727ca819b5b6, type: 2}
+      contextCalls: []
       connections:
       - receiver: 0
         dialogueOptions: []

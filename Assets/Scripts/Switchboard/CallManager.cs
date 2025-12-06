@@ -32,11 +32,18 @@ public class CallManager : MonoBehaviour
                 public Option[] dialogueOptions;
             }
 
+            [System.Serializable]
+            public class ContextCall
+            {
+                public RequiredVars[] variables;
+                public SO_Dialogue contextCall;
+            }
+
             public RequiredVars[] requiredVars;
 
             public Characters caller;
 
-            public SO_Dialogue contextCall;
+            public ContextCall[] contextCalls;
 
             public Connections[] connections;
         }
@@ -71,15 +78,50 @@ public class CallManager : MonoBehaviour
             }
         }
 
-        inContextCall = true;
-
-        if(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall == null)
+        if (days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls.Length == 0)
         {
-            Debug.LogError("There is no context call for day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please provide a context call.");
+            Debug.LogError("There are no context calls in day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please assign a context call.");
+            TimeManager.callNumber++;
+            if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
+            else ContextCall();
             return;
         }
 
-        DialogueManager.Instance.StartDialogue(days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCall);
+        SO_Dialogue contextCall = null;
+
+        foreach (Days.Call.ContextCall call in days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls)
+        {
+            if (contextCall != null) break;
+
+            if (call.variables.Length == 0)
+            {
+                contextCall = call.contextCall;
+                break;
+            }
+
+            foreach (Days.Call.RequiredVars var in call.variables)
+            {
+                if (var.value == VariableManager.instance.flags[var.variableName]) contextCall = call.contextCall;
+                else
+                {
+                    contextCall = null;
+                    break;
+                }
+            }
+        }
+
+        if(contextCall == null)
+        {
+            Debug.LogError("No context call is playable with the variables you have for day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please ensure that a context call is always attainable.");
+            TimeManager.callNumber++;
+            if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
+            else ContextCall();
+            return;
+        }
+
+        inContextCall = true;
+
+        DialogueManager.Instance.StartDialogue(contextCall);
     }
 
     public bool StartCall(Characters receiver)

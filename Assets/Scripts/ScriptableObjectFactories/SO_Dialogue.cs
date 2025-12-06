@@ -51,6 +51,7 @@ public class SO_Dialogue : ScriptableObject
         Characters[] characters = (Characters[])System.Enum.GetValues(typeof(Characters));
         for (int i = 0; i < lines.Length; i++)
         {
+            if (lines[i].speakerName == Characters.None.ToString()) return;
             //Debug.Log("Changing names of: " + this.ToString());
             string oldName = lines[i].speakerName.ToLower().Replace(" ", "");
             foreach (Characters c in characters)
