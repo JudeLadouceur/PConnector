@@ -783,7 +783,9 @@ MonoBehaviour:
   days:
   - dayVariables: 0300000005000000
   - dayVariables: 010000000400000002000000
-  - dayVariables: 0000000000000000
+  - dayVariables: 0700000006000000
+  - dayVariables: 0e0000000b0000000c0000000d000000
+  - dayVariables: 0a000000090000000800000012000000110000000f0000001000000013000000
 --- !u!1 &473694785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,10 +1891,51 @@ MonoBehaviour:
       - variables: []
         contextCall: {fileID: 11400000, guid: 2868111d8881897418a50000559a3219, type: 2}
       connections:
-      - receiver: 0
+      - receiver: 1
         dialogueOptions:
         - variables: []
           dialogue: {fileID: 0}
+      - receiver: 2
+        dialogueOptions: []
+      - receiver: 4
+        dialogueOptions: []
+  - call:
+    - requiredVars: []
+      caller: 1
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: c87ffeff457c80d439e29f9a6b88da2f, type: 2}
+      connections:
+      - receiver: 3
+        dialogueOptions: []
+      - receiver: 2
+        dialogueOptions: []
+      - receiver: 4
+        dialogueOptions: []
+    - requiredVars: []
+      caller: 0
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 82566dd722417804692db8a7a7790304, type: 2}
+      connections:
+      - receiver: 4
+        dialogueOptions: []
+      - receiver: 2
+        dialogueOptions: []
+      - receiver: 3
+        dialogueOptions: []
+      - receiver: 1
+        dialogueOptions: []
+    - requiredVars: []
+      caller: 0
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: d5d5fd66cd98a5c46abb727ca819b5b6, type: 2}
+      connections:
+      - receiver: 0
+        dialogueOptions: []
+      - receiver: 0
+        dialogueOptions: []
       - receiver: 0
         dialogueOptions: []
       - receiver: 0
@@ -4028,7 +4071,7 @@ MonoBehaviour:
   notchCount: {x: 3, y: 2}
   textSize: 24
   notchSize: 1
-  characters: 0100000002000000030000000400000000000000
+  characters: 0100000002000000030000000400000008000000
   tapeSheet:
   - {fileID: -593313276, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}
   - {fileID: 251797576, guid: ebd683026ccafd049853e7d68936a1e9, type: 3}

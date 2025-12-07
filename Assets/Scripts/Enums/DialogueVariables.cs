@@ -7,5 +7,18 @@ public enum DialogueVar
     PerkinsWalkerFixed,
     PerkinsGoesWalk,
     SethPartsGained,
-    SethLeaveNotified
+    SethLeaveNotified,
+    PizzaRecall,
+    PerkinsLinConnection,
+    LinSethConnection,
+    SethPerkinsConnection,
+    SethFinalDayChoice,
+    LinFinalDayChoice,
+    MrsPerkinsFinalDayChoice,
+    PerkinsVolunteers,
+    PerkinsStays,
+    HowardMessageHeard,
+    LinStays,
+    SethCloses,
+    OlsonCallLin
 }
