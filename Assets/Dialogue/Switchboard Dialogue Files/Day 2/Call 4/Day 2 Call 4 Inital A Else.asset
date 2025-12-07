@@ -14,11 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello dear, this is Mrs. Perkins. You see, after the shenanigans I
       had with my blasted computer yesterday, I was left quite frustrated. I was
       hoping to call someone and have a nice chat to help get my mind off of things.
       Would you mind connecting me to someone who can help?
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

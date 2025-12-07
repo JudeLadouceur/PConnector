@@ -14,16 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "You\u2019ve reached the Smithville emergency line. What\u2019s your
-      situation?"
+      situation? "
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh? I\u2019m terribly sorry, but it seems there has been some sort
-      of mixup. I\u2019m not in any trouble, I\u2019m sorry."
+      of mixup. I\u2019m not in any trouble, I\u2019m sorry. "
   - speakerName: ' RECEPTIONIST '
-    dialogue: "Oh, uh\u2013alright. You have a good night."
+    NewSpeakerName: 0
+    dialogue: "Oh, uh\u2013alright. You have a good night. "
   - speakerName: MRS. PERKINS
-    dialogue: You too, dear. Sorry again.
+    NewSpeakerName: 1
+    dialogue: 'You too, dear. Sorry again. '
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

@@ -14,26 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: "Lin\u2019s pizza. What can I get you?"
+    NewSpeakerName: 2
+    dialogue: "Lin\u2019s pizza. What can I get you? "
   - speakerName: MRS. PERKINS
-    dialogue: Oh hello, Lin! This is Mrs. Perkins.
+    NewSpeakerName: 1
+    dialogue: 'Oh hello, Lin! This is Mrs. Perkins. '
   - speakerName: LIN
-    dialogue: "Oh\u2013uh, hey Mrs. Perkins. Would you like to order something?"
+    NewSpeakerName: 2
+    dialogue: "Oh\u2013uh, hey Mrs. Perkins. Would you like to order something? "
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, no. Sorry dear, not this time. You see, I had quite the adventure
       yesterday, and was hoping to have a nice chat with some nice folks such as
-      yourself to tell you about it.
+      yourself about it.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Ah, sorry Mrs. Perkins. I\u2019m not really feeling it tonight. I
-      had to throw out a perfectly good pizza earlier and it\u2019s kind of eating
-      me up. I think I\u2019m gonna turn in early tonight."
+      had to throw out a perfectly good pizza earlier \u2018cause I wasn\u2019t paying
+      attention and it\u2019s kind of eating me up. I\u2019m just\u2026 not in the
+      mood. I\u2019ve just gotta keep making pizza. "
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, I\u2019m sorry dear. That doesn\u2019t sound pleasant. Well, I
       won\u2019t keep you then. I guess this old lady should turn in early as well.
       You get some rest."
   - speakerName: LIN
-    dialogue: You too, Mrs. Perkins. Have a good night.
+    NewSpeakerName: 2
+    dialogue: 'You too, Mrs. Perkins. Have a good night. '
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

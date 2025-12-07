@@ -15,28 +15,29 @@ MonoBehaviour:
   lines:
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "This is Lin\u2019s Pizzaria! What can I get for you?"
+    dialogue: "This is Lin\u2019s Pizzaria! Awesomest pizza of the century! What
+      can I get for you?"
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Oh hello, Lin! It\u2019s great to hear your voice. This is Mrs. Perkins."
+    dialogue: "Oh hello, Lin! It\u2019s great to hear your voice. This is Mrs. Perkins. "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh\u2013uh, hi Mrs. Perkins! Finally deciding to take on that extra
-      large like I keep suggesting?"
+      large like I keep suggesting? "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, no. Sorry dear. But I still don\u2019t think I have the stomach
       for that. You see, I had quite the adventure yesterday, and was hoping to have
-      a nice chat with some nice folks such as yourself to tell you about it."
+      a nice chat with some nice folks such as yourself to tell you about it. "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "That sounds nice! Tell you what, I close in about half an hour, so
       I\u2019ll bring whatever leftovers I have and we can have a nice evening chat
-      and eat some pizza together!"
+      and eat some pizza together! "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, that sounds lovely, dear! I\u2019ll meet you at the park in about
-      half an hour then."
+      half an hour then. "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: See you then!

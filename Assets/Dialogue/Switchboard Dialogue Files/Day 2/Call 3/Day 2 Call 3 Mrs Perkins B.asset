@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Oh, my hip\u2026 Hello, this is Mrs. Perkins. May I ask who this is?"
+    dialogue: "Oh, my hip\u2026 Hello, this is Mrs. Perkins. May I ask who this is? "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: 'Hello Mrs. Perkins! This is Lin, the pizza guy in town. '
@@ -24,10 +24,10 @@ MonoBehaviour:
     dialogue: Oh, hello Lin. Do you need help with something?
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "As a matter of fact, I do. You see, a big group cancelled right when
-      I made their order, and I have some pizza just hanging around. I want to sell
-      it while it\u2019s fresh, but I don\u2019t know who would want a pizza like
-      this"
+    dialogue: "As a matter of fact, I do. You see, a big group cancelled on me and
+      I wasn\u2019t paying attention to their booking, and I have some pizza just
+      hanging around. I want to sell it while it\u2019s fresh, but I don\u2019t know
+      who would want a pizza like this. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, I\u2019m afraid I can\u2019t help you there, dear. I can\u2019t
@@ -36,7 +36,8 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh geez, I\u2019m sorry Mrs. Perkins! Don\u2019t worry about it, I\u2019ll\u2026
-      think of something else. You just take it easy."
+      think of something else. You just take it easy and don\u2019t worry about the
+      pizza."
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Wouldn\u2019t it be easier to just call a friend of yours? I\u2019m

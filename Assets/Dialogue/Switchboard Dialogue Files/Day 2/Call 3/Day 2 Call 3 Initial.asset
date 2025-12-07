@@ -14,11 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: "Hi! Uh, thanks for picking up. I\u2019ve got a bit of an issue here.
-      I have a few spare Pizzas here. Last minute cancel, big group. I want to sell
-      it while it\u2019s still fresh, but I don\u2019t know who to ask! Geez\u2026
-      I really need to get to know people better\u2026"
+    NewSpeakerName: 2
+    dialogue: "Hi! Uh, thanks for picking up. I\u2019ve got a bit of an issue here
+      at the Pizza place."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "I have a few spare Pizzas here. I wasn\u2019t paying attention and
+      realized that they cancelled their booking! I should have checked\u2026 Well,
+      I want to sell these while they\u2019re still fresh, but I don\u2019t know
+      who to ask! I just\u2026 I can\u2019t let this pizza go bad, you know? \u201CFresh\u201D
+      is my thing! Not \"refrigerated and reheated\u201D!"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

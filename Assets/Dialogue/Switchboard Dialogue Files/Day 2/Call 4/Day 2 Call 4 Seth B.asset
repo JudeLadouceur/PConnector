@@ -14,21 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. Sorry, we\u2019re closed early for the
-      day due to a supply shortage. Sorry about that."
+      day due to a supply shortage. Sorry about that. "
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh hello, Seth! That\u2019s rough to hear, but don\u2019t worry about
       that, I\u2019m not calling for a repair today. Oh, this is Mrs. Perkins by
-      the way."
+      the way. "
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Mrs. P? Sorry, but I\u2019m kind of busy sorting things out with this
-      supply shortage of mine. This important?"
+      supply shortage of mine. This important? I gotta fix all this before I let
+      more people down. "
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, no. I suppose it\u2019s not that important. You focus on your
-      work dear, I\u2019ll just\u2026 spend some time to myself tonight."
+      work dear, I\u2019ll just\u2026 spend some time to myself tonight. "
   - speakerName: SETH
-    dialogue: 'Alright. See ya. '
+    NewSpeakerName: 3
+    dialogue: Alright. See ya.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

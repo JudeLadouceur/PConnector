@@ -15,50 +15,52 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "This is Seth\u2019s Repair Garage. What can I do for ya?"
+    dialogue: "This is Seth\u2019s Repair Garage. How can I help ya? "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh\u2013uh, hey Seth! This is Lin from the pizza place. I was hoping
-      you could do me a favor."
+      you could do me a favor. "
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Sure, what\u2019s up? Need the dishwasher fixed again? Because I swear
-      that thing\u2019s just old, fixing can only do so much at this point."
+      that thing\u2019s just old, fixing can only do so much at this point. "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "No, not this time Seth. You see, a big group cancelled right when
-      I made their order, and I have some pizza just hanging around. I want to sell
-      it while it\u2019s fresh, but\u2026"
+    dialogue: "No, not this time Seth. You see, a big group cancelled on me and I
+      wasn\u2019t paying attention, and I still made their pizzas before I noticed!
+      I want to sell it while it\u2019s fresh, but\u2026 "
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "You can\u2019t just give it away for free?"
+    dialogue: 'You gotta cover your costs, I getcha. '
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Yeah\u2026 b-but I could sell it to you for a discount! Thirty percent
-      off"
+      off! "
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Don\u2019t worry Lin, I'll throw you a bone here. It\u2019s actually
-      rather convenient because I forgot my lunch today, anyways."
+    dialogue: "Don\u2019t worry Lin, I\u2019m happy to help you out. It\u2019s actually
+      rather convenient because I forgot my lunch today, anyways. "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Oh, wow. Thanks a lot, Seth.
+    dialogue: 'Oh, wow. Thanks a lot, Seth! That takes a lot off my shoulders. '
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: No worries, dude. You know, you should try hanging out with some of
-      the townsfolk sometime. It would make it a lot easier for you to call in favors
-      like this.
+    dialogue: "Always happy to help, and hey, if you ever need those washers fixed,
+      I\u2019ll give you a discount. Might be worth you spending time with your friends
+      too, a guy like you should be enjoying the weather."
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "I guess\u2026 I\u2019ve just got a lot to do here, and\u2013"
+    dialogue: "I guess\u2026 I\u2019ve just got a lot to do here, organizing ingredients,
+      making pizzas, and\u2013 "
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Then give yourself a break! I swear dude, I never see you let that
-      place close for even a day\u2026"
+      place close for even a day\u2026you do so much for the town, you should enjoy
+      the perks. "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "I\u2019ll think about it. Still, I should deliver this while it\u2019s
-      hot! Thanks again for this, I\u2019ll be over soon!"
+    dialogue: "I\u2019ll think about it. Still, I should deliver this pizza while
+      it\u2019s hot! Thanks again for this, I\u2019ll be over soon! "
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: See you soon, Lin.

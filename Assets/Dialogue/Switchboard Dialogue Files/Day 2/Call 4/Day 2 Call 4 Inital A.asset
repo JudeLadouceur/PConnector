@@ -14,11 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Good day to you, dear! You see, I\u2019ve been feeling quite energized
       after my little adventure with Lin yesterday after my walker was repaired.
       I was hoping to reach out to someone and ask if they wanted to have a chat
       at the park. Would you mind connecting me to someone who could?"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

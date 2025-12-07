@@ -15,43 +15,45 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Seth\u2019s Repair Garage here! What do you need help with?"
+    dialogue: "Seth\u2019s Repair Garage here! What do you need help with? "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: Oh hello, Seth! Good to hear from you again. This is Mrs. Perkins.
+    dialogue: 'Oh hello, Seth! Good to hear from you again. This is Mrs. Perkins. '
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: Oh, hey Mrs. P! Thanks again for helping me with those parts earlier.
-      They should get me just far enough to stay open until my next order of parts.
+    dialogue: "Oh, hey Mrs. P! Thanks again for helping me with those parts earlier.
+      I\u2019m still not totally happy about what happened, but I\u2019m really grateful
+      you were willing to help. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: Oh, it was my pleasure, dear. Thank you for fixing my walker yesterday.
-      I could have been in a real pickle if not for that.
+    dialogue: 'Oh, it was my pleasure, dear. Thank you for fixing my walker yesterday.
+      I could have been in a real pickle if not for that. '
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "It was no problem at all. Though, do you need the thing repaired again?
-      I swear I fixed it up good\u2026"
+      I swear I fixed it up good\u2026 "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, don\u2019t worry about that. You did a fantastic job dear! You
       see, I just had a bit of an adventure that day, and was hoping to be able to
       talk to someone about it. Would you be willing to lend this old lady your ear
-      and have an evening chat in the park with me?"
+      and have an evening chat in the park with me? "
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "The park? A chat? Not sure\u2026 I usually just relax here for the
-      night."
+      night. Not like people usually make social calls with their repair guy. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: Oh, you always spend all day in that shop. You should get out everyone
-      once in a while!
+    dialogue: "Oh, you always spend all day in that shop. You should get out everyone
+      once in a while! You\u2019re a friend, if I may be so bold, and I like chatting
+      with friends. "
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "You know what? You\u2019re right. I\u2019ll head down to the park
-      now. Don\u2019t keep me waiting!"
+    dialogue: "Me\u2026a friend? You know what? You\u2019re right. I\u2019ll head
+      down to the park now. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Thank you, dear. I won\u2019t be too long."
+    dialogue: "Thank you, dear. I won\u2019t be too long. "
   voiceLineEvent:
     Guid:
       Data1: 0

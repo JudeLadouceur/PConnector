@@ -15,42 +15,42 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Seth\u2019s Repair Garage. What is it?"
+    dialogue: "Seth\u2019s Repair Garage. What is it? "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh\u2013uh, hey Seth! This is Lin from the pizza place. I was hoping
-      you could do me a favor."
+      you could do me a favor. "
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: What do you need?
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Well, you see, a big group cancelled right when I made their order,
-      and I have some pizza just hanging around. I want to sell it while it\u2019s
-      fresh, but\u2026 "
+    dialogue: "Well, you see, a big group cancelled on me and I wasn\u2019t paying
+      attention, and I still made their pizzas before I noticed! I want to sell it
+      while it\u2019s fresh, but\u2026 "
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Sorry, but I\u2019m too busy trying to salvage parts to keep my place
-      open. Did you seriously call me asking me to buy something I didn\u2019t even
-      order?"
+    dialogue: "Sorry, I don\u2019t got the time. Screwed up, got no materials, everything\u2019s
+      falling apart, and I just\u2026I don\u2019t know anymore."
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Ah, sorry. I know it was a dumb ask, I just\u2013gah. Never mind.
-      You\u2019re right. I\u2019ll just\u2026 throw it out I guess."
+      You\u2019re right. I\u2019ll just\u2026 throw it out I guess. "
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: You outta find people to help you out, dude. The fact that you are
-      calling me of all people shows that. Get out of the shop sometime, seriously.
-      Talk to people.
+    dialogue: "I\u2019m sure you have other people you can give it to, people who
+      actually deserve the food. Gotta go make some friends, I swear, you\u2019re
+      too busy all the time. "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Yeah, I guess.
+    dialogue: "Yeah, I guess, I can\u2019t be dropping pizzas like this. "
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: Ah, sorry if that was a bit harsh, but I have stuff I need to get to.
+    dialogue: 'Ah, sorry if that was a bit harsh, but I have stuff I need to get
+      to. '
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Of course, sorry for bothering you.
+    dialogue: Of course, sorry for bothering you about this.
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Take care of yourself, Lin.

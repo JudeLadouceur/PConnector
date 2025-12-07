@@ -15,40 +15,41 @@ MonoBehaviour:
   lines:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: Hello, this is Mrs. Perkins. May I ask who this is?
+    dialogue: 'Hello, this is Mrs. Perkins. May I ask who this is? '
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Hello Mrs. Perkins! This is Lin, the pizza guy in town.
+    dialogue: 'Hello Mrs. Perkins! This is Lin, the pizza guy in town. '
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: 'Oh, good day to you, Lin! What can I do for you today? '
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Well, you see, a big group cancelled right when I made their order,
-      and I have some pizza just hanging around. I want to sell it while it\u2019s
-      fresh, but I don\u2019t know who would want a pizza like this."
+    dialogue: "Well, you see, a big group cancelled on me and I wasn\u2019t paying
+      attention to their booking, and I have some pizza just hanging around. I want
+      to sell it while it\u2019s fresh, but I don\u2019t know who would want a pizza
+      like this."
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: Well, I may not be able to eat that whole darned thing myself, but
-      I would be more than happy to buy that and share it with anyone at the park!
-      Would that be okay, dearie?
+    dialogue: 'Well, I may not be able to eat that whole darned thing myself, but
+      would you be willing to set up a stand at the park, give it away to the children? '
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "That would be perfect, Mrs. Perkins! Thank you so much. Here, I\u2019ll
-      even give you a thirty percent discount for the inconvenience."
+    dialogue: "That would be perfect, Mrs. Perkins! Thank you so much. Make sure
+      you stop by too, I feel like you\u2019re barely around these days."
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Oh, that won\u2019t be necessary dear. I\u2019ll even give you a tip!
-      You should just make sure to chat with some folks in the park while you\u2019re
-      there. You know, having some close friends can really help you when you\u2019re
-      stuck in a situation like this."
+    dialogue: "Oh, that sounds lovely dear. I\u2019ll even give you a good tip! It
+      will be good to chat with folks again, it\u2019s been so quiet since Howard,
+      well\u2026 Make sure you stay a while too. You know, having some close friends
+      can really help you when you\u2019re stuck in a situation like this. "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "That\u2019s a good point Mrs. Perkins. You know what, I think I will
-      take the time to chat to some folks. Thanks for the advice! That means a lot."
+      take the time to chat to some folks, I can get some feedback on my new pizza
+      ideas! Thanks for the advice! That means a lot. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "No worries, dear. I\u2019ll meet you at the park soon"
+    dialogue: "No worries, dear. I\u2019ll meet you at the park soon. "
   voiceLineEvent:
     Guid:
       Data1: 0

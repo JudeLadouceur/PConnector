@@ -19,22 +19,23 @@ MonoBehaviour:
       you need?"
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Oh, uh\u2026 this is the pizza place in town."
+    dialogue: "Oh, uh\u2026 this is the pizza place in town. "
   - speakerName: RECEPTIONIST
     NewSpeakerName: 0
     dialogue: Did something happen? Do you need any help?
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Well, kind of. You see, a big group cancelled right when I made their
-      order, and I have some pizza just hanging around. I want to sell it while it\u2019s
-      fresh, but I don\u2019t know who would want a pizza like this. I was thinking
-      maybe I could sell it to you guys for a discount?"
+    dialogue: "Well\u2026 kind of. You see, a big group cancelled and I wasn\u2019t
+      paying attention to the status of their booking, and now I have some pizzas
+      just hanging around. I want to sell it while it\u2019s fresh, but I don\u2019t
+      know who would want a pizza like this. I was thinking maybe I could sell it
+      to you guys for a discount?"
   - speakerName: RECEPTIONIST
     NewSpeakerName: 0
     dialogue: How much of a discount?
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Say\u2026 thirty percent off?"
+    dialogue: "Say\u2026 fresh pizza for thirty percent off? "
   - speakerName: RECEPTIONIST
     NewSpeakerName: 0
     dialogue: "Lots of cheap pizza for the hungry staff and patients? Sounds great!
@@ -42,7 +43,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Really?! That\u2019s great! Thanks a lot! I\u2019ll have it ready
-      for when you get here."
+      for when you get here. "
   voiceLineEvent:
     Guid:
       Data1: 0

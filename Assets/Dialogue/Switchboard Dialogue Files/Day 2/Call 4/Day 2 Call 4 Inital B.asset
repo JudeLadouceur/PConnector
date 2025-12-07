@@ -10,19 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
-  m_Name: Day 2 Call 4 Inital A 1
+  m_Name: Day 2 Call 4 Inital B
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, oh dear. Thank goodness you picked up darling.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: You see, I never got my walker repaired yesterday, and moving around
       without it is a lot harder than I remember. I was on my way to the kitchen
       when I fell down.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "I hit my head when I fell, and I\u2019m afraid I\u2019m not feeling
       good. Could you get me some help, please?"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
