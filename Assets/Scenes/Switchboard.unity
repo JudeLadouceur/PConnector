@@ -1786,12 +1786,24 @@ MonoBehaviour:
       connections:
       - receiver: 3
         dialogueOptions:
-        - variables: []
+        - variables:
+          - variableName: 5
+            value: 1
           dialogue: {fileID: 11400000, guid: 605a88b2c28111a4f89bc1f16c2c28cf, type: 2}
+        - variables:
+          - variableName: 5
+            value: 0
+          dialogue: {fileID: 11400000, guid: 5d91433aca6e02b498fb6c1121394117, type: 2}
       - receiver: 1
         dialogueOptions:
-        - variables: []
+        - variables:
+          - variableName: 3
+            value: 1
           dialogue: {fileID: 11400000, guid: b64658f6085eb9a4bacecbcb3fb78254, type: 2}
+        - variables:
+          - variableName: 3
+            value: 0
+          dialogue: {fileID: 11400000, guid: 95cce517c9b095f479279d8de53b35c1, type: 2}
       - receiver: 4
         dialogueOptions:
         - variables: []
