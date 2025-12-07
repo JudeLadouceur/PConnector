@@ -41,6 +41,7 @@ public class DialogueManager : MonoBehaviour
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
         speakerProfile = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 3).GetComponent<UnityEngine.UI.Image>();
+        speakerProfile.sprite = speakerProfilePictures[0];
         dialogueBox.SetActive(false);
 
         SceneManager.activeSceneChanged += SceneTransition;
@@ -115,20 +116,22 @@ public class DialogueManager : MonoBehaviour
 
         speakerField.text = speakerName;
         dialogueField.text = currentDialogue.lines[line].dialogue;
-        Characters[] characters = (Characters[])System.Enum.GetValues(typeof(Characters));
-        for (int i = 0; i < speakerProfilePictures.Length; i++)
+
+        if (speakerProfile.sprite == null || speakerProfile.sprite.name != speakerName)
         {
-            if (speakerName == speakerProfilePictures[i].name)
+            speakerProfile.sprite = null;
+
+            for (int i = 0; i < speakerProfilePictures.Length; i++)
             {
-                print(speakerProfile.sprite);
-
-                
-                speakerProfile.sprite = speakerProfilePictures[i];
-                break;
+                if (speakerName == speakerProfilePictures[i].name)
+                {
+                    speakerProfile.sprite = speakerProfilePictures[i];
+                    break;
+                }
             }
-        }
 
-        if (speakerProfile == null) Debug.LogError("There is no profile picture with the same name as the character");
+            if (speakerProfile.sprite == null) Debug.LogWarning("There is no profile picture with the same name as the character");
+        }
 
         lineNumber = line;
 
