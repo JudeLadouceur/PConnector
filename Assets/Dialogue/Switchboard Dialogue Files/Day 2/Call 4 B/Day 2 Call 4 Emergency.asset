@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 4 Emergency
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: "Hello, you\u2019ve reached the Maplegrove emergency line, what do
+      you need? "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Oh, perfect! This is Mrs. Perkins. You see, my walker is broken, and
+      I fell and hit my head on my way to the kitchen. I\u2019m afraid I\u2019m not
+      feeling too good, and could use some help."
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: "Don\u2019t worry, Mrs. Perkins. I\u2019ll send someone to you as soon
+      as I can. Are you at home right now? "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Yes I am. I don\u2019t really leave it much these days, you know. "
+  - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
+    dialogue: "You\u2019ll have help before you know it, Mrs. Perkins. Just stay
+      put and rest, and help will be there momentarily. "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: 'Thank you so much, dear. '
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

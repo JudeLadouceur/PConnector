@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 2 Call 4 Lin B
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Lin\u2019s pizza. What can I get you? "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: 'Lin, dear, this is Mrs. Perkins. I could use your help. '
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: 'My help? What do you need? Would some pizza help? '
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "I\u2019m afraid I fell down earlier and hit my head! I\u2019m not
+      feeling too good now, and could use some help. "
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "What?! I-um-don\u2019t worry Mrs. Perkins! I\u2019ll be right over! "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Oh, but don\u2019t you need to run your pizza shop? "
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Now \u2018buts\u2019 about it, Mrs. Perkins. You\u2019re hurt. I\u2019m
+      on my way now, hang tight! "
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
