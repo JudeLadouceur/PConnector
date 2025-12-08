@@ -143,6 +143,63 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day Transitions/Day 3/Day 3 Transition C+B.unity
     guid: c2c5c0ca0488a9c41bf4bae9dc77220e
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/Before Work/Day 4 - Before Work A - A.unity
+    guid: c3cf4a7ccdc23144f8294d23249b28c1
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/Before Work/Day 4 - Before Work A - B.unity
+    guid: c8b3dfc0466390441b23b8207dc36627
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/Before Work/Day 4 - Before Work B - A.unity
+    guid: 675bee39107d79948bc1db5a7af54538
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/Before Work/Day 4 - Before Work B - B.unity
+    guid: 6275c671594110b4bbcf76edfa057a15
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - A - B - B.unity
+    guid: c603c41b1d76f0f48aea8f2879341733
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - B - A - B.unity
+    guid: 99dd60b036c826b4c983b2ceadcdbea8
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - B - B - A.unity
+    guid: ed0d23e9f5b38ed47873cf266f2d5b5e
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - A - B - B.unity
+    guid: ea8e7f7bb228627499b5d2fa9441d586
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - B - A - B.unity
+    guid: 79790162762b9c4419607f970f37b7cc
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - B - B - A.unity
+    guid: 9dc01542936e2dc439654200891fe886
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition A+A+B+B.unity
+    guid: 78601b7e982ad3941b8a2cbeaa6053a2
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition A+B+A+B.unity
+    guid: 40a7518e4383af14184cba40c28c0117
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition A+B+B+A.unity
+    guid: 468e2b20c96888e4ca80727ea80a793a
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition B+A+B+B.unity
+    guid: 6e9c37517f17cf04586cac7c833466db
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition B+B+A+B.unity
+    guid: 72ef4409eff22f24aa9ef679c4ad27ff
+  - enabled: 1
+    path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition B+B+B+A.unity
+    guid: 6d18b90b98b99a84fb972f2e695a4199
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/Before Work/Day 5 - Before Work Lin.unity
+    guid: 55bcb2fa35aa5924496c828b59886754
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/Before Work/Day 5 - Before Work Mrs Perkins.unity
+    guid: b4fa96067c66a4f4f855fa812a375c7a
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/Before Work/Day 5 - Before Work Seth.unity
+    guid: 3bda8af46b599c4409dd807548273299
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}

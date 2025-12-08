@@ -59,9 +59,6 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
-  - speakerName: LIN
-    NewSpeakerName: 2
-    dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -14,24 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza. Sorry, we\u2019re closed for the day."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey Lin, it\u2019s Seth. You okay?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Not really, but I don\u2019t wanna talk about it. What do you need?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well, I just wanted to let you know that I wasn\u2019t gonna be in
       town tomorrow. I\u2019m heading out to pick up my parts in the next town over.
       Don\u2019t wanna let people down if they pop by the shop."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, good luck with that! Thanks for letting me know, I\u2019ll keep
       an eye out for you in case someone comes by, maybe waft some fresh pizza over
       there."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "You\u2019re a good friend, Lin! Maybe we can share another pizza when
       I get back. They always hit the spot! Anyways, I just wanted to let you know,
       take care, Lin!"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: See ya, Seth!
   voiceLineEvent:
     Guid:
@@ -40,4 +47,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 9
+    modifier: 2
+    value: 1

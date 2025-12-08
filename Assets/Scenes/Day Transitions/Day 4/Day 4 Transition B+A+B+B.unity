@@ -285,8 +285,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: WAKE UP
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5612f7582dee49b499d3c1651052f5b5, type: 2}
-  m_sharedMaterial: {fileID: 8617139851486508276, guid: 5612f7582dee49b499d3c1651052f5b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
+  m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene: Day 4 - Before Work B - A
+  Scene: Day 5 - Before Work Mrs Perkins
 --- !u!114 &1005863030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,7 +609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: -176}
+  m_AnchoredPosition: {x: -121, y: -168}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119405930
@@ -632,12 +632,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lin couldn''t recall the pizza, but Mrs. Perkins gave him advice on how
-    to avoid making more mistakes.
+  m_text: 'Mrs. Perkins didn''t get to volunteer, and is now feeling less connected
+    with the community.
 
 
-    Seth let some in town know  he''d be out
-    tomorrow'
+    The Boss did the survey with Mrs.Perkins...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}

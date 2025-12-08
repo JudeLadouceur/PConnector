@@ -14,25 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! Greatest Pizza on this side of the continent! What
       do you need?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey Lin, it\u2019s Seth."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, hey Seth! What\u2019s up? More pizza?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well, I just wanted to let you know that I wasn\u2019t gonna be in
       town tomorrow. I\u2019m heading out to pick up my parts in the next town over.
       Don\u2019t wanna let people down if they pop by the shop."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, good luck with that! Thanks for letting me know, I\u2019ll keep
       an eye out for you in case someone comes by, maybe waft some fresh pizza over
       there."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "You\u2019re a good friend, Lin! Maybe we can share another pizza when
       I get back. They always hit the spot! Anyways, I just wanted to let you know,
       take care, Lin!"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: See ya, Seth!
   voiceLineEvent:
     Guid:
@@ -49,7 +56,9 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
-    variableName: LeaveNotified
+  - variable: 6
+    modifier: 2
+    value: 1
+  - variable: 9
     modifier: 2
     value: 1

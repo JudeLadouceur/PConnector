@@ -6,8 +6,8 @@ public enum Characters
     Lin,
     Seth,
     Emergency,
+    External,
     Bob,
     Olson,
-    Lucin,
-    External 
+    Lucin
 }

@@ -14,16 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Smithville emergency line. What\u2019s your situation?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, hello! This is Mrs. Perkins. You don\u2019t need to worry, I\u2019m
       not in any trouble at the moment, but I was looking to do some volunteering
       today. Would you be willing to have me for a bit?"
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Volunteering? Of course! We always love the help. I\u2019ll have to
       talk to my boss about what you could do, but if you come over now, I\u2019m
       sure we can have something sorted out by then."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "That\u2019s wonderful! Thank you so much, dear. I\u2019ll be over
       soon. I\u2019m really glad I can help out people working for such a heartfelt
       cause."
@@ -34,4 +38,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 14
+    modifier: 2
+    value: 1

@@ -14,25 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, hello Lin! This is Mrs. Perkins.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Thanks, Mrs. Perkins. That means a lot. So what can I get for you?
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Actually, dear, I was looking to do some volunteering today. Would
       you like any help running that shop of yours?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Volunteering? Like without pay?
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Of course! This old lady is just looking to reach out and help her
       town a bit more. Besides, it\u2019s nice to chat with the customers sometimes,
       isn\u2019t it?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Well I would love to have you for a bit, Mrs. Perkins! Come on over,
       and I\u2019ll find some stuff for you to help me with when you get here. Double
       pizza, baby!"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "That\u2019s wonderful! I\u2019ll see you then, dear."
   voiceLineEvent:
     Guid:
@@ -41,4 +49,17 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 14
+    modifier: 2
+    value: 1
+  - variable: 8
+    modifier: 2
+    value: 1

@@ -14,20 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! Greatest Pizza on this side of the continent! What
       do you need?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Lin? Sorry, I was looking for Mrs. Perkins. Seems like the switchboard
       person screwed
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, uh, okay?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I just\u2013forget it. Thought I could actually reach out to someone
       for once. If you see her, let her know that I\u2019m out of town tomorrow,
       will ya?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Uh, sure. I\u2019ll do that."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Thanks, Lin. Have a good day.
   voiceLineEvent:
     Guid:
@@ -36,4 +42,17 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 6
+    modifier: 2
+    value: 1
+  - variable: 9
+    modifier: 2
+    value: 0

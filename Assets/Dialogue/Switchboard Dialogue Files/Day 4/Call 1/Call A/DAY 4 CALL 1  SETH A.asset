@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, did you try to connect me to Seth, dear? Didn\u2019t you hear?
       He\u2019s out of town today. Though maybe I should offer to volunteer for him
       when he gets back, he certainly deserves it. I suppose I\u2019ll just have
@@ -25,4 +26,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 14
+    modifier: 2
+    value: 0

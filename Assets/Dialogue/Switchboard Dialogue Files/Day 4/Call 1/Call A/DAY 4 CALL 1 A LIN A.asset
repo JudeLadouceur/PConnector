@@ -14,35 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, hello Lin! This is Mrs. Perkins.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, Mrs. Perkins! It\u2019s great to hear from you again. Unfortunately
       business hasn\u2019t been great after word was getting out about my mess up,
       but I really appreciate that talk you had with me. It meant a lot. I don\u2019t\u2026
       have those chats often."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh Lin dear. I\u2019m glad you\u2019re okay. I\u2019m sure people
       will realize it was just an honest mistake, and your business will be fine."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hey Mrs. Perkins! I\u2026 I\u2019m glad you called! You here to order
       a pizza? Business has been real bad after an issue I ran into yesterday\u2026"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh dear, I do hope you\u2019re okay, sweetie. Is there anything I
       could do to help?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "You could order a pizza! I\u2019m not about to give up on the shop,
       but\u2026 things have been really rough recently, I\u2019ve been getting tired\u2026"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, dear, that doesn\u2019t sound good. Perhaps I could help! You
       see, I\u2019ve been looking to volunteer somewhere. Would you like some help?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Really?! That would be great!
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Of course, dear! I\u2019m glad you like the idea. I\u2019ll head over
       now, and I\u2019m sure we can have you back on your feet in no time. "
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Thanks so much Mrs. Perkins! See you soon!
   voiceLineEvent:
     Guid:
@@ -51,4 +62,17 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 14
+    modifier: 2
+    value: 1
+  - variable: 8
+    modifier: 2
+    value: 1

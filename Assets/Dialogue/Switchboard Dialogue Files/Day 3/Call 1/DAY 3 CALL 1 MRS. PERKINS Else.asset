@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
-  m_Name: DAY 3 CALL 2 SETH A Else
+  m_Name: DAY 3 CALL 1 MRS. PERKINS Else
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
-    dialogue: "Hey, it\u2019s Seth. I\u2019m gonna be out of town tomorrow, picking
-      up that delivery of parts I ordered in the next town over. I\u2019ve already
-      put a notice for my shop out, but figured letting you know would be smart do
-      you don\u2019t direct people to the shop."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: Hello? Mrs. Perkins? Oh wait duh she's still at the hospital. Why'd
+      the switchboard operator connect me here?
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -34,6 +32,9 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - variable: 6
+  - variable: 7
+    modifier: 2
+    value: 0
+  - variable: 8
     modifier: 2
     value: 0
