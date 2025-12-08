@@ -1248,8 +1248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adf60e2c6009f274bac1875e75782bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FMODSoundEvent:
-    Guid:
+  soundEvents:
+  - Guid:
       Data1: -617241114
       Data2: 1140941303
       Data3: -7899464

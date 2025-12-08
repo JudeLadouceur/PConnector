@@ -120,11 +120,15 @@ public class NotebookManager : MonoBehaviour
             toggleIcon.sprite = closedIcon;
             bookObjects.transform.position = closeTarget.transform.position;
             isOpen = false;
+
+            FMODSoundPlayer.Instance.PlayFMODSound(1);
         } else
         {
             toggleIcon.sprite = openIcon;
             bookObjects.transform.position=openTarget.transform.position;
             isOpen = true;
+
+            FMODSoundPlayer.Instance.PlayFMODSound(0);
         }
     }
 
@@ -158,6 +162,7 @@ public class NotebookManager : MonoBehaviour
         if (canBeActive)
         {
             toggleButton.gameObject.SetActive(true);
+
         } else
         {
             toggleButton.gameObject.SetActive(false);

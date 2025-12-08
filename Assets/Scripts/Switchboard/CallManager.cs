@@ -200,7 +200,7 @@ public class CallManager : MonoBehaviour
     {
         //------------Insert ring noise here----------------
 
-        FMODSoundPlayer.Instance.PlayFMODSound();
+        FMODSoundPlayer.Instance.PlayFMODSound(0);
         
         yield return new WaitForSeconds(4f);
 
