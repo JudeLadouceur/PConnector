@@ -12,7 +12,7 @@ public class FMODSoundPlayer : MonoBehaviour
         Instance = this;
     }
 
-    // This function is used for simple FMOD lines that don't need any parameters. Things like the call prompts.
+    // This function is used for one shot FMOD sounds that can be played from a custom array. 
     public void PlayFMODSound(int index)
     {
         if (index < 0 || index >= soundEvents.Length)
