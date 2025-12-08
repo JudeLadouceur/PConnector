@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: RECEPTIONIST
     NewSpeakerName: 0
-    dialogue: "Smithville emergency line. What\u2019s your situation?"
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, hello! This is Mrs. Perkins. You don\u2019t need to worry, I\u2019m

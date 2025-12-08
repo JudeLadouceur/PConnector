@@ -14,13 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
+    NewSpeakerName: 0
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I\u2013ugh. I don\u2019t want this right now. Sorry for bothering
       you."
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: Are you alright, sir? Can I help you with something?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I\u2019m fine. Don\u2019t worry about it."
   voiceLineEvent:
     Guid:

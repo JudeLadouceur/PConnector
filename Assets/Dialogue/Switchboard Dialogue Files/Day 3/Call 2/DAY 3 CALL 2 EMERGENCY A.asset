@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    dialogue: "Smithville emergency line. What\u2019s your situation?"
+    NewSpeakerName: 0
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: 
+    NewSpeakerName: 0
     dialogue: ... *Click*
   voiceLineEvent:
     Guid:
@@ -32,7 +34,6 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
-    variableName: LeaveNotified
+  - variable: 0
     modifier: 2
     value: 0

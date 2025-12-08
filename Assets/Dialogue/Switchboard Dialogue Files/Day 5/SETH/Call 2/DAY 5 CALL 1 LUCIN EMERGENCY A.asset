@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
+    NewSpeakerName: 0
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Wh-what? Oh, I\u2019m sorry. I think this is the wrong line."
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Wait\u2026 that voice\u2026 are you\u2026 are you Lucin?!"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Uh\u2026 Have a good day!"
   voiceLineEvent:
     Guid:

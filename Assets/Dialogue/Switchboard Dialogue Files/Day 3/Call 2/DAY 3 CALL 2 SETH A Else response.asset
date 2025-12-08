@@ -15,8 +15,8 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: Huh? No don't connect me to someone, I just wanted to let you know
-      so I won't get people calling in!
+    dialogue: No, don't connect me to someone, I just wanted to let you know so I
+      won't get people calling in.
   voiceLineEvent:
     Guid:
       Data1: 0

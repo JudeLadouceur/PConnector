@@ -14,18 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
+    NewSpeakerName: 0
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey, this is Seth. I\u2019ve decided I\u2019m closing down my repair
       shop. I\u2019ve got tons of sharp tools and dangerous stuff here. I was hoping
       you guys might be able to help me clear it out safely?"
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Oh, well\u2026 this is unexpected, but yes. I\u2019m sure I can arrange
       for a few people to come down shortly to help you out"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Thanks. They can drop by whenever, I\u2019ll just do what I can before
       they arrive."
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Alright, I\u2019ll get that set up as soon as possible. Have a good
       day."
   voiceLineEvent:

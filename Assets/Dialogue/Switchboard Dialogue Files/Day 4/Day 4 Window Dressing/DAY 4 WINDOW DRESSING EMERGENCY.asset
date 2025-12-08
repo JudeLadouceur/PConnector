@@ -14,16 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    dialogue: "Smithville emergency line. What\u2019s your situation?"
+    NewSpeakerName: 0
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "E-emergency line? Sorry, it\u2019s not much of an emergency. I think
       Mrs. Perkins just lost one of her cats again."
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Alright. Please only use this line if it\u2019s an emergency."
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Y-yeah. Sorry. I\u2019ll just go see her myself. Hopefully I don\u2019t
       lose this cat on the way\u2026"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
