@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: PHONE LINE
+    NewSpeakerName: 0
     dialogue: Buzzzzzzz..... *Click*
   voiceLineEvent:
     Guid:
@@ -22,4 +23,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 6
+    modifier: 0
+    value: 0
