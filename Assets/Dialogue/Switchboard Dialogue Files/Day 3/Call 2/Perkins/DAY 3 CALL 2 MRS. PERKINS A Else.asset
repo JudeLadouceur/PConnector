@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: Seth
+    NewSpeakerName: 3
     dialogue: "No answer? Oh, right. I heard she\u2019s at the doctor\u2019s after
       getting hurt. Man, she really should have come to me about that walker, feels
       like the only thing I\u2019m good at sometimes. I hope she\u2019ll be okay."
@@ -24,4 +25,17 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 10
+    modifier: 2
+    value: 0
+  - variable: 6
+    modifier: 2
+    value: 0

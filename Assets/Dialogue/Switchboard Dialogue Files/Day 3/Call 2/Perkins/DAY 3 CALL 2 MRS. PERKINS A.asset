@@ -14,25 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello? This is Mrs. Perkins. May I ask who this is?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey, Mrs. Perkins. It\u2019s Seth."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, good to hear from you again, Seth! Why might you be calling me
       on this fine day?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well, I just wanted to let you know that I was gonna be out of town
       tomorrow. I\u2019m taking a trip to the next town over to get some parts, and
       just wanted to give you a personal heads up since we\u2019re friends."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, thank you dear. It means a lot to me that you\u2019re willing
       to give this old lady some of your day just to let me know."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "It\u2019s no worry, Mrs. Perkins. Maybe you and I can have another
       chat when I get back."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: I would love that, dear. Now you have a safe trip, alright?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: I will Mrs. Perkins. You have a good day.
   voiceLineEvent:
     Guid:
@@ -49,7 +57,6 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 434e6d113fbe0cd4e9b7303a6aa42da1, type: 2}
-    variableName: LeaveNotified
+  - variable: 6
     modifier: 2
     value: 1
