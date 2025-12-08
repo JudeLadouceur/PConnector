@@ -14,23 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "You\u2019ve reached the Pizzeria! What toppings you looking for today?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Lin, my good man. By chance could I come by and rummage your old broken
       ovens for some parts? I\u2019m afraid I\u2019ve run short."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Sorry, Seth. I had those sent to the landfill a week or so ago. Didn\u2019t
       think anyone needed \u2018em. A bit surprised you\u2019d call asking after
       \u2018em, it\u2019s unlike you"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Yeah, I... I screwed up. Forgot to make an order. Guess I\u2019m out
       of luck, huh. Hopefully people won\u2019t be too disappointed in me."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Disappointed? In you? Seth, are you okay?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Don\u2019t worry, I know you\u2019re disappointed in me too. I won\u2019t
       bother you anymore."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Seth, wait! I didn\u2019t mean..."
   voiceLineEvent:
     Guid:
@@ -39,4 +46,14 @@ MonoBehaviour:
       Data3: -403145326
       Data4: -1971578959
     Path: event:/Voices/Day 1/Call 2/Lin Connection/Seth - Day 1, Call 2 - Lin Connection
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 9
+    modifier: 2
+    value: 0

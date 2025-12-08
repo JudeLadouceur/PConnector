@@ -62,3 +62,6 @@ MonoBehaviour:
   - variable: 4
     modifier: 2
     value: 1
+  - variable: 8
+    modifier: 2
+    value: 1

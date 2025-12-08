@@ -14,40 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage! How can I help?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, Seth? Hey, it\u2019s Lin! Pizza guy. I was hoping you could help
       me out. I really need a favor right about now."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Lin? Uh-sure. What\u2019s up?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Well I was putting out a ton of pizzas to be delivered today, a record
       time for me, honestly, but I checked the label and found out that something
       screwed up with my delivery, it expired before it even got here!
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Oh man, that\u2019s rough. But\u2026 What can I do about it? Not like
       I\u2019m much help with anything but repairs."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I dunno\u2026 maybe help me spread the word? I just really need to
       let people know before those pizzas arrive."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Oh, I think I have just the thing! I\u2019ll just send out an email
       to all my customers like I would for my usual shop updates. People seem to
       email me fairly often, will probably get the word out."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Wow, thanks so much Seth, that means a ton! Sorry for throwing this
       at you so suddenly.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey, it\u2019s no problem man. Honestly, it\u2019s a bit of a relief,
       I screwed up recently too, and knowing it\u2019s not just me\u2026we all lean
       on each other sometimes, huh."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Really? How about that! Would you want to grab a pizza and have a chat
       later today or something? A pizza without expired tomato sauce.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Sounds like fun. Drop by my place after you finish work, I\u2019ll
       be here."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Alright, I will! Thanks again Seth!
   voiceLineEvent:
     Guid:
@@ -64,7 +76,9 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: PizzaRecall
+  - variable: 7
+    modifier: 2
+    value: 1
+  - variable: 9
     modifier: 2
     value: 1

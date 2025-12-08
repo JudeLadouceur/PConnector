@@ -14,42 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello? This is Mrs. Perkins. May I ask who this is?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, hey Mrs. Perkins. This is Lin! Pizza guy. I was hoping you could
       help me out. I really need a favor right about now.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh? What is it you need, dear?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Well I was putting out a ton of pizzas to be delivered today, moving
       at record speed might I add, uh-but I checked the label and found out that
       something screwed up with my delivery, it expired before it even got here!
       I need to get the word out before those deliveries arrive, but I have no idea
       how!
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh dear, that sounds like quite the pickle. Though I don\u2019t think
       I\u2019ll be much help here. I would go out and let some folks know, but my
       hips ain\u2019t what they used to be, and the roads are so worn these days.
       I won\u2019t get anywhere fast."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Yeah, that makes sense. Sorry for bothering you Mrs. Perkins. I think
       this is a lost cause, I just\u2026 don\u2019t know what to do. I can\u2019t
       be messing up like this\u2026"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Well you don\u2019t need to deal with it alone, dear. How about you
       come by my place and we can have a nice chat. You don\u2019t have to deal with
       this alone, you know."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "That\u2019s not gonna change anything, but\u2026 If I can\u2019t do
       anything about it, why not? Sure Mrs. Perkins, I\u2019ll stop by. I think I
       could really use a listening ear right about now. Maybe even some advice. I
       really hope I don\u2019t have to give this job up."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "That\u2019s great to hear, dear. I\u2019m always here to help if you
       ever need me."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
   voiceLineEvent:
     Guid:
@@ -66,7 +77,9 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: PizzaRecall
+  - variable: 7
     modifier: 2
     value: 0
+  - variable: 8
+    modifier: 2
+    value: 1

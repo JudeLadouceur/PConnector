@@ -14,22 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Smithville emergency line. What\u2019s your situation?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, perfect! This is Lin, the guy who runs the pizza shop in town.
       You see, I was putting out a ton of pizzas to be delivered today, at record
       speed at that, uh-but I checked the label and found out that something screwed
       up with my delivery, it expired before it even got here! I need to get the
       word out before those deliveries arrive!
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Some people could get seriously sick from that. Thanks for calling
       in, we\u2019ll put out a notice as soon as possible so the town is notified."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Awesome, thank you so much. I had a bit of a panic there. Maybe I
       should talk to someone about that\u2026"
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Just relax, Lin. We\u2019ll take it from here."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Thanks again.
   voiceLineEvent:
     Guid:
@@ -46,7 +52,6 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: PizzaRecall
+  - variable: 7
     modifier: 2
     value: 1

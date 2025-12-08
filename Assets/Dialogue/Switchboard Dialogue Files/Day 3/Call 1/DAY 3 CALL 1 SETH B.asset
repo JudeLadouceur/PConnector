@@ -14,32 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What do you need fixed?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, Seth? This is Lin! Pizza guy. I was hoping you could help me out.
       I really need a favor right about now.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Lin? Uh-sure. What\u2019s the problem?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Well I was putting out a ton of pizzas to be delivered today, at record
       time for me honestly, but I checked the label and found out that something
       screwed up with my delivery, it expired before it even got here!
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Yeesh, that\u2019s rough. But I didn\u2019t order a pizza today, so
       you don\u2019t have to worry about me."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Yeah, it\u2019s good that you\u2019re okay, but I still need to let
       the rest of the town know! Do you know of anything I could do to let people
       know before those deliveries arrive?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Sorry, Lin. I\u2019m just the local repair guy. Not like I really
       know anyone here that well. I can let people who come to my shop know, but
       I still got a business to run, I can\u2019t just risk my business like that,
       you know?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Yeah, I get it. Sorry man, I\u2019ll\u2026 I\u2019ll think of something
       else. You have a good day."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: You too, Lin. Good luck.
   voiceLineEvent:
     Guid:
@@ -56,7 +65,9 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - targetCharacter: {fileID: 11400000, guid: 9abf613e5f282d5499f5d819ff8542f1, type: 2}
-    variableName: PizzaRecall
+  - variable: 7
+    modifier: 2
+    value: 0
+  - variable: 9
     modifier: 2
     value: 0
