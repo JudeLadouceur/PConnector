@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: "H-hey! Did you hear? Lin just up and left! I mean\u2026 what?! Just
-      like that?! It was so fast, I\u2026 I don\u2019t know what happened. Is he\u2026
-      going to come back? This town won\u2019t be the same without him\u2026"
+    NewSpeakerName: 1
+    dialogue: "Have you seen Lin around, dear? I\u2019ve heard rumors that he just
+      left, but that can\u2019t be true, can it?"
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "He\u2019s always working hard to run the pizza shop here, I\u2019m
+      sure the young lad is just getting some more ingredients. \u2026Right?"
   voiceLineEvent:
     Guid:
       Data1: 0

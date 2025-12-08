@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: 'Shoot, I really hope no one gets sick from the pizza... Jeez, it just
-      feels like one day after another with this place sometimes, makes me wonder
-      what the point of keeping it going is... '
+    NewSpeakerName: 1
+    dialogue: I say, Seth sure looks busy. He must be preparing for a trip of some
+      kind.
   - speakerName: MRS. PERKINS
-    dialogue: OH SORRY, was thinking a loud here, Hope you have a good one...
+    NewSpeakerName: 1
+    dialogue: Maybe he's getting out of town for a bit. I say, he really needs to
+      be more adventurous sometimes.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

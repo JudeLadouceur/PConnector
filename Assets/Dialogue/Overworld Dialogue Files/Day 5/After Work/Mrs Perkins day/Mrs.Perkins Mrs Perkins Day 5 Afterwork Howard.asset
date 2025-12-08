@@ -14,11 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: "Ah, hello dear! I'm just still thinking about Howard... He was such
-      a sweet husband. I miss him dearly, but I\u2019m determined to use my time
-      to make this community better. Thank you so much for all your help. You\u2019ve
-      done more for me then I can thank you for, even by just connecting lines. You
-      really mean a lot to all of us dear, don\u2019t you forget that."
+    NewSpeakerName: 1
+    dialogue: Ah, hello dear! I'm just still thinking about Howard... He was such
+      a sweet husband.
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "I miss him dearly, but I\u2019m determined to use my time to make
+      this community better."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Thank you so much for all your help. You\u2019ve done more for me
+      then I can thank you for, even by just connecting lines. You really mean a
+      lot to all of us dear, don\u2019t you forget that."
   voiceLineEvent:
     Guid:
       Data1: 0

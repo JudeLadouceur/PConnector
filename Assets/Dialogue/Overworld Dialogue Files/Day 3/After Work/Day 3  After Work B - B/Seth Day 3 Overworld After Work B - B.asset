@@ -15,7 +15,11 @@ MonoBehaviour:
   lines:
   - speakerName: Seth
     NewSpeakerName: 3
-    dialogue: 
+    dialogue: Hey, kid. I'm gonna be out of town tomorrow getting my parts. Keep
+      that in mind when connecting people, okay?
+  - speakerName: Seth
+    NewSpeakerName: 3
+    dialogue: You have a good one, okay?
   voiceLineEvent:
     Guid:
       Data1: 0

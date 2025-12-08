@@ -14,15 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: ' Jeez, it seems like everyone had a rough one today...'
+    NewSpeakerName: 3
+    dialogue: Jeez, it seems like everyone had a rough one today...
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: I think I'm going to try to reach out. Mrs. P and Lin have always been
       great to talk to and have honestly helped keep me in business during some of
       the more challenging times.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: I'll see ya around kid, but it might be worth you checking in on them
       too.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

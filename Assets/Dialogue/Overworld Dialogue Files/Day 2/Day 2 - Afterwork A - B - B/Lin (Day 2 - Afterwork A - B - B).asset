@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Hey, thanks again for the help with the pizza! Glad it didn't end up
       going to the bin!
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: I always hate it when they do. Wouldn't want my world-famous pizza
-      to go to waste! AHAHA
+      to go to waste! Ha!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

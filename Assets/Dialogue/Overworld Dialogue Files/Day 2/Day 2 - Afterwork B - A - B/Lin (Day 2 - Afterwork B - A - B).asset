@@ -14,15 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: '*Whew* Oh, hey. I mean .. Make sure to buy LIN''s Pizzza World famous
+    NewSpeakerName: 2
+    dialogue: '*Whew* Oh, hey. I mean .. Make sure to buy Lin''s Pizza. World famous
       pizza...'
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Sorry, not feeling the most enthusiastic tonight. Was trying out a
       more flatbread style for the crust today and didn't get to try it with that
-      big group canceling...
+      big group cancelling...
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Wish I just knew the right people to have come over and test.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

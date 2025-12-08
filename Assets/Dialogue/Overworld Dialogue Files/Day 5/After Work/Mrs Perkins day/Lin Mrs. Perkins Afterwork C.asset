@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "H-have you seen Mrs. Perkins?! Did she really move out?! No\u2026
-      that can\u2019t be true. I\u2026 I\u2019m really gonna miss her. She was so
-      important to so many of us. Why would she do that? I\u2026 I might close shop
-      tomorrow. I don\u2019t know what to do right now."
+      that can\u2019t be true. I\u2026 I\u2019m really gonna miss her."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "She was so important to so many of us. Why would she do that? I\u2026
+      I might close shop tomorrow. I don\u2019t know what to do right now."
   voiceLineEvent:
     Guid:
       Data1: 0

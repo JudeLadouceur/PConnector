@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, hi sweetheart. I\u2019m oh so worried about Lin, he looks so exhausted.
-      He really needs a break, or maybe just a listening ear. If it wasn\u2019t so
-      late I would talk to him myself. I hope he\u2019s alright."
+      He really needs a break, or maybe just a listening ear."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "If it wasn\u2019t so late I would talk to him myself. I hope he\u2019s
+      alright."
   voiceLineEvent:
     Guid:
       Data1: 0

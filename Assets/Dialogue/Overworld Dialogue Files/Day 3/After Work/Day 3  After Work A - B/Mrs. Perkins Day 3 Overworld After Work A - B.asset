@@ -14,14 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: Oh hello there, have you seen Seth today? I just went by his place
-      a few minutes ago to see if he was there and no one answered the door.
-  - speakerName: PLAYER
-    dialogue: '*Mumble* *Mumble*'
+    NewSpeakerName: 1
+    dialogue: I say, Seth sure looks busy. He must be preparing for a trip of some
+      kind.
   - speakerName: MRS. PERKINS
-    dialogue: Seth out of town? I suppose he was looking for parts, I guess I just
-      wish I knew. Then again, most people don't have for an old woman like me nowadays.
+    NewSpeakerName: 1
+    dialogue: 'Maybe he''s getting out of town for a bit. I say, he really needs
+      to be more adventurous sometimes. '
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

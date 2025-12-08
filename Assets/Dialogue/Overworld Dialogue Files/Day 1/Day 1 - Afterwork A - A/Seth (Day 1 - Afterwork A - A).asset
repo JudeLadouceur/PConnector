@@ -14,9 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: Hey kid! I hope the first day of work wasn't too bad! Thanks again
-      for the help with the parts!
+    NewSpeakerName: 3
+    dialogue: Hey kid! Hope your day went well! Thanks again for the help with the
+      parts!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

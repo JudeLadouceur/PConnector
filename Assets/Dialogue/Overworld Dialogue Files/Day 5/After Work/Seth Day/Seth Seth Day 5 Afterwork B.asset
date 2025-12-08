@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "We\u2019re closed. Permanently. This is it for Seth\u2019s Repair
-      Garage. You\u2019ll need to look for someone who can actually get the job done.
-      Sorry, but I\u2019ve got other things to do, see ya"
+      Garage. You\u2019ll need to look for someone who can actually get the job done."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Sorry, but I\u2019ve got other things to do, see ya."
   voiceLineEvent:
     Guid:
       Data1: 0

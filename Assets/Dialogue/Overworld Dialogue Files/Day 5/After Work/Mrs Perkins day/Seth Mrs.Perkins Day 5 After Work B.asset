@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: "You\u2019ve got some nerve, you know that? What\u2019s your problem?
-      That was important for Mrs. Perkins. I\u2019ll need to show her some other
-      time."
+    NewSpeakerName: 3
+    dialogue: "You\u2019ve got some nerve, you know that?"
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "What\u2019s your problem? That was important for Mrs. Perkins. I\u2019ll
+      need to show her some other time."
   voiceLineEvent:
     Guid:
       Data1: 0

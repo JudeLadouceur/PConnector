@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: " Oh, good morning, sweetheart. Sorry, I\u2019m far too busy right
-      now to chat. With what? Oh\u2026 I\u2019ll talk to you about that later. Expect
+    NewSpeakerName: 1
+    dialogue: "Oh, good morning, sweetheart. Sorry, I\u2019m far too busy right now
+      to chat. With what? Oh\u2026 I\u2019ll talk to you about that later. Expect
       a call from me in a bit, dear"
   voiceLineEvent:
     Guid:

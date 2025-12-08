@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Wow, Lin and Seth sure stay busy! I'm sure glad they can take some
       time out of their day to hang out with an old lady like me!
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: The towns really felt more alive the past few days, it reminds me of
-      how it used to be when Harold was still shopping around his innovations...
+      how it used to be when Howard was still shopping around his innovations...
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

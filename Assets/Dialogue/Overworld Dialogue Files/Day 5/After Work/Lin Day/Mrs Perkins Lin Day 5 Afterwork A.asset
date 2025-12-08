@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
-    dialogue: " I\u2019ll say, this pizza place has grown well beyond what Lin\u2019s
+    NewSpeakerName: 1
+    dialogue: "I\u2019ll say, this pizza place has grown well beyond what Lin\u2019s
       father was ever capable of. What a great place."
   voiceLineEvent:
     Guid:

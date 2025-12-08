@@ -14,11 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Hey! Sorry, I like to stop and chat, but I'm heading over to talk with
       Mrs. P...
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Hey, if you wanna join, I've got some of my world-famous pizza here!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

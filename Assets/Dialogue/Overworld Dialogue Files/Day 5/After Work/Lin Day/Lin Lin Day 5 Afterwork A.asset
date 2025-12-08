@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hey there! Sorry, we\u2019re closed today! Wow\u2026 I never thought
       I\u2019d feel happy saying that. Sorry, I\u2019m taking a break. I might actually
       rest for the whole weekend. But I assure you we\u2019ll be open and ready to
-      go on Monday! Thanks so much for your help, I feel a lot better knowing I have
-      these wonderful people supporting me here."
+      go on Monday!"
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: Thanks so much for your help, I feel a lot better knowing I have these
+      wonderful people supporting me here.
   voiceLineEvent:
     Guid:
       Data1: 0

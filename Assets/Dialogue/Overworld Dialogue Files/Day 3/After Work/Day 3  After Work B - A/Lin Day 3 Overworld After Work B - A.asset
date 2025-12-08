@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: 'Shoot, I really hope no one gets sick from the pizza... Jeez, it just
       feels like one day after another with this place sometimes, makes me wonder
       what the point of keeping it going is... '
   - speakerName: LIN
-    dialogue: OH SORRY, was thinking a loud here, Hope you have a good one...
+    NewSpeakerName: 2
+    dialogue: Oh, sorry. I was thinking aloud here. Hope you have a good one...
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

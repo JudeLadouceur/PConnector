@@ -14,16 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: ' Whew! Thanks so much for the help with the pizza problems! Haha,
-      still hoping this is the last one of the year, I don''t think my grandfather
-      ever struggled this much...'
+    NewSpeakerName: 2
+    dialogue: Whew! Thanks so much for the help with the pizza problems! Haha, still
+      hoping this is the last one of the year, I don't think my grandfather ever
+      struggled this much...
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: But he was always one of those one who made everything look so easy.
       He inspired me to do everything I did, even when dad was ready to drop it..
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: I'm feeling pretty grateful that despite everything I've been able
       to make things work, gotta thank the community for that!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

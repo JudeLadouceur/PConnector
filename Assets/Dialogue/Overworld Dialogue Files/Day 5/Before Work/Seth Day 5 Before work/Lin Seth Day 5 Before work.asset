@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
-    dialogue: " Good morning! Say, it seems like Seth has been acting strange. Do
+    NewSpeakerName: 2
+    dialogue: "Good morning! Say, it seems like Seth has been acting strange. Do
       you know if he\u2019s okay? I would check myself, but I\u2019ve got a shop
       to open and all."
   voiceLineEvent:

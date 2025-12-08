@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Howdy! I haven\u2019t seen Mrs. Perkins in this good of a mood in
       a long time! I\u2019m glad she\u2019s happy. She deserves to be after everything
-      she\u2019s done for this town. Thanks for looking out for her, I mean it."
+      she\u2019s done for this town."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: Thanks for looking out for her, I mean it.
   voiceLineEvent:
     Guid:
       Data1: 0
