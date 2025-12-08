@@ -72,3 +72,6 @@ MonoBehaviour:
   - variable: 4
     modifier: 2
     value: 1
+  - variable: 10
+    modifier: 2
+    value: 1

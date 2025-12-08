@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello? This is Mrs. Perkins. May I ask who this is?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Mrs Perkins? Sorry, I was hoping to connect to Lin.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh\u2026 Well, this is the wrong line, dear."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Yeah, I know. I think the switchboard operator messed it up. Don\u2019t
       worry about it, it wasn\u2019t that important anyways. I\u2019ll just go. "
   voiceLineEvent:
@@ -29,4 +33,14 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 10
+    modifier: 2
+    value: 0
