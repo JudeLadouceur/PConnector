@@ -1620,35 +1620,233 @@ MonoBehaviour:
         - variables: []
           dialogue: {fileID: 11400000, guid: 8232d159b0cb5b943b8f0976c258222d, type: 2}
     - requiredVars:
+      - variableName: 20
+        value: 1
       - variableName: 15
         value: 1
-      caller: 1
+      caller: 2
       contextCalls:
       - variables: []
-        contextCall: {fileID: 11400000, guid: 82566dd722417804692db8a7a7790304, type: 2}
+        contextCall: {fileID: 11400000, guid: 15dbfd9a1a3f0874f9a757d5fc96d20a, type: 2}
       connections:
       - receiver: 4
-        dialogueOptions: []
-      - receiver: 2
-        dialogueOptions: []
-      - receiver: 3
-        dialogueOptions: []
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: e97f7b9afe0660c4c99fa74c6a6844a5, type: 2}
       - receiver: 1
-        dialogueOptions: []
-    - requiredVars: []
-      caller: 0
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 7bc8ff3c0f7239d448b71746d4915c77, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 9a4824828954a0e46b4b7f3b0132a03a, type: 2}
+    - requiredVars:
+      - variableName: 21
+        value: 1
+      - variableName: 15
+        value: 1
+      caller: 3
       contextCalls:
       - variables: []
-        contextCall: {fileID: 11400000, guid: d5d5fd66cd98a5c46abb727ca819b5b6, type: 2}
+        contextCall: {fileID: 11400000, guid: c0445d7c53071924eac44646c6dc0416, type: 2}
       connections:
-      - receiver: 0
-        dialogueOptions: []
-      - receiver: 0
-        dialogueOptions: []
-      - receiver: 0
-        dialogueOptions: []
-      - receiver: 0
-        dialogueOptions: []
+      - receiver: 2
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 8d2952e92ce4c644fb96bb35d2ed16e6, type: 2}
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: b90080062567acf4d893d4fd796c3525, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 4e0efe27d83bea8449ce21ab4dcf30ab, type: 2}
+    - requiredVars:
+      - variableName: 21
+        value: 0
+      - variableName: 15
+        value: 0
+      - variableName: 20
+        value: 0
+      caller: 5
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: fdcca20424f53b34c924dab06c7a5c9f, type: 2}
+      connections:
+      - receiver: 2
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 79142139562c3484499149cbcdbf3e61, type: 2}
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 79142139562c3484499149cbcdbf3e61, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 79142139562c3484499149cbcdbf3e61, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 79142139562c3484499149cbcdbf3e61, type: 2}
+    - requiredVars:
+      - variableName: 12
+        value: 1
+      caller: 2
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: e26a7acfcd341794ab5334387186df90, type: 2}
+      connections:
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 1810cf606e39e254eb03c587e12a2fd6, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables:
+          - variableName: 8
+            value: 1
+          dialogue: {fileID: 11400000, guid: 8773006c2885f70469bcf7d0ea77cb41, type: 2}
+        - variables:
+          - variableName: 8
+            value: 0
+          dialogue: {fileID: 11400000, guid: b3363bb468c38534e9f322043db57af7, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables:
+          - variableName: 9
+            value: 1
+          dialogue: {fileID: 11400000, guid: 2624ac22a499ebf40b4a20617b9804c0, type: 2}
+        - variables:
+          - variableName: 9
+            value: 0
+          dialogue: {fileID: 11400000, guid: c263b64a222d1be48ad764b73c75301a, type: 2}
+    - requiredVars:
+      - variableName: 12
+        value: 1
+      caller: 5
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 8f93d5389f7670049bc11b0546f42b05, type: 2}
+      connections:
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 5fabf96dd684df44fa34953ae4bb073d, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables:
+          - variableName: 8
+            value: 1
+          dialogue: {fileID: 11400000, guid: 37bc7b009b3e63545a298d98064d50fc, type: 2}
+        - variables:
+          - variableName: 8
+            value: 0
+          dialogue: {fileID: 11400000, guid: c054ef9db7c5195459e0096580719803, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables:
+          - variableName: 9
+            value: 1
+          dialogue: {fileID: 11400000, guid: 12a6797d3d0ac0749ac4800ef083c329, type: 2}
+        - variables:
+          - variableName: 9
+            value: 0
+          dialogue: {fileID: 11400000, guid: 7327b5e9bb26d3144b0382b3d076fe53, type: 2}
+      - receiver: 2
+        dialogueOptions:
+        - variables:
+          - variableName: 17
+            value: 1
+          dialogue: {fileID: 11400000, guid: d7cb499d111805e4d894a2ff6c619dfc, type: 2}
+        - variables:
+          - variableName: 17
+            value: 0
+          dialogue: {fileID: 11400000, guid: 9b58a4416228b274d97c6e6b2f15e271, type: 2}
+    - requiredVars:
+      - variableName: 11
+        value: 1
+      caller: 3
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: cb1da38c65501c3448e56d6c0d1e6e4d, type: 2}
+      connections:
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: cc3130a864730e644a780a5d0fe094a5, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables:
+          - variableName: 10
+            value: 1
+          - variableName: 3
+            value: 1
+          dialogue: {fileID: 11400000, guid: 26244c519bbf1b24a9bfc2e5933efa16, type: 2}
+        - variables:
+          - variableName: 10
+            value: 1
+          - variableName: 3
+            value: 0
+          dialogue: {fileID: 11400000, guid: 1e6466f7dce1624488e66a028908745a, type: 2}
+        - variables:
+          - variableName: 10
+            value: 0
+          dialogue: {fileID: 11400000, guid: d5a9b447c6bab0442989f6399fc84e4e, type: 2}
+      - receiver: 2
+        dialogueOptions:
+        - variables:
+          - variableName: 9
+            value: 1
+          dialogue: {fileID: 11400000, guid: 1633cbd495e4a93469d001745cd195af, type: 2}
+        - variables:
+          - variableName: 9
+            value: 0
+          dialogue: {fileID: 11400000, guid: b10aed0b221abdb4e8fa16ad85980419, type: 2}
+    - requiredVars:
+      - variableName: 11
+        value: 1
+      caller: 5
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 33144292e0441ac42b621799ae06f875, type: 2}
+      connections:
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 287286d43ae6c334bb78ecce0c30b401, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables:
+          - variableName: 10
+            value: 1
+          dialogue: {fileID: 11400000, guid: 47b617fdd171cb3419266ee7834412ab, type: 2}
+        - variables:
+          - variableName: 10
+            value: 0
+          dialogue: {fileID: 11400000, guid: 9c0f275a142e69d42b5eb9d6fc07fbe4, type: 2}
+      - receiver: 2
+        dialogueOptions:
+        - variables:
+          - variableName: 9
+            value: 1
+          dialogue: {fileID: 11400000, guid: e7328e1d0060f754db452525c6909acf, type: 2}
+        - variables:
+          - variableName: 9
+            value: 0
+          dialogue: {fileID: 11400000, guid: 1b6d6a544e0373e478e7bb2a113126dd, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables:
+          - variableName: 18
+            value: 1
+          dialogue: {fileID: 11400000, guid: 31f46fc6652e3c14ea78a282aa0382b3, type: 2}
+        - variables:
+          - variableName: 18
+            value: 0
+          dialogue: {fileID: 11400000, guid: 1576f2c6cf8c2b645973b411a54484d5, type: 2}
   inContextCall: 0
 --- !u!1 &876232644
 GameObject:

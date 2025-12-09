@@ -20,5 +20,7 @@ public enum DialogueVar
     HowardMessageHeard,
     LinStays,
     SethCloses,
-    OlsonCallLin
+    OlsonCallLin,
+    PerkinsCalledByLin,
+    PerkinsCalledBySeth
 }
