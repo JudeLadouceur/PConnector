@@ -129,6 +129,8 @@ public class NotebookManager : MonoBehaviour
             isOpen = true;
 
             FMODSoundPlayer.Instance.PlayFMODSound(0);
+
+            NotebookHeader.instance.UpdateHeader();
         }
     }
 
