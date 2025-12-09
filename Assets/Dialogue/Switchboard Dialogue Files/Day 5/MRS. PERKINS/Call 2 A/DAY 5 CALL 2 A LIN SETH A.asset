@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s repair garage. What can I do for you?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: '*sigh*. Nothing, Seth. Sorry.'
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: What-
   voiceLineEvent:
     Guid:
@@ -33,4 +36,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 16
+    modifier: 2
+    value: 0

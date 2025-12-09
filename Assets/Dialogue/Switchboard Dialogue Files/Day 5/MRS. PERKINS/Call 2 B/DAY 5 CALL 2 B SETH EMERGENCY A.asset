@@ -39,4 +39,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 16
+    modifier: 2
+    value: 0

@@ -14,26 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! What kind of fresh do you want today?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, hello Lin. This is Mrs. Perkins. I\u2019m sorry, but it seems
       I\u2019ve been connected to the wrong line."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh? You don\u2019t sound great, Mrs. Perkins. Are you alright? Maybe
       a pizza will help."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "I suppose this is a bit bittersweet for me, dear. You see, I\u2019ve
       made plans to move out of town. I can\u2019t connect with the people here anymore,
       and am looking to start anew."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "What\u2026? Can\u2019t connect to the people here anymore? Mrs. Perkins,
       you\u2019re my most loyal customer! My pizza shop wouldn\u2019t have even gotten
       off the ground if not for you!"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Lin, dear, I think you might be exaggerating a bit. I know I buy your
       delicious pizza frequently, but I\u2019m not your only source of business.
       I don\u2019t make that kind of a difference in this town."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "It\u2019s not just that, Mrs. P! You\u2019re forgetting all the great
       things you\u2019ve done for this town! After my father walked away from the
       shop, I wasn\u2019t quite ready for the responsibility, I was so unorganized.
@@ -41,31 +48,40 @@ MonoBehaviour:
       get things in working order. I never would have even opened shop if not for
       you!"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh my\u2026. Did I really do that?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "You sure did, Mrs. Perkins. I\u2019m thinking you might have lost
       sight of all the wonderful contributions you\u2019ve made to this town over
       the years. You\u2019ve done so much, none of us could ever forget about you."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Well, I suppose I have been in this town for some time now\u2026 but
       it\u2019s Howard who made all the most meaningful contributions."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "And how far would Howard have gotten without you? Howard may have
       done a lot of technical stuff, but you\u2019ve always been the one to make
       people happy and bring the community together Mrs. Perkins. You matter here."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: You really think so, dear?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: I know so, Mrs. Perkins.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Well\u2026 maybe I was too rash to try to move out so soon. I think
       I\u2019ll reconsider my options. Thanks a lot for this Lin, I\u2019m glad I
       got to talk to you."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Of course Mrs. P! If you ever want to talk more, I can have a pizza
       cooked and ready in minutes, and we can have a chat at the park or something.
       Just give me a call!
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: I will, dear. Thanks again.
   voiceLineEvent:
     Guid:
@@ -81,4 +97,13 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 15
+    modifier: 2
+    value: 1
+  - variable: 17
+    modifier: 2
+    value: 1
+  - variable: 20
+    modifier: 2
+    value: 1

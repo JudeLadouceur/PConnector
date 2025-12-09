@@ -14,11 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza! What kind of fresh are you looking for today?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Wha-seriously?! Talk about insensitive. Sorry, Lin. Not you, wrong
       line.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Uh, Seth? What-
   voiceLineEvent:
     Guid:
@@ -34,4 +37,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 16
+    modifier: 2
+    value: 0

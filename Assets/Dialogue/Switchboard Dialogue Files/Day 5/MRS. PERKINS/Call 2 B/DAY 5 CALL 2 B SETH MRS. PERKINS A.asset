@@ -14,64 +14,86 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello! Mrs. Perkins speaking.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey there, Mrs. P. It\u2019s me again."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Ah, Seth! Weren\u2019t we going to talk shortly? Why might you be
       calling me?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well, I was doing some digging, and I found something that I think
       is quite special. It\u2019s for you. Let me hook it up"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Something for me? What might you be-
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: Hello, my sweet, dear Emilia Perkins.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: What?! This is-
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: "I have gotten quite ill as of late, and I am aware I don\u2019t have
       much time left."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "\u2026"
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: But I thought I would leave you this message, so you may carry your
       positivity and care with you even as I pass onto the afterlife.
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: When I fell in love with you, I did not just because of your beauty,
       but your care, your love for everyone around you, and your unending determination
       to do the right thing.
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: You have brought me so much joy, and every one of those things about
       you has only grown as we have gotten old together.
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: My time may be up, but yours is not. I know it may hurt when I am gone.
       It may make you feel lost, alone. But know that you are never alone my dear.
       The connections you have fostered in our growing community have brought you
       all together in a way I never could have dreamed.
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: "You are the greatest thing to happen to me, Emilia. You matter not
       just to me, but to everyone whose lives you\u2019ve touched. So never lose
       that love and unending care that makes you who you are, because you never stop
       making a difference."
   - speakerName: HOWARD
+    NewSpeakerName: 0
     dialogue: I love you, Emilia Perkins. Thank you for being part of my life. I
       will see you in the next.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "\u2026"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Th-thank you, Seth.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Of course, Mrs. Perkins. You still good for a chat in a bit?
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Of course, dear. This means more to me than you know. Thank you.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "It was no trouble, Mrs. P. I\u2019m just glad you finally got to hear
       that."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Me too, dear. Everything you\u2019ve done today has really meant a
       lot to me. Thank you. Really."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Glad to hear it, Mrs. Perkins. I\u2019ll see you soon."
   voiceLineEvent:
     Guid:
@@ -87,4 +109,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 16
+    modifier: 2
+    value: 1

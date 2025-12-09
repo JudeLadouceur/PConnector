@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: "Maple Grove emergency line. What\u2019s your situation?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: I-what? Really? Aw, man. Sorry, wrong line.
   - speakerName: RECEPTIONIST
+    NewSpeakerName: 0
     dialogue: Um, alright? Have a good day
   voiceLineEvent:
     Guid:
@@ -33,4 +36,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 16
+    modifier: 2
+    value: 0

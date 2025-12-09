@@ -14,46 +14,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza It\u2019s like a dream in your mouth! What do you
       need?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I\u2026 ugh, sorry Lin. Wrong line."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Seth? You okay? You sound upset.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Yeah, you could say that. Guess I should tell you while I\u2019m here.
       I\u2019m closing shop. I won\u2019t be repairing things anymore."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: What?! Why? Are you alright?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "No, I\u2019m not. I keep trying to be there for people, to fix things
       and help them out. But I keep screwing up. I messed up again, destroyed my
       own delivery guy\u2019s car. So I\u2019ve decided I\u2019m done with this stuff."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "But I thought you loved repairing things! Besides, everybody messes
       up every once in a while. It\u2019s fine!"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "It\u2019s not fine, Lin. Yeah, I want to fix things, but I\u2019m
       just not good at it. I mean, look at my brother. He\u2019s out there making
       a difference in the world wherever he goes and I\u2019m just\u2026 here. Messing
       up over and over."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Seth, buddy. I mess up way more than you do. I know you want to be
       one of the most reliable people in the town, and you are! You fix tons of stuff
       for us all the time! Sure, maybe sometimes you mess up, and the bad stuff often
       stands out from the good stuff, but there is so much more good that you\u2019ve
       done! You\u2019re not giving yourself enough credit."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Really? Like what?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Um, like my pizza shop? Do you have any idea how many times you\u2019ve
       fixed things here for me? My fridge, oven, even my electrical grid! Not just
       once, either. You\u2019ve fixed my stuff time and time again. I would have
       closed shop way long ago if you hadn\u2019t been helping me."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well\u2026 I guess so, but the fact that those things broke again
       means I didn\u2019t do good enough. Some of the stuff I build still falls apart\u2026"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Nothing built can last forever, Seth. Tons of stuff can happen. Remember
       how I said I make mistakes? Yeah. I make tons. The reason you keep fixing my
       stuff is because I keep breaking it. I don\u2019t always think things through
@@ -63,25 +76,32 @@ MonoBehaviour:
       know. It\u2019s how people use what you fix that changes it, not how you might
       have messed up"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I guess\u2026 I never thought of it that way."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "You\u2019ve made a huge difference in this town Seth. It doesn\u2019t
       matter what your brother might be out and doing. Maybe he\u2019s doing bigger
       stuff, but you\u2019ve made a real difference to everyone here. You\u2019re
       not a bad repair guy. It\u2019s okay to mess up every once in a while. You
       matter to this town."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Wow, Lin\u2026 thanks. I hadn\u2019t considered that.  That means
       a lot to me."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Of course, Seth. Don\u2019t you worry about it! I\u2019m just glad
       I could help"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Thanks again Lin. I think I\u2019ll stop by for an extra large later.
       I could use some good pizza right about now."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Of course! I\u2019ll have it ready before you even arrive!"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: See ya later, Lin.
   voiceLineEvent:
     Guid:
@@ -97,4 +117,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 18
+    modifier: 2
+    value: 1

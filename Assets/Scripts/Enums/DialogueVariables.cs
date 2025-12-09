@@ -22,5 +22,5 @@ public enum DialogueVar
     SethCloses,
     OlsonCallLin,
     PerkinsCalledByLin,
-    PerkinsCalledBySeth
+    PerkinsCalledBySeth,
 }
