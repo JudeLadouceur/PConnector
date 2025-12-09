@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda6a258f9330c43aeb73a8d106cdf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCharacterEnding: 0
+  isCharacterEnding: 1
   ending: 0
 --- !u!1 &1907307809
 GameObject:
