@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Seriously? Ugh, sorry. Wrong line.
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Um, okay? Are you sure you don\u2019t need anything?"
   - speakerName: SETH
     NewSpeakerName: 3
