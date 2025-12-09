@@ -14,12 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: DELIVERY GUY
+    NewSpeakerName: 5
     dialogue: "Hey. Could you connect me to Seth? This is his delivery driver for
       those parts he ordered. Unfortunately my truck broke down when I was stopping
       for gas\u2026 I know he was already waiting on these parts, and it looks like
       I\u2019m not gonna be up and running for a bit, so I thought he may want to
       come and grab it himself, you know?"
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

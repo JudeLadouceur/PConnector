@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: ' RECEPTIONIST '
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Hello. This is the Maplegrove doctor\u2019s office. We are looking
       to book Mrs. Perkins in for her next checkup appointment. Would you please
       connect us to her?"

@@ -14,19 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: DELIVERY GUY
+    NewSpeakerName: 5
     dialogue: Seriously? Is this a joke?
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, I\u2019m sorry dear. I\u2019m afraid I don\u2019t understand."
   - speakerName: DELIVERY GUY
+    NewSpeakerName: 5
     dialogue: "Sorry lady, this just isn\u2019t who I was hoping to connect to. Sorry
       to bother you, I\u2019ll just figure something else out."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "W-well, is there some way I can\u2013"
   - speakerName: 
+    NewSpeakerName: 0
     dialogue: '*Click*'
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

@@ -571,6 +571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineNumber: 0
   inDialogue: 0
+  speakerProfilePictures: []
 --- !u!1001 &1419177200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -689,9 +690,9 @@ MonoBehaviour:
 
 
     Congrats! You''ve really helped Seth get started
-    when it comes to getting his confidence back. You have more work days of you,
-    but it seems like your making a big difference already! Many in town are grateful
-    to have someone so caring helping to guide them.'
+    when it comes to getting his confidence back. You have really made an impact
+    on his life and connection to the town. Many in town are grateful to have someone
+    so caring helping to guide them.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}

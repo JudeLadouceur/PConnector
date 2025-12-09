@@ -18,13 +18,13 @@ MonoBehaviour:
     dialogue: "Seth\u2019s Repair Garage. Need something fixed? Bring it here. What
       can I help you with? "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: 'Apologies. We have been connected to the wrong line. '
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Oh, sorry about that. Figures you wouldn\u2019t need me. "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Don\u2019t worry, it\u2019s not your fault. We will find another way
       to reach out to who we need."
   - speakerName: SETH

@@ -17,13 +17,13 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! Greatest pizza ever conceived! What can I get you? "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: 'Apologies. We have been connected to the wrong line. '
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh, uh\u2026 okay? You sure you don\u2019t want some pizza? "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "There\u2019s no need. We will send somebody to deliver our message
       in person. Sorry for the trouble. "
   voiceLineEvent:

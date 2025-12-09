@@ -353,6 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineNumber: 0
   inDialogue: 0
+  speakerProfilePictures: []
 --- !u!1 &555367082
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,13 +686,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Unproud Pizza Ending
+  m_text: 'Unconnected Ending
 
 
-    You didn''t do terrible, but there are
-    some in town unsatisfied. Pizza left unsold and old ladies in perils, there is
-    certainly some room for improvement, however there are several in town who look
-    to your improvement.'
+    Unfortunately it seems like many in town of been
+
+    left
+    unconnected with their community. Your fault or not, your time being able to
+    help them has end. From here on out you can only hope for the best.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}

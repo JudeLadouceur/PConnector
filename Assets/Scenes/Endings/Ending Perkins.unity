@@ -353,6 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineNumber: 0
   inDialogue: 0
+  speakerProfilePictures: []
 --- !u!1 &249687532
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,13 +686,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Promising Start Ending
+  m_text: 'The Mrs Perkins Ending
 
 
-    You have started to become the talk of
-    the town. Residents have become impressed by your attention to detail even if
-    you''re not always on point. Your making the foundations to becomes a great pillar
-    of your community!
+    You have really made a difference in this
+    old womans life. Mrs Perkins feels confidently connected with the town again
+    and has started to make some life long friends. You helped to create the foundations
+    of a great community!
 
 
 

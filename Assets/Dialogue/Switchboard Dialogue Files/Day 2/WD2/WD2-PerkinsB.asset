@@ -17,7 +17,7 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Hello Mrs. Perkins. This is the Maplegrove  doctor\u2019s office.
       We would like to book you in for your next checkup appointment. "
   - speakerName: MRS. PERKINS
@@ -25,7 +25,7 @@ MonoBehaviour:
     dialogue: 'Oh, that would be wonderful! I almost forgot about that. I really
       have nothing else to do, book me in anytime tomorrow. '
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Alright, Mrs. Perkins. We\u2019ll book you in tomorrow at 2PM then,
       please make sure to remember."
   - speakerName: MRS. PERKINS

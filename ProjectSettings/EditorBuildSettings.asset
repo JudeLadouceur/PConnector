@@ -192,6 +192,42 @@ EditorBuildSettings:
     path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition B+B+B+A.unity
     guid: 6d18b90b98b99a84fb972f2e695a4199
   - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Lin/Day 5 - Afterwork B - B - A - B
+      - B - A - B - A.unity
+    guid: 3cb80b8f9e916684888602edf7a23d34
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Lin/Day 5 - Afterwork B - B - A - B
+      - B - A - B - B.unity
+    guid: 26a3f0c8779c7ae4e9d2394e564b2de9
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Lin/Day 5 - Afterwork B - B - A - B
+      - B - B - B - A.unity
+    guid: 7895fc877d83ee04d9a677d63150f7d5
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Mrs Perkins/Day 5 - Afterwork A - B
+      - B - A - A - B - B - B.unity
+    guid: 5955f920969a40e43b86f2641b103a24
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Mrs Perkins/Day 5 - Afterwork A - B
+      - B - A - B - A - B - B.unity
+    guid: a7991111f2dc370468bb0543b718f05c
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Mrs Perkins/Day 5 - Afterwork A - B
+      - B - A - B - B - A - B.unity
+    guid: 48bf52937a656a140ad33dd86ce6b4b1
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Mrs Perkins/Day 5 - Afterwork A - B
+      - B - B - B - B - B - B.unity
+    guid: 42a969085780cf64aa19d9bf60345e7e
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Seth/Day 5 - Afterwork B - A - B -
+      B - B - B - A - B.unity
+    guid: 54b99a5a5a6dd2244aca060a5a71a9c8
+  - enabled: 1
+    path: Assets/Scenes/Days/Day 5/After Work/Seth/Day 5 - Afterwork B - A - B -
+      B - B - B - B - B.unity
+    guid: 084e6ef33f60384469a387c64edec2ce
+  - enabled: 1
     path: Assets/Scenes/Days/Day 5/Before Work/Day 5 - Before Work Lin.unity
     guid: 55bcb2fa35aa5924496c828b59886754
   - enabled: 1

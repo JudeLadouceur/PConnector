@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: 
     NewSpeakerName: 0

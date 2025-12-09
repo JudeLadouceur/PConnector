@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: ' RECEPTIONIST '
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Hello, you\u2019ve reached the Smithville emergency line, what do
       you need?"
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh, uh\u2026 this is the pizza place in town. "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: Did something happen? Do you need any help?
   - speakerName: LIN
     NewSpeakerName: 2
@@ -31,13 +31,13 @@ MonoBehaviour:
       know who would want a pizza like this. I was thinking maybe I could sell it
       to you guys for a discount?"
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: How much of a discount?
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Say\u2026 fresh pizza for thirty percent off? "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Lots of cheap pizza for the hungry staff and patients? Sounds great!
       Thanks for the call, we\u2019ll send someone to come pick it up shortly."
   - speakerName: LIN

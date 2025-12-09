@@ -15,12 +15,15 @@ MonoBehaviour:
   lines:
   - speakerName: BOSS
     NewSpeakerName: 0
-    dialogue: "Hey there. I hope things are going well. I have a survey that I\u2019ve
-      been trying to get filled out based on those who\u2019ve connected through
-      the switchboard. Seeing as this is official, I can\u2019t have you listening
-      in with that broken switchboard, so I\u2019ll be overriding your audio from
-      here. I need this done before the switchboard is replaced. I just need one
-      more. Could you connect me to\u2026"
+    dialogue: "Hey there it's the boss! I hope things are going well. I have a survey
+      that I\u2019ve been trying to get filled out based on those who\u2019ve connected
+      through the switchboard. Seeing as this is official, I can\u2019t have you
+      listening in with that broken switchboard, so I\u2019ll be overriding your
+      audio from here."
+  - speakerName: BOSS
+    NewSpeakerName: 0
+    dialogue: " I need this done before the switchboard is replaced. I just need
+      one more. Could you connect me to\u2026"
   voiceLineEvent:
     Guid:
       Data1: 0

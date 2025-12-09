@@ -9,5 +9,6 @@ public enum Characters
     External,
     Bob,
     Olson,
-    Lucin
+    Lucin,
+    Boss
 }

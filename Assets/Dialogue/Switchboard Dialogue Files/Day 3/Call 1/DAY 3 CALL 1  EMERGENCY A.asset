@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: LIN
     NewSpeakerName: 2
@@ -24,7 +24,7 @@ MonoBehaviour:
       up with my delivery, it expired before it even got here! I need to get the
       word out before those deliveries arrive!
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Some people could get seriously sick from that. Thanks for calling
       in, we\u2019ll put out a notice as soon as possible so the town is notified."
   - speakerName: LIN
@@ -32,7 +32,7 @@ MonoBehaviour:
     dialogue: "Awesome, thank you so much. I had a bit of a panic there. Maybe I
       should talk to someone about that\u2026"
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Just relax, Lin. We\u2019ll take it from here."
   - speakerName: LIN
     NewSpeakerName: 2

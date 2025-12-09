@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Hello, you\u2019ve reached the Maplegrove emergency line, what do
       you need? "
   - speakerName: MRS. PERKINS
@@ -23,14 +23,14 @@ MonoBehaviour:
       I fell and hit my head on my way to the kitchen. I\u2019m afraid I\u2019m not
       feeling too good, and could use some help."
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Don\u2019t worry, Mrs. Perkins. I\u2019ll send someone to you as soon
       as I can. Are you at home right now? "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Yes I am. I don\u2019t really leave it much these days, you know. "
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "You\u2019ll have help before you know it, Mrs. Perkins. Just stay
       put and rest, and help will be there momentarily. "
   - speakerName: MRS. PERKINS
