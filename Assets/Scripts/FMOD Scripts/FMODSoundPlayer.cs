@@ -10,6 +10,7 @@ public class FMODSoundPlayer : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     // This function is used for one shot FMOD sounds that can be played from a custom array. 

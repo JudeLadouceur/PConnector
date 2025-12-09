@@ -2677,6 +2677,69 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &761301523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 761301525}
+  - component: {fileID: 761301524}
+  m_Layer: 0
+  m_Name: FMODSoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &761301524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761301523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf60e2c6009f274bac1875e75782bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEvents:
+  - Guid:
+      Data1: -1896077751
+      Data2: 1117974078
+      Data3: 983407509
+      Data4: -475577213
+    Path: event:/SFX/Notebook Sounds/Notebook Opening Sound
+  - Guid:
+      Data1: -1945890988
+      Data2: 1125679749
+      Data3: 2088630455
+      Data4: -1628524416
+    Path: event:/SFX/Notebook Sounds/Notebook Closing Sound
+  - Guid:
+      Data1: -617241114
+      Data2: 1140941303
+      Data3: -7899464
+      Data4: 196650134
+    Path: event:/SFX/Switchboard Sounds/Switchboard Ringing Sound
+--- !u!4 &761301525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761301523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7457572, y: 0.13120833, z: 0.9802933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831839765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,7 +3428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 201.97, y: -82.99}
+  m_AnchoredPosition: {x: 201.97003, y: -82.98999}
   m_SizeDelta: {x: 899.71, y: 359.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092450590
@@ -4058,41 +4121,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 253010033144692598, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1384824463}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
---- !u!1 &1384824462 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 253010033144692598, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-  m_PrefabInstance: {fileID: 1384824461}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1384824463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384824462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adf60e2c6009f274bac1875e75782bcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundEvents:
-  - Guid:
-      Data1: -1896077751
-      Data2: 1117974078
-      Data3: 983407509
-      Data4: -475577213
-    Path: event:/SFX/Notebook Sounds/Notebook Opening Sound
-  - Guid:
-      Data1: -1945890988
-      Data2: 1125679749
-      Data3: 2088630455
-      Data4: -1628524416
-    Path: event:/SFX/Notebook Sounds/Notebook Closing Sound
 --- !u!1 &1462954291
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,31 +5544,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6673644644490401585, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 967163382128352185, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6314242636546391318, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 4272498842658020514, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7861532022134311959, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 2505556403060264792, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1310988093880711310, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 838673755285661219, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
 --- !u!1 &1989509724
 GameObject:
@@ -5916,3 +5922,4 @@ SceneRoots:
   - {fileID: 1974758686}
   - {fileID: 1630615314}
   - {fileID: 1076869031}
+  - {fileID: 761301525}
