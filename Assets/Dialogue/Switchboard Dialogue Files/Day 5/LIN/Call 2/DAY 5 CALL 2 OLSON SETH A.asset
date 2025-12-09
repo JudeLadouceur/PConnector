@@ -14,41 +14,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: Hmph. I see how it is. Fine. Let him live with his own failure and
       get nothing out of it.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Um, excuse me? Oh, hold on, let me take a wild guess. Lin\u2019s dad?"
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Why yes, I am Lin\u2019s father. You\u2019ve heard of me, I take it?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: 'You bet I have. Lin and I just got done talking about how much more
       successful his pizza shop has been without you around. '
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Oh really? Well from what I\u2019ve heard, things have gone down hill
       for him quite quickly."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "What? The fact he had to close today? Turns out people like his pizza
       shop so much everyone\u2019s been pitching in to make him feel better. The
       guy\u2019s been a huge part of the town recently. But you would know all about
       that, right? Being his father and all, I\u2019m sure you keep track of that
       stuff."
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Don\u2019t toy with me. You\u2019re the brother of Lucin, right? That
       so-called great inventor? I\u2019m sure that does wonders for your self confidence.
       You don\u2019t want to know what I can do to you."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I don\u2019t need to be confident to tell a jerk to back off. You
       don\u2019t scare me."
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: I called to talk to Lin, not waste my time with you.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well forget it. Lin\u2019s my pal, and I\u2019m not gonna stand for
       this if you\u2019re so insistent on nagging him. Get lost."
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: Fine. I have no need to entertain this circus of a town any longer.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Good. I don\u2019t want to hear of you talking to anyone in this town
       ever again."
   voiceLineEvent:
@@ -65,4 +78,10 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 19
+    modifier: 2
+    value: 1
+  - variable: 17
+    modifier: 2
+    value: 1

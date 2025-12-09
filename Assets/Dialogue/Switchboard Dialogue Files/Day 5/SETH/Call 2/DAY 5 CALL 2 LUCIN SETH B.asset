@@ -14,36 +14,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage is permanently closed. Sorry."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "I didn\u2019t think I\u2019d really hear that from you. You wanna
       talk?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Wha- Lucin?! Why are you of all people calling me?
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "What do you mean \u2018me of all people\u2019? You\u2019re my brother!
       I heard that you might be closing shop, and I wanted to check in on you."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Just\u2026 Don't worry about it, dude. I\u2019ve already made my decision."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "But\u2026 you love that town! You love repairing things! You can\u2019t
       just give up now!"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I know. But I\u2019ve already thought it over. I\u2019ve messed up
       too much. I\u2019m not like you. I\u2019m not making grand differences, and
       I keep letting things fall apart. I\u2019m sorry."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "It\u2019s not about me, Seth! It\u2019s about you! I know that you
       do a ton for that town! Please, I know this hurts you. I\u2019m sure you\u2019re
       much more capable than you\u2019ve given yourself credit for."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Sorry, dude. But I\u2019m not. You just focus on your fancy city stuff.
       It\u2019s far more important than anything that\u2019s going on here, anyways."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Hold on, I-
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Have a good day, Lucin. Go do important things.
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Wait, I-
   voiceLineEvent:
     Guid:
@@ -59,4 +71,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 18
+    modifier: 2
+    value: 0

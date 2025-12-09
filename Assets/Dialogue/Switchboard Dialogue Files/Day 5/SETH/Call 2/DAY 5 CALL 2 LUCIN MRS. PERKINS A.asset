@@ -14,43 +14,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "What? I\u2019m sorry, I was hoping to talk to Seth."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Seth? Hold on, I recognize your voice\u2026 your Seth\u2019s brother,
       aren\u2019t you? Lucin?"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Perceptive as always, Mrs. Perkins.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, it\u2019s good to hear from you, Lucin! How\u2019s life in the
       big city for a famous fellow like you?"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Well, as busy as you would expect. Too many business meetings for my
       taste. Now, sorry, but I was hoping to talk to Seth. I heard he might be closing
       shop, and was hoping to check up on him.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, you\u2019re still caring as always, Lucin. But you don\u2019t
       need to worry about him. I just talked to him earlier, and he\u2019s feeling
       much better now. He won\u2019t be closing down shop. "
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Really? That\u2019s great to hear, Mrs. Perkins. Thank you so much."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "But of course! Seth has done so much for this community, and hasn\u2019t
       given himself nearly enough credit. He just needed some help realizing it."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Well I\u2019m really grateful for your help, Mrs. Perkins. I guess
       I won\u2019t be needed, then."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Well I\u2019m sure Seth would still be happy to know you called! I\u2019m
       actually going to have a chat with him later today, I can let him know you
       called, and I\u2019m sure he will call you back when he has the time."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: That would be nice, Mrs. Perkins. Thank you!
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Of course, dear. It was really nice of you to call. I know he\u2019ll
       appreciate it."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Thanks again, Mrs. Perkins. Have a good day!
   voiceLineEvent:
     Guid:
@@ -66,4 +80,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 18
+    modifier: 2
+    value: 1

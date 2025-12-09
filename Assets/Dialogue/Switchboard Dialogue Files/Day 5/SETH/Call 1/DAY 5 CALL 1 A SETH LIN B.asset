@@ -14,13 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza It\u2019s like a dream in your mouth! What do you
       need?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I\u2026 ugh, sorry Lin. Wrong line."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Seth? You okay? You sound upset.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Don\u2019t worry about it. I\u2019m fine."
   voiceLineEvent:
     Guid:
@@ -36,4 +40,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 18
+    modifier: 2
+    value: 0

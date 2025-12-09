@@ -14,37 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza! Fresher than you would believe! What can I get for
       you?"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "What? I\u2019m sorry, I was hoping to talk to Seth."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Seth? Oh I just talked to him earlier! What\u2019s up? You need him
       for some repairs or something?"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Not quite. I\u2019m his brother, actually. I heard he might be closing
       down and was worried, so I wanted to talk to him."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Really?! Lucin? The Lucin? How about that! Well, you don\u2019t need
       to worry. He was upset, yeah, but he really was just not giving himself enough
       credit for what he does. We had a talk, and he\u2019s doing much better now."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Oh, that\u2019s good to hear! It seems like I\u2019m not needed."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Well I\u2019m sure he\u2019d be happy to know you called! He probably
       gets worried you don\u2019t have time for him with everything you do."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "Yeah, I worry he thinks that too\u2026 But of course I have time for
       him! He\u2019s my brother. Even I owe him more than he probably realizes."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Well, I\u2019m actually seeing him for pizza later. I\u2019m sure
       he\u2019d love to call you back if he knew you were looking to talk to him."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Thanks! That would be nice. Thanks for helping him out.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "No problem. He\u2019s not closing shop, so don\u2019t worry about
       it."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: Alright. Thanks for your time, Lin. Have a good day!
   voiceLineEvent:
     Guid:
@@ -60,4 +72,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 18
+    modifier: 2
+    value: 1

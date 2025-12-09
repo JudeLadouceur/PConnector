@@ -14,15 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hi\u2026 Seth\u2026 you busy right now?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well kind of, the shop\u2019s open for walk ins right now, but I-"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Nevermind then. It\u2019s not worth the bother. Don\u2019t worry about
       it."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Lin, hold on, are you\u2013"
   voiceLineEvent:
     Guid:

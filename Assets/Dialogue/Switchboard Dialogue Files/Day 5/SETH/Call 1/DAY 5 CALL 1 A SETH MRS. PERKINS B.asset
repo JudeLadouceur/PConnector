@@ -14,13 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello! Mrs. Perkins speaking.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I\u2026 ugh, sorry Mrs. Perkins. Wrong line."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, Seth? I must say, you don\u2019t sound like you're doing too good.
       Is everything alright?"
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Don\u2019t worry about it. I\u2019m fine"
   voiceLineEvent:
     Guid:
@@ -36,4 +40,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 18
+    modifier: 2
+    value: 0

@@ -14,51 +14,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: Hmph. I see how it is. Fine. Let him live with his own failure and
       get nothing out of it.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, I know that voice. Don\u2019t you hang up on me, Olson! You listen
       here. You have no right to be talking to anyone in this town after you walked
       out on your son like that!"
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Well would you look at that, it seems the old hag finally grew a backbone.
       You never understood business, anyways. It was always about chats and tea time,
       wasn\u2019t it?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Lecture me all you want. But heartless \u2018businessmen\u2019 like
       yourself will never understand the love people like your son put into their
       work. You hear me?! You don\u2019t deserve him as your son!"
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Oh, please. \u2018Love\u2019 is hardly a part of it. Besides, from
       what I\u2019ve heard, it seems his business is already failing. I suppose he
       finally realized he was in over his head"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Actually, it turns out he\u2019s doing quite well. We had a chat earlier
       and he\u2019s already figuring out how to keep his business going while taking
       care of himself. There hasn\u2019t been even a sound of complaint about his
       store closing."
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Hmph. It doesn\u2019t change what happened. He still failed"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Lin taking care of himself is hardly a failure. You want to talk failure?
       You couldn\u2019t handle running the shop with both of you there on a regular
       work schedule. Sounds to me like you're the bigger wuss around here. "
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "How dare you?! It wasn\u2019t turning out enough profit and that was
       all. I\u2019m much better off as I am now."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, is that why you\u2019re calling? You\u2019re better off? Is it
       not because you need him to save your failing business?"
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Why you\u2026"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hit a nerve, did I? This old lady has more than enough time to keep
       track of these things, Olson.
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: This conversation is over.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Of course it is, I never want you to contact anyone in this town ever
       again.
   voiceLineEvent:
@@ -75,4 +90,10 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables: []
+  variables:
+  - variable: 19
+    modifier: 2
+    value: 1
+  - variable: 17
+    modifier: 2
+    value: 1
