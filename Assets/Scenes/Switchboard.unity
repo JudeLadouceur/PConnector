@@ -1559,11 +1559,11 @@ MonoBehaviour:
         - variables:
           - variableName: 8
             value: 1
-          dialogue: {fileID: 11400000, guid: 8773006c2885f70469bcf7d0ea77cb41, type: 2}
+          dialogue: {fileID: 11400000, guid: 8232d159b0cb5b943b8f0976c258222d, type: 2}
         - variables:
           - variableName: 8
             value: 0
-          dialogue: {fileID: 11400000, guid: b3363bb468c38534e9f322043db57af7, type: 2}
+          dialogue: {fileID: 11400000, guid: 5f0f1e7d552cfb749aac31517081d127, type: 2}
       - receiver: 4
         dialogueOptions:
         - variables: []
