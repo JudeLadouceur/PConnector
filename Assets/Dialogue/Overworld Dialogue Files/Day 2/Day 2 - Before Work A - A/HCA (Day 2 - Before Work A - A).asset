@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: HCA (HEALTH CENTER ATTENDANT)
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: 'Oh, hi there! I''m not sure if I''ve met you before. Nice to meet
       you! I work at the local health center. '
   - speakerName: HCA (HEALTH CENTER ATTENDANT)
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: Hey, if you're ever looking to help out or donate anything, us at the
       health center will always take the assistance!
   voiceLineEvent:
