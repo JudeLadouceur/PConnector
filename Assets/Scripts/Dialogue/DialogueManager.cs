@@ -163,6 +163,7 @@ public class DialogueManager : MonoBehaviour
         if (SceneManager.GetActiveScene().name != "Switchboard")
         {
             MovementScript.instance.Funny = false;
+            MovementScript.instance.canToggle = true;
             return;
         }
 
@@ -204,6 +205,7 @@ public class DialogueManager : MonoBehaviour
     private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
     {
         if (scene2.name == "Switchboard") FindSwitchboardReferences();
+        if (scene2.name == "Main Menu") ResetDialogue();
         if (inDialogue)
         {
             currentDialogue = null;
@@ -236,7 +238,7 @@ public class DialogueManager : MonoBehaviour
         transitionTargets.FindTargetScene(target);
     }
 
-    public void ResetDialogue()
+    private void ResetDialogue()
     {
         TimeManager.dayNumber = 0;
         TimeManager.callNumber = 0;

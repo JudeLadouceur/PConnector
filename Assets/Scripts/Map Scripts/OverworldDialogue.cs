@@ -50,6 +50,7 @@ public class OverworldDialogue : MonoBehaviour
         }
 
         MovementScript.instance.Funny = true;
+        MovementScript.instance.canToggle = false;
 
         DialogueManager.Instance.StartDialogue(dialogue);
 

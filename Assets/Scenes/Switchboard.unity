@@ -497,7 +497,7 @@ MonoBehaviour:
   - dayVariables: 0300000005000000
   - dayVariables: 010000000400000002000000
   - dayVariables: 0700000006000000
-  - dayVariables: 0e0000000d0000000b0000000c000000
+  - dayVariables: 0e0000000d0000000c0000000b000000
   - dayVariables: 0d0000000b0000000c0000000f00000010000000110000001200000013000000
 --- !u!1 &473694785
 GameObject:
@@ -1441,9 +1441,7 @@ MonoBehaviour:
         - variables: []
           dialogue: {fileID: 11400000, guid: d8a6cdf9aec5f7c4287c6ee827c48420, type: 2}
   - call:
-    - requiredVars:
-      - variableName: 15
-        value: 1
+    - requiredVars: []
       caller: 1
       contextCalls:
       - variables: []
@@ -1467,26 +1465,6 @@ MonoBehaviour:
         dialogueOptions:
         - variables: []
           dialogue: {fileID: 11400000, guid: 5d05060a1f07e2249b99b0ad44f61e4a, type: 2}
-    - requiredVars:
-      - variableName: 15
-        value: 0
-      caller: 1
-      contextCalls:
-      - variables: []
-        contextCall: {fileID: 11400000, guid: c74715e0ce98edd4696eef544bd602bc, type: 2}
-      connections:
-      - receiver: 2
-        dialogueOptions:
-        - variables: []
-          dialogue: {fileID: 11400000, guid: 5b3a2003e75306347a3b2e4fbd8e6fbe, type: 2}
-      - receiver: 3
-        dialogueOptions:
-        - variables: []
-          dialogue: {fileID: 11400000, guid: be0e224099288e4489d6002c5789395b, type: 2}
-      - receiver: 4
-        dialogueOptions:
-        - variables: []
-          dialogue: {fileID: 11400000, guid: f359ed90276819640b0fda65a06d6f73, type: 2}
     - requiredVars: []
       caller: 5
       contextCalls:
@@ -1559,11 +1537,11 @@ MonoBehaviour:
         - variables:
           - variableName: 8
             value: 1
-          dialogue: {fileID: 11400000, guid: 8773006c2885f70469bcf7d0ea77cb41, type: 2}
+          dialogue: {fileID: 11400000, guid: 78635a91cecd89747ad19b366be6387a, type: 2}
         - variables:
           - variableName: 8
             value: 0
-          dialogue: {fileID: 11400000, guid: b3363bb468c38534e9f322043db57af7, type: 2}
+          dialogue: {fileID: 11400000, guid: 5f0f1e7d552cfb749aac31517081d127, type: 2}
       - receiver: 4
         dialogueOptions:
         - variables: []
