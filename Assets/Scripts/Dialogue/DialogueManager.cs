@@ -163,6 +163,7 @@ public class DialogueManager : MonoBehaviour
         if (SceneManager.GetActiveScene().name != "Switchboard")
         {
             MovementScript.instance.Funny = false;
+            MovementScript.instance.canToggle = true;
             return;
         }
 
