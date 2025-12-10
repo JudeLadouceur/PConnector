@@ -4,15 +4,16 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 
 public class SetSceneAndVariables : MonoBehaviour
 {
     public DevConsoleDisplay dayNumber;
-    //public DevConsoleDisplay time;
+    public DevConsoleDisplay time;
 
     public VariableSetDisplay varName;
-    public TextMeshProUGUI varValue;
+    public VariableValDisplay varValue;
 
     private void Awake()
     {
@@ -54,17 +55,7 @@ public class SetSceneAndVariables : MonoBehaviour
     
     public void SetVariable()
     {
-        Debug.Log(varValue.text);
-        int value; 
-        int.TryParse(varValue.text, out value);
-        Debug.Log(value);
-
-        value = int.Parse(varValue.text, System.Globalization.NumberStyles.Integer)
-
-        value = Convert.ToInt32(varValue.text);
-        Debug.Log(value);
-
-        VariableManager.instance.flags[(DialogueVar)varName.selectedOption] = value;
+        VariableManager.instance.flags[(DialogueVar)varName.selectedOption] = varValue.value;
         Debug.Log("Set variable " + (DialogueVar)varName.selectedOption + " to: " + VariableManager.instance.flags[(DialogueVar)varName.selectedOption]);
     }
 }
