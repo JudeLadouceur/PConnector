@@ -75,10 +75,12 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "You\u2019re allowed to say it, dear. You have done a lot for this
       town. It doesn\u2019t matter what your brother is off doing. You\u2019re you,
-      and are making your own kind of difference. This town has been kept together
-      by your repairs. Just because it hasn\u2019t resulted in some world-altering
-      achievement, doesn\u2019t mean that it doesn\u2019t matter to each and every
-      person you\u2019ve helped here."
+      and are making your own kind of difference. "
+  - speakerName: PERKINS
+    NewSpeakerName: 1
+    dialogue: "This town has been kept together by your repairs. Just because it
+      hasn\u2019t resulted in some world-altering achievement, doesn\u2019t mean
+      that it doesn\u2019t matter to each and every person you\u2019ve helped here."
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "I guess\u2026 I never thought of it that way. Wow, thanks, Mrs. P.
