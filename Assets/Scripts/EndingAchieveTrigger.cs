@@ -11,12 +11,12 @@ public class EndingAchieveTrigger : MonoBehaviour
     {
         if (isCharacterEnding)
         {
-            if(AchievementManager.instance.achievementDictionary.TryGetValue(ending, out Achievement achievement) && achievement.status!=AchievementStatus.Revealed && achievement.status!= AchievementStatus.Placed)
+            if(AchievementManager.instance.achievementDictionary.TryGetValue(ending, out Achievement achievement) && achievement.status!=AchievementStatus.Achieved && achievement.status!= AchievementStatus.Placed)
             {
                 achievement.Achieve();
             }
         }
-        if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achievement2) && achievement2.status != AchievementStatus.Revealed && achievement2.status != AchievementStatus.Placed)
+        if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achievement2) && achievement2.status != AchievementStatus.Achieved && achievement2.status != AchievementStatus.Placed)
         {
             achievement2.Achieve();
         }
