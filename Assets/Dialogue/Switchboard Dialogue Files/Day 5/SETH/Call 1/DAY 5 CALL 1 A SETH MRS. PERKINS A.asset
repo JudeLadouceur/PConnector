@@ -50,11 +50,13 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "Oh, don\u2019t talk to yourself like that. You don\u2019t mess up
       nearly as often as you think. You\u2019ve done plenty of helpful things! You
-      fixed my walker, remember? I could have been seriously hurt otherwise. That\u2019s
-      one of the hard things about being as good as you are, there are so many good
-      things that you do, and the bad things are so rare that when they happen, they
-      stand out from the rest. But that doesn\u2019t take away from all the good
-      you\u2019ve done"
+      fixed my walker, remember? I could have been seriously hurt otherwise."
+  - speakerName: PERKINS
+    NewSpeakerName: 1
+    dialogue: "That\u2019s one of the hard things about being as good as you are,
+      there are so many good things that you do, and the bad things are so rare that
+      when they happen, they stand out from the rest. But that doesn\u2019t take
+      away from all the good you\u2019ve done"
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "All the good I\u2019ve done? Like what? Aside from your walker, I
@@ -73,10 +75,12 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "You\u2019re allowed to say it, dear. You have done a lot for this
       town. It doesn\u2019t matter what your brother is off doing. You\u2019re you,
-      and are making your own kind of difference. This town has been kept together
-      by your repairs. Just because it hasn\u2019t resulted in some world-altering
-      achievement, doesn\u2019t mean that it doesn\u2019t matter to each and every
-      person you\u2019ve helped here."
+      and are making your own kind of difference. "
+  - speakerName: PERKINS
+    NewSpeakerName: 1
+    dialogue: "This town has been kept together by your repairs. Just because it
+      hasn\u2019t resulted in some world-altering achievement, doesn\u2019t mean
+      that it doesn\u2019t matter to each and every person you\u2019ve helped here."
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "I guess\u2026 I never thought of it that way. Wow, thanks, Mrs. P.

@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: "Howdy! This is Seth. I had planned to have a chat with Mrs. Perkins,
-      and wanted to do something extra. I was looking through some old files in the
-      town hall of things she\u2019s done, thinking I could find some of her accomplishments,
-      and I think I found an old voice recording of a message her husband had for
-      her. Could you connect me to her so I could play it over the phone? I think
-      she\u2019d really appreciate it."
+    NewSpeakerName: 3
+    dialogue: Howdy! This is Seth. I had planned to have a chat with Mrs. Perkins,
+      and wanted to do something extra.
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "I was looking through some old files in the town hall of things she\u2019s
+      done, thinking I could find some of her accomplishments, and I think I found
+      an old voice recording of a message her husband had for her. Could you connect
+      me to her so I could play it over the phone? I think she\u2019d really appreciate
+      it."
   voiceLineEvent:
     Guid:
       Data1: 0
