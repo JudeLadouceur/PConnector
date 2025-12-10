@@ -99,6 +99,8 @@ public class LineManager : MonoBehaviour
 
         hasPoint1 = false;
 
+        canDraw = false;
+
         return true;
     }
 
