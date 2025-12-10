@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: HCA (HEALTH CENTER ATTENDANT)
-    dialogue: 'Oh, hi there! You must be new to town, nice to meet you! I work at
-      the local health center. '
+    NewSpeakerName: 0
+    dialogue: 'Oh, hi there! I''m not sure if I''ve met you before. Nice to meet
+      you! I work at the local health center. '
   - speakerName: HCA (HEALTH CENTER ATTENDANT)
+    NewSpeakerName: 0
     dialogue: Hey, if you're ever looking to help out or donate anything, us at the
       health center will always take the assistance!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0
