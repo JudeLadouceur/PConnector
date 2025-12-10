@@ -113,3 +113,6 @@ MonoBehaviour:
   - variable: 16
     modifier: 2
     value: 1
+  - variable: 18
+    modifier: 2
+    value: 0
