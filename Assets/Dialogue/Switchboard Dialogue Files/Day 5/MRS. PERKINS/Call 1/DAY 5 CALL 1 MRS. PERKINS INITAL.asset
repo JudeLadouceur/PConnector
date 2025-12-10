@@ -14,15 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh hello, dear. This is Mrs. Perkins. You see, these past few days
       have been a lot on me. I feel I\u2019ve really been losing my connection to
-      this town in my age. Oh, it gets so hard to keep up when the world moves too
-      fast\u2026 I hate to say it dear, but I think I need to move on. I\u2019ve
-      lost touch with this town, and I\u2019ve decided I\u2019m moving. It won\u2019t
-      be that big of a deal. Nobody pays much attention to this old woman anyways.
-      I was just calling to cancel my upcoming appointments so I can start making
-      the arrangements. Could you do this old lady that one last favor and connect
-      me to the emergency line?"
+      this town in my age."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Oh, it gets so hard to keep up when the world moves too fast\u2026
+      I hate to say it dear, but I think I need to move on. I\u2019ve lost touch
+      with this town, and I\u2019ve decided I\u2019m moving. It won\u2019t be that
+      big of a deal. Nobody pays much attention to this old woman anyways. I was
+      just calling to cancel my upcoming appointments so I can start making the arrangements.
+      Could you do this old lady that one last favor and connect me to the emergency
+      line?"
   voiceLineEvent:
     Guid:
       Data1: 0
