@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: BOSS
-    NewSpeakerName: 0
+    NewSpeakerName: 9
     dialogue: SETH! Perfect, thanks so much! I'll handled it from here, so go get
       some rest okay?
   voiceLineEvent:
@@ -39,5 +39,8 @@ MonoBehaviour:
     modifier: 2
     value: 1
   - variable: 12
+    modifier: 2
+    value: 0
+  - variable: 15
     modifier: 2
     value: 0
