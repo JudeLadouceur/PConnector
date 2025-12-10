@@ -14,15 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey, it\u2019s Seth. I\u2026 I\u2019m done. I\u2019ve messed up for
       the last time. While I was out yesterday, I\u2026 I tried to fix the engine
       of my delivery guy\u2019s car, and\u2026 it blew up in my face. The thing\u2019s
       completely unusable now. I\u2019ve got the parts but, I\u2019m just\u2026 not
-      the kind of repair guy I wanted to be. I\u2019m not doing enough, messing up
-      too often, and at this point\u2026 am just causing problems for the town. I\u2019m
-      closing shop, I\u2019ve decided. This is it. Could you connect me to the emergency
-      line? I\u2019ve got a lot of dangerous tools that need to be taken away. I\u2019m
-      sure they can help with that."
+      the kind of repair guy I wanted to be."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "I\u2019m not doing enough, messing up too often, and at this point\u2026
+      am just causing problems for the town. I\u2019m closing shop, I\u2019ve decided.
+      This is it. Could you connect me to the emergency line? I\u2019ve got a lot
+      of dangerous tools that need to be taken away. I\u2019m sure they can help
+      with that."
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -66,9 +66,11 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "No, I\u2019m thinking of the long run. I\u2019m known as the pizza
-      shop that\u2019s always open! The one-man army! The pizza shop could go under,
-      it\u2019s probably going to now that I\u2019m like this, I\u2026 dad was right.
-      I can\u2019t do this."
+      shop that\u2019s always open! The one-man army!"
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "The pizza shop could go under, it\u2019s probably going to now that
+      I\u2019m like this, I\u2026 dad was right. I can\u2019t do this."
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Hey, Lin.
@@ -87,10 +89,13 @@ MonoBehaviour:
     dialogue: "You\u2019re overthinking this. People love your pizza shop and respect
       all the effort you put into it. Closing down for a couple days a week to keep
       yourself healthy isn\u2019t going to change that. You\u2019ve put more love
-      and care into this shop than your father ever did. He was the one who walked
-      away. You didn\u2019t give up. Taking some time to take care of yourself isn\u2019t
-      giving up, either. It\u2019s just a break. That\u2019s all it is, and you\u2019re
-      allowed to take on every once in a while."
+      and care into this shop than your father ever did."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "He was the one who walked away. You didn\u2019t give up. Taking some
+      time to take care of yourself isn\u2019t giving up, either. It\u2019s just
+      a break. That\u2019s all it is, and you\u2019re allowed to take on every once
+      in a while."
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Seth, I\u2026 wow. That\u2026 means a lot. I had no idea you were
