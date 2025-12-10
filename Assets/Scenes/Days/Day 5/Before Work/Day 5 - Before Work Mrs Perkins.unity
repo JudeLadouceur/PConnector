@@ -241,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 53f46b7358916cf4b922ef8a3af1986c, type: 2}
+      objectReference: {fileID: 11400000, guid: a191bed4373e0a44ab1732ed38e9cb49, type: 2}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.78
