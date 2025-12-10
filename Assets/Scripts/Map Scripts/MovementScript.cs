@@ -13,7 +13,7 @@ public class MovementScript : MonoBehaviour
     public static MovementScript instance;
 
     // Delay control
-    private bool canToggle = true;
+    public bool canToggle = true;
     public float toggleCooldown = 0.3f; // seconds between toggles
 
     private void Start()
