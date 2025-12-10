@@ -5761,8 +5761,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayNumber: {fileID: 1176762750}
+  time: {fileID: 1024015825}
   varName: {fileID: 566251059}
-  varValue: {fileID: 0}
+  varValue: {fileID: 102889501}
 --- !u!4 &1047289095
 Transform:
   m_ObjectHideFlags: 0
