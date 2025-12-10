@@ -159,19 +159,19 @@ EditorBuildSettings:
     path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - A - B - B.unity
     guid: c603c41b1d76f0f48aea8f2879341733
   - enabled: 1
-    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - B - B - A.unity
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - B - A - B.unity
     guid: 99dd60b036c826b4c983b2ceadcdbea8
   - enabled: 1
-    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - B - A - B.unity
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork A - B - B - A.unity
     guid: ed0d23e9f5b38ed47873cf266f2d5b5e
   - enabled: 1
     path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - A - B - B.unity
     guid: ea8e7f7bb228627499b5d2fa9441d586
   - enabled: 1
-    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - B - B - A.unity
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - B - A - B.unity
     guid: 79790162762b9c4419607f970f37b7cc
   - enabled: 1
-    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - B - A - B.unity
+    path: Assets/Scenes/Days/Day 4/After Work/Day 4 - Afterwork B - B - B - A.unity
     guid: 9dc01542936e2dc439654200891fe886
   - enabled: 1
     path: Assets/Scenes/Day Transitions/Day 4/Day 4 Transition A+A+B+B.unity
