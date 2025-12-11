@@ -365,6 +365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6295982436797559972, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8744196635229859455, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_Name
       value: Seth Variant
