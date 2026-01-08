@@ -7081,6 +7081,14 @@ PrefabInstance:
       propertyPath: conversationSkip
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: approvedSceneFragments.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: approvedSceneFragments.Array.data[5]
+      value: AfterWork
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
