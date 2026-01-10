@@ -17,7 +17,15 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("GoalIntro");
+        if(SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade("GoalIntro");
+        }
+        else
+        {
+            SceneManager.LoadScene("GoalIntro");
+        }
+            
     }
 
     public void OpenOptionsMenu()
