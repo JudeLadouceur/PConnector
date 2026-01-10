@@ -11,12 +11,27 @@ public class SceneTransitionTrigger : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!collision.gameObject.CompareTag("Player")) return;
-        SceneManager.LoadScene(Scene);
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade(Scene);
+        }
+        else
+        {
+            SceneManager.LoadScene(Scene);
+        }
+
     }
 
     public void NextScene()
     {
-        SceneManager.LoadScene(Scene);
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade(Scene);
+        }
+        else
+        {
+            SceneManager.LoadScene(Scene);
+        }
     }
 
     public void NextDay()
@@ -26,6 +41,13 @@ public class SceneTransitionTrigger : MonoBehaviour
         Debug.Log("Day number: " + TimeManager.dayNumber);
 
         TimeManager.callNumber = 0;
-        SceneManager.LoadScene(Scene);
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade(Scene);
+        }
+        else
+        {
+            SceneManager.LoadScene(Scene);
+        }
     }
 }

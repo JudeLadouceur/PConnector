@@ -126,6 +126,13 @@ public class PauseMenu : MonoBehaviour
 
         //DialogueManager.Instance.ResetDialogue();
 
-        SceneManager.LoadScene("Main Menu");
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade("Main Menu");
+        }
+        else
+        {
+            SceneManager.LoadScene("Main Menu");
+        }
     }
 }

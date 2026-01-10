@@ -49,7 +49,15 @@ public class SetSceneAndVariables : MonoBehaviour
         //{
             TimeManager.dayNumber = dayNumber.selectedOption;
             TimeManager.callNumber = 0;
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade("Switchboard");
+        }
+        else
+        {
             SceneManager.LoadScene("Switchboard");
+        }
+
         //}
     }
     

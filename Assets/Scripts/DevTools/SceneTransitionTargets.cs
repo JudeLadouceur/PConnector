@@ -46,7 +46,14 @@ public class SceneTransitionTargets : MonoBehaviour
 
         targetName = targetName + targetEnd;
 
-        SceneManager.LoadScene(targetName);
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade(targetName);
+        }
+        else
+        {
+            SceneManager.LoadScene(targetName);
+        }
 
         //Vars.Clear();
     }

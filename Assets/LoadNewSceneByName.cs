@@ -9,6 +9,13 @@ public class LoadNewSceneByName : MonoBehaviour
 
     public void LoadSceneByName()
     {
-        SceneManager.LoadScene(nameOfSceneToLoad);
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade(nameOfSceneToLoad);
+        }
+        else
+        {
+            SceneManager.LoadScene(nameOfSceneToLoad);
+        }
     }
 }
