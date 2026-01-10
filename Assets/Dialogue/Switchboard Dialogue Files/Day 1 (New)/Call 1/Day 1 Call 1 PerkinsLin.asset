@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 1 Call 1 PerkinsLin
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Hey! This is Lin\u2019s Pizza! What can I cook up for you today?"
+  - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
+    dialogue: "Oh, Lin dearie. I\u2019m at my wits end with this computer, I don\u2019t
+      know what this queue thing is or how to use it to make an appointment at Seth\u2019s."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Um, well, do you\u2026 want help? I handle a lot when it comes to
+      bookings for my pizza shop, you know."
+  - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
+    dialogue: That would be lovely!
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: Alright, what do you see on your screen?
+  - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
+    dialogue: "Well, it asked for my name and phone number, which I put in. Then
+      I went to press the button to make the appointment, but it said \u201CJoin
+      Queue\u201D, is a queue some group I have to be part of?"
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Oh, no, it\u2019s just a word the computer uses for line. It\u2019s
+      like how I have a queue for which pizza orders I go through first. Once you
+      press that it will tell you when to go to Seth\u2019s."
+  - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
+    dialogue: "Oh, well why didn\u2019t it say so? You\u2019re a great help, can
+      I call you if I need anything else?"
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "I\u2019ll do you one better, if you come by with your computer once
+      you\u2019re done with Seth, I\u2019ll help answer any questions you may have."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: 'In exchange, you have to try some of these new pizza ideas I have!
+      I think hot sauce in the crust might be my best idea yet! '
+  - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
+    dialogue: "I\u2019m not so sure about that, dearie, but I\u2019ll be happy if
+      you prove me wrong. I\u2019ll be over later. "
+  voiceLineEvent:
+    Guid:
+      Data1: -96425269
+      Data2: 1093996114
+      Data3: 150968739
+      Data4: -689171658
+    Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Lin Connection/Mrs. Perkins - Day
+      - Call 1 - Lin Connection
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 3
+    modifier: 2
+    value: 1
+  - variable: 8
+    modifier: 2
+    value: 1

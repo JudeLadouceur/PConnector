@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 1 Call 2 Emergency Services
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: EMERGENCY
+    dialogue: Emergency line, what do you need?
+  - speakerName: SETH
+    dialogue: "Wha-emergency? I\u2019m so sorry. I seem to have been connected to
+      you by mistake. I\u2019ll uh... I'll just hang up now."
+  - speakerName: Emergency
+    dialogue: Alright, have a great day sir.
+  voiceLineEvent:
+    Guid:
+      Data1: -547186092
+      Data2: 1328246750
+      Data3: -637977685
+      Data4: 808323382
+    Path: event:/Voices/Day 1/Call 2/Emergency Services Connection/Seth - Day 1,
+      Call 2 - Emergency Services Connection
+  variables: []

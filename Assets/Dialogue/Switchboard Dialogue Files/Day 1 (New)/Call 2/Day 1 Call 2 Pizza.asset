@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 1 Call 2 Pizza
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "You\u2019ve reached the pizzeria! What toppings you looking for today?"
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: Lin, good man. By chance could I come by and rummage your old broken
+      ovens for some parts?
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Parts? Uh, well, sorry Seth. My refrigerator broke down a week or
+      so ago. The old thing had done so much work for my toppings\u2026 oh-uh, but
+      it got sent to the landfill. Didn\u2019t think anyone needed it."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Ah, thanks anyways. Not your fault I\u2019m an idiot. Well, guess
+      folks are just gonna be disappointed in me, like always."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: Disappointed? In you? Seth, you okay?
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Don\u2019t worry, I know you\u2019re disappointed in me too. I won\u2019t
+      bother you anymore."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "Seth, wait, I didn\u2019t mean-"
+  voiceLineEvent:
+    Guid:
+      Data1: -484779280
+      Data2: 1287906822
+      Data3: -403145326
+      Data4: -1971578959
+    Path: event:/Voices/Day 1/Call 2/Lin Connection/Seth - Day 1, Call 2 - Lin Connection
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 9
+    modifier: 2
+    value: 0

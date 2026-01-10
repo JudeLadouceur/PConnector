@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 1 Call 2 Seth Prompt
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "AH, hey. I done screwed up, forgot to make an order this week. It\u2019s
+      been so busy and all, I\u2019m now flush out of parts. My own darned fault,
+      I\u2019m such an idiot. "
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Doesn\u2019t change the fact things need fixing, but others knowing
+      I screwed up\u2026can\u2019t lose the shop, can\u2019t lose customers. Can\u2019t
+      afford to. Need discreet help finding parts. You get me? "
+  voiceLineEvent:
+    Guid:
+      Data1: 362770592
+      Data2: 1099590964
+      Data3: 474938041
+      Data4: 948556521
+    Path: event:/Voices/Day 1/Call 2/Prompt/Seth - Day 1, Call 2 - Prompt
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

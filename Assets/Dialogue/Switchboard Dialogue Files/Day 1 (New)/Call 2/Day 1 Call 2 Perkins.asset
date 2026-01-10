@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 1 Call 2 Perkins
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: 'MRS. PERKINS '
+    NewSpeakerName: 1
+    dialogue: Hello? This is Mrs. Perkins. Who is this?
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Hey, Mrs. Perkins. You, uh, wouldn\u2019t happen to have some spare
+      parts? Bolts, washers, metal pipes, the like?"
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Oh, well yes, I do in fact! Why don\u2019t you come by, I have some
+      of the like in the storage room I think. Things that are left over from the
+      gizmos Howard used to collect. What led to this pickle though? I\u2019ve never
+      known you to need parts before."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "I, uh, forgot to make an order. Just like me to be this useless, but
+      I\u2019m hoping to not let anyone down regardless."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Ah, so that\u2019s all. I thought it\u2019d be something much worse,
+      dearie. Happens to the best of us, back in the day I left the door unlocked
+      a couple times and when my husband got home I got such an earful over it. Besides,
+      you do a wonderful job of repairing things, nobody would mind having to wait
+      a bit. Remind yourself of that sometimes, dearie."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Ah, I guess\u2026still feel awful though."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: I know, dear, but trying to stand alone will just make you crumble.
+      But if it helps, this is our little secret, okay? Come on over, we can chat
+      while we look.
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "Yeah, okay. Our little secret. I\u2019ll be right over for the parts.
+      Thanks, Mrs. Perkins."
+  voiceLineEvent:
+    Guid:
+      Data1: 1680394413
+      Data2: 1120231739
+      Data3: -1083782266
+      Data4: -2038115205
+    Path: event:/Voices/Day 1/Call 2/Mrs. Perkins Connection/Seth - Day 1, Call 2
+      - Mrs. Perkins Connection
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables:
+  - variable: 5
+    modifier: 2
+    value: 1
+  - variable: 10
+    modifier: 2
+    value: 1
