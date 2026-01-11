@@ -9,12 +9,13 @@ public class VolumeManager : MonoBehaviour
 {
     //public AudioMixer mixer;
 
-    // These variables match the names of the ones attached to the Audio Mixer.
+    // Variables for audio sliders in the Options Menu.
     public Slider masterSlider;
     public Slider musicSlider;
     public Slider SFXSlider;
     public Slider voicesSlider;
 
+    // Vairables for FMOD buses / mixers.
     private Bus masterBus;
     private Bus musicBus;
     private Bus sfxBus;
