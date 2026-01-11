@@ -5,9 +5,6 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-// This tutorial was used for writing this script:
-// https://gamedevacademy.org/unity-audio-settings-tutorial/
-
 public class VolumeManager : MonoBehaviour
 {
     //public AudioMixer mixer;
@@ -25,20 +22,35 @@ public class VolumeManager : MonoBehaviour
 
     void Start()
     {
-        masterBus = RuntimeManager.GetBus("bus:");
+        // Access the audio mixers set in FMOD.
+        masterBus = RuntimeManager.GetBus("bus:/");
         musicBus = RuntimeManager.GetBus("bus:/Music");
         sfxBus = RuntimeManager.GetBus("bus:/SFX");
         voicesBus = RuntimeManager.GetBus("bus:/Voices");
 
+        // Set them up with PlayerPrefs.
         float master = PlayerPrefs.GetFloat("masterVolume", 1f);
         float music = PlayerPrefs.GetFloat("musicVolume", 1f);
         float sfx = PlayerPrefs.GetFloat("sfxVolume", 1f);
         float voices = PlayerPrefs.GetFloat("voicesVolume", 1f);
 
+        // Set the sliders equal to the PlayerPrefs variables, so they get saved.
         masterSlider.value = master;
         musicSlider.value = music;
         SFXSlider.value = sfx;
         voicesSlider.value = voices;
+
+        // Set the FMOD audio mixers equal to the sliders' values.
+        masterBus.setVolume(masterSlider.value);
+        musicBus.setVolume(musicSlider.value);
+        sfxBus.setVolume(SFXSlider.value);
+        voicesBus.setVolume(voicesSlider.value);
+
+        // Setting the buses in the Inspector caused sync issues. So, the sliders are instead being synced in code here.
+        masterSlider.onValueChanged.AddListener(UpdateMasterVolume);
+        musicSlider.onValueChanged.AddListener(UpdateMusicVolume);
+        SFXSlider.onValueChanged.AddListener(UpdateSFXVolume);
+        voicesSlider.onValueChanged.AddListener(UpdateVoicesVolume);
 
         /*
         // Do we have saved volume player prefs?
@@ -75,42 +87,42 @@ public class VolumeManager : MonoBehaviour
     }
 
     // For updating the master slider.
-    public void UpdateMasterVolume()
+    public void UpdateMasterVolume(float value)
     {
         //mixer.SetFloat("masterVolume", Mathf.Log10(masterSlider.value) * 20);
 
-        masterBus.setVolume(masterSlider.value);
+        masterBus.setVolume(value);
 
-        //PlayerPrefs.SetFloat("masterVolume", Mathf.Log10(masterSlider.value) * 20);
+        PlayerPrefs.SetFloat("masterVolume", value);
     }
 
     // For updating the music slider.
-    public void UpdateMusicVolume()
+    public void UpdateMusicVolume(float value)
     {
         //mixer.SetFloat("musicVolume", Mathf.Log10(musicSlider.value) * 20);
 
-        musicBus.setVolume(musicSlider.value);
+        musicBus.setVolume(value);
 
-        //PlayerPrefs.SetFloat("musicVolume", Mathf.Log10(musicSlider.value) * 20);
+        PlayerPrefs.SetFloat("musicVolume", value);
     }
 
     // For updating the SFX slider.
-    public void UpdateSFXVolume()
+    public void UpdateSFXVolume(float value)
     {
         //mixer.SetFloat("SFXVolume", Mathf.Log10(SFXSlider.value) * 20);
 
-        sfxBus.setVolume(SFXSlider.value);
+        sfxBus.setVolume(value);
 
-        //PlayerPrefs.SetFloat("SFXVolume", Mathf.Log10(SFXSlider.value) * 20);
+        PlayerPrefs.SetFloat("sfxVolume", value);
     }
 
     // For updating the Voices slider.
-    public void UpdateVoicesVolume(float volume)
+    public void UpdateVoicesVolume(float value)
     {
         //mixer.SetFloat("SFXVolume", Mathf.Log10(SFXSlider.value) * 20);
 
-        voicesBus.setVolume(voicesSlider.value);
+        voicesBus.setVolume(value);
 
-        //PlayerPrefs.SetFloat("VoicesVolume", Mathf.Log10(SFXSlider.value) * 20);
+        PlayerPrefs.SetFloat("voicesVolume", value);
     }
 }
