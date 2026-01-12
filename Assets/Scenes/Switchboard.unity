@@ -2261,9 +2261,20 @@ MonoBehaviour:
   lineThickness: 0.25
   notch1: {fileID: 0}
   lineDrawn: 0
-  audioSource: {fileID: 1467770119}
-  grabbingWireSound: {fileID: 8300000, guid: 57946a262bc95f44eb82601d1ef09d0f, type: 3}
-  connectingWireSound: {fileID: 8300000, guid: 7e8f44ba781d0314ca90a1d666cac14d, type: 3}
+  grabbingWireSound:
+    Guid:
+      Data1: -1154449171
+      Data2: 1185734741
+      Data3: 669864589
+      Data4: -225409618
+    Path: event:/SFX/Switchboard Sounds/Grabbing Wire Sound
+  connectingValidWireSound:
+    Guid:
+      Data1: -784646586
+      Data2: 1280984634
+      Data3: -1374672487
+      Data4: -347162622
+    Path: event:/SFX/Switchboard Sounds/Connecting Valid Wire Sound
   canDraw: 0
 --- !u!1 &1108179946
 GameObject:
@@ -3760,7 +3771,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467770116}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3787551468235205183, guid: 3241bedf2aef9134baf81113531180db, type: 2}
   m_audioClip: {fileID: 0}

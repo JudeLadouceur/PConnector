@@ -1,8 +1,6 @@
 using FMOD.Studio;
 using FMODUnity;
-using TMPro;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class VolumeManager : MonoBehaviour
@@ -41,13 +39,13 @@ public class VolumeManager : MonoBehaviour
         SFXSlider.value = sfx;
         voicesSlider.value = voices;
 
-        // Set the FMOD audio mixers equal to the sliders' values.
+        // Set the FMOD audio mixers equal to the sliders' values, so they are synced.
         masterBus.setVolume(masterSlider.value);
         musicBus.setVolume(musicSlider.value);
         sfxBus.setVolume(SFXSlider.value);
         voicesBus.setVolume(voicesSlider.value);
 
-        // Setting the buses in the Inspector caused sync issues. So, the sliders are instead being synced in code here.
+        // Assigning the buses in the Inspector caused sync issues. So, the sliders are instead being updated in code here.
         masterSlider.onValueChanged.AddListener(UpdateMasterVolume);
         musicSlider.onValueChanged.AddListener(UpdateMusicVolume);
         SFXSlider.onValueChanged.AddListener(UpdateSFXVolume);

@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -20,9 +22,13 @@ public class LineManager : MonoBehaviour
 
     private CallManager callManager;
 
-    public AudioSource audioSource;
-    public AudioClip grabbingWireSound;
-    public AudioClip connectingWireSound;
+    //public AudioSource audioSource;
+    //public AudioClip grabbingWireSound;
+    //public AudioClip connectingWireSound;
+
+    // References to the FMOD Switchboard sounds.
+    public EventReference grabbingWireSound;
+    public EventReference connectingValidWireSound;
 
     public static LineManager instance;
 
@@ -45,7 +51,10 @@ public class LineManager : MonoBehaviour
         {
             StartDraw(notch);
 
-            audioSource.PlayOneShot(grabbingWireSound);
+            //audioSource.PlayOneShot(grabbingWireSound);
+
+            // Play the grabbing wire sound from FMOD.
+            RuntimeManager.PlayOneShot(grabbingWireSound);
         }
         else
         {
@@ -55,8 +64,8 @@ public class LineManager : MonoBehaviour
                 return;
             }
 
-            
-            audioSource.PlayOneShot(connectingWireSound);
+            // Play the connecting valid wire sound from FMOD.
+            RuntimeManager.PlayOneShot(connectingValidWireSound);
         }
     }
 
