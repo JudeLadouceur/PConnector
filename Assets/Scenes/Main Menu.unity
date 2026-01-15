@@ -6924,7 +6924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -776.26, y: -589}
+  m_AnchoredPosition: {x: -776.26, y: -570}
   m_SizeDelta: {x: 1346.2, y: 439.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371206401
@@ -8986,7 +8986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 768.54004, y: -553}
+  m_AnchoredPosition: {x: 768.54004, y: -547}
   m_SizeDelta: {x: 1155.3, y: 392.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852794940
@@ -9009,8 +9009,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Switchboard connection sounds made by klangstrand   \n(https://freesound.org/people/klangstrand/sounds/180697/?)\n\nLicensed
-    under CC BY 4.0"
+  m_text: 'Switchboard connection sounds from freesound.org, made by klangstrand
+    (licensed under CC BY 4.0).
+
+
+    Telephone ringing sound from freesound.org,
+    made by pimstoltz
+
+    (licensed under CC0).'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -9037,8 +9043,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62
-  m_fontSizeBase: 62
+  m_fontSize: 58.68
+  m_fontSizeBase: 58.68
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
