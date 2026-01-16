@@ -15,17 +15,18 @@ MonoBehaviour:
   lines:
   - speakerName: EMERGENCY
     NewSpeakerName: 4
-    dialogue: "Smithville emergency line. What\u2019s your situation?"
+    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
   - speakerName: STEWART
     NewSpeakerName: 5
     dialogue: Wh-what?! S-sorry! Wrong line!
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1341879248
+      Data2: 1144771221
+      Data3: -373081471
+      Data4: 1773406107
+    Path: event:/Voices/Day 1/Window Dressing Call/Stewart - Day 1, Window Dressing
+      - Emergency Services Connection
   barkEvent:
     Guid:
       Data1: 0
