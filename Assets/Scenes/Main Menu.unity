@@ -7255,43 +7255,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: conversationSkip
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: approvedSceneFragments.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      propertyPath: approvedSceneFragments.Array.data[5]
-      value: AfterWork
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4540413541680900451, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1384824463}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
---- !u!1 &1384824462 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4540413541680900451, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-  m_PrefabInstance: {fileID: 1384824461}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1384824463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384824462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400eb8d24c59f474aa28b80b00e152ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1403128690
 GameObject:
   m_ObjectHideFlags: 0
