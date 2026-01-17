@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b7a08f64ef73ac4a9e534b69a08faea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,6 +105,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 4216522904646000503}
   Funny: 0
+  canToggle: 1
   toggleCooldown: 0.3
 --- !u!50 &4216522904646000503
 Rigidbody2D:
