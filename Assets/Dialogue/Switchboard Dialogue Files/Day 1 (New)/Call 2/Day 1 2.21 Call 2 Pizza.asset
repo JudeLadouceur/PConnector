@@ -27,7 +27,7 @@ MonoBehaviour:
       it got sent to the landfill. Didn\u2019t think anyone needed it."
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Ah, thanks anyways. Not your fault I\u2019m an idiot. Well, guess
+    dialogue: "Ah, thanks anyways. Not your fault, I\u2019m an idiot. Well, guess
       folks are just gonna be disappointed in me, like always."
   - speakerName: LIN
     NewSpeakerName: 2
