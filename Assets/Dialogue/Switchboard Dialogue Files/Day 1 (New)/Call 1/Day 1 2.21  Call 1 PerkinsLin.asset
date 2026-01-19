@@ -22,8 +22,8 @@ MonoBehaviour:
       know what this queue thing is or how to use it to make an appointment at Seth\u2019s."
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Um, well, do you\u2026 want help? I handle a lot when it comes to
-      bookings for my pizza shop, you know."
+    dialogue: Um, well, do you want... help? I handle a lot when it comes to bookings
+      for my pizza shop, you know.
   - speakerName: 'MRS. PERKINS '
     NewSpeakerName: 1
     dialogue: That would be lovely!
@@ -62,8 +62,8 @@ MonoBehaviour:
       Data2: 1093996114
       Data3: 150968739
       Data4: -689171658
-    Path: event:/Voices/Mrs. Perkins/Day 1/Call 1/Lin Connection/Mrs. Perkins - Day
-      - Call 1 - Lin Connection
+    Path: event:/Voices/Day 1/Call 1/Lin Connection/Mrs. Perkins - Day - Call 1 -
+      Lin Connection
   barkEvent:
     Guid:
       Data1: 0
