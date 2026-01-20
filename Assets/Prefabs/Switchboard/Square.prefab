@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b7a08f64ef73ac4a9e534b69a08faea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _notch1: {fileID: 0}
   _notch2: {fileID: 0}
+  rope: {fileID: 0}
 --- !u!61 &-1812767830019792418
 BoxCollider2D:
   m_ObjectHideFlags: 0
