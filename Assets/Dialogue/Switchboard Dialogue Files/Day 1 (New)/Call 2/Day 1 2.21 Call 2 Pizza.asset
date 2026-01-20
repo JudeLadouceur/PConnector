@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "You\u2019ve reached the pizzeria! What toppings you looking for today?"
+    dialogue: "You\u2019ve reached the Pizzeria! What toppings you looking for today?"
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Lin, good man. By chance could I come by and rummage your old broken
