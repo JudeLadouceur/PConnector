@@ -6,6 +6,7 @@ using UnityEngine;
 public class OverworldDialogue : Interactables
 {
     public SO_Dialogue dialogue;
+    public Characters character;
 
     public override void Interact()
     {

@@ -8,9 +8,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 931240140304644210, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: m_Size.x
+      value: 16.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 931240140304644210, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: m_Size.y
+      value: 23.603092
+      objectReference: {fileID: 0}
+    - target: {fileID: 931240140304644210, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c201e258ce5e4342815ee6e318f13ed, type: 3}
+    - target: {fileID: 931240140304644210, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2446444046879267236, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: character
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2446444046879267236, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: interactPromptText
+      value: talk
       objectReference: {fileID: 0}
     - target: {fileID: 3309026204793156138, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: Name
@@ -27,18 +47,6 @@ PrefabInstance:
     - target: {fileID: 7448488614580516829, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: m_Size.y
       value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958264754405220287, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.098745875
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958264754405220287, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.098745875
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958264754405220287, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.098745875
       objectReference: {fileID: 0}
     - target: {fileID: 8958264754405220287, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: m_LocalPosition.x
