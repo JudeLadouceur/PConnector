@@ -3,55 +3,24 @@ using System.Collections.Generic;
 using FMOD.Studio;
 using UnityEngine;
 
-public class OverworldDialogue : MonoBehaviour
+public class OverworldDialogue : Interactables
 {
     public SO_Dialogue dialogue;
 
-    private bool isInteractable;
-
-    public Characters character;
-    public bool canAddNotes = false;
-
-    private GameObject interactPrompt;
-    private GameObject promptRef;
-
-    private void Start()
+    public override void Interact()
     {
-        interactPrompt = transform.parent.GetChild(1).gameObject;
-        interactPrompt.SetActive(false);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            isInteractable = true;
-            interactPrompt.SetActive(true);
-        }
-    }
-
-    private void Update()
-    {
-        if (!isInteractable) return;
-
-        if (Input.GetButtonDown("Interact")) Interact();
-    }
-
-    private void Interact()
-    {
-        if (!isInteractable) return;
-
         //if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
-
+        /*
         if (canAddNotes && !NotebookManager.Instance.CheckCharacterTalked(character))
         {
             //Debug.Log("Talking");
             NotebookManager.Instance.CharacterTalked(character);
         }
-
+        */
         MovementScript.instance.Funny = true;
         MovementScript.instance.canToggle = false;
 
+        
         DialogueManager.Instance.StartDialogue(dialogue);
 
         // If the Event is not null and assigned in the Inspector, play the bark line (at random based on the FMOD setup).
@@ -63,11 +32,5 @@ public class OverworldDialogue : MonoBehaviour
         {
             Debug.LogWarning("A dialogue Scriptable Object does not have a BARK Event assigned to it.");
         }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player")) isInteractable = false;
-        interactPrompt.SetActive(false);
     }
 }
