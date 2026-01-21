@@ -62,11 +62,11 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 3}
+  m_Size: {x: 5, y: 10}
   m_Direction: 0
 --- !u!114 &2446444046879267236
 MonoBehaviour:
@@ -80,9 +80,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 0}
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
   character: 0
   canAddNotes: 0
+  dialogue: {fileID: 0}
 --- !u!1 &5997828269086586301
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8958264754405220287}
   - component: {fileID: 9023774536592764774}
-  - component: {fileID: 7448488614580516829}
   m_Layer: 0
   m_Name: Character Template
   m_TagString: Untagged
@@ -169,38 +169,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &7448488614580516829
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5997828269086586301}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0

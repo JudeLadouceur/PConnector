@@ -9,8 +9,6 @@ public class Interactables : MonoBehaviour
     public GameObject interactPrompt;
     private GameObject _interactPrompt;
 
-    private bool isInteractable;
-
     public Characters character;
     public bool canAddNotes = false;
     
