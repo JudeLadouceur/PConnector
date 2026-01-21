@@ -10,5 +10,6 @@ public enum Characters
     Bob,
     Olson,
     Lucin,
-    Boss
+    Boss,
+    Stewart
 }

@@ -2009,6 +2009,28 @@ MonoBehaviour:
         - variables: []
           dialogue: {fileID: 11400000, guid: 017d4a8b85a996647b735c9b6bd92d6d, type: 2}
     - requiredVars: []
+      caller: 5
+      contextCalls:
+      - variables: []
+        contextCall: {fileID: 11400000, guid: 230c11763ad28eb4e9d8347b4e97031f, type: 2}
+      connections:
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 83a4782af8065f3489913a99963faafa, type: 2}
+      - receiver: 1
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: c83598fb06bc3634a855b270be0262ab, type: 2}
+      - receiver: 2
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 65198c03f5083604188e2cb02ceb26e1, type: 2}
+      - receiver: 3
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 0bc16ac655991584e87e7be025584d00, type: 2}
+    - requiredVars: []
       caller: 3
       contextCalls:
       - variables: []
