@@ -29,11 +29,12 @@ MonoBehaviour:
     dialogue: 'You too, dear. Sorry again. '
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -842858965
+      Data2: 1170747865
+      Data3: -1716951128
+      Data4: -2081916488
+    Path: event:/Voices/Day 2/Call 2/Emergency Connection/Mrs. Perkins - Day 2 -
+      Call 2A - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

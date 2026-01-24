@@ -20,11 +20,11 @@ MonoBehaviour:
       connect us to her?"
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2100580250
+      Data2: 1264063417
+      Data3: -890553192
+      Data4: 202542400
+    Path: event:/Voices/Day 2/Call 3 (WD)/Day 2 - Call 3 - WD Initial B
   barkEvent:
     Guid:
       Data1: 0
