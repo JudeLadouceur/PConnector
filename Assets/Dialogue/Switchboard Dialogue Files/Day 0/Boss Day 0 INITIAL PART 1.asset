@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Boss Day 0 INITIAL PART 1
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: Boss
+    NewSpeakerName: 9
+    dialogue: "Hey there pal, thanks for coming into work on the weekend. I just
+      need some help sorting this order out to make sure it\u2019s ready."
+  - speakerName: Boss
+    NewSpeakerName: 9
+    dialogue: "As you know, this darned switchboard is broken, the audio from the
+      phone lines isn\u2019t cut when you connect people, and eavesdropping on conversations
+      is, well, generally frowned upon."
+  - speakerName: Boss
+    NewSpeakerName: 9
+    dialogue: "I know you aren\u2019t looking forward to being replaced by a machine,
+      but we gotta get this sorted before word gets out, otherwise we\u2019re both
+      gonna be in some real hot water."
+  - speakerName: Boss
+    NewSpeakerName: 9
+    dialogue: "I know you aren\u2019t looking forward to being replaced by a machine,
+      but we gotta get this sorted before word gets out, otherwise we\u2019re both
+      gonna be in some real hot water."
+  - speakerName: Boss
+    NewSpeakerName: 9
+    dialogue: "Could you connect me to the new town IT guy? Gah, he\u2019s new\u2026
+      I forget the name\u2026 Just, um- check your notebook, I\u2019m sure you\u2019ve
+      gotten it written down in there somewhere. Then just connect me to \u2018em"
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

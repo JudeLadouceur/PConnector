@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Boss Day 0 INITAL PART 2
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: SIMON
+    NewSpeakerName: 0
+    dialogue: Hello? This is-uh-Simon.
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: "Ah, Simon! That\u2019s right. Hey kid, I was just wondering if the
+      new switchboard order was all ready to be shipped."
+  - speakerName: SIMON
+    NewSpeakerName: 0
+    dialogue: "Oh, uh-yes. It is. They\u2019re just waiting on your confirmation
+      code now to begin the shipment."
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: Oh, great! Confirmation code C-L-S-P-S
+  - speakerName: SIMON
+    NewSpeakerName: 0
+    dialogue: "And\u2026 yup. It went through no problem. It says it should arrive
+      in a bit over 5 days. Saturday is the estimate. "
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: Sounds great, thanks for the help, kid
+  - speakerName: SIMON
+    NewSpeakerName: 0
+    dialogue: "Sure thing. Um\u2026 have a good day."
+  - speakerName: 
+    NewSpeakerName: 0
+    dialogue: '* SImon leaves then line *'
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: "Alright then, it sounds like you got one more week of work left. It
+      ain\u2019t much, but you could really make a difference for the folks of this
+      town, you know?"
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: "I know I sort of forced you to make my connection here, but that won\u2019t
+      always be the case. Sometimes connections are left up to your best judgement. "
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: "And sometimes, you know, people shouldn\u2019t always be connected
+      to who they want. Sometimes, it\u2019s more about who they need. You get what
+      I\u2019m saying?"
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: "I\u2019m sure you\u2019ll do great on your last week. Make those connections,
+      pal. It can mean more to the town than you know. Good luck."
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
