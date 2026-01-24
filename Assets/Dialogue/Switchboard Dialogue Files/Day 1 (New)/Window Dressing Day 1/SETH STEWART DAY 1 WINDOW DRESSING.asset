@@ -17,22 +17,23 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. Whatta ya need?"
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: Wh-wha? Oh, sorry I think I was connected to the wrong line.
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Oh, sorry. Figures you wouldn\u2019t need me, must be a mistaken connection."
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: "Oh, I guess that makes sense. Ah, I\u2019ll just call back another
       day or something. Thanks."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1710483551
+      Data2: 1143376117
+      Data3: 1194679227
+      Data4: -116678575
+    Path: event:/Voices/Day 1/Stewart Window Dressing Call/Stewart - Day 1, Window
+      Dressing - Seth Connection
   barkEvent:
     Guid:
       Data1: 0

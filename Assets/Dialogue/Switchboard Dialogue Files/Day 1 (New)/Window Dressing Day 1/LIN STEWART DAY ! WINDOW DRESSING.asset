@@ -17,7 +17,7 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! The bestest and the freshest! What can I get you?"
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: Hey there! I was hoping to get the pretzel stand in town back up and
       running. Would by chance be able to share with me your dough recipe?
   - speakerName: LIn
@@ -26,18 +26,19 @@ MonoBehaviour:
       for both of us! \u201CPizza and Pretzels! Best dough in the business!\u201D
       Just drop by and I can even get you hooked up with my provider!"
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: "Awesome! Thank you so much! I\u2019ll be by as soon as I can!"
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: No problem! Be sure to spread the word!
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 328981157
+      Data2: 1122548400
+      Data3: -1633955911
+      Data4: -1115802463
+    Path: event:/Voices/Day 1/Stewart Window Dressing Call/Stewart - Day 1, Window
+      Dressing - Lin Connection
   barkEvent:
     Guid:
       Data1: 0
