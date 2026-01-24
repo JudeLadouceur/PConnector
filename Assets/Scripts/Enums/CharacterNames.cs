@@ -11,5 +11,6 @@ public enum Characters
     Olson,
     Lucin,
     Boss,
-    Stewart
+    Stewart,
+    Simon
 }
