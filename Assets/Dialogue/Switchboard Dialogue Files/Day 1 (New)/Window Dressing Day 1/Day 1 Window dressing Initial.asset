@@ -14,23 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: "Hey there! The name\u2019s Stewart. I\u2019m from the next town over
       but used to live in Maple Grove. Currently, I\u2019m in the process of trying
       to get the pretzel stand in town up and going again! "
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: "I got the permit cleared with the town and have all the materials
       for restoration bought. All I need now is Lin\u2019s dough recipe for the pretzels!
       I\u2019d talked to Lin previously about this and I was hoping to seal the deal,
       could you connect me there? "
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1251726435
+      Data2: 1306021431
+      Data3: -1491796051
+      Data4: 884169554
+    Path: event:/Voices/Day 1/Stewart Window Dressing Call/Stewart - Day 1, Window
+      Dressing - Initials
   barkEvent:
     Guid:
       Data1: 0

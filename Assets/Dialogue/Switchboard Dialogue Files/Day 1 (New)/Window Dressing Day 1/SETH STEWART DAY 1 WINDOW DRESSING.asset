@@ -15,13 +15,14 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Seth\u2019s Repair Garage. Whatta ya need?"
+    dialogue: "Seth\u2019s Repair Garage. What do you need?"
   - speakerName: STEWART
     NewSpeakerName: 10
     dialogue: Wh-wha? Oh, sorry I think I was connected to the wrong line.
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Oh, sorry. Figures you wouldn\u2019t need me, must be a mistaken connection."
+    dialogue: "Oh, sorry. Figures you wouldn\u2019t need me. Must have been a mistaken
+      connection."
   - speakerName: STEWART
     NewSpeakerName: 10
     dialogue: "Oh, I guess that makes sense. Ah, I\u2019ll just call back another

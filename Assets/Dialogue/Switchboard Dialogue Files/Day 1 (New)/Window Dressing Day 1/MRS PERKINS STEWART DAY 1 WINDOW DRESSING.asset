@@ -19,8 +19,8 @@ MonoBehaviour:
   - speakerName: STEWART
     NewSpeakerName: 10
     dialogue: Wh-wha? Oh, sorry I think I was connected to the wrong line.
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - speakerName: MRS PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, dear. I\u2019m sorry. Did you need help with something?"
   - speakerName: STEWART
     NewSpeakerName: 10
