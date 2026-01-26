@@ -38,11 +38,12 @@ MonoBehaviour:
     dialogue: 'Thank you so much, dear. '
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 983826499
+      Data2: 1211970918
+      Data3: 830196665
+      Data4: 1814544790
+    Path: event:/Voices/Day 2/Call 2/Emergency Connection/Mrs. Perkins - Day 2 -
+      Call 2B - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

@@ -46,11 +46,12 @@ MonoBehaviour:
       for when you get here. "
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -47229944
+      Data2: 1115162869
+      Data3: -919397474
+      Data4: 236502735
+    Path: event:/Voices/Day 2/Call 1/Emergency Connection/Lin - Day 2 - Call 1 -
+      Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

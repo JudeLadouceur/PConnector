@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Seth\u2019s Repair Garage, whatcha need?"
+    dialogue: "Seth\u2019s Repair Garage, what do you need?"
   - speakerName: 'MRS. PERKINS '
     NewSpeakerName: 1
     dialogue: Oh, Seth! I was hoping you could help me out, dearie. Your new appointment

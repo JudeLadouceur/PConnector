@@ -17,21 +17,22 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: Wh-wha? Oh, sorry I think I was connected to the wrong line.
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - speakerName: MRS PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, dear. I\u2019m sorry. Did you need help with something?"
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: "No, don\u2019t worry about it. I\u2019ll just call back another day."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1147830231
+      Data2: 1283909861
+      Data3: -2087022925
+      Data4: -1279313443
+    Path: event:/Voices/Day 1/Stewart Window Dressing Call/Stewart - Day 1, Window
+      Dressing - Mrs. Perkins Connection
   barkEvent:
     Guid:
       Data1: 0

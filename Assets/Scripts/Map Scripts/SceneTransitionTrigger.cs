@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneTransitionTrigger : MonoBehaviour
+public class SceneTransitionTrigger : Interactables
 {
 
     public string Scene;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public override void Interact()
     {
-        if (!collision.gameObject.CompareTag("Player")) return;
         if (SceneLoadManager.Instance != null)
         {
             SceneLoadManager.Instance.LoadSceneWithFade(Scene);
@@ -19,7 +18,6 @@ public class SceneTransitionTrigger : MonoBehaviour
         {
             SceneManager.LoadScene(Scene);
         }
-
     }
 
     public void NextScene()

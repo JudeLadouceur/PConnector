@@ -7,6 +7,7 @@ public class MovementScript : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public bool Funny;
+    private Animator playerAnim;
 
     private Vector2 moveDirection;
 
@@ -19,6 +20,7 @@ public class MovementScript : MonoBehaviour
     private void Start()
     {
         instance = this;
+        playerAnim = GetComponent<Animator>();
     }
 
     void Update()
@@ -36,6 +38,10 @@ public class MovementScript : MonoBehaviour
 
         moveDirection = new Vector2(moveX, moveY).normalized;
 
+        //Animation stuff
+        playerAnim.SetBool("IsMove", moveDirection.magnitude != 0);
+        playerAnim.SetFloat("XMove", moveX);
+        playerAnim.SetFloat("YMove", moveY);
         
     }
 
