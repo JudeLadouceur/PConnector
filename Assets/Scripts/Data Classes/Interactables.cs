@@ -8,25 +8,24 @@ using UnityEngine.TextCore.Text;
 public class Interactables : MonoBehaviour
 {
     public GameObject interactPrompt;
-    private GameObject _interactPrompt;
+    private GameObject IPRef;
 
     public string interactPromptText;
 
     public bool canAddNotes = false;
-    
-    
+
     private void Start()
     {
-        _interactPrompt = Instantiate(interactPrompt, transform.parent);
-        if (!string.IsNullOrEmpty(interactPromptText)) _interactPrompt.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to " + interactPromptText;
-        else _interactPrompt.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to interact";
-        _interactPrompt.SetActive(false);
+        IPRef = Instantiate(interactPrompt, transform.parent);
+        if (!string.IsNullOrEmpty(interactPromptText)) IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to " + interactPromptText;
+        else IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to interact";
+        IPRef.SetActive(false);
     }
 
     public void SetInteractable(bool setToActive)
     {
-        if (setToActive) _interactPrompt.SetActive(true);
-        else _interactPrompt.SetActive(false);
+        if (setToActive) IPRef.SetActive(true);
+        else IPRef.SetActive(false);
     }
 
     public virtual void Interact()
