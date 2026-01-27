@@ -20,10 +20,10 @@ MonoBehaviour:
       and realized that they cancelled their booking! "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "I should have checked\u2026 Well, I want to sell these while they\u2019re
-      still fresh, but I don\u2019t know who to ask! I just\u2026 I can\u2019t let
-      this pizza go bad, you know? \u201CFresh\u201D is my thing! Not \"refrigerated
-      and reheated\u201D!"
+    dialogue: "I should have checked\u2026 Well, I want to sell these pizzas while
+      they\u2019re still fresh, but I don\u2019t know who to ask! I just\u2026 I
+      can\u2019t let this pizzas go bad, you know? \u201CFresh\u201D is my thing!
+      Not \"refrigerated and reheated\u201D!"
   voiceLineEvent:
     Guid:
       Data1: 1099603455

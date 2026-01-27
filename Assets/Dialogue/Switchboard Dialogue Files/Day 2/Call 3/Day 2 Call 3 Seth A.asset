@@ -66,11 +66,12 @@ MonoBehaviour:
     dialogue: See you soon, Lin.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1286204374
+      Data2: 1192530475
+      Data3: -893428802
+      Data4: -1997389421
+    Path: event:/Voices/Day 2/Call 1/Seth A Connection/Lin - Day 2 - Call 1 - Seth
+      A Connection
   barkEvent:
     Guid:
       Data1: 0
