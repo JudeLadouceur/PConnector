@@ -15,11 +15,11 @@ MonoBehaviour:
   lines:
   - speakerName: ' RECEPTIONIST '
     NewSpeakerName: 4
-    dialogue: "Hello, you\u2019ve reached the Maplegrove emergency line, what do
+    dialogue: "Hello, you\u2019ve reached the Maple Grove emergency line, what do
       you need?"
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Oh, uh\u2026 this is the pizza place in town. "
+    dialogue: "Oh, ahahaha\u2026 this is the pizza place in town. "
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
     dialogue: Did something happen? Do you need any help?
