@@ -439,9 +439,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactPrompt: {fileID: 0}
+  interactPromptText: 
+  canAddNotes: 0
   dialogue: {fileID: 11400000, guid: 72eb50c5d50b6b14b93be56bd8396e7b, type: 2}
   character: 0
-  canAddNotes: 0
 --- !u!1001 &1083520383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,6 +690,10 @@ PrefabInstance:
     - target: {fileID: 3003718066516826802, guid: b24bcccb801765d4f9a9abf76016db42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.076
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437816038239430924, guid: b24bcccb801765d4f9a9abf76016db42, type: 3}
+      propertyPath: Scene
+      value: Day 2 Transition A+A
       objectReference: {fileID: 0}
     - target: {fileID: 8881360122679114068, guid: b24bcccb801765d4f9a9abf76016db42, type: 3}
       propertyPath: Scene
