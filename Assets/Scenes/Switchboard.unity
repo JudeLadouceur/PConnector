@@ -2461,6 +2461,8 @@ MonoBehaviour:
         value: 0
       - variableName: 20
         value: 0
+      - variableName: 13
+        value: 1
       caller: 5
       contextCalls:
       - variables: []

@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
-  interactPromptText: 
+  interactPromptText: talk
   canAddNotes: 0
   dialogue: {fileID: 0}
   character: 0
