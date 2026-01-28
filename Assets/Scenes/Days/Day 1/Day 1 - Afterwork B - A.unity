@@ -568,9 +568,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 736742514686308487, guid: eee89d814a4875a42ac3f8045b777705, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.91
+      objectReference: {fileID: 0}
     - target: {fileID: 754631101237031223, guid: eee89d814a4875a42ac3f8045b777705, type: 3}
       propertyPath: m_Name
       value: 'Lighting '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314868971436395889, guid: eee89d814a4875a42ac3f8045b777705, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.05
       objectReference: {fileID: 0}
     - target: {fileID: 3786711889066453524, guid: eee89d814a4875a42ac3f8045b777705, type: 3}
       propertyPath: m_LocalPosition.x
@@ -611,6 +619,10 @@ PrefabInstance:
     - target: {fileID: 3786711889066453524, guid: eee89d814a4875a42ac3f8045b777705, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650958674648421557, guid: eee89d814a4875a42ac3f8045b777705, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.06
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
