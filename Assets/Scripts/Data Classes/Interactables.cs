@@ -10,9 +10,13 @@ public class Interactables : MonoBehaviour
     public GameObject interactPrompt;
     private GameObject IPRef;
 
+    public float cooldown;
+
     public string interactPromptText;
 
     public bool canAddNotes = false;
+
+    private bool canInteract = true;
 
     private void Start()
     {
@@ -30,6 +34,17 @@ public class Interactables : MonoBehaviour
 
     public virtual void Interact()
     {
-        
+        if (!canInteract) return;
+        canInteract = false;
+        StartCoroutine(Cooldown());
+    }
+
+    private IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(cooldown);
+
+        canInteract = true;
+
+        yield return null;
     }
 }
