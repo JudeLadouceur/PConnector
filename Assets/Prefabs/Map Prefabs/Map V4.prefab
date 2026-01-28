@@ -1566,6 +1566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3812902608184748566}
   - component: {fileID: 4045231906626727052}
+  - component: {fileID: 5094514642865373752}
   m_Layer: 0
   m_Name: Bushes (8)
   m_TagString: Untagged
@@ -1640,6 +1641,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5094514642865373752
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508459193210803344}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0fb9930edff251f45a25aa2ba67138e1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1530951891774872222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4331,6 +4353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6991833732018449990}
   - component: {fileID: 5664014212411671747}
+  - component: {fileID: 7689952940952968135}
   m_Layer: 0
   m_Name: Bushes (4)
   m_TagString: Untagged
@@ -4405,6 +4428,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &7689952940952968135
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304740386851286596}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a06659f5656bbf94e81afed4dd3c475d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3536846867750281176
 GameObject:
   m_ObjectHideFlags: 0
@@ -4693,6 +4737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5483755449182784431}
   - component: {fileID: 6204722135331556271}
+  - component: {fileID: 3622118844692032815}
   m_Layer: 0
   m_Name: Bushes (2)
   m_TagString: Untagged
@@ -4767,6 +4812,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &3622118844692032815
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617356996358379532}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a439a11e8f8c8b640a07b546e03dd63a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3644822830583514291
 GameObject:
   m_ObjectHideFlags: 0
@@ -5761,6 +5827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7760711431901190907}
   - component: {fileID: 3633353676576737769}
+  - component: {fileID: 688891943924053475}
   m_Layer: 0
   m_Name: Bushes (7)
   m_TagString: Untagged
@@ -5835,6 +5902,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &688891943924053475
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4573826491885432194}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5416e41e5cddf3a48864911e678c9ffe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4646609561234709626
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,6 +6277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6964399981895727641}
   - component: {fileID: 4466702419303261967}
+  - component: {fileID: 5979341450928742166}
   m_Layer: 0
   m_Name: Bushes (6)
   m_TagString: Untagged
@@ -6263,6 +6352,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5979341450928742166
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4887979152966134134}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 440fadfccbb1f7a4ab6ad94636a6495a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4946878804328457741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,6 +7135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8144325779320429557}
   - component: {fileID: 6942548453428422991}
+  - component: {fileID: 761901089460489490}
   m_Layer: 0
   m_Name: Bushes (9)
   m_TagString: Untagged
@@ -7099,6 +7210,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &761901089460489490
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326423219030775539}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6e5c2f1f36248ea41a54fcd16245c165, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5332472999527192365
 GameObject:
   m_ObjectHideFlags: 0
@@ -7953,6 +8085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6299876388457249587}
   - component: {fileID: 8248981953476578518}
+  - component: {fileID: 8109563298004259324}
   m_Layer: 0
   m_Name: Bushes (3)
   m_TagString: Untagged
@@ -8027,6 +8160,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &8109563298004259324
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448766283865472847}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 892a9b0a6e4fe2a49ac861db9c394e6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5516546137983781951
 GameObject:
   m_ObjectHideFlags: 0
@@ -10175,6 +10329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8486776264483098577}
   - component: {fileID: 3448248076090203783}
+  - component: {fileID: 1387996222180306282}
   m_Layer: 0
   m_Name: Bushes
   m_TagString: Untagged
@@ -10249,6 +10404,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1387996222180306282
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6709469574457051502}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ba049d985a80cf340b8014e01bad3e82, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6885740130594544705
 GameObject:
   m_ObjectHideFlags: 0
@@ -10417,6 +10593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9190698070523306476}
   - component: {fileID: 8632416153423876612}
+  - component: {fileID: 7891596411474344489}
   m_Layer: 0
   m_Name: Bushes (5)
   m_TagString: Untagged
@@ -10491,6 +10668,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &7891596411474344489
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6934028951831616102}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71612017a68800b43b8a3842d75fea5c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6943324545558314952
 GameObject:
   m_ObjectHideFlags: 0
@@ -10936,6 +11134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36354026570884426}
   - component: {fileID: 4049770332244617515}
+  - component: {fileID: 705821334643693392}
   m_Layer: 0
   m_Name: Bushes (1)
   m_TagString: Untagged
@@ -11010,6 +11209,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &705821334643693392
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7323797564164473414}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64cca900f8c7ff04f8c3aa9a9e2b548d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7375657119805775767
 GameObject:
   m_ObjectHideFlags: 0
@@ -12172,6 +12392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8588312040314200241}
   - component: {fileID: 8814092043611901963}
+  - component: {fileID: 1047295634262505075}
   m_Layer: 0
   m_Name: Bushes (10)
   m_TagString: Untagged
@@ -12246,6 +12467,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1047295634262505075
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395318278784953767}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05953ec82d758724fa553a1776d3f799, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8404002227359976799
 GameObject:
   m_ObjectHideFlags: 0
