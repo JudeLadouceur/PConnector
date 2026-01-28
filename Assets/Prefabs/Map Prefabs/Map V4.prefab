@@ -9116,6 +9116,7 @@ GameObject:
   - component: {fileID: 8078061911842617725}
   - component: {fileID: 4223570089908942623}
   - component: {fileID: 8301640931709703551}
+  - component: {fileID: 5696228319743666009}
   m_Layer: 0
   m_Name: Pretzel Stand
   m_TagString: Untagged
@@ -9235,6 +9236,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.65, y: 0.79}
   m_EdgeRadius: 0
+--- !u!114 &5696228319743666009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211747094556528140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9534a979474babe47bd001a9bf6365da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brokenSprite: {fileID: 21300000, guid: 33ef0e457f025aa4180592a197fdaed3, type: 3}
+  fixedSprite: {fileID: 21300000, guid: c63ff8ddac2a2b942ac425eabf2b91ee, type: 3}
+  fixVariable: 22
 --- !u!1 &6222409741406526237
 GameObject:
   m_ObjectHideFlags: 0
