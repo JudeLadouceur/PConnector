@@ -43,11 +43,11 @@ MonoBehaviour:
     dialogue: 'You too, Mrs. Perkins. Have a good night. '
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 237330622
+      Data2: 1116146759
+      Data3: 1092607894
+      Data4: -1405756846
+    Path: event:/Voices/Day 2/Call 2/Lin B Connection/Day 2 - Call 2 B - Lin Connection
   barkEvent:
     Guid:
       Data1: 0

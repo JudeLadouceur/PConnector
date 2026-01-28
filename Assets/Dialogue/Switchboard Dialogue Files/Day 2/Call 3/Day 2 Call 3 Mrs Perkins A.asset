@@ -52,11 +52,12 @@ MonoBehaviour:
     dialogue: "No worries, dear. I\u2019ll meet you at the park soon. "
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2039937353
+      Data2: 1286097887
+      Data3: 1980926593
+      Data4: 1776398701
+    Path: event:/Voices/Day 2/Call 1/Mrs. Perkins A Connection/Lin - Day 2 - Call
+      1 - Mrs. Perkins A Connection
   barkEvent:
     Guid:
       Data1: 0

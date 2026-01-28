@@ -56,11 +56,12 @@ MonoBehaviour:
     dialogue: Take care of yourself, Lin.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -589386623
+      Data2: 1257323510
+      Data3: 1310053811
+      Data4: -2006086410
+    Path: event:/Voices/Day 2/Call 1/Seth B Connection/Lin - Day 2 - Call 1 - Seth
+      B Connection
   barkEvent:
     Guid:
       Data1: 0

@@ -57,11 +57,12 @@ MonoBehaviour:
     dialogue: If you say so, dear. Have a good day.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2026593542
+      Data2: 1311164014
+      Data3: 2052975804
+      Data4: -552661676
+    Path: event:/Voices/Day 2/Call 1/Mrs. Perkins B Connection/Lin - Day 2 - Call
+      1 - Mrs. Perkins B Connection
   barkEvent:
     Guid:
       Data1: 0

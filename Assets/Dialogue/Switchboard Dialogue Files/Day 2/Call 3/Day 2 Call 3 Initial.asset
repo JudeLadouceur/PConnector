@@ -16,21 +16,21 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Hi! Uh, thanks for picking up. I\u2019ve got a bit of an issue here
-      at the Pizza place."
+      at the Pizza place. I have a few spare Pizzas here. I wasn\u2019t paying attention
+      and realized that they cancelled their booking! "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "I have a few spare Pizzas here. I wasn\u2019t paying attention and
-      realized that they cancelled their booking! I should have checked\u2026 Well,
-      I want to sell these while they\u2019re still fresh, but I don\u2019t know
-      who to ask! I just\u2026 I can\u2019t let this pizza go bad, you know? \u201CFresh\u201D
-      is my thing! Not \"refrigerated and reheated\u201D!"
+    dialogue: "I should have checked\u2026 Well, I want to sell these pizzas while
+      they\u2019re still fresh, but I don\u2019t know who to ask! I just\u2026 I
+      can\u2019t let this pizzas go bad, you know? \u201CFresh\u201D is my thing!
+      Not \"refrigerated and reheated\u201D!"
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1099603455
+      Data2: 1282094538
+      Data3: 1255773336
+      Data4: -1383578402
+    Path: event:/Voices/Day 2/Call 1/Lin Initial/Lin - Day 2 - Call 1 - Initial
   barkEvent:
     Guid:
       Data1: 0
