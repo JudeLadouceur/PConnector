@@ -12,7 +12,7 @@ public class LandmarkChange : MonoBehaviour
 
     private void Start()
     {
-        if ((int)fixVariable == 0) GetComponent<SpriteRenderer>().sprite = brokenSprite;
+        if (VariableManager.instance.flags[fixVariable] == 0) GetComponent<SpriteRenderer>().sprite = brokenSprite;
         else GetComponent<SpriteRenderer>().sprite = fixedSprite;
     }
 }
