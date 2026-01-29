@@ -58,6 +58,8 @@ public class CallManager : MonoBehaviour
     [HideInInspector]
     public bool inContextCall;
 
+    public GameObject telephoneRingingSprite;
+
     private void Start()
     {
         if (FindAnyObjectByType<ForceAssignNotch>().isActive) LineManager.instance.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
@@ -201,8 +203,12 @@ public class CallManager : MonoBehaviour
         //------------Insert ring noise here----------------
 
         FMODSoundPlayer.Instance.PlayFMODSound(2);
+
+        telephoneRingingSprite.SetActive(true);
         
         yield return new WaitForSeconds(4f);
+
+        telephoneRingingSprite.SetActive(false);
 
         ContextCall();
     }
