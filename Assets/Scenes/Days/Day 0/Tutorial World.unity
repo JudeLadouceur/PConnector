@@ -481,6 +481,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 0}
   character: 3
+  stepIndex: 1
 --- !u!1 &150222269
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +777,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 0}
   character: 4
+  stepIndex: 2
 --- !u!1 &237950034
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,6 +828,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 0}
   character: 1
+  stepIndex: 3
 --- !u!1 &301489977
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +879,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 0}
   character: 2
+  stepIndex: 0
 --- !u!4 &337022807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7188737204816681176, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
