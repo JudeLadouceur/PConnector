@@ -26,8 +26,8 @@ MonoBehaviour:
       large like I keep suggesting? "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Oh, no. Sorry dear. But I still don\u2019t think I have the stomach
-      for that. You see, I had quite the adventure yesterday, and was hoping to have
+    dialogue: "Oh, no. Sorry dear. I still don\u2019t think I have the stomach for
+      that. You see, I had quite the adventure yesterday, and was hoping to have
       a nice chat with some nice folks such as yourself to tell you about it. "
   - speakerName: LIN
     NewSpeakerName: 2

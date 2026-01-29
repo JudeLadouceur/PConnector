@@ -5438,6 +5438,7 @@ GameObject:
   - component: {fileID: 574116153641965148}
   - component: {fileID: 5614089616247473536}
   - component: {fileID: 6893651250598264339}
+  - component: {fileID: 1159292698599260217}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -5547,6 +5548,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.07285881, y: -1.4649494}
   m_Size: {x: 0.6656723, y: 2.1901011}
   m_Direction: 0
+--- !u!95 &1159292698599260217
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177126524963680526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6ad82a723ecb6c42a81ba3585c18783, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4257748591653159682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7520,6 +7542,7 @@ GameObject:
   - component: {fileID: 4687395675772203147}
   - component: {fileID: 6834759141549947163}
   - component: {fileID: 1086774223733889531}
+  - component: {fileID: 2277753029855285135}
   m_Layer: 0
   m_Name: Tree (4)
   m_TagString: Untagged
@@ -7629,6 +7652,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.08164215, y: -1.4332831}
   m_Size: {x: 0.9452896, y: 2.2534337}
   m_Direction: 0
+--- !u!95 &2277753029855285135
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358878577212910304}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18eff31bfcf64d548a3bf6136b768d02, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5404738252788174396
 GameObject:
   m_ObjectHideFlags: 0
@@ -10882,6 +10926,7 @@ GameObject:
   - component: {fileID: 907958745837224674}
   - component: {fileID: 7580684950425528268}
   - component: {fileID: 1254691307184386241}
+  - component: {fileID: 2971450678844861358}
   m_Layer: 0
   m_Name: Tree (2)
   m_TagString: Untagged
@@ -10991,6 +11036,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.064053535, y: -1.4904623}
   m_Size: {x: 0.8213978, y: 2.2854824}
   m_Direction: 0
+--- !u!95 &2971450678844861358
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6954587336743247617}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0daa9ed3fae6b3f48aee63ccc6b9d227, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7089562160971820544
 GameObject:
   m_ObjectHideFlags: 0
@@ -13053,6 +13119,7 @@ GameObject:
   - component: {fileID: 4328105612543893288}
   - component: {fileID: 3280077707278308735}
   - component: {fileID: 4503255817554551624}
+  - component: {fileID: 1559376489659845153}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -13162,6 +13229,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.064053535, y: -1.3621514}
   m_Size: {x: 1.150816, y: 2.395697}
   m_Direction: 0
+--- !u!95 &1559376489659845153
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8929675711831518232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4ab2b646c8a43843ab4b87bd8094dce, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9011235923718406915
 GameObject:
   m_ObjectHideFlags: 0
