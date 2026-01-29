@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Lin Overworld Day 0
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: Lin
+    NewSpeakerName: 2
+    dialogue: "You\u2019re looking for your keys? Sorry, but the only keys I have
+      are the ones for my pizza shop. I\u2019ll keep an eye out though, Seth might
+      be a good person to check with, he\u2019s usually pretty up to date with the
+      goings on in town"
+  - speakerName: Lin
+    NewSpeakerName: 2
+    dialogue: While you're looking around for your keys, you should write down what
+      people tell you in their notebook, along with who you talk to! It's a good
+      way to track important pieces of information, and be able to reference it at
+      any time!
+  - speakerName: Lin
+    NewSpeakerName: 2
+    dialogue: Best of luck with your search!
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
