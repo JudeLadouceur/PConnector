@@ -14,4 +14,5 @@ public class TutorialStep
     public Button[] enableButtons;
     public GameObject[] disableComponents;
     public Button[] disableButtons;
+    public string stepSummary;
 }

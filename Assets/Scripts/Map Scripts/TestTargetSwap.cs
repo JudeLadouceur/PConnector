@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TestTargetSwap : MonoBehaviour
 {
@@ -108,6 +109,14 @@ public class TestTargetSwap : MonoBehaviour
         foreach (GameObject script in steps[currentStep].disableComponents)
         {
             script.SetActive(false);
+        }
+        foreach (Button b in steps[currentStep].enableButtons)
+        {
+            b.interactable = true;
+        }
+        foreach (Button b in steps[currentStep].disableButtons)
+        {
+            b.interactable = false;
         }
     }
 
