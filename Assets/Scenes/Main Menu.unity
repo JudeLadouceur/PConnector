@@ -7255,6 +7255,147 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[0].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Lin yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[1].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Mrs. Perkins
+        yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[2].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Seth yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[3].note
+      value: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[4].note
+      value: Is Seth okay? Is he upset?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[5].note
+      value: What is Mrs. Perkins doing? She seems busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[0].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Lin yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[1].note
+      value: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[2].note
+      value: Is Seth okay? Is he upset?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[3].note
+      value: What is Mrs. Perkins doing? She seems busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[1].varName
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[0].varName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[0].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[1].varName
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[2].varName
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[3].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[4].varName
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[5].varName
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[0].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[1].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[2].varName
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[3].varName
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[0].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[1].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[2].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[3].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[4].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[5].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[0].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[1].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[2].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[3].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

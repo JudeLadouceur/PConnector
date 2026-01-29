@@ -47,4 +47,8 @@ public class Interactables : MonoBehaviour
 
         yield return null;
     }
+    private void OnDisable()
+    {
+        IPRef.SetActive(false);
+    }
 }
