@@ -3,26 +3,27 @@ using System.Collections.Generic;
 using FMOD.Studio;
 using UnityEngine;
 
-public class OverworldDialogue : Interactables
+public class TutorialDialogue : Interactables
 {
     public SO_Dialogue dialogue;
     public Characters character;
+    public int stepIndex;
 
     public override void Interact()
     {
         //if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
-        
-        if (canAddNotes && !NotebookManager.Instance.CheckCharacterTalked(character))
+        TestTargetSwap.instance.AttemptProgress(stepIndex);
+        if (canAddNotes && !TutorialNotebook.instance.CheckCharacterTalked(character))
         {
             //Debug.Log("Talking");
-            NotebookManager.Instance.CharacterTalked(character);
+            TutorialNotebook.instance.CharacterTalked(character);
         }
         
         MovementScript.instance.Funny = true;
         MovementScript.instance.canToggle = false;
 
         
-        DialogueManager.Instance.StartDialogue(dialogue);
+       DialogueManager.Instance.StartDialogue(dialogue);
 
         // If the Event is not null and assigned in the Inspector, play the bark line (at random based on the FMOD setup).
         if (!dialogue.barkEvent.IsNull)

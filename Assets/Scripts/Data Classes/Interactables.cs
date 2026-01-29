@@ -18,7 +18,7 @@ public class Interactables : MonoBehaviour
 
     private bool canInteract = true;
 
-    private void Start()
+    private void Awake()
     {
         IPRef = Instantiate(interactPrompt, transform.parent);
         if (!string.IsNullOrEmpty(interactPromptText)) IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to " + interactPromptText;

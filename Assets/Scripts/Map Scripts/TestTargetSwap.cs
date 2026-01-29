@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TestTargetSwap : MonoBehaviour
 {
+    public static TestTargetSwap instance;
     public TutorialStep[] steps;
     public ArrowPoint arrow;
     public TMPro.TextMeshProUGUI tmp;
@@ -14,6 +15,7 @@ public class TestTargetSwap : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         keys = new KeyCode[] {
             KeyCode.Alpha0,
             KeyCode.Alpha1,
@@ -106,6 +108,15 @@ public class TestTargetSwap : MonoBehaviour
         foreach (GameObject script in steps[currentStep].disableComponents)
         {
             script.SetActive(false);
+        }
+    }
+
+    public void AttemptProgress(int i)
+    {
+        if (i == currentStep)
+        {
+            currentStep++;
+            SetObjective(currentStep);
         }
     }
 }
