@@ -17,15 +17,17 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         if (Input.GetButtonDown("Interact") && activeInteractable != null) activeInteractable.Interact();
-        foreach(Interactables i in interactables)
+        for (int i= 0; i<interactables.Count; i++)
         {
-            if (!i.gameObject.activeInHierarchy)
+            if (!interactables[i].gameObject.activeInHierarchy)
             {
-                if (i == activeInteractable)
+                if (interactables[i] == activeInteractable)
                 {
+                    activeInteractable.SetInteractable(false);
                     activeInteractable = null;
                 }
-                interactables.Remove(i);
+                interactables.Remove(interactables[i]);
+                i--;
             }
         }
     }
@@ -45,7 +47,8 @@ public class PlayerInteraction : MonoBehaviour
         if (target)
         {
             interactables.Remove(target);
-            activeInteractable.SetInteractable(false);
+            if(activeInteractable!=null)
+                activeInteractable.SetInteractable(false);
             if (target = activeInteractable) activeInteractable = null;
         }
     }
