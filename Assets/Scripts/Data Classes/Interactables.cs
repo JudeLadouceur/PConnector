@@ -8,29 +8,47 @@ using UnityEngine.TextCore.Text;
 public class Interactables : MonoBehaviour
 {
     public GameObject interactPrompt;
-    private GameObject _interactPrompt;
+    private GameObject IPRef;
+
+    public float cooldown;
 
     public string interactPromptText;
 
     public bool canAddNotes = false;
-    
-    
-    private void Start()
+
+    private bool canInteract = true;
+
+    private void Awake()
     {
-        _interactPrompt = Instantiate(interactPrompt, transform.parent);
-        if (!string.IsNullOrEmpty(interactPromptText)) _interactPrompt.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to " + interactPromptText;
-        else _interactPrompt.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to interact";
-        _interactPrompt.SetActive(false);
+        IPRef = Instantiate(interactPrompt, transform.parent);
+        if (!string.IsNullOrEmpty(interactPromptText)) IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to " + interactPromptText;
+        else IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to interact";
+        IPRef.SetActive(false);
     }
 
     public void SetInteractable(bool setToActive)
     {
-        if (setToActive) _interactPrompt.SetActive(true);
-        else _interactPrompt.SetActive(false);
+        if (setToActive) IPRef.SetActive(true);
+        else IPRef.SetActive(false);
     }
 
     public virtual void Interact()
     {
-        
+        if (!canInteract) return;
+        canInteract = false;
+        StartCoroutine(Cooldown());
+    }
+
+    private IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(cooldown);
+
+        canInteract = true;
+
+        yield return null;
+    }
+    private void OnDisable()
+    {
+        IPRef.SetActive(false);
     }
 }

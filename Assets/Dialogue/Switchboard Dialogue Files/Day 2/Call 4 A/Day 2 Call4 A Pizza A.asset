@@ -26,8 +26,8 @@ MonoBehaviour:
       large like I keep suggesting? "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Oh, no. Sorry dear. But I still don\u2019t think I have the stomach
-      for that. You see, I had quite the adventure yesterday, and was hoping to have
+    dialogue: "Oh, no. Sorry dear. I still don\u2019t think I have the stomach for
+      that. You see, I had quite the adventure yesterday, and was hoping to have
       a nice chat with some nice folks such as yourself to tell you about it. "
   - speakerName: LIN
     NewSpeakerName: 2
@@ -43,11 +43,11 @@ MonoBehaviour:
     dialogue: See you then!
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -783584791
+      Data2: 1078244491
+      Data3: -1904991850
+      Data4: -1013827587
+    Path: event:/Voices/Day 2/Call 2/Lin A Connection/Day 2 - Call 2 A - Lin Connection
   barkEvent:
     Guid:
       Data1: 0

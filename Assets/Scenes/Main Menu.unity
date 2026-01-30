@@ -6133,7 +6133,7 @@ PrefabInstance:
     - target: {fileID: 2722156052672142452, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
       propertyPath: speakerProfilePictures.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 4e9e8e3a51d1c0e4aa9052fb630c4a5a, type: 3}
+      objectReference: {fileID: 21300000, guid: d6b89fe67d701334f9156f614646ce67, type: 3}
     - target: {fileID: 5939049551523597664, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
       propertyPath: m_Name
       value: DialogueSystemRoot
@@ -7254,6 +7254,147 @@ PrefabInstance:
     - target: {fileID: 4420232060802726395, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[0].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Lin yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[1].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Mrs. Perkins
+        yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[2].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Seth yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[3].note
+      value: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[4].note
+      value: Is Seth okay? Is he upset?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[5].note
+      value: What is Mrs. Perkins doing? She seems busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[0].note
+      value: "Final day! I hope I didn\u2019t put too much pressure on Lin yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[1].note
+      value: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[2].note
+      value: Is Seth okay? Is he upset?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[3].note
+      value: What is Mrs. Perkins doing? She seems busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[1].varName
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[0].varName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[0].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[1].varName
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[2].varName
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[3].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[4].varName
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[5].varName
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[0].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[1].varName
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[2].varName
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[3].varName
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[0].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[1].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[2].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[3].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[4].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[5].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[0].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[1].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[2].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[5].notes.Array.data[3].usesVariable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10371,10 +10512,6 @@ PrefabInstance:
     - target: {fileID: 7731662928257903536, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
       propertyPath: m_Name
       value: Controls Page
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731662928257903536, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -28,11 +28,12 @@ MonoBehaviour:
       in person. Sorry for the trouble. "
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1008247412
+      Data2: 1177105915
+      Data3: 1192093372
+      Data4: -995510448
+    Path: event:/Voices/Day 2/Call 3 (WD)/Lin Connection/Emergency - Day 2 - Call
+      3 (WD) - Lin Connection
   barkEvent:
     Guid:
       Data1: 0

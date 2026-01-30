@@ -11,13 +11,13 @@ public class OverworldDialogue : Interactables
     public override void Interact()
     {
         //if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
-        /*
+        
         if (canAddNotes && !NotebookManager.Instance.CheckCharacterTalked(character))
         {
             //Debug.Log("Talking");
             NotebookManager.Instance.CharacterTalked(character);
         }
-        */
+        
         MovementScript.instance.Funny = true;
         MovementScript.instance.canToggle = false;
 

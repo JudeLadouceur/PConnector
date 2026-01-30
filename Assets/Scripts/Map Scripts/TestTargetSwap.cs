@@ -1,40 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TestTargetSwap : MonoBehaviour
 {
-    public Transform[] targets;
-    public string[] targetText;
+    public static TestTargetSwap instance;
+    public TutorialStep[] steps;
     public ArrowPoint arrow;
     public TMPro.TextMeshProUGUI tmp;
     public MovementScript player;
-    public bool lockoutObj = false;
-    public int currentObjective = 0;
+    public int currentStep = 0;
+    private KeyCode[] keys;
+
+    private void Start()
+    {
+        instance = this;
+        keys = new KeyCode[] {
+            KeyCode.Alpha0,
+            KeyCode.Alpha1,
+            KeyCode.Alpha2,
+            KeyCode.Alpha3,
+            KeyCode.Alpha4,
+            KeyCode.Alpha5,
+            KeyCode.Alpha6,
+            KeyCode.Alpha7,
+            KeyCode.Alpha8,
+            KeyCode.Alpha9
+            };
+        SetObjective(0);
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+#if UNITY_EDITOR
+        if (Input.anyKeyDown)
         {
-            SetObjective(0);
-            EndLockout();
-        } 
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            SetObjective(1);
-            EndLockout();
+            for (int i = 0; i < keys.Count(); i++)
+            {
+                if (Input.GetKeyDown(keys[i]))
+                {
+                    SetObjective(i);
+                }
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            SetObjective(2);
-            EndLockout();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            SetObjective(3);
-            StartLockout();
-        }
+#endif
     }
 
     public void DisableArrow()
@@ -48,38 +59,73 @@ public class TestTargetSwap : MonoBehaviour
 
     public void StartLockout()
     {
-        lockoutObj = true;
         player.Funny = true;
     }
 
     public void EndLockout()
     {
-        if (lockoutObj)
+        if (steps[currentStep].lockout)
         {
-            lockoutObj = false;
             player.Funny = false;
         }
-        if(currentObjective == targets.Count() - 1)
+
+        /*if(currentStep == steps.Count() - 1)
         {
             SetObjective(0);
-        }
-        
+        }*/
+
     }
 
     public void SetObjective(int num)
     {
-        currentObjective = num;
-        if (targetText[num] != null)
+        if (num >= steps.Count())
+            return;
+        currentStep = num;
+        if (steps[currentStep].stepText != null)
         {
-            tmp.text = targetText[num];
+            tmp.text = steps[currentStep].stepText;
         }
-        if (targets[num] != null)
+        if (steps[currentStep].arrowTarget != null)
         {
             EnableArrow();
-            arrow.ChangeTarget(targets[num]);
-        } else
+            arrow.ChangeTarget(steps[currentStep].arrowTarget.transform);
+        }
+        else
         {
             DisableArrow();
+        }
+        if (steps[currentStep].lockout)
+        {
+            StartLockout();
+        }
+        else
+        {
+            EndLockout();
+        }
+        foreach (GameObject script in steps[currentStep].enableComponents)
+        {
+            script.SetActive(true);
+        }
+        foreach (GameObject script in steps[currentStep].disableComponents)
+        {
+            script.SetActive(false);
+        }
+        foreach (Button b in steps[currentStep].enableButtons)
+        {
+            b.interactable = true;
+        }
+        foreach (Button b in steps[currentStep].disableButtons)
+        {
+            b.interactable = false;
+        }
+    }
+
+    public void AttemptProgress(int i)
+    {
+        if (i == currentStep)
+        {
+            currentStep++;
+            SetObjective(currentStep);
         }
     }
 }

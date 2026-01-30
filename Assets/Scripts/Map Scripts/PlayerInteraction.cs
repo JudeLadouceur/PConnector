@@ -17,11 +17,24 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         if (Input.GetButtonDown("Interact") && activeInteractable != null) activeInteractable.Interact();
+        for (int i= 0; i<interactables.Count; i++)
+        {
+            if (!interactables[i].gameObject.activeInHierarchy)
+            {
+                if (interactables[i] == activeInteractable)
+                {
+                    activeInteractable.SetInteractable(false);
+                    activeInteractable = null;
+                }
+                interactables.Remove(interactables[i]);
+                i--;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Interactables target = collision.gameObject.GetComponent<Interactables>();
+        Interactables target = collision.gameObject.GetComponentInChildren<Interactables>();
         if (target)
         {
             interactables.Add(target);
@@ -30,11 +43,12 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Interactables target = collision.gameObject.GetComponent<Interactables>();
+        Interactables target = collision.gameObject.GetComponentInChildren<Interactables>();
         if (target)
         {
             interactables.Remove(target);
-            activeInteractable.SetInteractable(false);
+            if(activeInteractable!=null)
+                activeInteractable.SetInteractable(false);
             if (target = activeInteractable) activeInteractable = null;
         }
     }
