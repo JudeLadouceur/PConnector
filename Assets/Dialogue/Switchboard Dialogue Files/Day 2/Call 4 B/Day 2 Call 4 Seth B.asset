@@ -36,11 +36,12 @@ MonoBehaviour:
     dialogue: 'Thank you dear, please hurry! '
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1532409215
+      Data2: 1149303621
+      Data3: -1224432753
+      Data4: -1314138924
+    Path: event:/Voices/Day 2/Call 2/Call 2 B/Call 2 Seth B/Day 2 - Call 2 B - Call
+      2 Seth B Connection
   barkEvent:
     Guid:
       Data1: 0
