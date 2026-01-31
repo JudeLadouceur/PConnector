@@ -25,9 +25,9 @@ public class TutorialDialogue : Interactables
                     keyAchieve.Achieve();
                 }
             }
-            TestTargetSwap.instance.AttemptProgress(stepIndex);
+            
         }
-
+        TestTargetSwap.instance.AttemptProgress(stepIndex);
         MovementScript.instance.Funny = true;
         MovementScript.instance.canToggle = false;
 
