@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "Seth\u2019s Repair Garage. What is it? "
+    dialogue: "This is Seth\u2019s Repair Garage. How can I help ya? "
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh\u2013uh, hey Seth! This is Lin from the pizza place. I was hoping

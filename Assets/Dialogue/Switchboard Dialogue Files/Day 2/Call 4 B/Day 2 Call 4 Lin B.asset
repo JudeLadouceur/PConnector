@@ -28,21 +28,22 @@ MonoBehaviour:
       feeling too good now, and could use some help. "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "What?! I-um-don\u2019t worry Mrs. Perkins! I\u2019ll be right over! "
+    dialogue: "Wh-What?! Don\u2019t worry Mrs. Perkins! I\u2019ll be right over! "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, but don\u2019t you need to run your pizza shop? "
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "Now \u2018buts\u2019 about it, Mrs. Perkins. You\u2019re hurt. I\u2019m
+    dialogue: "No \u2018buts\u2019 about it, Mrs. Perkins. You\u2019re hurt. I\u2019m
       on my way now, hang tight! "
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 568336448
+      Data2: 1157073312
+      Data3: -423203944
+      Data4: -543222133
+    Path: event:/Voices/Day 2/Call 2/Call 2 B/Call 2 Lin B/Day 2 - Call 2 B - Lin
+      B
   barkEvent:
     Guid:
       Data1: 0
