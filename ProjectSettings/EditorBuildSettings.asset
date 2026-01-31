@@ -233,6 +233,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day Transitions/Day 0/Day 0 Transition.unity
     guid: 0197a85043b141548b7feb0fd8528166
+  - enabled: 1
+    path: Assets/Scenes/Tutorial switchboard.unity
+    guid: 1e17b164b8352fa41b911055765d2320
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}

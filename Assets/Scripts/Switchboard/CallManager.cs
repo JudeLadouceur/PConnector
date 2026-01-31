@@ -201,8 +201,8 @@ public class CallManager : MonoBehaviour
     public IEnumerator StartCallDelay()
     {
         //------------Insert ring noise here----------------
-
-        FMODSoundPlayer.Instance.PlayFMODSound(2);
+        if(FMODSoundPlayer.Instance!=null)
+            FMODSoundPlayer.Instance.PlayFMODSound(2);
 
         telephoneRingingSprite.SetActive(true);
         
