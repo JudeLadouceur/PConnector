@@ -1,5 +1,6 @@
 using FMOD.Studio;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -46,7 +47,7 @@ public class DialogueManager : MonoBehaviour
 
         SceneManager.activeSceneChanged += SceneTransition;
 
-        if(SceneManager.GetActiveScene().name == "Switchboard") FindSwitchboardReferences();
+        if(SceneManager.GetActiveScene().name.Contains("witchboard")) FindSwitchboardReferences();
     }
 
     private void Update()
@@ -160,7 +161,7 @@ public class DialogueManager : MonoBehaviour
             audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
         }
 
-        if (SceneManager.GetActiveScene().name != "Switchboard")
+        if (!SceneManager.GetActiveScene().name.Contains("witchboard"))
         {
             MovementScript.instance.Funny = false;
             MovementScript.instance.canToggle = true;
@@ -172,6 +173,8 @@ public class DialogueManager : MonoBehaviour
             callManager.inContextCall = false;
 
             Notches[] notches = GameObject.FindGameObjectWithTag("NotchParent").GetComponentsInChildren<Notches>();
+            if (TutorialSwitchboard.instance != null)
+                TutorialSwitchboard.instance.EndContextCall();
 
             GameObject target;
 
@@ -204,7 +207,7 @@ public class DialogueManager : MonoBehaviour
 
     private void SceneTransition(UnityEngine.SceneManagement.Scene scene1, UnityEngine.SceneManagement.Scene scene2)
     {
-        if (scene2.name == "Switchboard") FindSwitchboardReferences();
+        if (scene2.name.Contains("witchboard")) FindSwitchboardReferences();
         if (scene2.name == "Main Menu") ResetDialogue();
         if (inDialogue)
         {
@@ -224,6 +227,7 @@ public class DialogueManager : MonoBehaviour
 
     private void FindSwitchboardReferences()
     {
+        Debug.Log("Switchboarding...");
         callManager = GameObject.FindAnyObjectByType<CallManager>();
         
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
@@ -232,10 +236,18 @@ public class DialogueManager : MonoBehaviour
     public void EndDay()
     {
         print("End of day");
+        if (TutorialSwitchboard.instance != null)
+        {
+            SceneManager.LoadScene("Tutorial World");
+        } else
+        {
+            string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
 
-        string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
+            transitionTargets.FindTargetScene(target);
+        }
 
-        transitionTargets.FindTargetScene(target);
+
+            
     }
 
     private void ResetDialogue()

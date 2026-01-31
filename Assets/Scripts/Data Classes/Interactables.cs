@@ -49,6 +49,7 @@ public class Interactables : MonoBehaviour
     }
     private void OnDisable()
     {
-        IPRef.SetActive(false);
+        if(IPRef!=null)
+            IPRef.SetActive(false);
     }
 }

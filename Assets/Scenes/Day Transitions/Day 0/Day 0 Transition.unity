@@ -486,7 +486,7 @@ MonoBehaviour:
   cooldown: 0
   interactPromptText: 
   canAddNotes: 0
-  Scene: Day 2 - Before Work A - A
+  Scene: Town Overworld
 --- !u!114 &788763956
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -18,5 +18,7 @@ public class Notches : MonoBehaviour
         if (DialogueManager.Instance.inDialogue) return;
         LineManager.instance.SelectPoint(gameObject);
         isOccupied = true;
+        if (TutorialSwitchboard.instance != null)
+            TutorialSwitchboard.instance.NoPrompt();
     }
 }

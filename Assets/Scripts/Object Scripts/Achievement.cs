@@ -116,6 +116,10 @@ public class Achievement : MonoBehaviour
             {
                 Debug.Log("No Acheivement Manager Found");
             }
+            if(achievementName == AchievementNames.TheEnd && TestTargetSwap.instance != null)
+            {
+                TestTargetSwap.instance.AttemptProgress(7);
+            }
         }
 
     }
