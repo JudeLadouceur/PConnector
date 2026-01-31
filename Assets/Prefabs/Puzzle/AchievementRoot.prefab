@@ -746,7 +746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievementName: 3
   status: 1
-  achievementDescription: Place a puzzle piece in the puzzle.
+  achievementDescription: Find your keys after losing them.
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
@@ -2079,7 +2079,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievementName: 2
   status: 1
-  achievementDescription: Connect a caller to someone else with the switchboard.
+  achievementDescription: 'Connect Seth to others who he can help and who can give
+    him wisdom. '
   nameText: {fileID: 0}
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
@@ -3260,6 +3261,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 4636458949538876053, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 076e46255a562d546ab794d52d67ce38, type: 3}
+    - target: {fileID: 4636458949538876053, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6320754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636458949538876053, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636458949538876053, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
+      propertyPath: m_Color.r
+      value: 0.76193124
+      objectReference: {fileID: 0}
     - target: {fileID: 4863886330871134347, guid: 273008ad7482ce6448b67a33f647b774, type: 3}
       propertyPath: m_Name
       value: Box
@@ -3570,7 +3587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2515359056714820783, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
       propertyPath: namesCorrelation.Array.data[3].displayName
-      value: The End...?
+      value: Treasure Hunt
       objectReference: {fileID: 0}
     - target: {fileID: 4202033235294199179, guid: 8d6b52d699e378c4fade28a0c21d407e, type: 3}
       propertyPath: m_Name

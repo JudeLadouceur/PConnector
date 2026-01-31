@@ -46,6 +46,10 @@ public class TestTargetSwap : MonoBehaviour
             }
         }
 #endif
+        if (steps[currentStep].lockout!=player.Funny)
+        {
+            player.Funny = steps[currentStep].lockout;
+        }
     }
 
     public void DisableArrow()
@@ -80,21 +84,21 @@ public class TestTargetSwap : MonoBehaviour
     {
         if (num >= steps.Count())
             return;
-        currentStep = num;
-        if (steps[currentStep].stepText != null)
+        
+        if (steps[num].stepText != null)
         {
-            tmp.text = steps[currentStep].stepText;
+            tmp.text = steps[num].stepText;
         }
-        if (steps[currentStep].arrowTarget != null)
+        if (steps[num].arrowTarget != null)
         {
             EnableArrow();
-            arrow.ChangeTarget(steps[currentStep].arrowTarget.transform);
+            arrow.ChangeTarget(steps[num].arrowTarget.transform);
         }
         else
         {
             DisableArrow();
         }
-        if (steps[currentStep].lockout)
+        if (steps[num].lockout)
         {
             StartLockout();
         }
@@ -102,22 +106,23 @@ public class TestTargetSwap : MonoBehaviour
         {
             EndLockout();
         }
-        foreach (GameObject script in steps[currentStep].enableComponents)
+        foreach (GameObject script in steps[num].enableComponents)
         {
             script.SetActive(true);
         }
-        foreach (GameObject script in steps[currentStep].disableComponents)
+        foreach (GameObject script in steps[num].disableComponents)
         {
             script.SetActive(false);
         }
-        foreach (Button b in steps[currentStep].enableButtons)
+        foreach (Button b in steps[num].enableButtons)
         {
             b.interactable = true;
         }
-        foreach (Button b in steps[currentStep].disableButtons)
+        foreach (Button b in steps[num].disableButtons)
         {
             b.interactable = false;
         }
+        currentStep = num;
     }
 
     public void AttemptProgress(int i)
