@@ -18,15 +18,15 @@ MonoBehaviour:
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
-    dialogue: "Hello Ms. Perkins. This is the Maple Grove  doctor\u2019s office.
-      We would like to book you in for your next checkup appointment. "
+    dialogue: "Hello Ms. Perkins. This is the Maple Grove doctor\u2019s office. We
+      would like to book you in for your next checkup appointment. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: 'Oh, that would be wonderful! I almost forgot about that. I really
       have nothing else to do, book me in anytime tomorrow. '
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
-    dialogue: "Alright, Ms. Perkins. We\u2019ll book you in tomorrow at 2PM then,
+    dialogue: "Alright, Ms. Perkins. We\u2019ll book you in tomorrow at 2 PM then,
       please make sure to remember."
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1

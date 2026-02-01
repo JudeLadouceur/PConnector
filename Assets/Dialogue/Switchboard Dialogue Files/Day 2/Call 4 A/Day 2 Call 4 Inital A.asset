@@ -21,11 +21,11 @@ MonoBehaviour:
       at the park. Would you mind connecting me to someone who could?"
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 524960138
+      Data2: 1234250847
+      Data3: -1948006241
+      Data4: 518489442
+    Path: event:/Voices/Day 2/Call 2/Day 2 - Call 2 - Initial A (Perkins)
   barkEvent:
     Guid:
       Data1: 0

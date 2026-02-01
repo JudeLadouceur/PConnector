@@ -36,11 +36,12 @@ MonoBehaviour:
     dialogue: Alright. See ya.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -166623641
+      Data2: 1074087247
+      Data3: -939675464
+      Data4: 1219414667
+    Path: event:/Voices/Day 2/Call 2/Call 2 A/Seth Connection/Day 2 - Call 2 A -
+      Seth B Connection
   barkEvent:
     Guid:
       Data1: 0
