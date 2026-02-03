@@ -48,7 +48,7 @@ public class TestTargetSwap : MonoBehaviour
 #endif
         if (steps[currentStep].lockout!=player.Funny)
         {
-            player.Funny = steps[currentStep].lockout;
+            player.tutFunny = steps[currentStep].lockout;
         }
     }
 
@@ -63,14 +63,14 @@ public class TestTargetSwap : MonoBehaviour
 
     public void StartLockout()
     {
-        player.Funny = true;
+        player.tutFunny = true;
     }
 
     public void EndLockout()
     {
         if (steps[currentStep].lockout)
         {
-            player.Funny = false;
+            player.tutFunny = false;
         }
 
         /*if(currentStep == steps.Count() - 1)
