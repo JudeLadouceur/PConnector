@@ -29,11 +29,6 @@ MonoBehaviour:
       gonna be in some real hot water."
   - speakerName: Boss
     NewSpeakerName: 9
-    dialogue: "I know you aren\u2019t looking forward to being replaced by a machine,
-      but we gotta get this sorted before word gets out, otherwise we\u2019re both
-      gonna be in some real hot water."
-  - speakerName: Boss
-    NewSpeakerName: 9
     dialogue: "Could you connect me to the new town repair guy? He\u2019s the one
       handling the shipment, but\u2026 gah, what was his name again? I can\u2019t
       remember. Do you have that written down somewhere? Just connect me to \u2018em
