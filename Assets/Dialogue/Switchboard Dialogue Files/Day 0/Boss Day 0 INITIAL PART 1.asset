@@ -34,16 +34,17 @@ MonoBehaviour:
       gonna be in some real hot water."
   - speakerName: Boss
     NewSpeakerName: 9
-    dialogue: "Could you connect me to the new town IT guy? Gah, he\u2019s new\u2026
-      I forget the name\u2026 Just, um- check your notebook, I\u2019m sure you\u2019ve
-      gotten it written down in there somewhere. Then just connect me to \u2018em"
+    dialogue: "Could you connect me to the new town repair guy? He\u2019s the one
+      handling the shipment, but\u2026 gah, what was his name again? I can\u2019t
+      remember. Do you have that written down somewhere? Just connect me to \u2018em
+      if you do."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 187733228
+      Data2: 1226913889
+      Data3: -1342315872
+      Data4: 2011267110
+    Path: event:/Voices/Day 0/Call 1/Boss - Day 0 - Call 1
   barkEvent:
     Guid:
       Data1: 0
