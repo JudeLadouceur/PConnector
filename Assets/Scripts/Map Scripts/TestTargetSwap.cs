@@ -46,7 +46,7 @@ public class TestTargetSwap : MonoBehaviour
             }
         }
 #endif
-        if (steps[currentStep].lockout!=player.Funny)
+        if (steps[currentStep].lockout!=player.tutFunny)
         {
             player.tutFunny = steps[currentStep].lockout;
         }
