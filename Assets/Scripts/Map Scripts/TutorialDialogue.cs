@@ -32,7 +32,7 @@ public class TutorialDialogue : Interactables
         MovementScript.instance.canToggle = false;
 
 
-        DialogueManager.Instance.StartDialogue(dialogue);
+        DialogueManager.Instance.StartDialogue(dialogue, false);
 
         // If the Event is not null and assigned in the Inspector, play the bark line (at random based on the FMOD setup).
         if (!dialogue.barkEvent.IsNull)

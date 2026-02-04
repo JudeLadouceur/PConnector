@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Notches : MonoBehaviour
 {
-    [HideInInspector]
+    //[HideInInspector]
     public bool isOccupied = false;
 
     public Characters assignedCharacter;
