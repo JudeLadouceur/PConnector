@@ -26,6 +26,7 @@ public class CallManager : MonoBehaviour
                 {
                     public RequiredVars[] variables;
                     public SO_Dialogue dialogue;
+                    public bool doNotProgressToNextCall;
                 }
                 
                 public Characters receiver;
@@ -108,7 +109,7 @@ public class CallManager : MonoBehaviour
 
         inContextCall = true;
 
-        DialogueManager.Instance.StartDialogue(contextCall);
+        DialogueManager.Instance.StartDialogue(contextCall, false);
     }
 
     public bool StartCall(Characters receiver)
@@ -136,6 +137,7 @@ public class CallManager : MonoBehaviour
 
         Days.Call.RequiredVars variable = null;
 
+        bool doNotProgress = false;
 
         for (int i = 0; i < currentCall.connections[target].dialogueOptions.Length; i++)
         {
@@ -145,6 +147,8 @@ public class CallManager : MonoBehaviour
             if (currentCall.connections[target].dialogueOptions[i].variables.Length == 0)
             {
                 dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
+
                 Debug.Log("No variable checks, playing: " + currentCall.connections[target].dialogueOptions[i].dialogue);
 
                 if (i + 1 < currentCall.connections[target].dialogueOptions.Length) Debug.LogWarning("Unreachable dialogue detected. Dialogue with no requirements is placed above other dialogue possibilities, making them unreachable.");
@@ -160,6 +164,7 @@ public class CallManager : MonoBehaviour
                 {
                     Debug.Log("Variable " + variable.variableName + " is the correct value.");
                     dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                    doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
                     break;
                 }
                 Debug.Log("Variable " + variable.variableName + " was " + variable.value + ", but was looking for " + VariableManager.instance.flags[variable.variableName]);
@@ -179,7 +184,7 @@ public class CallManager : MonoBehaviour
             return false;
         }
 
-        DialogueManager.Instance.StartDialogue(dialogue);
+        DialogueManager.Instance.StartDialogue(dialogue, doNotProgress);
         return true;
     }
 

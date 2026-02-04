@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class TutorialSwitchboard : MonoBehaviour
 {
-    public int sethIndex;
     private List<Collider2D> notches;
     public static TutorialSwitchboard instance;
     public GameObject notebookPrompt;
@@ -20,14 +19,14 @@ public class TutorialSwitchboard : MonoBehaviour
         instance = this;
         notches = new List<Collider2D>();
         Notches[] notchesScripts = GameObject.FindGameObjectWithTag("NotchParent").GetComponentsInChildren<Notches>();
+        
         foreach(Notches notch in notchesScripts)
         {
             Collider2D collider = notch.gameObject.GetComponent<Collider2D>();
-            if (notch.assignedCharacter == Characters.Seth)
-                sethIndex = notches.Count;
             notches.Add(collider);
             collider.enabled = false;
         }
+        
         notebookPrompt.SetActive(false);
         connectPrompt.SetActive(false);
         notebookbutton.interactable= false;
@@ -46,7 +45,10 @@ public class TutorialSwitchboard : MonoBehaviour
         {
             notebookPrompt.SetActive(false);
             connectPrompt.SetActive(true);
-            notches[sethIndex].enabled = true;
+            foreach(Collider2D collider in notches)
+            {
+                collider.enabled = true;
+            }
             noteFresh = false;
         }
         

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class TutorialCallManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class TutorialCallManager : MonoBehaviour
             public class Option
             {
                 public SO_Dialogue dialogue;
+                public bool doNotProgressToNextCall;
             }
 
             public Characters receiver;
@@ -54,7 +56,6 @@ public class TutorialCallManager : MonoBehaviour
 
     public void ContextCall()
     {
-
         if (call.contextCalls.Length == 0)
         {
             Debug.LogError("There are no context calls in day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please assign a context call.");
@@ -69,18 +70,19 @@ public class TutorialCallManager : MonoBehaviour
         {
             if (contextCall != null) break;
 
-
             contextCall = call.contextCall;
             break;
         }
 
         inContextCall = true;
 
-        DialogueManager.Instance.StartDialogue(contextCall);
+        DialogueManager.Instance.StartDialogue(contextCall, false);
     }
 
     public bool StartCall(Characters receiver)
     {
+        bool doNotProgress = false;
+
         Call currentCall = call;
 
         int target = -1;
@@ -108,6 +110,8 @@ public class TutorialCallManager : MonoBehaviour
             Debug.Log("Checking option: " + i);
 
             dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+            doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
+
             Debug.Log("No variable checks, playing: " + currentCall.connections[target].dialogueOptions[i].dialogue);
 
             if (i + 1 < currentCall.connections[target].dialogueOptions.Length) Debug.LogWarning("Unreachable dialogue detected. Dialogue with no requirements is placed above other dialogue possibilities, making them unreachable.");
@@ -127,7 +131,7 @@ public class TutorialCallManager : MonoBehaviour
             return false;
         }
 
-        DialogueManager.Instance.StartDialogue(dialogue);
+        DialogueManager.Instance.StartDialogue(dialogue, doNotProgress);
         return true;
     }
 

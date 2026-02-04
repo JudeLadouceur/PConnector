@@ -3,6 +3,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEngine.GraphicsBuffer;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     private CallManager callManager;
     private VariableManager characterManager;
     private SceneTransitionTargets transitionTargets;
-
+    private bool doNotProgessToNextCall;
 
     public int lineNumber;
     public bool inDialogue = false;
@@ -58,13 +59,13 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(SO_Dialogue dialogue)
+    public void StartDialogue(SO_Dialogue dialogue, bool doNotProgress)
     {
         print("Begin dialogue " + dialogue.name);
 
         dialogueBox.SetActive(true);
 
-
+        doNotProgessToNextCall = doNotProgress;
 
         currentDialogue = dialogue;
         
@@ -172,31 +173,19 @@ public class DialogueManager : MonoBehaviour
         {
             callManager.inContextCall = false;
 
-            Notches[] notches = GameObject.FindGameObjectWithTag("NotchParent").GetComponentsInChildren<Notches>();
-            if (TutorialSwitchboard.instance != null)
-                TutorialSwitchboard.instance.EndContextCall();
-
-            GameObject target;
-
-            LineManager.instance.canDraw = true;
-
-            foreach (Notches notch in notches)
-            {
-                if (notch.assignedCharacter == callManager.days[TimeManager.dayNumber].call[TimeManager.callNumber].caller)
-                {
-                    target = notch.gameObject;
-                    notch.isOccupied = true;
-                    LineManager.instance.SelectPoint(target);
-                    break;
-                }
-            }
+            ActivateNotchSelect();
 
             return;
         }
 
         GameObject.FindAnyObjectByType<LineBehavior>().SelfDestruct();
 
-        if (TimeManager.callNumber < callManager.days[TimeManager.dayNumber].call.Length - 1)
+        if (doNotProgessToNextCall)
+        {
+            ActivateNotchSelect();
+        }
+
+        else if (TimeManager.callNumber < callManager.days[TimeManager.dayNumber].call.Length - 1)
         {
             TimeManager.callNumber++;
 
@@ -257,5 +246,27 @@ public class DialogueManager : MonoBehaviour
         VariableManager.instance.ResetFlags();
 
         Debug.Log("Time manager reset. Day number now: " + TimeManager.dayNumber);
+    }
+
+    private void ActivateNotchSelect()
+    {
+        Notches[] notches = GameObject.FindGameObjectWithTag("NotchParent").GetComponentsInChildren<Notches>();
+        if (TutorialSwitchboard.instance != null)
+            TutorialSwitchboard.instance.EndContextCall();
+
+        GameObject target;
+
+        LineManager.instance.canDraw = true;
+
+        foreach (Notches notch in notches)
+        {
+            if (notch.assignedCharacter == callManager.days[TimeManager.dayNumber].call[TimeManager.callNumber].caller)
+            {
+                target = notch.gameObject;
+                notch.isOccupied = true;
+                LineManager.instance.SelectPoint(target);
+                break;
+            }
+        }
     }
 }

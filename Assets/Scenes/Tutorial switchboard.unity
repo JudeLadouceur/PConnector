@@ -2717,6 +2717,22 @@ MonoBehaviour:
         dialogueOptions:
         - variables: []
           dialogue: {fileID: 11400000, guid: 3b143cf68f684d241ba9f73a159fc46e, type: 2}
+          doNotProgressToNextCall: 0
+      - receiver: 1
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 81d0cfbe72f224c478a73e36adbbd299, type: 2}
+          doNotProgressToNextCall: 1
+      - receiver: 2
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 81d0cfbe72f224c478a73e36adbbd299, type: 2}
+          doNotProgressToNextCall: 1
+      - receiver: 4
+        dialogueOptions:
+        - variables: []
+          dialogue: {fileID: 11400000, guid: 81d0cfbe72f224c478a73e36adbbd299, type: 2}
+          doNotProgressToNextCall: 1
   inContextCall: 0
   telephoneRingingSprite: {fileID: 1918566087}
 --- !u!1 &856468117 stripped
