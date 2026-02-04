@@ -69,17 +69,6 @@ public class CallManager : MonoBehaviour
 
     public void ContextCall()
     {
-        foreach (Days.Call.RequiredVars var in days[TimeManager.dayNumber].call[TimeManager.callNumber].requiredVars)
-        {
-            if (var.value != VariableManager.instance.flags[var.variableName])
-            {
-                TimeManager.callNumber++;
-                if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
-                else ContextCall();
-                return;
-            }
-        }
-
         if (days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls.Length == 0)
         {
             Debug.LogError("There are no context calls in day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please assign a context call.");
@@ -91,16 +80,10 @@ public class CallManager : MonoBehaviour
 
         SO_Dialogue contextCall = null;
 
-        foreach (Days.Call.ContextCall call in days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls)
+        if (days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls.Length == 1) contextCall = days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls[0].contextCall;
+
+        else foreach (Days.Call.ContextCall call in days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls)
         {
-            if (contextCall != null) break;
-
-            if (call.variables.Length == 0)
-            {
-                contextCall = call.contextCall;
-                break;
-            }
-
             foreach (Days.Call.RequiredVars var in call.variables)
             {
                 if (var.value == VariableManager.instance.flags[var.variableName]) contextCall = call.contextCall;
@@ -110,6 +93,8 @@ public class CallManager : MonoBehaviour
                     break;
                 }
             }
+
+            if (contextCall != null) break;
         }
 
         if(contextCall == null)
@@ -200,6 +185,21 @@ public class CallManager : MonoBehaviour
 
     public IEnumerator StartCallDelay()
     {
+        foreach (Days.Call.RequiredVars var in days[TimeManager.dayNumber].call[TimeManager.callNumber].requiredVars)
+        {
+            //Check if the call doesn't meet the required variables, skip this call if they're not all met
+            if (var.value != VariableManager.instance.flags[var.variableName])
+            {
+                TimeManager.callNumber++;
+
+                //If there's no calls after this, end the day
+                if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
+                else StartCoroutine(StartCallDelay());
+
+                yield break;
+            }
+        }
+
         //------------Insert ring noise here----------------
         if(FMODSoundPlayer.Instance!=null)
             FMODSoundPlayer.Instance.PlayFMODSound(2);
