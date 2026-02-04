@@ -480,6 +480,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactPrompt: {fileID: 0}
+  cooldown: 0
+  interactPromptText: 
+  canAddNotes: 0
   Scene: Day 4 - Before Work A - B
 --- !u!114 &1005863030
 MonoBehaviour:
@@ -632,7 +636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lin successfully recall his pizza, saving his customers a bad experience.
+  m_text: 'Lin successfully recalled his pizza, saving his customers a bad experience.
 
 
     Seth

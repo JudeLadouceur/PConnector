@@ -22,7 +22,7 @@ MonoBehaviour:
       much of an emergency, but I need to cancel some appointments I have with the
       health centre."
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: Of course, Mrs. Perkins. This would be the line to do it. Which appointments
       do you need cancelled? Can I reschedule them for you?
   - speakerName: MRS. PERKINS
@@ -30,7 +30,7 @@ MonoBehaviour:
     dialogue: "That won\u2019t be necessary, dear. You see, I\u2019m moving out of
       town, and already have the appointments set up elsewhere."
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "You\u2019re\u2026 leaving? I had no idea. Well, good luck to you,
       Mrs. Perkins. I hope things work out for you."
   - speakerName: MRS. PERKINS

@@ -20,7 +20,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Lin? Sorry, I was looking for Mrs. Perkins. Seems like the switchboard
-      person screwed
+      person screwed up.
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: Oh, uh, okay?

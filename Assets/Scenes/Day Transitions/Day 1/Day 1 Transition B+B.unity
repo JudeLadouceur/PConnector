@@ -184,7 +184,7 @@ MonoBehaviour:
 
     Seth
     didn''t manage to find spare parts, had to close his shop, and is blaming himself
-    quite a bit.'
+    for messing up.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -847,6 +847,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactPrompt: {fileID: 0}
+  cooldown: 0
+  interactPromptText: 
+  canAddNotes: 0
   Scene: Day 2 - Before Work B - B
 --- !u!114 &1818296008
 MonoBehaviour:

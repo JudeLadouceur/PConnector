@@ -16,7 +16,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Hi! Uh, thanks for picking up. I\u2019ve got a bit of an issue here
-      at the Pizza place. I have a few spare Pizzas here. I wasn\u2019t paying attention
+      at the pizza place. I have a few spare pizzas here. I wasn\u2019t paying attention
       and realized that they cancelled their booking! "
   - speakerName: LIN
     NewSpeakerName: 2

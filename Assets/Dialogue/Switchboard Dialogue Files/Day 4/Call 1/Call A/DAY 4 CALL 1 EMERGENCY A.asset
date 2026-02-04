@@ -22,7 +22,7 @@ MonoBehaviour:
       not in any trouble at the moment, but I was looking to do some volunteering
       today. Would you be willing to have me for a bit?"
   - speakerName: RECEPTIONIST
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Volunteering? Of course! We always love the help. I\u2019ll have to
       talk to my boss about what you could do, but if you come over now, I\u2019m
       sure we can have something sorted out by then."

@@ -22,7 +22,7 @@ MonoBehaviour:
     dialogue: "Oh? I\u2019m terribly sorry, but it seems there has been some sort
       of mixup. I\u2019m not in any trouble, I\u2019m sorry. "
   - speakerName: ' RECEPTIONIST '
-    NewSpeakerName: 0
+    NewSpeakerName: 4
     dialogue: "Oh, uh\u2013alright. You have a good night. "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
