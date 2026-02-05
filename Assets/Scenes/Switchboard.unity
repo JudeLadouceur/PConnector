@@ -2423,8 +2423,15 @@ MonoBehaviour:
           doNotProgressToNextCall: 0
       - receiver: 1
         dialogueOptions:
-        - variables: []
+        - variables:
+          - variableName: 3
+            value: 1
           dialogue: {fileID: 11400000, guid: 7e521e299ae34564da93d958464b2a80, type: 2}
+          doNotProgressToNextCall: 0
+        - variables:
+          - variableName: 3
+            value: 0
+          dialogue: {fileID: 11400000, guid: 6c364ce4b53fbd945abd8c2a207e0960, type: 2}
           doNotProgressToNextCall: 0
     - requiredVars:
       - variableName: 10

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
-  m_Name: DAY 3 CALL 2 MRS. PERKINS B Else
+  m_Name: DAY 3 WINDOW DRESSING PERKINS B
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
-    dialogue: "No answer? Wait, did I get connected to Mrs. Perkins? I heard she\u2019s
-      injured at the moment. Why would\u2026? Ah, forget it."
+  - speakerName: Delivery Guy
+    NewSpeakerName: 5
+    dialogue: "No answer? He should be there\u2026 is this even the right line?!
+      Ah, whatever, I\u2019ll just email him or something. Hopefully he checks it."
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -31,7 +31,4 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables:
-  - variable: 6
-    modifier: 0
-    value: 0
+  variables: []
