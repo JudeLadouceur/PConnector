@@ -29,10 +29,10 @@ MonoBehaviour:
       gonna be in some real hot water."
   - speakerName: Boss
     NewSpeakerName: 9
-    dialogue: "Could you connect me to the new town repair guy? He\u2019s the one
-      handling the shipment, but\u2026 gah, what was his name again? I can\u2019t
-      remember. Do you have that written down somewhere? Just connect me to \u2018em
-      if you do."
+    dialogue: "Could you connect me to the town repair guy? He\u2019s the one handling
+      the shipment, but\u2026 gah, what was his name again? I can\u2019t remember.
+      Do you have that written down somewhere? Just connect me to \u2018em if you
+      do."
   voiceLineEvent:
     Guid:
       Data1: 187733228
