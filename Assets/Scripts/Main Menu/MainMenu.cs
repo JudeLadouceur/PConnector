@@ -17,15 +17,31 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        if(SceneLoadManager.Instance != null)
+        if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achieve) && achieve.status != AchievementStatus.Placed)
         {
-            SceneLoadManager.Instance.LoadSceneWithFade("GoalIntro");
+            if (SceneLoadManager.Instance != null)
+            {
+                SceneLoadManager.Instance.LoadSceneWithFade("tutorial switchboard");
+            }
+            else
+            {
+                SceneManager.LoadScene("tutorial switchboard");
+            }
         }
         else
         {
-            SceneManager.LoadScene("GoalIntro");
+            if (SceneLoadManager.Instance != null)
+            {
+                SceneLoadManager.Instance.LoadSceneWithFade("Town Overworld");
+            }
+            else
+            {
+                SceneManager.LoadScene("Town Overworld");
+            }
         }
-            
+
+        
+
     }
 
     public void OpenOptionsMenu()
