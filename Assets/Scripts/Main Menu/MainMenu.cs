@@ -109,6 +109,13 @@ public class MainMenu : MonoBehaviour
 
     public void Tutorial()
     {
-        SceneManager.LoadScene("tutorial switchboard");
+        if (SceneLoadManager.Instance != null)
+        {
+            SceneLoadManager.Instance.LoadSceneWithFade("tutorial switchboard");
+        }
+        else
+        {
+            SceneManager.LoadScene("tutorial switchboard");
+        }
     }
 }
