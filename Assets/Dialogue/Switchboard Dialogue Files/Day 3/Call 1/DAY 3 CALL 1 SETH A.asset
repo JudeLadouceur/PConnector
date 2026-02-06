@@ -63,11 +63,11 @@ MonoBehaviour:
     dialogue: Alright, I will! Thanks again Seth!
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1096857684
+      Data2: 1185262483
+      Data3: 2045468058
+      Data4: 513424346
+    Path: event:/Voices/Day 3/Call 1/Seth A Connection/Lin - D3C1 - Seth A Connection
   barkEvent:
     Guid:
       Data1: 0
