@@ -974,6 +974,37 @@ MonoBehaviour:
   - dayVariables: 0700000006000000
   - dayVariables: 0e0000000d0000000c0000000b000000
   - dayVariables: 0d0000000b0000000c0000000f00000010000000110000001200000013000000
+--- !u!1 &393032611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393032612}
+  m_Layer: 0
+  m_Name: CordEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &393032612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393032611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.34, y: -0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 723242284}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &473694785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,7 +1317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 1525196609}
   midPoint: {fileID: 0}
-  endPoint: {fileID: 723242284}
+  endPoint: {fileID: 393032612}
   linePoints: 15
   stiffness: 500
   damping: 15
@@ -1338,21 +1369,21 @@ LineRenderer:
   m_SortingOrder: 2
   m_Positions:
   - {x: -5.37, y: 0, z: 0}
-  - {x: -4.726, y: -0.042311136, z: 0}
-  - {x: -4.0820003, y: -0.07857782, z: 0}
-  - {x: -3.4380002, y: -0.10880005, z: 0}
-  - {x: -2.7940001, y: -0.13297784, z: 0}
-  - {x: -2.1499999, y: -0.15111119, z: 0}
-  - {x: -1.5059999, y: -0.16320008, z: 0}
-  - {x: -0.8619999, y: -0.16924451, z: 0}
-  - {x: -0.2179997, y: -0.16924453, z: 0}
-  - {x: 0.42600024, y: -0.16320007, z: 0}
-  - {x: 1.0700002, y: -0.15111117, z: 0}
-  - {x: 1.7140001, y: -0.13297783, z: 0}
-  - {x: 2.3580003, y: -0.108800046, z: 0}
-  - {x: 3.0020003, y: -0.07857781, z: 0}
-  - {x: 3.646, y: -0.04231113, z: 0}
-  - {x: 4.29, y: 0, z: 0}
+  - {x: -4.882, y: -0.33484113, z: 0}
+  - {x: -4.3940005, y: -0.62203825, z: 0}
+  - {x: -3.9060001, y: -0.8615914, z: 0}
+  - {x: -3.4180002, y: -1.0535007, z: 0}
+  - {x: -2.9299998, y: -1.1977658, z: 0}
+  - {x: -2.442, y: -1.2943872, z: 0}
+  - {x: -1.9539998, y: -1.3433642, z: 0}
+  - {x: -1.4659998, y: -1.3446977, z: 0}
+  - {x: -0.9779998, y: -1.298387, z: 0}
+  - {x: -0.48999983, y: -1.2044324, z: 0}
+  - {x: -0.001999855, y: -1.0628339, z: 0}
+  - {x: 0.48600018, y: -0.8735913, z: 0}
+  - {x: 0.9740001, y: -0.63670486, z: 0}
+  - {x: 1.462, y: -0.3521744, z: 0}
+  - {x: 1.95, y: -0.02, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -1790,7 +1821,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 393032612}
   m_Father: {fileID: 535505999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &723242285
@@ -1858,6 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   line: {fileID: 535506001}
+  ropeScript: {fileID: 535506000}
   unpluggedSprite: {fileID: 21300000, guid: 9fecc2a356ff2974e916caaae0c27dce, type: 3}
   pluggedSprite: {fileID: 21300000, guid: e334b2bd70bfdf649a49f9e7dc2d110a, type: 3}
   sRenderer: {fileID: 723242285}
