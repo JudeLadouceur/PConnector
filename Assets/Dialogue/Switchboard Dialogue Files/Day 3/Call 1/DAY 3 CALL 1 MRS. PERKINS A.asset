@@ -61,11 +61,12 @@ MonoBehaviour:
     dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -258614084
+      Data2: 1210458552
+      Data3: -1183614587
+      Data4: 86910185
+    Path: event:/Voices/Day 3/Call 1/Mrs. Perkins A Connection/Lin - D3C1 - Mrs.
+      Perkins A Connection
   barkEvent:
     Guid:
       Data1: 0
