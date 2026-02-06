@@ -13,33 +13,26 @@ MonoBehaviour:
   m_Name: Boss Day 0 INITAL PART 2
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SIMON
-    NewSpeakerName: 0
-    dialogue: Hello? This is-uh-Simon.
+  - speakerName: Seth
+    NewSpeakerName: 3
+    dialogue: "Seth\u2019s repair garage. What\u2019s being fixed?"
   - speakerName: BOSS
     NewSpeakerName: 9
-    dialogue: "Ah, Simon! That\u2019s right. Hey kid, I was just wondering if the
-      new switchboard order was all ready to be shipped."
-  - speakerName: SIMON
-    NewSpeakerName: 0
-    dialogue: "Oh, uh-yes. It is. They\u2019re just waiting on your confirmation
-      code now to begin the shipment."
+    dialogue: "Ah, Seth! That\u2019s right. Hey, it\u2019s the boss man. Was just
+      checking in on that switchboard order. We gotta get it replaced soon. How\u2019s
+      it looking?"
+  - speakerName: Seth
+    NewSpeakerName: 3
+    dialogue: Yeah, slight delay is all. No stress. It should be getting here Saturday.
   - speakerName: BOSS
     NewSpeakerName: 9
-    dialogue: Oh, great! Confirmation code C-L-S-P-S
-  - speakerName: SIMON
-    NewSpeakerName: 0
-    dialogue: "And\u2026 yup. It went through no problem. It says it should arrive
-      in a bit over 5 days. Saturday is the estimate. "
-  - speakerName: BOSS
-    NewSpeakerName: 9
-    dialogue: Sounds great, thanks for the help, kid
-  - speakerName: SIMON
-    NewSpeakerName: 0
-    dialogue: "Sure thing. Um\u2026 have a good day."
+    dialogue: Great, just one more week. Thanks for the info.
+  - speakerName: Seth
+    NewSpeakerName: 3
+    dialogue: Sure thing. Have a good night, sir.
   - speakerName: 
     NewSpeakerName: 0
-    dialogue: '* SImon leaves then line *'
+    dialogue: '* Seth leaves the line. *'
   - speakerName: BOSS
     NewSpeakerName: 9
     dialogue: "Alright then, it sounds like you got one more week of work left. It
@@ -60,11 +53,11 @@ MonoBehaviour:
       pal. It can mean more to the town than you know. Good luck."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 168678820
+      Data2: 1279784309
+      Data3: -2143885422
+      Data4: -88173861
+    Path: event:/Voices/Day 0/Call 2/Boss - Day 0 - Call 2
   barkEvent:
     Guid:
       Data1: 0

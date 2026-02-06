@@ -14,11 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Hey there. This is Bob, guy who lives on the edge of town. I think
-      I just found on of Mrs. Perkins\u2019 cats in my backyard? I managed to pick
+      I just found one of Mrs. Perkins\u2019 cats in my backyard? I managed to pick
       him up and he\u2019s safe now, but I wanted to check if Mrs. Perkins was missing
       any of her cats before I randomly started giving cats out."
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

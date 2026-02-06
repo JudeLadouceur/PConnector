@@ -14,13 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Hey there! Boy am I glad I got to sell that pizza yesterday.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I\u2019ve got a new order of tomato sauce coming in today, so that
       should keep me plenty busy."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Ha, imagine if something went wrong again. Someone would need to really
-      tolerate me to help me out like that.
+      put up with me to help me out like that.
   voiceLineEvent:
     Guid:
       Data1: 0

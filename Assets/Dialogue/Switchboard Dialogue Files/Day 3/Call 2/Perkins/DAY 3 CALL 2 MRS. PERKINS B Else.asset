@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: DAY 3 CALL 2 MRS. PERKINS B Else
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: PHONE LINE
-    NewSpeakerName: 0
-    dialogue: Buzzzzzzz..... *Click*
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "No answer? Wait, did I get connected to Mrs. Perkins? I heard she\u2019s
+      injured at the moment. Why would\u2026? Ah, forget it."
   voiceLineEvent:
     Guid:
       Data1: 0

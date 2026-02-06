@@ -15,8 +15,8 @@ MonoBehaviour:
   lines:
   - speakerName: BOSS
     NewSpeakerName: 9
-    dialogue: Lin! Perfect, thanks so much! I'll handled it from here, so go get
-      some rest okay?
+    dialogue: Lin! Perfect, thanks so much! I'll handle it from here, so go get some
+      rest okay?
   voiceLineEvent:
     Guid:
       Data1: 0

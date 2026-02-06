@@ -15,8 +15,9 @@ MonoBehaviour:
   lines:
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Hello? Mrs. Perkins? Oh wait, she's still at the hospital. Duh. Why'd
-      the switchboard operator connect me here?
+    dialogue: "W-wait, isn\u2019t Mrs. Perkins at the pharmacy? She won\u2019t pick
+      up! Ahhhhhhhh, I don\u2019t have time for this! I\u2019ll-um- figure\u2026
+      something out."
   voiceLineEvent:
     Guid:
       Data1: 0

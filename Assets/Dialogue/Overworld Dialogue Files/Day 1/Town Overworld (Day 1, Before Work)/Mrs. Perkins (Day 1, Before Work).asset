@@ -14,16 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh, hi there youngin\u2019! Good to see you out again! "
   - speakerName: MRS. PERKINS
-    dialogue: "It's been a while, you\u2019ll have to some see my darling children
+    NewSpeakerName: 1
+    dialogue: "It's been a while, you\u2019ll have to come see my darling children
       some time!"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: There's, Mr. Mittens, Yarny, Bottles, oh and so many more!
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oof! My walker is a bit wobbly, maybe some of the parts down stairs
       might work to fix it? Well anyways, see you around stranger!
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

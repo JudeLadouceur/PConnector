@@ -15,9 +15,9 @@ MonoBehaviour:
   lines:
   - speakerName: EMERGENCY
     NewSpeakerName: 4
-    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: STEWART
-    NewSpeakerName: 5
+    NewSpeakerName: 10
     dialogue: Wh-what?! S-sorry! Wrong line!
   voiceLineEvent:
     Guid:

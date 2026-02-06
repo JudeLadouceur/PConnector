@@ -18,11 +18,11 @@ MonoBehaviour:
     dialogue: No, not that one. Look, this is important. Could you not mess around?
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 272479423
+      Data2: 1223924130
+      Data3: -867142723
+      Data4: -1439029538
+    Path: event:/Voices/Day 0/Wrong Connection/Boss - Day 0 - Initial - Wrong Connection
   barkEvent:
     Guid:
       Data1: 0

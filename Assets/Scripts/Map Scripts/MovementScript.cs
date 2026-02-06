@@ -7,6 +7,7 @@ public class MovementScript : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public bool Funny;
+    public bool tutFunny;
     private Animator playerAnim;
 
     private Vector2 moveDirection;
@@ -32,6 +33,7 @@ public class MovementScript : MonoBehaviour
         }
         moveSpeed = Funny ? 0f : 5f;
         if (Funny) return;
+        if (tutFunny) return;
 
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");

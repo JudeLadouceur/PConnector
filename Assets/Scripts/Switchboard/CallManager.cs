@@ -26,6 +26,7 @@ public class CallManager : MonoBehaviour
                 {
                     public RequiredVars[] variables;
                     public SO_Dialogue dialogue;
+                    public bool doNotProgressToNextCall;
                 }
                 
                 public Characters receiver;
@@ -69,17 +70,6 @@ public class CallManager : MonoBehaviour
 
     public void ContextCall()
     {
-        foreach (Days.Call.RequiredVars var in days[TimeManager.dayNumber].call[TimeManager.callNumber].requiredVars)
-        {
-            if (var.value != VariableManager.instance.flags[var.variableName])
-            {
-                TimeManager.callNumber++;
-                if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
-                else ContextCall();
-                return;
-            }
-        }
-
         if (days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls.Length == 0)
         {
             Debug.LogError("There are no context calls in day " + TimeManager.dayNumber + ", call " + TimeManager.callNumber + ". Please assign a context call.");
@@ -91,16 +81,10 @@ public class CallManager : MonoBehaviour
 
         SO_Dialogue contextCall = null;
 
-        foreach (Days.Call.ContextCall call in days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls)
+        if (days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls.Length == 1) contextCall = days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls[0].contextCall;
+
+        else foreach (Days.Call.ContextCall call in days[TimeManager.dayNumber].call[TimeManager.callNumber].contextCalls)
         {
-            if (contextCall != null) break;
-
-            if (call.variables.Length == 0)
-            {
-                contextCall = call.contextCall;
-                break;
-            }
-
             foreach (Days.Call.RequiredVars var in call.variables)
             {
                 if (var.value == VariableManager.instance.flags[var.variableName]) contextCall = call.contextCall;
@@ -110,6 +94,8 @@ public class CallManager : MonoBehaviour
                     break;
                 }
             }
+
+            if (contextCall != null) break;
         }
 
         if(contextCall == null)
@@ -123,7 +109,7 @@ public class CallManager : MonoBehaviour
 
         inContextCall = true;
 
-        DialogueManager.Instance.StartDialogue(contextCall);
+        DialogueManager.Instance.StartDialogue(contextCall, false);
     }
 
     public bool StartCall(Characters receiver)
@@ -151,6 +137,7 @@ public class CallManager : MonoBehaviour
 
         Days.Call.RequiredVars variable = null;
 
+        bool doNotProgress = false;
 
         for (int i = 0; i < currentCall.connections[target].dialogueOptions.Length; i++)
         {
@@ -160,6 +147,8 @@ public class CallManager : MonoBehaviour
             if (currentCall.connections[target].dialogueOptions[i].variables.Length == 0)
             {
                 dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
+
                 Debug.Log("No variable checks, playing: " + currentCall.connections[target].dialogueOptions[i].dialogue);
 
                 if (i + 1 < currentCall.connections[target].dialogueOptions.Length) Debug.LogWarning("Unreachable dialogue detected. Dialogue with no requirements is placed above other dialogue possibilities, making them unreachable.");
@@ -175,6 +164,7 @@ public class CallManager : MonoBehaviour
                 {
                     Debug.Log("Variable " + variable.variableName + " is the correct value.");
                     dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                    doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
                     break;
                 }
                 Debug.Log("Variable " + variable.variableName + " was " + variable.value + ", but was looking for " + VariableManager.instance.flags[variable.variableName]);
@@ -194,15 +184,30 @@ public class CallManager : MonoBehaviour
             return false;
         }
 
-        DialogueManager.Instance.StartDialogue(dialogue);
+        DialogueManager.Instance.StartDialogue(dialogue, doNotProgress);
         return true;
     }
 
     public IEnumerator StartCallDelay()
     {
-        //------------Insert ring noise here----------------
+        foreach (Days.Call.RequiredVars var in days[TimeManager.dayNumber].call[TimeManager.callNumber].requiredVars)
+        {
+            //Check if the call doesn't meet the required variables, skip this call if they're not all met
+            if (var.value != VariableManager.instance.flags[var.variableName])
+            {
+                TimeManager.callNumber++;
 
-        FMODSoundPlayer.Instance.PlayFMODSound(2);
+                //If there's no calls after this, end the day
+                if (TimeManager.callNumber == days[TimeManager.dayNumber].call.Length) DialogueManager.Instance.EndDay();
+                else StartCoroutine(StartCallDelay());
+
+                yield break;
+            }
+        }
+
+        //------------Insert ring noise here----------------
+        if(FMODSoundPlayer.Instance!=null)
+            FMODSoundPlayer.Instance.PlayFMODSound(2);
 
         telephoneRingingSprite.SetActive(true);
         

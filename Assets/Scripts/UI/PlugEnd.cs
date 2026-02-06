@@ -1,3 +1,4 @@
+using GogoGaga.OptimizedRopesAndCables;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class PlugEnd : MonoBehaviour
 {
     public LineRenderer line;
+    public Rope ropeScript;
     private bool placed = false;
     public Sprite unpluggedSprite;
     public Sprite pluggedSprite;
@@ -28,6 +30,8 @@ public class PlugEnd : MonoBehaviour
         sRenderer.sprite = pluggedSprite;
         transform.rotation = Quaternion.identity;
         sRenderer.sortingOrder = 1;
+
+        ropeScript.SetEndPoint(transform, false);
     }
 
     public void Unplaced()
@@ -35,5 +39,7 @@ public class PlugEnd : MonoBehaviour
         placed = false;
         sRenderer.sprite = unpluggedSprite;
         sRenderer.sortingOrder = 3;
+
+        ropeScript.SetEndPoint(transform.GetChild(0), false);
     }
 }

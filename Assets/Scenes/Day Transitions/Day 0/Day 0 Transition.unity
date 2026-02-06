@@ -486,7 +486,7 @@ MonoBehaviour:
   cooldown: 0
   interactPromptText: 
   canAddNotes: 0
-  Scene: Day 2 - Before Work A - A
+  Scene: Town Overworld
 --- !u!114 &788763956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 788763955}
         m_TargetAssemblyTypeName: SceneTransitionTrigger, Assembly-CSharp
-        m_MethodName: NextDay
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
