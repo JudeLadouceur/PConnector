@@ -177,7 +177,7 @@ MonoBehaviour:
   canAddNotes: 0
   moveableObject: {fileID: 1531955511}
   moveToRelative: {x: -2.1, y: 0, z: 0}
-  stepIndex: 0
+  stepIndex: 1
   anim: {fileID: 1128295173}
 --- !u!1 &68977533 stripped
 GameObject:
@@ -490,6 +490,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   steps:
+  - arrowTarget: {fileID: 0}
+    stepText: Press WASD to move
+    lockout: 0
+    enableComponents: []
+    enableButtons:
+    - {fileID: 1952693775}
+    disableComponents:
+    - {fileID: 143611034}
+    - {fileID: 301489977}
+    - {fileID: 216901802}
+    - {fileID: 237950034}
+    - {fileID: 1823179877}
+    - {fileID: 2134929055}
+    disableButtons: []
+    stepSummary: Movement controls
   - arrowTarget: {fileID: 1211689577}
     stepText: Press E to open the gate
     lockout: 0
@@ -712,7 +727,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 9c77c21821e973141a23c82ccaaf080e, type: 2}
   character: 3
-  stepIndex: 4
+  stepIndex: 5
 --- !u!1 &150222269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,7 +1023,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: d4c5b5b71bb932347a3b30a0d44d684d, type: 2}
   character: 4
-  stepIndex: 5
+  stepIndex: 6
 --- !u!1 &237950034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1074,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 9e029e4b775390c4ca681838904a0a3e, type: 2}
   character: 1
-  stepIndex: 6
+  stepIndex: 7
 --- !u!1 &295330740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +1160,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 55e0e93ee6f6c17439d110f136486a87, type: 2}
   character: 2
-  stepIndex: 2
+  stepIndex: 3
 --- !u!4 &337022807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7188737204816681176, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
@@ -3022,7 +3037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce87742f75983d4aa1fac6e02755c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stepIndex: 3
+  stepIndex: 4
 --- !u!1001 &1662340916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3481,7 +3496,7 @@ MonoBehaviour:
   canAddNotes: 0
   dialogue: {fileID: 11400000, guid: 9affc75804fb8354f85cd739d6479530, type: 2}
   character: 0
-  stepIndex: 1
+  stepIndex: 2
 --- !u!1001 &1863537387
 PrefabInstance:
   m_ObjectHideFlags: 0
