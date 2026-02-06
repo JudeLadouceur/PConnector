@@ -33,6 +33,7 @@ public class MovementScript : MonoBehaviour
             Funny = !Funny;
         }
         moveSpeed = Funny ? 0f : 5f;
+        if (tutFunny) moveSpeed = 0;
         if (Funny) return;
         if (tutFunny) return;
 
