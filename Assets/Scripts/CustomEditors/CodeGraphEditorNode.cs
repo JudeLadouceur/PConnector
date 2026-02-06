@@ -8,6 +8,9 @@ using UnityEngine;
 public class CodeGraphEditorNode : Node
 {
     private CodeGraphNode m_graphNode;
+
+    public CodeGraphNode Node => m_graphNode;
+
     public CodeGraphEditorNode(CodeGraphNode node)
     {
         this.AddToClassList("code-graph-node");
@@ -28,5 +31,8 @@ public class CodeGraphEditorNode : Node
         this.name = typeInfo.Name;
     }
 
-
+    public void SavePosition()
+    {
+        m_graphNode.SetPosition(GetPosition());
+    }
 }

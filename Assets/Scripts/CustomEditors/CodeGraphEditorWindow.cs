@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class CodeGraphEditorWindow : EditorWindow
@@ -33,6 +35,21 @@ public class CodeGraphEditorWindow : EditorWindow
 
     public CodeGraphAsset sceneManager => m_currentGraph;
 
+    private void OnEnable()
+    {
+        if (m_currentGraph != null) DrawGraph();
+    }
+
+    private void OnGUI()
+    {
+        if (m_currentGraph != null)
+        {
+            if (EditorUtility.IsDirty(m_currentGraph)) this.hasUnsavedChanges = true;
+
+            else this.hasUnsavedChanges = false;
+        }
+    }
+
     private void Load(CodeGraphAsset target)
     {
         m_currentGraph = target;
@@ -42,6 +59,14 @@ public class CodeGraphEditorWindow : EditorWindow
     {
         m_serializedObject = new SerializedObject(m_currentGraph);
         m_currentView = new CodeGraphView(m_serializedObject, this);
+        m_currentView.graphViewChanged += OnChange;
         rootVisualElement.Add(m_currentView);
+    }
+
+    private GraphViewChange OnChange(GraphViewChange graphViewChange)
+    {
+        
+        EditorUtility.SetDirty(m_currentGraph);
+        return graphViewChange;
     }
 }

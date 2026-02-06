@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -48,6 +49,48 @@ public class CodeGraphView : GraphView
         this.AddManipulator(new ClickSelector());
 
         DrawNodes();
+
+        graphViewChanged += onGraphViewChangedEvent;
+    }
+
+    private GraphViewChange onGraphViewChangedEvent(GraphViewChange graphViewChange)
+    {
+        if (graphViewChange.movedElements != null)
+        {
+            Undo.RecordObject(m_serializedObject.targetObject, "Moved Graph Element");
+            foreach(CodeGraphEditorNode editorNode in graphViewChange.movedElements.OfType<CodeGraphEditorNode>())
+            {
+                editorNode.SavePosition();
+            }
+
+
+        }
+        
+        if(graphViewChange.elementsToRemove != null)
+        {
+            Undo.RecordObject(m_serializedObject.targetObject, "Removed Graph Element");
+            
+            List<CodeGraphEditorNode> nodes = graphViewChange.elementsToRemove.OfType<CodeGraphEditorNode>().ToList();
+
+            if(nodes.Count > 0)
+            {
+
+                for (int i = nodes.Count - 1; i >= 0; i--)
+                {
+                    RemoveNode(nodes[i]);
+                }
+            }
+
+        }
+        return graphViewChange;
+    }
+
+    private void RemoveNode(CodeGraphEditorNode editorNode)
+    {
+        m_codeGraph.Nodes.Remove(editorNode.Node);
+        m_nodeDictionary.Remove(editorNode.Node.id);
+        m_graphNodes.Remove(editorNode);
+        m_serializedObject.Update();
     }
 
     private void DrawNodes()
