@@ -483,7 +483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steps:
   - arrowTarget: {fileID: 0}
-    stepText: Open the gate with E
+    stepText: Press E to open the gate
     lockout: 0
     enableComponents:
     - {fileID: 2134929055}
@@ -535,7 +535,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Lin Keys
   - arrowTarget: {fileID: 0}
-    stepText: Check notebook using arrow on right of screen
+    stepText: CLick arrow on right of screen to open notebook
     lockout: 1
     enableComponents: []
     enableButtons:
@@ -602,7 +602,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Final Keys
   - arrowTarget: {fileID: 0}
-    stepText: Slot achievement by pressing tab and dragging
+    stepText: Press tab and draw puzzle piece to slot it
     lockout: 1
     enableComponents:
     - {fileID: 1893146228}
@@ -619,7 +619,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Achievement
   - arrowTarget: {fileID: 1598504985}
-    stepText: Keys found, heading back home
+    stepText: Keys found, head back home
     lockout: 0
     enableComponents:
     - {fileID: 1269728856}
