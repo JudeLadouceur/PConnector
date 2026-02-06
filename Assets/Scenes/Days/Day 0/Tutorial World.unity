@@ -2997,7 +2997,7 @@ MonoBehaviour:
     varFalseNote: 
   toggleButton: {fileID: 1952693773}
   toggleIcon: {fileID: 1513615409}
-  closedIcon: {fileID: 21300000, guid: 178eaf27ea2f3934f8b6f3b91a10fa9c, type: 3}
+  closedIcon: {fileID: 21300000, guid: e40772db96e5cfb41b6f78406d56dbb6, type: 3}
   openIcon: {fileID: 21300000, guid: 69b8fac0784e0ae41872afd7769ac0a4, type: 3}
   bookObjects: {fileID: 30862115}
   openTarget: {fileID: 68977533}
