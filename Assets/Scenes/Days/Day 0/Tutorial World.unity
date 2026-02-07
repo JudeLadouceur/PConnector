@@ -177,7 +177,7 @@ MonoBehaviour:
   canAddNotes: 0
   moveableObject: {fileID: 1531955511}
   moveToRelative: {x: -2.1, y: 0, z: 0}
-  stepIndex: 0
+  stepIndex: 1
   anim: {fileID: 1128295173}
 --- !u!1 &68977533 stripped
 GameObject:
@@ -318,6 +318,14 @@ PrefabInstance:
     - target: {fileID: 5016310912594549432, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_RenderMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705125680874506301, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e40772db96e5cfb41b6f78406d56dbb6, type: 3}
+    - target: {fileID: 7062042472032151138, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7223819859021909955, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -483,7 +491,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steps:
   - arrowTarget: {fileID: 0}
-    stepText: Open the gate with E
+    stepText: Press WASD to move
+    lockout: 0
+    enableComponents: []
+    enableButtons:
+    - {fileID: 1952693775}
+    disableComponents:
+    - {fileID: 143611034}
+    - {fileID: 301489977}
+    - {fileID: 216901802}
+    - {fileID: 237950034}
+    - {fileID: 1823179877}
+    - {fileID: 2134929055}
+    disableButtons: []
+    stepSummary: Movement controls
+  - arrowTarget: {fileID: 1211689577}
+    stepText: Press E to open the gate
     lockout: 0
     enableComponents:
     - {fileID: 2134929055}
@@ -534,8 +557,8 @@ MonoBehaviour:
     disableButtons:
     - {fileID: 1952693775}
     stepSummary: Lin Keys
-  - arrowTarget: {fileID: 0}
-    stepText: Check notebook using arrow on right of screen
+  - arrowTarget: {fileID: 1308949966}
+    stepText: Click arrow on right of screen to open notebook
     lockout: 1
     enableComponents: []
     enableButtons:
@@ -602,7 +625,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Final Keys
   - arrowTarget: {fileID: 0}
-    stepText: Slot achievement by pressing tab and dragging
+    stepText: Press tab and draw puzzle piece to slot it
     lockout: 1
     enableComponents:
     - {fileID: 1893146228}
@@ -619,7 +642,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Achievement
   - arrowTarget: {fileID: 1598504985}
-    stepText: Keys found, heading back home
+    stepText: Keys found, head back home
     lockout: 0
     enableComponents:
     - {fileID: 1269728856}
@@ -704,7 +727,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 9c77c21821e973141a23c82ccaaf080e, type: 2}
   character: 3
-  stepIndex: 4
+  stepIndex: 5
 --- !u!1 &150222269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,7 +1023,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: d4c5b5b71bb932347a3b30a0d44d684d, type: 2}
   character: 4
-  stepIndex: 5
+  stepIndex: 6
 --- !u!1 &237950034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1074,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 9e029e4b775390c4ca681838904a0a3e, type: 2}
   character: 1
-  stepIndex: 6
+  stepIndex: 7
 --- !u!1 &295330740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1160,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 55e0e93ee6f6c17439d110f136486a87, type: 2}
   character: 2
-  stepIndex: 2
+  stepIndex: 3
 --- !u!4 &337022807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7188737204816681176, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
@@ -1293,7 +1316,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2227,6 +2250,11 @@ PrefabInstance:
       addedObject: {fileID: 143611035}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+--- !u!1 &1211689577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 990703567378073716, guid: 4594a1e3c4b11a4469e9023395ce7459, type: 3}
+  m_PrefabInstance: {fileID: 609216914}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1269728856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1913852127110669569, guid: b24bcccb801765d4f9a9abf76016db42, type: 3}
@@ -2312,6 +2340,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2243389348580491179, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
   m_PrefabInstance: {fileID: 1939296356}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1308949966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308949967}
+  m_Layer: 0
+  m_Name: NotebookPointer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308949967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308949966}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.68, y: 9.879045, z: 6.620656}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1328414459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,7 +2488,7 @@ RectTransform:
   m_GameObject: {fileID: 1467074628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 196141170}
@@ -2459,7 +2518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd45819d68848a24ca89688ca43d5505, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e3380d870fabcc42a4e3aea0fd3eb18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2961,7 +3020,7 @@ MonoBehaviour:
     varFalseNote: 
   toggleButton: {fileID: 1952693773}
   toggleIcon: {fileID: 1513615409}
-  closedIcon: {fileID: 21300000, guid: 178eaf27ea2f3934f8b6f3b91a10fa9c, type: 3}
+  closedIcon: {fileID: 21300000, guid: e40772db96e5cfb41b6f78406d56dbb6, type: 3}
   openIcon: {fileID: 21300000, guid: 69b8fac0784e0ae41872afd7769ac0a4, type: 3}
   bookObjects: {fileID: 30862115}
   openTarget: {fileID: 68977533}
@@ -2978,7 +3037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce87742f75983d4aa1fac6e02755c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stepIndex: 3
+  stepIndex: 4
 --- !u!1001 &1662340916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3437,7 +3496,7 @@ MonoBehaviour:
   canAddNotes: 0
   dialogue: {fileID: 11400000, guid: 9affc75804fb8354f85cd739d6479530, type: 2}
   character: 0
-  stepIndex: 1
+  stepIndex: 2
 --- !u!1001 &1863537387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3740,7 +3799,7 @@ Transform:
   m_GameObject: {fileID: 2134929055}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3, y: -0.71, z: 0}
+  m_LocalPosition: {x: -1.3, y: -1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3821,3 +3880,4 @@ SceneRoots:
   - {fileID: 2021714231}
   - {fileID: 1193483949}
   - {fileID: 609216914}
+  - {fileID: 1308949967}

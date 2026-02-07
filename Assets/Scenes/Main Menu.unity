@@ -7498,6 +7498,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: closedIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: e40772db96e5cfb41b6f78406d56dbb6, type: 3}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -7637,6 +7641,14 @@ PrefabInstance:
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.data[3].usesVariable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705125680874506301, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e40772db96e5cfb41b6f78406d56dbb6, type: 3}
+    - target: {fileID: 7062042472032151138, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

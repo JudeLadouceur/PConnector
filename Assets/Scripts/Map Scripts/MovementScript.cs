@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovementScript : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class MovementScript : MonoBehaviour
             Funny = !Funny;
         }
         moveSpeed = Funny ? 0f : 5f;
+        if (tutFunny) moveSpeed = 0;
         if (Funny) return;
         if (tutFunny) return;
 
@@ -39,7 +41,10 @@ public class MovementScript : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         moveDirection = new Vector2(moveX, moveY).normalized;
-
+         if(SceneManager.GetActiveScene().name == "Tutorial World" && TestTargetSwap.instance != null && moveDirection.magnitude!=0)
+        {
+            TestTargetSwap.instance.AttemptProgress(0);
+        }
         //Animation stuff
         playerAnim.SetBool("IsMove", moveDirection.magnitude != 0);
         playerAnim.SetFloat("XMove", moveX);
