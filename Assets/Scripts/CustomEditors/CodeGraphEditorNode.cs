@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
+using UnityEditor;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class CodeGraphEditorNode : Node
@@ -11,14 +13,17 @@ public class CodeGraphEditorNode : Node
 
     private Port m_outputPort;
     private List<Port> m_ports;
+    private SerializedProperty m_serializedProperty;
+    private SerializedObject m_serializedObject;
 
     public CodeGraphNode Node => m_graphNode;
     public List<Port> Ports => m_ports;
 
-    public CodeGraphEditorNode(CodeGraphNode node)
+    public CodeGraphEditorNode(CodeGraphNode node, SerializedObject codeGraphObject)
     {
         this.AddToClassList("code-graph-node");
 
+        m_serializedObject = codeGraphObject;
         m_graphNode = node;
 
         Type typeInfo = node.GetType();
@@ -36,16 +41,61 @@ public class CodeGraphEditorNode : Node
 
         this.name = typeInfo.Name;
 
+        if (info.hasFlowOutput)
+        {
+            CreateFlowOutputPort();
+        }
+
         if (info.hasFlowInput)
         {
             CreateFlowInputPort();
         }
 
-        if (info.hasFlowOutput)
+        foreach(FieldInfo property in typeInfo.GetFields())
         {
-            CreateFlowOutputPort();
+            if(property.GetCustomAttribute<ExposedPropertyAttribute>() is ExposedPropertyAttribute exposedProperty)
+            {
+                PropertyField field = DrawProperty(property.Name);
+                //field.RegisterValueChangeCallback(OnFieldChangeCallback);
+
+            }
+        }
+
+        RefreshExpandedState();
+    }
+
+    private void FetchSerializedProperty()
+    {
+        SerializedProperty nodes = m_serializedObject.FindProperty("m_nodes");
+        if (nodes.isArray)
+        {
+            int size = nodes.arraySize;
+            for (int i = 0; i < size; i++)
+            {
+                var element = nodes.GetArrayElementAtIndex(i);
+                var elementId = element.FindPropertyRelative("m_guid");
+                if (elementId.stringValue == m_graphNode.id)
+                {
+                    m_serializedProperty = element;
+                }
+            }
         }
     }
+
+    private PropertyField DrawProperty(string propertyName)
+    {
+        if(m_serializedProperty  == null)
+        {
+            FetchSerializedProperty();
+        }
+
+        SerializedProperty prop = m_serializedProperty.FindPropertyRelative(propertyName);
+        PropertyField field = new PropertyField(prop);
+        field.bindingPath = prop.propertyPath;
+        extensionContainer.Add(field);
+        return field;
+    }
+
 
     private void CreateFlowInputPort()
     {

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -108,9 +109,14 @@ public class CodeGraphView : GraphView
                 }
             }
 
-            foreach (Edge e in graphViewChange.elementsToRemove.OfType<Edge>())
+            List<Edge> edges = graphViewChange.elementsToRemove.OfType<Edge>().ToList();
+
+            if (edges.Count > 0) 
             {
-                RemoveConnection(e);
+                for (int i = edges.Count - 1; i >= 0; i--)
+                {
+                    RemoveConnection(edges[i]);
+                }
             }
 
         }
@@ -137,6 +143,7 @@ public class CodeGraphView : GraphView
 
         CodeGraphConnection connection = new CodeGraphConnection(inputNode.Node.id, inputIndex, outputNode.Node.id, outputIndex);
         m_codeGraph.Connections.Add(connection);
+        m_connectionDictionary.Add(edge, connection);
     }
 
     private void RemoveConnection(Edge e)
@@ -162,6 +169,8 @@ public class CodeGraphView : GraphView
         {
             AddNodeToGraph(node);
         }
+
+        BindNodes();
     }
 
     private void DrawConnections()
@@ -169,7 +178,7 @@ public class CodeGraphView : GraphView
         if(m_codeGraph.Connections == null) { return; }
         foreach (CodeGraphConnection connection in m_codeGraph.Connections)
         {
-            DrawConnection();
+            DrawConnection(connection);
         }
     }
 
@@ -211,18 +220,26 @@ public class CodeGraphView : GraphView
         m_serializedObject.Update();
 
         AddNodeToGraph(node);
+
+        BindNodes();
     }
 
     private void AddNodeToGraph(CodeGraphNode node)
     {
         node.typeName = node.GetType().AssemblyQualifiedName;
 
-        CodeGraphEditorNode editorNode = new CodeGraphEditorNode(node);
+        CodeGraphEditorNode editorNode = new CodeGraphEditorNode(node, m_serializedObject);
         editorNode.SetPosition(node.position);
 
         m_graphNodes.Add(editorNode);
         m_nodeDictionary.Add(node.id, editorNode);
 
         AddElement(editorNode);
+    }
+
+    private void BindNodes()
+    {
+        m_serializedObject.Update();
+        this.Bind(m_serializedObject);
     }
 }

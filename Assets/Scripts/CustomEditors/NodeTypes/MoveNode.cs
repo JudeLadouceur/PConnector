@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[NodeInfo("Start", "Process/Start", hasFlowInput:false)]
-public class StartNode : CodeGraphNode
+[NodeInfo("Move Self", "Transform/Move Self")]
+public class MoveNode : CodeGraphNode
 {
+    [ExposedProperty()]
+    public Vector3 direction;
+
     public override string OnProcess(CodeGraphAsset currentGraph)
     {
-        Debug.Log("Activating start node.");
+        currentGraph.gameObject.transform.position += direction;
+
         return base.OnProcess(currentGraph);
     }
 }

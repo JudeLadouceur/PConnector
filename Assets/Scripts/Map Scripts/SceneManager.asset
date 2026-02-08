@@ -15,7 +15,13 @@ MonoBehaviour:
   m_nodes:
   - rid: 3125607143557824513
   - rid: 3125607143557824514
-  m_connections: []
+  m_connections:
+  - inputPort:
+      nodeId: 3c8a9b7f-ef53-453f-a275-673e06762547
+      portIndex: 1
+    outputPort:
+      nodeId: 72b9787a-78c0-4227-94b7-2dab69025556
+      portIndex: 0
   references:
     version: 2
     RefIds:
@@ -25,10 +31,10 @@ MonoBehaviour:
         m_guid: 72b9787a-78c0-4227-94b7-2dab69025556
         m_position:
           serializedVersion: 2
-          x: 820
-          y: 233
-          width: 88
-          height: 101
+          x: 711
+          y: 204
+          width: 74
+          height: 77
         typeName: StartNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     - rid: 3125607143557824514
       type: {class: DebugLogNode, ns: , asm: Assembly-CSharp}
@@ -36,9 +42,10 @@ MonoBehaviour:
         m_guid: 3c8a9b7f-ef53-453f-a275-673e06762547
         m_position:
           serializedVersion: 2
-          x: 1078
-          y: 281
+          x: 1045
+          y: 291
           width: 119
           height: 77
         typeName: DebugLogNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
+        logMessage: Test
