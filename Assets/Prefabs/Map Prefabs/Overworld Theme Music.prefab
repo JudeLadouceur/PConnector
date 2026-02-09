@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3417431298905169957}
   - component: {fileID: 6870053782218213446}
   m_Layer: 0
-  m_Name: Music
+  m_Name: Overworld Theme Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
