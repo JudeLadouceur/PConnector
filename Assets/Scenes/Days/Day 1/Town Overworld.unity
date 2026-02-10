@@ -938,6 +938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate
       objectReference: {fileID: 0}
+    - target: {fileID: 990703567378073716, guid: 4594a1e3c4b11a4469e9023395ce7459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2029452105027194429, guid: 4594a1e3c4b11a4469e9023395ce7459, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.79
