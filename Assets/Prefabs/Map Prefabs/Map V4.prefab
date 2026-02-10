@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 4045231906626727052}
   - component: {fileID: 5094514642865373752}
   m_Layer: 0
-  m_Name: Bushes (8)
+  m_Name: RBush3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1651,7 +1651,7 @@ Animator:
   m_GameObject: {fileID: 1508459193210803344}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0fb9930edff251f45a25aa2ba67138e1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 64cca900f8c7ff04f8c3aa9a9e2b548d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3985,7 +3985,6 @@ Transform:
   - {fileID: 1716911785520472687}
   - {fileID: 4510542778902786093}
   - {fileID: 1023895757075886987}
-  - {fileID: 8144325779320429557}
   - {fileID: 8981354391966618550}
   - {fileID: 5301772078360155958}
   - {fileID: 2764059370241982321}
@@ -4488,7 +4487,7 @@ GameObject:
   - component: {fileID: 5664014212411671747}
   - component: {fileID: 7689952940952968135}
   m_Layer: 0
-  m_Name: Bushes (4)
+  m_Name: YBush2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4571,7 +4570,7 @@ Animator:
   m_GameObject: {fileID: 3304740386851286596}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a06659f5656bbf94e81afed4dd3c475d, type: 2}
+  m_Controller: {fileID: 9100000, guid: ba049d985a80cf340b8014e01bad3e82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5002,7 +5001,7 @@ GameObject:
   - component: {fileID: 6204722135331556271}
   - component: {fileID: 3622118844692032815}
   m_Layer: 0
-  m_Name: Bushes (2)
+  m_Name: PBush1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5821,7 +5820,7 @@ Animator:
   m_GameObject: {fileID: 4177126524963680526}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6ad82a723ecb6c42a81ba3585c18783, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a5bf706ba791a843a64fb6b6bbea8f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6114,7 +6113,7 @@ GameObject:
   - component: {fileID: 3633353676576737769}
   - component: {fileID: 688891943924053475}
   m_Layer: 0
-  m_Name: Bushes (7)
+  m_Name: PBush2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6197,7 +6196,7 @@ Animator:
   m_GameObject: {fileID: 4573826491885432194}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5416e41e5cddf3a48864911e678c9ffe, type: 2}
+  m_Controller: {fileID: 9100000, guid: a439a11e8f8c8b640a07b546e03dd63a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6564,7 +6563,7 @@ GameObject:
   - component: {fileID: 4466702419303261967}
   - component: {fileID: 5979341450928742166}
   m_Layer: 0
-  m_Name: Bushes (6)
+  m_Name: YBush3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6647,7 +6646,7 @@ Animator:
   m_GameObject: {fileID: 4887979152966134134}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 440fadfccbb1f7a4ab6ad94636a6495a, type: 2}
+  m_Controller: {fileID: 9100000, guid: ba049d985a80cf340b8014e01bad3e82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7552,7 +7551,7 @@ GameObject:
   - component: {fileID: 6942548453428422991}
   - component: {fileID: 761901089460489490}
   m_Layer: 0
-  m_Name: Bushes (9)
+  m_Name: PBush4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7567,11 +7566,11 @@ Transform:
   m_GameObject: {fileID: 5326423219030775539}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.618641, y: -9.038311, z: 0.04248662}
+  m_LocalPosition: {x: 10.366777, y: 15.763584, z: 0.078162216}
   m_LocalScale: {x: 2.259149, y: 2.259149, z: 2.259149}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 546039646112995581}
+  m_Father: {fileID: 4510542778902786093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6942548453428422991
 SpriteRenderer:
@@ -7635,7 +7634,7 @@ Animator:
   m_GameObject: {fileID: 5326423219030775539}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6e5c2f1f36248ea41a54fcd16245c165, type: 2}
+  m_Controller: {fileID: 9100000, guid: a439a11e8f8c8b640a07b546e03dd63a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7657,6 +7656,7 @@ GameObject:
   - component: {fileID: 876450888293982131}
   - component: {fileID: 2033609391261706450}
   - component: {fileID: 517646745116832652}
+  - component: {fileID: 4429286119267339050}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -7766,6 +7766,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0823555, y: -1.481312}
   m_Size: {x: 0.857996, y: 2.1573758}
   m_Direction: 0
+--- !u!95 &4429286119267339050
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332472999527192365}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a5bf706ba791a843a64fb6b6bbea8f8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5340457336166891309
 GameObject:
   m_ObjectHideFlags: 0
@@ -8055,7 +8076,7 @@ Animator:
   m_GameObject: {fileID: 5358878577212910304}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 18eff31bfcf64d548a3bf6136b768d02, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a5bf706ba791a843a64fb6b6bbea8f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8524,7 +8545,7 @@ GameObject:
   - component: {fileID: 8248981953476578518}
   - component: {fileID: 8109563298004259324}
   m_Layer: 0
-  m_Name: Bushes (3)
+  m_Name: RBush2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8607,7 +8628,7 @@ Animator:
   m_GameObject: {fileID: 5448766283865472847}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 892a9b0a6e4fe2a49ac861db9c394e6b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 64cca900f8c7ff04f8c3aa9a9e2b548d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10960,7 +10981,7 @@ GameObject:
   - component: {fileID: 3448248076090203783}
   - component: {fileID: 1387996222180306282}
   m_Layer: 0
-  m_Name: Bushes
+  m_Name: YBush1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11066,7 +11087,7 @@ GameObject:
   - component: {fileID: 8632416153423876612}
   - component: {fileID: 7891596411474344489}
   m_Layer: 0
-  m_Name: Bushes (5)
+  m_Name: PBush3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11149,7 +11170,7 @@ Animator:
   m_GameObject: {fileID: 6934028951831616102}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 71612017a68800b43b8a3842d75fea5c, type: 2}
+  m_Controller: {fileID: 9100000, guid: a439a11e8f8c8b640a07b546e03dd63a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11411,7 +11432,7 @@ Animator:
   m_GameObject: {fileID: 6954587336743247617}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0daa9ed3fae6b3f48aee63ccc6b9d227, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a5bf706ba791a843a64fb6b6bbea8f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11598,16 +11619,17 @@ Transform:
   - {fileID: 8292317215922624897}
   - {fileID: 5092295336700603950}
   - {fileID: 7011040771809919386}
-  - {fileID: 8486776264483098577}
-  - {fileID: 36354026570884426}
   - {fileID: 5483755449182784431}
+  - {fileID: 7760711431901190907}
+  - {fileID: 9190698070523306476}
+  - {fileID: 8144325779320429557}
+  - {fileID: 36354026570884426}
   - {fileID: 6299876388457249587}
+  - {fileID: 3812902608184748566}
+  - {fileID: 8486776264483098577}
   - {fileID: 6991833732018449990}
   - {fileID: 6964399981895727641}
-  - {fileID: 7760711431901190907}
   - {fileID: 8588312040314200241}
-  - {fileID: 3812902608184748566}
-  - {fileID: 9190698070523306476}
   - {fileID: 3004580795713889847}
   - {fileID: 876450888293982131}
   - {fileID: 907958745837224674}
@@ -11629,7 +11651,7 @@ GameObject:
   - component: {fileID: 4049770332244617515}
   - component: {fileID: 705821334643693392}
   m_Layer: 0
-  m_Name: Bushes (1)
+  m_Name: RBush1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12775,7 +12797,7 @@ GameObject:
   - component: {fileID: 8814092043611901963}
   - component: {fileID: 1047295634262505075}
   m_Layer: 0
-  m_Name: Bushes (10)
+  m_Name: YBush4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12858,7 +12880,7 @@ Animator:
   m_GameObject: {fileID: 8395318278784953767}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 05953ec82d758724fa553a1776d3f799, type: 2}
+  m_Controller: {fileID: 9100000, guid: ba049d985a80cf340b8014e01bad3e82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13446,7 +13468,7 @@ Animator:
   m_GameObject: {fileID: 8929675711831518232}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b4ab2b646c8a43843ab4b87bd8094dce, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a5bf706ba791a843a64fb6b6bbea8f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
