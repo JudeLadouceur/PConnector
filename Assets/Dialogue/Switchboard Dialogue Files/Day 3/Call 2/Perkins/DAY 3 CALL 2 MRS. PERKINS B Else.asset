@@ -15,15 +15,16 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "No answer? Wait, did I get connected to Mrs. Perkins? I heard she\u2019s
+    dialogue: "No answer? Wait, did I get connected to Ms. Perkins? I heard she\u2019s
       injured at the moment. Why would\u2026? Ah, forget it."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 576636320
+      Data2: 1310570524
+      Data3: -211952998
+      Data4: 918167090
+    Path: event:/Voices/Day 3/Call 2/Perkins B Else Connection/Seth - D3C2 - Perkins
+      B Else Connection
   barkEvent:
     Guid:
       Data1: 0
