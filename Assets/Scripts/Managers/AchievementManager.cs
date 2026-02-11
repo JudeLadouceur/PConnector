@@ -42,11 +42,16 @@ public class AchievementManager : MonoBehaviour
     public void ToggleAchievementView()
     {
         viewRoot.SetActive(!viewRoot.activeInHierarchy);
+        if (!FindObjectOfType<MovementScript>()) return;
+        MovementScript player = FindObjectOfType<MovementScript>();
+        if (player)
+        {
+            player.achieveFunny = viewRoot.activeInHierarchy;
+        }
         if (viewRoot.activeInHierarchy)
         {
             if (FindObjectOfType<MovementScript>())
             {
-                MovementScript player = FindObjectOfType<MovementScript>();
                 if (player)
                 {
                     viewRoot.transform.position = player.gameObject.transform.position;

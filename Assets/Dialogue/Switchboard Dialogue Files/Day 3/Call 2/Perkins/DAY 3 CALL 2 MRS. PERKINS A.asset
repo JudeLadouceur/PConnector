@@ -44,11 +44,12 @@ MonoBehaviour:
     dialogue: I will Mrs. Perkins. You have a good day.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 841549594
+      Data2: 1277850691
+      Data3: 938295706
+      Data4: -1494362598
+    Path: event:/Voices/Day 3/Call 2/Perkins A Connection/Seth - D3C2 - Perkins A
+      Connection
   barkEvent:
     Guid:
       Data1: 0

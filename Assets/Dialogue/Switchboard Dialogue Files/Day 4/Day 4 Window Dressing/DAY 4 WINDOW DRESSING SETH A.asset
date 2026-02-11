@@ -14,22 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: "Seth\u2019s Repair Garage. What\u2019s up?"
+    NewSpeakerName: 3
+    dialogue: "Seth\u2019s Repair Garage, just got back. What\u2019s up?"
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Uh, hey Seth. It\u2019s Bob. Do you know if Mrs. Perkins is missing
       one of her cats? I think I found one in my backyard."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Again? Probably. Why call me though? Just call Mrs. Perkins herself.
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Well\u2026 I tried. I think the switchboard operator messed it up."
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Ah, well forget it. I have Mrs. Perkins\u2019s email. I\u2019ll shoot
       her a message and ask for ya."
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: Thanks so much, Seth. Let me know what she says.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: I will, see ya.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

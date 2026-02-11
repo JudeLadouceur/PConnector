@@ -20,11 +20,12 @@ MonoBehaviour:
       like the only thing I\u2019m good at sometimes. I hope she\u2019ll be okay."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -980291742
+      Data2: 1107424109
+      Data3: 138371970
+      Data4: -1019472361
+    Path: event:/Voices/Day 3/Call 2/Perkins A Else Connection/Seth - D3C2 - Perkins
+      A Else Connection
   barkEvent:
     Guid:
       Data1: 0

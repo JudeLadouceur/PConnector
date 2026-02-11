@@ -28,11 +28,12 @@ MonoBehaviour:
       worry about it, it wasn\u2019t that important anyways. I\u2019ll just go. "
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1309540344
+      Data2: 1266034155
+      Data3: 1602443144
+      Data4: -1839503089
+    Path: event:/Voices/Day 3/Call 2/Perkins B Connection/Seth - D3C2 - Perkins B
+      Connection
   barkEvent:
     Guid:
       Data1: 0

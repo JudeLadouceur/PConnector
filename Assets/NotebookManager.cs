@@ -116,6 +116,7 @@ public class NotebookManager : MonoBehaviour
     }
     public void ToggleNotebook()
     {
+        if (!canBeActive) return;
         if (isOpen)
         {
             toggleIcon.sprite = closedIcon;
@@ -215,5 +216,13 @@ public class NotebookManager : MonoBehaviour
             temp.GetComponent<NotebookTextUpdate>().SetText(n.note);
         }
             
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ToggleNotebook();
+        }
     }
 }

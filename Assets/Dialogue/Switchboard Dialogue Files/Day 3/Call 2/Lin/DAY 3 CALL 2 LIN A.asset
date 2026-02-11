@@ -43,11 +43,11 @@ MonoBehaviour:
     dialogue: See ya, Seth!
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1484914631
+      Data2: 1100129439
+      Data3: -1215160431
+      Data4: -231781040
+    Path: event:/Voices/Day 3/Call 2/Lin A Connection/Lin - D3C2 - Lin A Connection
   barkEvent:
     Guid:
       Data1: 0

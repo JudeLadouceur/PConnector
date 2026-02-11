@@ -14,12 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Hey there. It\u2019s Seth. I\u2019m gonna be out of town tomorrow,
       finally picking up that delivery of parts I was getting in the next town over.
       I already put out a notice for my shop, but I\u2019ve had a few good chats
       with Lin recently and just wanted to let them know personally. Would you mind
       connecting me to \u2018em?"
   voiceLineEvent:
+    Guid:
+      Data1: -957616454
+      Data2: 1147677906
+      Data3: 860806569
+      Data4: 1080059916
+    Path: event:/Voices/Day 3/Call 2/Seth Initial/Seth - D3C2 - Initial
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

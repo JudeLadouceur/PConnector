@@ -37,11 +37,12 @@ MonoBehaviour:
       an email or whatever. Hopefully he checks it in time."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -233484629
+      Data2: 1078006605
+      Data3: -1617250390
+      Data4: 674849458
+    Path: event:/Voices/Day 3/Window Dressing Call/Lin Connection/Delivery Guy -
+      D3WD - Lin Connection
   barkEvent:
     Guid:
       Data1: 0

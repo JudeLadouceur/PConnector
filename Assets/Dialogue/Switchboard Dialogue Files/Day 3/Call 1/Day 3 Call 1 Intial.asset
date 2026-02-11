@@ -20,16 +20,16 @@ MonoBehaviour:
       of tomato sauce, and I think they screwed up the order!"
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: "It expired a month ago! Ahhhhh, I don\u2019t know what to do! I want
+    dialogue: "Expired a month ago! Ahhhhh, I don\u2019t know what to do! I want
       to get the word out as fast as I can, but I don\u2019t know who to talk to!
       Could you help me out?"
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -464912707
+      Data2: 1079715830
+      Data3: 1542109110
+      Data4: 822387559
+    Path: event:/Voices/Day 3/Call 1/Lin Initial/Lin - D3-C1-Initial
   barkEvent:
     Guid:
       Data1: 0

@@ -52,11 +52,11 @@ MonoBehaviour:
     dialogue: You too, Lin. Good luck.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -992836663
+      Data2: 1190477640
+      Data3: 1358946999
+      Data4: 2043437428
+    Path: event:/Voices/Day 3/Call 1/Seth B Connection/Lin - D3C1 - Seth B Connection
   barkEvent:
     Guid:
       Data1: 0

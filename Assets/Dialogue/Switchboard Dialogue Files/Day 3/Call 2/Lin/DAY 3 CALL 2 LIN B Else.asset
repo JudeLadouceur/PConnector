@@ -36,11 +36,12 @@ MonoBehaviour:
     dialogue: Thanks, Lin. Have a good day.
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 150395017
+      Data2: 1295849170
+      Data3: -1414138442
+      Data4: 1225611833
+    Path: event:/Voices/Day 3/Call 2/Lin B Else Connection/Lin - D3C2 - Lin B Else
+      Connection
   barkEvent:
     Guid:
       Data1: 0

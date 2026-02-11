@@ -21,11 +21,12 @@ MonoBehaviour:
       you don\u2019t direct people to the shop."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -42766243
+      Data2: 1333884462
+      Data3: 854810041
+      Data4: 1746194955
+    Path: event:/Voices/Day 3/Call 2/Seth A Else Initial/Seth - D3C2 - Seth A Else
+      Initial
   barkEvent:
     Guid:
       Data1: 0
