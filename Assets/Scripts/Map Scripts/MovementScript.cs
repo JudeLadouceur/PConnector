@@ -9,6 +9,7 @@ public class MovementScript : MonoBehaviour
     public Rigidbody2D rb;
     public bool Funny;
     public bool tutFunny;
+    public bool achieveFunny = false;
     private Animator playerAnim;
 
     private Vector2 moveDirection;
@@ -28,14 +29,16 @@ public class MovementScript : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Tab) && canToggle)
+        /*if (Input.GetKeyDown(KeyCode.Tab) && canToggle)
         {
             Funny = !Funny;
-        }
+        }*/
         moveSpeed = Funny ? 0f : 5f;
         if (tutFunny) moveSpeed = 0;
+        if (achieveFunny) moveSpeed = 0;
         if (Funny) return;
         if (tutFunny) return;
+        if(achieveFunny) return;
 
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
