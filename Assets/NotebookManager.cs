@@ -164,7 +164,7 @@ public class NotebookManager : MonoBehaviour
                 AddNote(note);
             }
         }
-        string headerText = dayNames[TimeManager.dayNumber] + " - Day " + TimeManager.dayNumber.ToString() + "/5";
+        string headerText = dayNames[TimeManager.dayNumber] + " - Day " + (TimeManager.dayNumber + 1).ToString() + "/5";
         NotebookHeader.instance.UpdateHeader(headerText);
     }
 
