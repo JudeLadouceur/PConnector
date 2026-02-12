@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class CodeGraphEditorWindow : EditorWindow
 {
-    public static void Open(CodeGraphAsset target)
+    public static void Open(SceneManager target)
     {
         CodeGraphEditorWindow[] windows = Resources.FindObjectsOfTypeAll<CodeGraphEditorWindow>();
         foreach (var w in windows)
@@ -20,12 +20,12 @@ public class CodeGraphEditorWindow : EditorWindow
         }
 
         CodeGraphEditorWindow window = CreateWindow<CodeGraphEditorWindow>(typeof(CodeGraphEditorWindow), typeof(SceneView));
-        window.titleContent = new GUIContent($"{target.name}", EditorGUIUtility.ObjectContent(null, typeof(CodeGraphAsset)).image);
+        window.titleContent = new GUIContent($"{target.name}", EditorGUIUtility.ObjectContent(null, typeof(SceneManager)).image);
         window.Load(target);
     }
 
     [SerializeField]
-    private CodeGraphAsset m_currentGraph;
+    private SceneManager m_currentGraph;
 
     [SerializeField]
     private SerializedObject m_serializedObject;
@@ -33,7 +33,7 @@ public class CodeGraphEditorWindow : EditorWindow
     [SerializeField]
     private CodeGraphView m_currentView;
 
-    public CodeGraphAsset sceneManager => m_currentGraph;
+    public SceneManager sceneManager => m_currentGraph;
 
     private void OnEnable()
     {
@@ -50,7 +50,7 @@ public class CodeGraphEditorWindow : EditorWindow
         }
     }
 
-    private void Load(CodeGraphAsset target)
+    private void Load(SceneManager target)
     {
         m_currentGraph = target;
         DrawGraph();

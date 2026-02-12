@@ -84,8 +84,8 @@ public class NotebookManager : MonoBehaviour
         }
         bulletPoints = new List<GameObject>();
 
-        SceneManager.activeSceneChanged += NotebookCheckScene;
-        NotebookCheckScene(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
+        UnityEngine.SceneManagement.SceneManager.activeSceneChanged += NotebookCheckScene;
+        NotebookCheckScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.SceneManager.GetActiveScene());
     }
 
     public void NotebookCheckScene(Scene scene1, Scene scene2)
@@ -100,7 +100,7 @@ public class NotebookManager : MonoBehaviour
         canBeActive = false;
         foreach(string frag in approvedSceneFragments)
         {
-            if (SceneManager.GetActiveScene().name.Contains(frag))
+            if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains(frag))
             {
                 canBeActive = true;
             }

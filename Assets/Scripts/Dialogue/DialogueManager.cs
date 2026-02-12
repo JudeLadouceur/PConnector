@@ -46,9 +46,9 @@ public class DialogueManager : MonoBehaviour
         speakerProfile.sprite = speakerProfilePictures[0];
         dialogueBox.SetActive(false);
 
-        SceneManager.activeSceneChanged += SceneTransition;
+        UnityEngine.SceneManagement.SceneManager.activeSceneChanged += SceneTransition;
 
-        if(SceneManager.GetActiveScene().name.Contains("witchboard")) FindSwitchboardReferences();
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard")) FindSwitchboardReferences();
     }
 
     private void Update()
@@ -162,7 +162,7 @@ public class DialogueManager : MonoBehaviour
             audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
         }
 
-        if (!SceneManager.GetActiveScene().name.Contains("witchboard"))
+        if (!UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard"))
         {
             MovementScript.instance.Funny = false;
             MovementScript.instance.canToggle = true;
@@ -226,7 +226,7 @@ public class DialogueManager : MonoBehaviour
     {
         print("End of day");
 
-        CodeGraphAsset.instance.GoToNextScene();
+        SceneManager.instance.GoToNextScene();
 
         //if (TutorialSwitchboard.instance != null)
         //{

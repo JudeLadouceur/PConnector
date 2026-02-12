@@ -21,7 +21,7 @@ public class SceneNode : CodeGraphNode
         }
         else
         {
-            SceneManager.LoadScene(scene.name);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(scene.name);
         }
     }
 }

@@ -19,14 +19,14 @@ public class SceneTransitionTrigger : Interactables
     {
         if (interacted) return;
         interacted = true;
-        if(!goToSwitchboard) CodeGraphAsset.instance.GoToNextScene();
+        if(!goToSwitchboard) SceneManager.instance.GoToNextScene();
         else if (SceneLoadManager.Instance != null)
         {
             SceneLoadManager.Instance.LoadSceneWithFade("Switchboard");
         }
         else
         {
-            SceneManager.LoadScene("Switchboard");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Switchboard");
         }
     }
 

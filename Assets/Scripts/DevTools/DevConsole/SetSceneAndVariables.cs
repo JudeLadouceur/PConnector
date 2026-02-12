@@ -60,7 +60,7 @@ public class SetSceneAndVariables : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Switchboard");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Switchboard");
         }
 
         //}

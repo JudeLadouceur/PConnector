@@ -10,7 +10,7 @@ using UnityEngine.UIElements;
 
 public class CodeGraphView : GraphView
 {
-    private CodeGraphAsset m_codeGraph;
+    private SceneManager m_codeGraph;
     private SerializedObject m_serializedObject;
     private CodeGraphEditorWindow m_window;
 
@@ -25,7 +25,7 @@ public class CodeGraphView : GraphView
     public CodeGraphView(SerializedObject serializedObject, CodeGraphEditorWindow window)
     {
         m_serializedObject = serializedObject;
-        m_codeGraph = (CodeGraphAsset)serializedObject.targetObject;
+        m_codeGraph = (SceneManager)serializedObject.targetObject;
         m_window = window;
 
         m_graphNodes = new List<CodeGraphEditorNode>();

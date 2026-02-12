@@ -52,7 +52,7 @@ public class SceneTransitionTargets : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(targetName);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(targetName);
         }
 
         //Vars.Clear();

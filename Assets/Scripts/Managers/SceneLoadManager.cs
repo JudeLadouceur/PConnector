@@ -30,7 +30,7 @@ public class SceneLoadManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            SceneManager.sceneLoaded += OnSceneLoaded;
+            UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
         } else
         {
             Destroy(gameObject);
@@ -52,7 +52,7 @@ public class SceneLoadManager : MonoBehaviour
                 if(state == FadeState.Out)
                 {
                     //Load and blackout
-                    SceneManager.LoadScene(sceneNameToLoad);
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(sceneNameToLoad);
                     fadeImage.color = fadeColor;
                 } else if (state == FadeState.In)
                 {

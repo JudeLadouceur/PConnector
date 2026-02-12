@@ -3,10 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Scene Manager/New Manager")]
-public class CodeGraphAsset : ScriptableObject
+public class SceneManager : ScriptableObject
 {
     [SerializeReference]
     private List<CodeGraphNode> m_nodes;
@@ -23,9 +24,9 @@ public class CodeGraphAsset : ScriptableObject
     private string m_currentSceneID;
     public string currentSceneID => m_currentSceneID;
 
-    public static CodeGraphAsset instance;
+    public static SceneManager instance;
 
-    public CodeGraphAsset()
+    public SceneManager()
     {
         m_nodes = new List<CodeGraphNode>();
         m_connections = new List<CodeGraphConnection>();
@@ -130,10 +131,17 @@ public class CodeGraphAsset : ScriptableObject
 
         if(node != null)
         {
+            m_currentSceneID = node.id;
             Debug.Log("Processing node " + node.id);
             Debug.Log(node.GetNodeType());
             node.OnProcess();
         }
+    }
+
+    public void GoToScene(string nodeID)
+    {
+        m_currentSceneID = nodeID;
+        GetNode(nodeID).OnProcess();
     }
 
     public CodeGraphNode GetNodeFromOutput(string outputNodeId, int portIndex, int connectionIndex)

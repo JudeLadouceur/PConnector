@@ -6,9 +6,9 @@ using UnityEngine;
 public class CodeGraphObject : MonoBehaviour
 {
     [SerializeField]
-    private CodeGraphAsset m_graphAsset;
+    private SceneManager m_graphAsset;
 
-    private CodeGraphAsset graphInstance;
+    private SceneManager graphInstance;
 
     private void OnEnable()
     {

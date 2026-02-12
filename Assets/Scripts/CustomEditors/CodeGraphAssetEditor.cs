@@ -4,16 +4,16 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEngine;
 
-[CustomEditor(typeof(CodeGraphAsset))]
+[CustomEditor(typeof(SceneManager))]
 public class CodeGraphAssetEditor : Editor
 {
     [OnOpenAsset]
     public static bool OnOpenAsset(int instanceId, int index) 
     {
         Object asset = EditorUtility.InstanceIDToObject(instanceId);
-        if (asset.GetType() == typeof(CodeGraphAsset))
+        if (asset.GetType() == typeof(SceneManager))
         {
-            CodeGraphEditorWindow.Open((CodeGraphAsset)asset);
+            CodeGraphEditorWindow.Open((SceneManager)asset);
             return true;
         }
         return false;
@@ -23,7 +23,7 @@ public class CodeGraphAssetEditor : Editor
     {
         if (GUILayout.Button("Open"))
         {
-            CodeGraphEditorWindow.Open((CodeGraphAsset)target);
+            CodeGraphEditorWindow.Open((SceneManager)target);
         }
     }
 }

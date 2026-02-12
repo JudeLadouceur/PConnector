@@ -21,11 +21,11 @@ public class MainMenu : MonoBehaviour
         {
             if (SceneLoadManager.Instance != null)
             {
-                CodeGraphAsset.instance.GoToNextScene();
+                SceneManager.instance.GoToNextScene();
             }
             else
             {
-                SceneManager.LoadScene("tutorial switchboard");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("tutorial switchboard");
             }
         }
         else
@@ -36,7 +36,7 @@ public class MainMenu : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("Town Overworld");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Town Overworld");
             }
         }
 
@@ -115,7 +115,7 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("tutorial switchboard");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("tutorial switchboard");
         }
     }
 }
