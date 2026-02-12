@@ -45,6 +45,9 @@ public class NotebookManager : MonoBehaviour
     private List<GameObject> bulletPoints;
 
     private string[] dayNames;
+    private bool showNotoif = false;
+    public GameObject notifObject;
+
 
     private void Start()
     {
@@ -134,10 +137,9 @@ public class NotebookManager : MonoBehaviour
             toggleIcon.sprite = openIcon;
             bookObjects.transform.position=openTarget.transform.position;
             isOpen = true;
-
             FMODSoundPlayer.Instance.PlayFMODSound(0);
-
             //NotebookHeader.instance.UpdateHeader();
+            EndNotif();
         }
         EventSystem.current.SetSelectedGameObject(null);
     }
@@ -165,11 +167,13 @@ public class NotebookManager : MonoBehaviour
                 AddNote(note);
                     
             }
+            
         }
 
         //Debug.Log(dayNames[currentDay]);
         string headerText = dayNames[currentDay] + " - Day " + (currentDay + 1).ToString() + "/5";
         NotebookHeader.instance.UpdateHeader(headerText);
+        StartNotif();
     }
 
     private void EnableDisableNotebook()
@@ -237,5 +241,17 @@ public class NotebookManager : MonoBehaviour
         {
             ToggleNotebook();
         }
+    }
+
+    private void StartNotif()
+    {
+        notifObject.SetActive(true);
+        showNotoif = true;
+    }
+
+    private void EndNotif()
+    {
+        notifObject.SetActive(false);
+        showNotoif = false;
     }
 }
