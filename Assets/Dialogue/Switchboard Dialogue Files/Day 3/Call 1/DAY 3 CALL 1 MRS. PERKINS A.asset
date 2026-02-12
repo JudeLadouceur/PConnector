@@ -25,7 +25,7 @@ MonoBehaviour:
     dialogue: Oh? What is it you need, dear?
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Well I was putting out a ton of pizzas to be delivered today, moving
+    dialogue: Well, I was putting out a ton of pizzas to be delivered today, moving
       at record speed might I add, uh-but I checked the label and found out that
       something screwed up with my delivery, it expired before it even got here!
       I need to get the word out before those deliveries arrive, but I have no idea
@@ -43,7 +43,7 @@ MonoBehaviour:
       be messing up like this\u2026"
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "Well you don\u2019t need to deal with it alone, dear. How about you
+    dialogue: "Well, you don\u2019t need to deal with it alone, dear. How about you
       come by my place and we can have a nice chat. You don\u2019t have to deal with
       this alone, you know."
   - speakerName: LIN
