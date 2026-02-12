@@ -7392,12 +7392,20 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.size
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.size
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[4].note
+      value: Test
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.data[0].note
@@ -7439,6 +7447,10 @@ PrefabInstance:
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.data[3].note
       value: What is Mrs. Perkins doing? She seems busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[4].varName
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.data[1].varName
@@ -7487,6 +7499,14 @@ PrefabInstance:
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.data[3].varName
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[4].character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[0].notes.Array.data[4].usesVariable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.data[0].usesVariable
