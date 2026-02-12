@@ -43,6 +43,8 @@ public class NotebookManager : MonoBehaviour
 
     private List<GameObject> bulletPoints;
 
+    private string[] dayNames;
+
     private void Start()
     {
         //Manager instance
@@ -55,6 +57,8 @@ public class NotebookManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+
+        dayNames = new string[5] {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
         //Check for too many notes
         foreach(CNotes noteSet in days)
         {
@@ -160,6 +164,8 @@ public class NotebookManager : MonoBehaviour
                 AddNote(note);
             }
         }
+        string headerText = dayNames[TimeManager.dayNumber] + " - Day " + TimeManager.dayNumber.ToString() + "/5";
+        NotebookHeader.instance.UpdateHeader(headerText);
     }
 
     private void EnableDisableNotebook()
