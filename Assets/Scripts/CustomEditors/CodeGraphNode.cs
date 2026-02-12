@@ -15,6 +15,10 @@ public class CodeGraphNode
 
     public string typeName;
 
+    protected bool m_continueAfterProcess = false;
+
+    public bool continueAfterProcess => m_continueAfterProcess;
+
     public string id => m_guid;
     public Rect position => m_position;
 
@@ -42,6 +46,11 @@ public class CodeGraphNode
     }
 
     public virtual void OnProcess()
+    {
+        
+    }
+
+    public virtual void SetUniqueVariables()
     {
         
     }

@@ -50,6 +50,7 @@ public class CodeGraphView : GraphView
         this.AddManipulator(new SelectionDragger());
         this.AddManipulator(new RectangleSelector());
         this.AddManipulator(new ClickSelector());
+        this.AddManipulator(new ContentZoomer());
 
         DrawNodes();
         DrawConnections();

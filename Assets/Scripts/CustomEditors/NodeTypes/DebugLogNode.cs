@@ -12,4 +12,9 @@ public class DebugLogNode : CodeGraphNode
     {
         Debug.Log(logMessage);
     }
+
+    public override void SetUniqueVariables()
+    {
+        m_continueAfterProcess = true;
+    }
 }

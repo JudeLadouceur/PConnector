@@ -78,15 +78,24 @@ public class CodeGraphAsset : ScriptableObject
 
     public void GoToNextScene()
     {
-        Debug.Log(m_currentSceneID);
+        Debug.Log("Starting scene: " + m_currentSceneID);
 
-        int i = 0;
+        int i = -1;
 
-        CodeGraphNode node;
+        CodeGraphNode node = null;
+
+        bool goToNextConnection = true;
 
         while (true) 
-        { 
-            node = GetNodeFromOutput(m_currentSceneID, 0, i);
+        {
+            Debug.Log("Go to next connection: " + goToNextConnection);
+            if (goToNextConnection)
+            {
+                i++;
+                node = GetNodeFromOutput(m_currentSceneID, 0, i);
+            }
+            else goToNextConnection = true;
+
             if (node == null)
             {
                 Debug.Log(m_currentSceneID);
@@ -94,19 +103,29 @@ public class CodeGraphAsset : ScriptableObject
                 Debug.LogError("No valid connection was found. Either the node has no connections or none of the connections met all the variables required to move to it. The current scene is: " + n.scene);
                 break;
             }
-            if (node.GetNodeType() == "Debug Log")
-            {
-                node.OnProcess();
-                node = GetNodeFromOutput(node.id, 0, 0);
-            }
-            if (node.GetNodeType() == "VariableCheckNode")
+            node.SetUniqueVariables();
+            if (node.GetNodeType() == "Variable Check")
             {
                 VariableCheckNode vNode = node as VariableCheckNode;
-                if (vNode.CheckIfValid()) break;
+                if (vNode.CheckIfValid())
+                {
+                    node = GetNodeFromOutput(node.id, 0, 0);
+                    goToNextConnection = false;
+                }
+                else goToNextConnection = true;
+            }
+            else if (node.continueAfterProcess)
+            {
+                Debug.Log("Processing node: " + node + ". ID: " + node.id);
+
+                node.OnProcess();
+                node = GetNodeFromOutput(node.id, 0, 0);
+
+                Debug.Log("Then going to: " + node + ". ID: " + node.id);
+
+                goToNextConnection = false;
             }
             else break;
-            
-            i++;
         }
 
         if(node != null)
