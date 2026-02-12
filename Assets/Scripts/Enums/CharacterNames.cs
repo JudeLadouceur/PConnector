@@ -12,5 +12,6 @@ public enum Characters
     Lucin,
     Boss,
     Stewart,
-    Simon
+    Simon,
+    DeliveryGuy
 }
