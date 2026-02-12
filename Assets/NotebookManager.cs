@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -43,6 +44,11 @@ public class NotebookManager : MonoBehaviour
 
     private List<GameObject> bulletPoints;
 
+    private string[] dayNames;
+    private bool showNotoif = false;
+    public GameObject notifObject;
+
+
     private void Start()
     {
         //Manager instance
@@ -55,6 +61,8 @@ public class NotebookManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+
+        dayNames = new string[5] {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
         //Check for too many notes
         foreach(CNotes noteSet in days)
         {
@@ -129,10 +137,9 @@ public class NotebookManager : MonoBehaviour
             toggleIcon.sprite = openIcon;
             bookObjects.transform.position=openTarget.transform.position;
             isOpen = true;
-
             FMODSoundPlayer.Instance.PlayFMODSound(0);
-
-            NotebookHeader.instance.UpdateHeader();
+            //NotebookHeader.instance.UpdateHeader();
+            EndNotif();
         }
         EventSystem.current.SetSelectedGameObject(null);
     }
@@ -158,8 +165,15 @@ public class NotebookManager : MonoBehaviour
             } else if (note.character==Characters.None)
             {
                 AddNote(note);
+                    
             }
+            
         }
+
+        //Debug.Log(dayNames[currentDay]);
+        string headerText = dayNames[currentDay] + " - Day " + (currentDay + 1).ToString() + "/5";
+        NotebookHeader.instance.UpdateHeader(headerText);
+        StartNotif();
     }
 
     private void EnableDisableNotebook()
@@ -193,12 +207,14 @@ public class NotebookManager : MonoBehaviour
             {
                 if (val != 0)
                 {
+                    if (n.note == "") return;
                     GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
                     bulletPoints.Add(temp);
                     temp.GetComponent<NotebookTextUpdate>().SetText(n.note);
                 }
                 else
                 {
+                    if (n.varFalseNote == "") return;
                     GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
                     bulletPoints.Add(temp);
                     temp.GetComponent<NotebookTextUpdate>().SetText(n.varFalseNote);
@@ -211,6 +227,7 @@ public class NotebookManager : MonoBehaviour
             
         } else
         {
+            if (n.note == "") return;
             GameObject temp = Instantiate(bulletTextPrefab, infoRoot.transform);
             bulletPoints.Add(temp);
             temp.GetComponent<NotebookTextUpdate>().SetText(n.note);
@@ -224,5 +241,17 @@ public class NotebookManager : MonoBehaviour
         {
             ToggleNotebook();
         }
+    }
+
+    private void StartNotif()
+    {
+        notifObject.SetActive(true);
+        showNotoif = true;
+    }
+
+    private void EndNotif()
+    {
+        notifObject.SetActive(false);
+        showNotoif = false;
     }
 }

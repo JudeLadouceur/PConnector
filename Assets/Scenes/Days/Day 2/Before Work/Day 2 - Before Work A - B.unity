@@ -122,67 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &532552546
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 34.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4421827365263882796, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: m_Name
-      value: Health Care Attendent Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 5733766642363504181, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
-      propertyPath: dialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: dc4e5a9b9c289f94b9abd0f1afdb25ac, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
 --- !u!1 &549276365
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +426,107 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+--- !u!1001 &778721210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.13497745
+      objectReference: {fileID: 0}
+    - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.13497745
+      objectReference: {fileID: 0}
+    - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.13497745
+      objectReference: {fileID: 0}
+    - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684953513879090501, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.45919123
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684953513879090501, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0853271
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684953513879090501, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.05379329
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684953513879090501, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0055648806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421827365263882796, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_Name
+      value: Health Care Attendent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733766642363504181, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: dc4e5a9b9c289f94b9abd0f1afdb25ac, type: 2}
+    - target: {fileID: 5733766642363504181, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: canAddNotes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101473469264918499, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ab4ff3de6b5faa144a8f2f4abd675505, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
 --- !u!1001 &864033718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -987,9 +1027,9 @@ SceneRoots:
   - {fileID: 864033718}
   - {fileID: 1492424009}
   - {fileID: 1395492216}
-  - {fileID: 532552546}
   - {fileID: 763937531}
   - {fileID: 1292798799}
   - {fileID: 1918912881}
   - {fileID: 1888351483}
   - {fileID: 579112536}
+  - {fileID: 778721210}
