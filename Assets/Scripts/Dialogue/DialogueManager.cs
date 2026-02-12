@@ -225,15 +225,18 @@ public class DialogueManager : MonoBehaviour
     public void EndDay()
     {
         print("End of day");
-        if (TutorialSwitchboard.instance != null)
-        {
-            SceneManager.LoadScene("Tutorial World");
-        } else
-        {
-            string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
 
-            transitionTargets.FindTargetScene(target);
-        }
+        CodeGraphAsset.instance.GoToNextScene();
+
+        //if (TutorialSwitchboard.instance != null)
+        //{
+        //    SceneManager.LoadScene("Tutorial World");
+        //} else
+        //{
+        //    string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
+
+        //    transitionTargets.FindTargetScene(target);
+        //}
 
 
             

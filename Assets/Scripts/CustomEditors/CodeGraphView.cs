@@ -243,4 +243,9 @@ public class CodeGraphView : GraphView
         m_serializedObject.Update();
         this.Bind(m_serializedObject);
     }
+
+    public void HighlightNode(CodeGraphNode node)
+    {
+        
+    }
 }
