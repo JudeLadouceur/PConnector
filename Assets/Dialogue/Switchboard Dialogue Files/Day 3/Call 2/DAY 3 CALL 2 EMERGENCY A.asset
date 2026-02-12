@@ -21,11 +21,11 @@ MonoBehaviour:
     dialogue: ... *Click*
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1949784896
+      Data2: 1250769283
+      Data3: -449447504
+      Data4: -1367525749
+    Path: event:/Voices/Day 3/Call 2/Emergency A Connection/D3C2 - Emergency A Connection
   barkEvent:
     Guid:
       Data1: 0
