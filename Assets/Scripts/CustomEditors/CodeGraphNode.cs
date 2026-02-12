@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [System.Serializable]
@@ -31,14 +33,16 @@ public class CodeGraphNode
         m_position = position;
     }
 
-    public virtual string OnProcess(CodeGraphAsset currentGraph)
+    public virtual string GetNodeType()
     {
-        CodeGraphNode nextNodeInFlow = currentGraph.GetNodeFromOutput(m_guid, 0);
-        if (nextNodeInFlow != null)
-        {
-            return nextNodeInFlow.id;
-        }
+        Type typeInfo = GetType();
+        NodeInfoAttribute info = typeInfo.GetCustomAttribute<NodeInfoAttribute>();
 
-        return string.Empty;
+        return info.title;
+    }
+
+    public virtual void OnProcess()
+    {
+        
     }
 }

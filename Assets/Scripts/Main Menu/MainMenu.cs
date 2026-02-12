@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
         {
             if (SceneLoadManager.Instance != null)
             {
-                SceneLoadManager.Instance.LoadSceneWithFade("tutorial switchboard");
+                CodeGraphAsset.instance.GoToNextScene();
             }
             else
             {

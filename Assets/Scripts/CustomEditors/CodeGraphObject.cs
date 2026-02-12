@@ -13,27 +13,19 @@ public class CodeGraphObject : MonoBehaviour
     private void OnEnable()
     {
         graphInstance = Instantiate(m_graphAsset);
+        Debug.Log("Instantiated graph");
         ExecuteAsset();
     }
 
     private void ExecuteAsset()
     {
-        graphInstance.Init(gameObject);
-        
-        CodeGraphNode startNode = graphInstance.GetStartNode();
+        CodeGraphNode mainMenuNode = graphInstance.GetMainMenuNode();
 
-        ProcessAndMoveToNextNode(startNode);
+        graphInstance.Init(gameObject, mainMenuNode);
     }
 
-    private void ProcessAndMoveToNextNode(CodeGraphNode startNode)
+    public void GoToNextScene()
     {
-        string nextNodeId = startNode.OnProcess(graphInstance);
-
-        if (!string.IsNullOrEmpty(nextNodeId))
-        {
-            CodeGraphNode node = graphInstance.GetNode(nextNodeId);
-
-            ProcessAndMoveToNextNode(node);
-        }
+        graphInstance.GoToNextScene();
     }
 }

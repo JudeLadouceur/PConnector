@@ -43,15 +43,15 @@ public class CodeGraphEditorNode : Node
 
         if (info.hasFlowOutput)
         {
-            CreateFlowOutputPort();
+            CreateFlowOutputPort(info.hasMultipleFlowOutputs);
         }
 
         if (info.hasFlowInput)
         {
-            CreateFlowInputPort();
+            CreateFlowInputPort(info.hasMultipleFlowInputs);
         }
 
-        foreach(FieldInfo property in typeInfo.GetFields())
+        foreach (FieldInfo property in typeInfo.GetFields())
         {
             if(property.GetCustomAttribute<ExposedPropertyAttribute>() is ExposedPropertyAttribute exposedProperty)
             {
@@ -97,18 +97,26 @@ public class CodeGraphEditorNode : Node
     }
 
 
-    private void CreateFlowInputPort()
+    private void CreateFlowInputPort(bool hasMultipleInputs)
     {
-        Port inputPort = InstantiatePort(Orientation.Horizontal, Direction.Input, Port.Capacity.Multi, typeof(PortTypes.FlowPort));
+        Port.Capacity capacity = new Port.Capacity();
+        if (hasMultipleInputs) capacity = Port.Capacity.Multi;
+        else capacity = Port.Capacity.Single;
+
+        Port inputPort = InstantiatePort(Orientation.Horizontal, Direction.Input, capacity, typeof(PortTypes.FlowPort));
         inputPort.portName = "Input";
         inputPort.tooltip = "The flow input";
         m_ports.Add(inputPort);
         inputContainer.Add(inputPort);
     }
 
-    private void CreateFlowOutputPort()
+    private void CreateFlowOutputPort(bool hasMultipleOutputs)
     {
-        m_outputPort = InstantiatePort(Orientation.Horizontal, Direction.Output, Port.Capacity.Multi, typeof(PortTypes.FlowPort));
+        Port.Capacity capacity = new Port.Capacity();
+        if (hasMultipleOutputs) capacity = Port.Capacity.Multi;
+        else capacity = Port.Capacity.Single;
+
+        m_outputPort = InstantiatePort(Orientation.Horizontal, Direction.Output, capacity, typeof(PortTypes.FlowPort));
         m_outputPort.portName = "Out";
         m_outputPort.tooltip = "The flow output";
         m_ports.Add(m_outputPort);

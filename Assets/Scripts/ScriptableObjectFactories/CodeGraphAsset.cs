@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Scene Manager/New Manager")]
@@ -19,14 +20,22 @@ public class CodeGraphAsset : ScriptableObject
 
     public GameObject gameObject;
 
+    private string m_currentSceneID;
+    public string currentSceneID => m_currentSceneID;
+
+    public static CodeGraphAsset instance;
+
     public CodeGraphAsset()
     {
         m_nodes = new List<CodeGraphNode>();
         m_connections = new List<CodeGraphConnection>();
     }
 
-    public void Init(GameObject gameObject)
+    public void Init(GameObject gameObject, CodeGraphNode mainMenuNode)
     {
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
+
         this.gameObject = gameObject;
 
         m_nodeDictionary = new Dictionary<string, CodeGraphNode>();
@@ -35,17 +44,25 @@ public class CodeGraphAsset : ScriptableObject
         {
             m_nodeDictionary.Add(node.id, node);
         }
+
+        Debug.Log(mainMenuNode.id);
+
+        m_currentSceneID = mainMenuNode.id;
+
+        Debug.Log(m_currentSceneID);
     }
 
-    public CodeGraphNode GetStartNode()
+    public CodeGraphNode GetMainMenuNode()
     {
-        StartNode[] startNodes = Nodes.OfType<StartNode>().ToArray();
+        MainMenuNode[] startNodes = Nodes.OfType<MainMenuNode>().ToArray();
 
         if(startNodes.Length == 0)
         {
             Debug.LogError("There is no start node in this code graph.");
             return null;
         }
+
+        Debug.Log(startNodes[0]);
 
         return startNodes[0];
     }
@@ -59,15 +76,62 @@ public class CodeGraphAsset : ScriptableObject
         return null;
     }
 
-    public CodeGraphNode GetNodeFromOutput(string outputNodeId, int index)
+    public void GoToNextScene()
     {
+        Debug.Log(m_currentSceneID);
+
+        int i = 0;
+
+        CodeGraphNode node;
+
+        while (true) 
+        { 
+            node = GetNodeFromOutput(m_currentSceneID, 0, i);
+            if (node == null)
+            {
+                Debug.Log(m_currentSceneID);
+                SceneNode n = GetNode(m_currentSceneID) as SceneNode;
+                Debug.LogError("No valid connection was found. Either the node has no connections or none of the connections met all the variables required to move to it. The current scene is: " + n.scene);
+                break;
+            }
+            if (node.GetNodeType() == "Debug Log")
+            {
+                node.OnProcess();
+                node = GetNodeFromOutput(node.id, 0, 0);
+            }
+            if (node.GetNodeType() == "VariableCheckNode")
+            {
+                VariableCheckNode vNode = node as VariableCheckNode;
+                if (vNode.CheckIfValid()) break;
+            }
+            else break;
+            
+            i++;
+        }
+
+        if(node != null)
+        {
+            Debug.Log("Processing node " + node.id);
+            Debug.Log(node.GetNodeType());
+            node.OnProcess();
+        }
+    }
+
+    public CodeGraphNode GetNodeFromOutput(string outputNodeId, int portIndex, int connectionIndex)
+    {
+        int i = 0;
+        
         foreach(CodeGraphConnection connection in m_connections)
         {
-            if(connection.outputPort.nodeId == outputNodeId && connection.outputPort.portIndex == index)
+            if(connection.outputPort.nodeId == outputNodeId && connection.outputPort.portIndex == portIndex)
             {
-                string nodeId = connection.inputPort.nodeId;
-                CodeGraphNode inputNode = m_nodeDictionary[nodeId];
-                return inputNode;
+                if (i >= connectionIndex) 
+                {
+                    string nodeId = connection.inputPort.nodeId;
+                    CodeGraphNode inputNode = m_nodeDictionary[nodeId];
+                    return inputNode;
+                }
+                i++;
             }
         }
 

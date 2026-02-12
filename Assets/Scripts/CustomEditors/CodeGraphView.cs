@@ -72,7 +72,7 @@ public class CodeGraphView : GraphView
             if(p == startPort) { continue; }
             if(p.node == startPort.node) { continue; }
             if(p.direction == startPort.direction) { continue; }
-            if(p.portType == startPort.portType)
+            if(p.portType == startPort.portType) 
             {
                 ports.Add(p);
             }
