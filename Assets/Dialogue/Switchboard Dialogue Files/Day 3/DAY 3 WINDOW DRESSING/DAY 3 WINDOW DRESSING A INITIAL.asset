@@ -25,11 +25,12 @@ MonoBehaviour:
       it himself, you know?"
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1879742839
+      Data2: 1219744148
+      Data3: -1944042318
+      Data4: -643995119
+    Path: event:/Voices/Day 3/Window Dressing Call/Delivery Initial/Delivery - D3WD
+      - Initial
   barkEvent:
     Guid:
       Data1: 0

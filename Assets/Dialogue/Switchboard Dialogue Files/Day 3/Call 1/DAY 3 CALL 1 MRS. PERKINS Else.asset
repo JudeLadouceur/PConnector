@@ -20,11 +20,12 @@ MonoBehaviour:
       something out."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -83956201
+      Data2: 1334668061
+      Data3: 934015130
+      Data4: 587697995
+    Path: event:/Voices/Day 3/Call 1/Perkins Else Connection/Lin - D3C1 - Perkins
+      Else Connection
   barkEvent:
     Guid:
       Data1: 0
