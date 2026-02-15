@@ -35,6 +35,8 @@ MonoBehaviour:
   - rid: 2099632144718495765
   - rid: 2099632144718495766
   - rid: 2099632144718495767
+  - rid: 2099632145154703360
+  - rid: 2099632145154703361
   m_connections:
   - inputPort:
       nodeId: edba4c59-f34e-455a-a228-55d702ff87f6
@@ -161,6 +163,12 @@ MonoBehaviour:
       portIndex: 1
     outputPort:
       nodeId: 42cc57d7-6e21-4dcb-839b-18846b13a61d
+      portIndex: 0
+  - inputPort:
+      nodeId: 3344c761-06c8-412b-aae2-e5d8e5ea346f
+      portIndex: 1
+    outputPort:
+      nodeId: 2c402ae3-7d0c-4b97-98c5-9d0b8fcbcd8e
       portIndex: 0
   gameObject: {fileID: 0}
   references:
@@ -451,3 +459,28 @@ MonoBehaviour:
           height: 98
         typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         scene: {fileID: 102900000, guid: 53b29bc520d7de84a9ebaec0e4b29a24, type: 3}
+    - rid: 2099632145154703360
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 3344c761-06c8-412b-aae2-e5d8e5ea346f
+        m_position:
+          serializedVersion: 2
+          x: -5903.914
+          y: -2587.9333
+          width: 0
+          height: 0
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 0}
+    - rid: 2099632145154703361
+      type: {class: MainMenuNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 2c402ae3-7d0c-4b97-98c5-9d0b8fcbcd8e
+        m_position:
+          serializedVersion: 2
+          x: -6389
+          y: -2588
+          width: 278
+          height: 98
+        typeName: MainMenuNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        scene: {fileID: 102900000, guid: b51788f3d4256ef44b522691c1d09823, type: 3}
