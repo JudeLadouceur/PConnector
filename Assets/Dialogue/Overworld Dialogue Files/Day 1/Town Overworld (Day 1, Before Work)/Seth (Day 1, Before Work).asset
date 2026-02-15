@@ -14,16 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
-    dialogue: "Hey there pal. I\u2019m the local handyman, call me Seth."
+    NewSpeakerName: 3
+    dialogue: Hey there pal. How you feeling this morning?
   - speakerName: SETH
-    dialogue: Oh, wait, are you that switchboard operator? Barney told me you were
-      getting replaced soon. Sounds rough.
+    NewSpeakerName: 3
+    dialogue: I get that there's a lot going on for you right now, but try not to
+      let it get to you, alright?
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Well, if you have any fixing needs, just let me know! I\u2019ve got
       quite a few regulars around here!"
   - speakerName: SETH
-    dialogue: Try not to let it get to you. You have a good one, alright?
+    NewSpeakerName: 3
+    dialogue: You have a good one, pal.
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

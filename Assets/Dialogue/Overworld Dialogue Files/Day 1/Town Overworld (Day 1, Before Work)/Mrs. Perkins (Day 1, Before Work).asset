@@ -18,8 +18,7 @@ MonoBehaviour:
     dialogue: "Oh, hi there youngin\u2019! Good to see you out again! "
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "It's been a while, you\u2019ll have to come see my darling children
-      some time!"
+    dialogue: I say, you should come see my darling children some time!
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: There's, Mr. Mittens, Yarny, Bottles, oh and so many more!
