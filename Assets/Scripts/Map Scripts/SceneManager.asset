@@ -35,6 +35,36 @@ MonoBehaviour:
   - rid: 2099632144718495765
   - rid: 2099632144718495766
   - rid: 2099632144718495767
+  - rid: 2099632158250631168
+  - rid: 2099632158250631169
+  - rid: 2099632158250631170
+  - rid: 2099632158250631171
+  - rid: 2099632158250631172
+  - rid: 2099632158250631173
+  - rid: 2099632158250631174
+  - rid: 2099632158250631175
+  - rid: 2099632158250631176
+  - rid: 2099632158250631177
+  - rid: 2099632158250631178
+  - rid: 2099632158250631179
+  - rid: 2099632158250631181
+  - rid: 2099632158250631182
+  - rid: 2099632158250631183
+  - rid: 2099632158250631184
+  - rid: 2099632158250631185
+  - rid: 2099632158250631186
+  - rid: 2099632158250631187
+  - rid: 2099632158250631188
+  - rid: 2099632158250631193
+  - rid: 2099632158250631194
+  - rid: 2099632158250631195
+  - rid: 2099632158250631197
+  - rid: 2099632158250631198
+  - rid: 2099632158250631199
+  - rid: 2099632158250631200
+  - rid: 2099632159047811072
+  - rid: 2099632159047811073
+  - rid: 2099632159047811074
   m_connections:
   - inputPort:
       nodeId: edba4c59-f34e-455a-a228-55d702ff87f6
@@ -162,6 +192,228 @@ MonoBehaviour:
     outputPort:
       nodeId: 42cc57d7-6e21-4dcb-839b-18846b13a61d
       portIndex: 0
+  - inputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 1
+    outputPort:
+      nodeId: 67ccf409-17b3-48be-9d9a-e410829752f3
+      portIndex: 0
+  - inputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 1
+    outputPort:
+      nodeId: f4b94ca1-fe15-4339-9ea3-023b70aa2cec
+      portIndex: 0
+  - inputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 1
+    outputPort:
+      nodeId: b34bca5e-b178-4cd7-bf24-bccebc2c9ffb
+      portIndex: 0
+  - inputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 1
+    outputPort:
+      nodeId: 26f91bad-7cf5-4afd-abc4-492fcdad3a0b
+      portIndex: 0
+  - inputPort:
+      nodeId: bdb66b4e-4488-4384-a725-50ff2ad45c37
+      portIndex: 1
+    outputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 0
+  - inputPort:
+      nodeId: 540e3a8d-2816-4fcc-b942-401b2e9ceda8
+      portIndex: 1
+    outputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 0
+  - inputPort:
+      nodeId: 32d30720-48d4-4c8e-b00b-b79c22912aa1
+      portIndex: 1
+    outputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 0
+  - inputPort:
+      nodeId: 98172bb0-b73c-4a4f-80ad-6262f62cbd18
+      portIndex: 1
+    outputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 0
+  - inputPort:
+      nodeId: 5ca38fbe-12f9-4aa8-b007-c0c7d5c9118a
+      portIndex: 1
+    outputPort:
+      nodeId: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+      portIndex: 0
+  - inputPort:
+      nodeId: 74dfdcca-7aac-4fe2-8dc1-d7771b2b82f3
+      portIndex: 1
+    outputPort:
+      nodeId: 540e3a8d-2816-4fcc-b942-401b2e9ceda8
+      portIndex: 0
+  - inputPort:
+      nodeId: 80265dc5-a982-41ee-97fb-9b1af742bf69
+      portIndex: 1
+    outputPort:
+      nodeId: 32d30720-48d4-4c8e-b00b-b79c22912aa1
+      portIndex: 0
+  - inputPort:
+      nodeId: e41a9c84-c43d-458a-8d38-40274491f73f
+      portIndex: 1
+    outputPort:
+      nodeId: bdb66b4e-4488-4384-a725-50ff2ad45c37
+      portIndex: 0
+  - inputPort:
+      nodeId: 2b26dc2d-14b1-4e1f-8c70-5dce01ef84cc
+      portIndex: 1
+    outputPort:
+      nodeId: 98172bb0-b73c-4a4f-80ad-6262f62cbd18
+      portIndex: 0
+  - inputPort:
+      nodeId: 9236bcf8-7bee-46da-90c2-f2d9b07372f7
+      portIndex: 1
+    outputPort:
+      nodeId: 5ca38fbe-12f9-4aa8-b007-c0c7d5c9118a
+      portIndex: 0
+  - inputPort:
+      nodeId: 04588125-b9cb-492d-ae79-3adddccd78e6
+      portIndex: 1
+    outputPort:
+      nodeId: 74dfdcca-7aac-4fe2-8dc1-d7771b2b82f3
+      portIndex: 0
+  - inputPort:
+      nodeId: 2cdb0cf7-b2fd-4a98-9ad3-2e468fbf2532
+      portIndex: 1
+    outputPort:
+      nodeId: e41a9c84-c43d-458a-8d38-40274491f73f
+      portIndex: 0
+  - inputPort:
+      nodeId: 4e87717d-7ef1-487b-bd56-dbe99d125d3d
+      portIndex: 1
+    outputPort:
+      nodeId: 2b26dc2d-14b1-4e1f-8c70-5dce01ef84cc
+      portIndex: 0
+  - inputPort:
+      nodeId: aaca0929-3dc6-49d8-b227-4133b8b9b6d2
+      portIndex: 1
+    outputPort:
+      nodeId: 9236bcf8-7bee-46da-90c2-f2d9b07372f7
+      portIndex: 0
+  - inputPort:
+      nodeId: 04588125-b9cb-492d-ae79-3adddccd78e6
+      portIndex: 1
+    outputPort:
+      nodeId: 80265dc5-a982-41ee-97fb-9b1af742bf69
+      portIndex: 0
+  - inputPort:
+      nodeId: 1ec54498-54bd-4f15-8f11-3540b00dd677
+      portIndex: 1
+    outputPort:
+      nodeId: 04588125-b9cb-492d-ae79-3adddccd78e6
+      portIndex: 0
+  - inputPort:
+      nodeId: 3400483d-6b57-4c5f-ad52-c78943911d5a
+      portIndex: 1
+    outputPort:
+      nodeId: 2cdb0cf7-b2fd-4a98-9ad3-2e468fbf2532
+      portIndex: 0
+  - inputPort:
+      nodeId: 497b4b91-9f13-4e16-b9b9-c0481456d8a7
+      portIndex: 1
+    outputPort:
+      nodeId: 4e87717d-7ef1-487b-bd56-dbe99d125d3d
+      portIndex: 0
+  - inputPort:
+      nodeId: 616dc532-8dce-4da6-8cc1-4fcb50f8620c
+      portIndex: 1
+    outputPort:
+      nodeId: aaca0929-3dc6-49d8-b227-4133b8b9b6d2
+      portIndex: 0
+  - inputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 1
+    outputPort:
+      nodeId: 3400483d-6b57-4c5f-ad52-c78943911d5a
+      portIndex: 0
+  - inputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 1
+    outputPort:
+      nodeId: 1ec54498-54bd-4f15-8f11-3540b00dd677
+      portIndex: 0
+  - inputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 1
+    outputPort:
+      nodeId: 497b4b91-9f13-4e16-b9b9-c0481456d8a7
+      portIndex: 0
+  - inputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 1
+    outputPort:
+      nodeId: 616dc532-8dce-4da6-8cc1-4fcb50f8620c
+      portIndex: 0
+  - inputPort:
+      nodeId: 095b977b-fc5e-4dc8-8820-45905f3fe0bf
+      portIndex: 1
+    outputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 0
+  - inputPort:
+      nodeId: 7c78a5ae-5da0-4e13-836d-18a059c520e0
+      portIndex: 1
+    outputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 0
+  - inputPort:
+      nodeId: b48d2984-c707-4be3-aae8-84e1e01f4be1
+      portIndex: 1
+    outputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 0
+  - inputPort:
+      nodeId: 73bfe3a6-e820-4515-b8f5-91c8d3e880d6
+      portIndex: 1
+    outputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 0
+  - inputPort:
+      nodeId: af5598dd-681f-499b-b01a-255e7d3d4fbe
+      portIndex: 1
+    outputPort:
+      nodeId: fc6f8f1e-7208-4682-894d-5deb435584fb
+      portIndex: 0
+  - inputPort:
+      nodeId: ed849832-777c-4af0-9e11-278917b75cc4
+      portIndex: 1
+    outputPort:
+      nodeId: 095b977b-fc5e-4dc8-8820-45905f3fe0bf
+      portIndex: 0
+  - inputPort:
+      nodeId: 60765603-c189-4a16-9b23-dfd04083c675
+      portIndex: 1
+    outputPort:
+      nodeId: 7c78a5ae-5da0-4e13-836d-18a059c520e0
+      portIndex: 0
+  - inputPort:
+      nodeId: 424ada9d-5ca1-4015-b707-8ae31236555f
+      portIndex: 1
+    outputPort:
+      nodeId: b48d2984-c707-4be3-aae8-84e1e01f4be1
+      portIndex: 0
+  - inputPort:
+      nodeId: bebc8010-5624-4232-a630-750e3d2f5330
+      portIndex: 1
+    outputPort:
+      nodeId: 73bfe3a6-e820-4515-b8f5-91c8d3e880d6
+      portIndex: 0
+  - inputPort:
+      nodeId: 5664785b-2033-490c-9da6-a124c58ad19d
+      portIndex: 1
+    outputPort:
+      nodeId: af5598dd-681f-499b-b01a-255e7d3d4fbe
+      portIndex: 0
   gameObject: {fileID: 0}
   references:
     version: 2
@@ -185,8 +437,8 @@ MonoBehaviour:
         m_guid: edba4c59-f34e-455a-a228-55d702ff87f6
         m_position:
           serializedVersion: 2
-          x: 310
-          y: 0
+          x: 301
+          y: -74
           width: 282
           height: 98
         typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -451,3 +703,415 @@ MonoBehaviour:
           height: 98
         typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         scene: {fileID: 102900000, guid: 53b29bc520d7de84a9ebaec0e4b29a24, type: 3}
+    - rid: 2099632158250631168
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: ee941b70-b297-4bbc-99d1-e1f3ce57b88b
+        m_position:
+          serializedVersion: 2
+          x: 3687
+          y: 0
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: da90ba941a55e3c41af0022b963a3622, type: 3}
+    - rid: 2099632158250631169
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: bdb66b4e-4488-4384-a725-50ff2ad45c37
+        m_position:
+          serializedVersion: 2
+          x: 4100
+          y: 0
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 1
+          value: 1
+        - variableName: 4
+          value: 0
+    - rid: 2099632158250631170
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 540e3a8d-2816-4fcc-b942-401b2e9ceda8
+        m_position:
+          serializedVersion: 2
+          x: 4100
+          y: -351
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 1
+          value: 1
+        - variableName: 4
+          value: 1
+        - variableName: 2
+          value: 1
+    - rid: 2099632158250631171
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 32d30720-48d4-4c8e-b00b-b79c22912aa1
+        m_position:
+          serializedVersion: 2
+          x: 4100
+          y: -183
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 1
+          value: 1
+        - variableName: 4
+          value: 1
+        - variableName: 2
+          value: 0
+    - rid: 2099632158250631172
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 98172bb0-b73c-4a4f-80ad-6262f62cbd18
+        m_position:
+          serializedVersion: 2
+          x: 4100
+          y: 156
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 1
+          value: 0
+        - variableName: 4
+          value: 1
+    - rid: 2099632158250631173
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 5ca38fbe-12f9-4aa8-b007-c0c7d5c9118a
+        m_position:
+          serializedVersion: 2
+          x: 4100
+          y: 338
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 1
+          value: 0
+        - variableName: 4
+          value: 0
+    - rid: 2099632158250631174
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 74dfdcca-7aac-4fe2-8dc1-d7771b2b82f3
+        m_position:
+          serializedVersion: 2
+          x: 4408
+          y: -351
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: e369dce346b42094b9d531137fd6dd8b, type: 3}
+    - rid: 2099632158250631175
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 80265dc5-a982-41ee-97fb-9b1af742bf69
+        m_position:
+          serializedVersion: 2
+          x: 4408
+          y: -183
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: acdab13eacbc4454f86fa750f59c498e, type: 3}
+    - rid: 2099632158250631176
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: e41a9c84-c43d-458a-8d38-40274491f73f
+        m_position:
+          serializedVersion: 2
+          x: 4408
+          y: 0
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 5532823bb9dfbdf4190bafbf8e573160, type: 3}
+    - rid: 2099632158250631177
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 2b26dc2d-14b1-4e1f-8c70-5dce01ef84cc
+        m_position:
+          serializedVersion: 2
+          x: 4408
+          y: 156
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 594d3d6203632af4683e79df903434e9, type: 3}
+    - rid: 2099632158250631178
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 9236bcf8-7bee-46da-90c2-f2d9b07372f7
+        m_position:
+          serializedVersion: 2
+          x: 4408
+          y: 338
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: a52ca52e65df74348b0a292eca97e773, type: 3}
+    - rid: 2099632158250631179
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 04588125-b9cb-492d-ae79-3adddccd78e6
+        m_position:
+          serializedVersion: 2
+          x: 4950
+          y: -183
+          width: 285
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 6ad53e687e2ea70419027509928fec93, type: 3}
+    - rid: 2099632158250631181
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 2cdb0cf7-b2fd-4a98-9ad3-2e468fbf2532
+        m_position:
+          serializedVersion: 2
+          x: 4950
+          y: 0
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 0}
+    - rid: 2099632158250631182
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 4e87717d-7ef1-487b-bd56-dbe99d125d3d
+        m_position:
+          serializedVersion: 2
+          x: 4950
+          y: 156
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: eda5759769ae6554a8b65891d4b7b6c6, type: 3}
+    - rid: 2099632158250631183
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: aaca0929-3dc6-49d8-b227-4133b8b9b6d2
+        m_position:
+          serializedVersion: 2
+          x: 4950
+          y: 338
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: eaa3fde8a4fc29449a0ba5f0f9e060ca, type: 3}
+    - rid: 2099632158250631184
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 1ec54498-54bd-4f15-8f11-3540b00dd677
+        m_position:
+          serializedVersion: 2
+          x: 5392
+          y: -183
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: e87527c9ad73993439d9dcea059ec9fe, type: 3}
+    - rid: 2099632158250631185
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 3400483d-6b57-4c5f-ad52-c78943911d5a
+        m_position:
+          serializedVersion: 2
+          x: 5392
+          y: 0
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: c9e1c5535b54b8745b04087d8fb322d7, type: 3}
+    - rid: 2099632158250631186
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 497b4b91-9f13-4e16-b9b9-c0481456d8a7
+        m_position:
+          serializedVersion: 2
+          x: 5392
+          y: 156
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 6c47b5e489dd8ce48a68c480281271f8, type: 3}
+    - rid: 2099632158250631187
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 616dc532-8dce-4da6-8cc1-4fcb50f8620c
+        m_position:
+          serializedVersion: 2
+          x: 5392
+          y: 338
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: c7c348c8811fe97448d274ad0a627a6f, type: 3}
+    - rid: 2099632158250631188
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: fc6f8f1e-7208-4682-894d-5deb435584fb
+        m_position:
+          serializedVersion: 2
+          x: 5930
+          y: 0
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: da90ba941a55e3c41af0022b963a3622, type: 3}
+    - rid: 2099632158250631193
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 095b977b-fc5e-4dc8-8820-45905f3fe0bf
+        m_position:
+          serializedVersion: 2
+          x: 6358
+          y: -397
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 14
+          value: 1
+        - variableName: 11
+          value: 1
+    - rid: 2099632158250631194
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 7c78a5ae-5da0-4e13-836d-18a059c520e0
+        m_position:
+          serializedVersion: 2
+          x: 6358
+          y: -183
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 14
+          value: 0
+        - variableName: 11
+          value: 1
+    - rid: 2099632158250631195
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: b48d2984-c707-4be3-aae8-84e1e01f4be1
+        m_position:
+          serializedVersion: 2
+          x: 6358
+          y: 0
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 14
+          value: 1
+        - variableName: 12
+          value: 0
+    - rid: 2099632158250631197
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 73bfe3a6-e820-4515-b8f5-91c8d3e880d6
+        m_position:
+          serializedVersion: 2
+          x: 6358
+          y: 173
+          width: 319
+          height: 598
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 14
+          value: 0
+        - variableName: 12
+          value: 1
+    - rid: 2099632158250631198
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: af5598dd-681f-499b-b01a-255e7d3d4fbe
+        m_position:
+          serializedVersion: 2
+          x: 6358
+          y: 338
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 15
+          value: 1
+    - rid: 2099632158250631199
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: ed849832-777c-4af0-9e11-278917b75cc4
+        m_position:
+          serializedVersion: 2
+          x: 6707
+          y: -397
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: ed0d23e9f5b38ed47873cf266f2d5b5e, type: 3}
+    - rid: 2099632158250631200
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 60765603-c189-4a16-9b23-dfd04083c675
+        m_position:
+          serializedVersion: 2
+          x: 6707
+          y: -183
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 9dc01542936e2dc439654200891fe886, type: 3}
+    - rid: 2099632159047811072
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 424ada9d-5ca1-4015-b707-8ae31236555f
+        m_position:
+          serializedVersion: 2
+          x: 6707
+          y: 0
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 99dd60b036c826b4c983b2ceadcdbea8, type: 3}
+    - rid: 2099632159047811073
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: bebc8010-5624-4232-a630-750e3d2f5330
+        m_position:
+          serializedVersion: 2
+          x: 6707
+          y: 173
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: 79790162762b9c4419607f970f37b7cc, type: 3}
+    - rid: 2099632159047811074
+      type: {class: SceneNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 5664785b-2033-490c-9da6-a124c58ad19d
+        m_position:
+          serializedVersion: 2
+          x: 6707
+          y: 338
+          width: 278
+          height: 98
+        typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        scene: {fileID: 102900000, guid: ea8e7f7bb228627499b5d2fa9441d586, type: 3}
