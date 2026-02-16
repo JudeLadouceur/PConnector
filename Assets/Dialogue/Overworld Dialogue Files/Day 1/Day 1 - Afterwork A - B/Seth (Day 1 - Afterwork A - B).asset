@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: 'Shoot, my parts are running real low... I really hope I don''t have
       to close shop. Ugh, I''m done with today... '
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: I don't think I got it in me to do anything besides work tomorrow...
   voiceLineEvent:
     Guid:
@@ -25,4 +27,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: -1959159134
+      Data2: 1195436560
+      Data3: -708612465
+      Data4: 1111195130
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Frustrated Barks
   variables: []

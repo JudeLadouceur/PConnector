@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Howdy! I\u2019m glad I finally got those parts in. Say, do you have
       any idea what Mrs. P is up to? She usually does a few laps through the park,
       but she seems to have stayed next to her house all morning."
@@ -26,9 +27,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1375071993
+      Data2: 1292657416
+      Data3: -1613086318
+      Data4: 1622324956
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Happy Barks
   variables: []

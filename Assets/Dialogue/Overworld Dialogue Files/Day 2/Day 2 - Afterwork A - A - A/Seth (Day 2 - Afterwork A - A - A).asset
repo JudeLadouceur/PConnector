@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: 'Hey pal! Thanks again for your help over the past couple of days,
       the good words spreading around town. '
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Hope you have a good weekend, bud!
   voiceLineEvent:
     Guid:
@@ -25,4 +27,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 1375071993
+      Data2: 1292657416
+      Data3: -1613086318
+      Data4: 1622324956
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Happy Barks
   variables: []
