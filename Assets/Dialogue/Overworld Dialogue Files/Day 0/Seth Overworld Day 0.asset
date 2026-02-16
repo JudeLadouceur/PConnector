@@ -20,8 +20,8 @@ MonoBehaviour:
       asking around, I\u2019m sure they\u2019ll turn up"
   - speakerName: Seth
     NewSpeakerName: 3
-    dialogue: ' I think I saw the health care attendant by the fountain, they usually
-      get a lot of calls about that sort of thing. Try checking with them!'
+    dialogue: I think I saw the health care attendant by the fountain, they usually
+      get a lot of calls about that sort of thing. Try checking with them!
   - speakerName: Seth
     NewSpeakerName: 3
     dialogue: Bit early for you to be going home, something happened at work today?
