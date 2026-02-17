@@ -117,14 +117,10 @@ MonoBehaviour:
   - rid: 2099632206175272962
   - rid: 2099632206175272963
   - rid: 2099632206175272964
+  - rid: 2099632207009939457
+  - rid: 2099632207009939460
   m_connections:
   - inputPort:
-      nodeId: edba4c59-f34e-455a-a228-55d702ff87f6
-      portIndex: 1
-    outputPort:
-      nodeId: 2423ed20-aa81-430e-94ea-fd459e6414ea
-      portIndex: 0
-  - inputPort:
       nodeId: b194a9fb-1af5-4aea-9fd4-8f76cf825aab
       portIndex: 1
     outputPort:
@@ -135,12 +131,6 @@ MonoBehaviour:
       portIndex: 1
     outputPort:
       nodeId: b194a9fb-1af5-4aea-9fd4-8f76cf825aab
-      portIndex: 0
-  - inputPort:
-      nodeId: 61fd3804-712d-48f5-bde8-41bd52599811
-      portIndex: 1
-    outputPort:
-      nodeId: 2fef2dcb-e88b-4ae4-937a-beb466d65a02
       portIndex: 0
   - inputPort:
       nodeId: 6bcdefa8-b284-4593-957b-bd40eb3236e0
@@ -850,6 +840,36 @@ MonoBehaviour:
     outputPort:
       nodeId: 33b9d953-f2ff-4535-ade9-fcba0b618c77
       portIndex: 0
+  - inputPort:
+      nodeId: 8e11ba0c-4415-4769-8772-b7c730fd2efd
+      portIndex: 1
+    outputPort:
+      nodeId: 2423ed20-aa81-430e-94ea-fd459e6414ea
+      portIndex: 0
+  - inputPort:
+      nodeId: edba4c59-f34e-455a-a228-55d702ff87f6
+      portIndex: 1
+    outputPort:
+      nodeId: 8e11ba0c-4415-4769-8772-b7c730fd2efd
+      portIndex: 0
+  - inputPort:
+      nodeId: 61fd3804-712d-48f5-bde8-41bd52599811
+      portIndex: 1
+    outputPort:
+      nodeId: 2fef2dcb-e88b-4ae4-937a-beb466d65a02
+      portIndex: 0
+  - inputPort:
+      nodeId: d7138b40-dfab-46a8-958b-1e1cd7ab92b3
+      portIndex: 1
+    outputPort:
+      nodeId: 2423ed20-aa81-430e-94ea-fd459e6414ea
+      portIndex: 0
+  - inputPort:
+      nodeId: 61fd3804-712d-48f5-bde8-41bd52599811
+      portIndex: 1
+    outputPort:
+      nodeId: d7138b40-dfab-46a8-958b-1e1cd7ab92b3
+      portIndex: 0
   gameObject: {fileID: 0}
   references:
     version: 2
@@ -860,7 +880,7 @@ MonoBehaviour:
         m_guid: 2423ed20-aa81-430e-94ea-fd459e6414ea
         m_position:
           serializedVersion: 2
-          x: -54
+          x: -719
           y: 0
           width: 232
           height: 98
@@ -873,7 +893,7 @@ MonoBehaviour:
         m_guid: edba4c59-f34e-455a-a228-55d702ff87f6
         m_position:
           serializedVersion: 2
-          x: 301
+          x: -157
           y: 0
           width: 282
           height: 98
@@ -885,7 +905,7 @@ MonoBehaviour:
         m_guid: b194a9fb-1af5-4aea-9fd4-8f76cf825aab
         m_position:
           serializedVersion: 2
-          x: 721
+          x: 263
           y: 0
           width: 248
           height: 98
@@ -897,7 +917,7 @@ MonoBehaviour:
         m_guid: 2fef2dcb-e88b-4ae4-937a-beb466d65a02
         m_position:
           serializedVersion: 2
-          x: 1094
+          x: 636
           y: 0
           width: 260
           height: 98
@@ -2256,3 +2276,33 @@ MonoBehaviour:
           height: 77
         typeName: ReturnToMainMenuNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
+    - rid: 2099632207009939457
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: 8e11ba0c-4415-4769-8772-b7c730fd2efd
+        m_position:
+          serializedVersion: 2
+          x: -394
+          y: 0
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 23
+          value: 0
+    - rid: 2099632207009939460
+      type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
+      data:
+        m_guid: d7138b40-dfab-46a8-958b-1e1cd7ab92b3
+        m_position:
+          serializedVersion: 2
+          x: -394
+          y: 224
+          width: 132
+          height: 98
+        typeName: VariableCheckNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Variables:
+        - variableName: 23
+          value: 1
