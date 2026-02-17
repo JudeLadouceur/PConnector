@@ -6340,6 +6340,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2508537256298023857, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2508537256298023857, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2508537256298023857, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2508537256298023857, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027971532532529477, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027971532532529477, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027971532532529477, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5939049551523597664, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
       propertyPath: m_Name
       value: DialogueSystemRoot
