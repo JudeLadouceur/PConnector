@@ -20,7 +20,13 @@ public class VariableCheckNode : CodeGraphNode
     {
         foreach (VariableCheck v in Variables) 
         {
-            if (VariableManager.instance.flags[v.variableName] != v.value) return false;
+            Debug.Log("Checking " +  v.variableName);
+            if (VariableManager.instance.flags[v.variableName] != v.value)
+            {
+                Debug.Log("Value of " + v.variableName + " wasn't met (current value: " + v.value + ". Expected value: " + VariableManager.instance.flags[v.variableName]);
+                return false;
+            }
+            Debug.Log("Value of " + v.variableName + " was met (current value: " + v.value + ". Expected value: " + VariableManager.instance.flags[v.variableName]);
         }
         return true;
     }

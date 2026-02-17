@@ -105,7 +105,7 @@ public class SceneManager : ScriptableObject
                 break;
             }
             node.SetUniqueVariables();
-            if (node.GetNodeType() == "Variable Check")
+            if (node.GetNodeType() == "Check Variable")
             {
                 VariableCheckNode vNode = node as VariableCheckNode;
                 if (vNode.CheckIfValid())
