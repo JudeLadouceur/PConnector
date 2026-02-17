@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: Hmph. I see how it is. Fine. Let him live with his own failure and
       get nothing out of it.
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: Um, excuse me? Who is this?!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -44,7 +44,7 @@ public class MovementScript : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         moveDirection = new Vector2(moveX, moveY).normalized;
-         if(SceneManager.GetActiveScene().name == "Tutorial World" && TestTargetSwap.instance != null && moveDirection.magnitude!=0)
+         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Tutorial World" && TestTargetSwap.instance != null && moveDirection.magnitude!=0)
         {
             TestTargetSwap.instance.AttemptProgress(0);
         }

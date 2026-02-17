@@ -23,6 +23,7 @@ MonoBehaviour:
       I\u2019ll be sure to leave Seth a note before I leave, though. Now I guess
       I\u2019ll have to walk to the health centre to cancel those appointments\u2026
       You have a good day, dear."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

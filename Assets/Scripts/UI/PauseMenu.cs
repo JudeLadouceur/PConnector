@@ -132,7 +132,7 @@ public class PauseMenu : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Main Menu");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
         }
     }
 }

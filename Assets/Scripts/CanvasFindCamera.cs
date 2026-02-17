@@ -8,8 +8,8 @@ public class CanvasFindCamera : MonoBehaviour
 {
     private void Start()
     {
-        SceneManager.activeSceneChanged += FindCamera;
-        FindCamera(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
+        UnityEngine.SceneManagement.SceneManager.activeSceneChanged += FindCamera;
+        FindCamera(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         
     }
 
@@ -20,6 +20,6 @@ public class CanvasFindCamera : MonoBehaviour
 
     private void OnDestroy()
     {
-        SceneManager.activeSceneChanged -= FindCamera;
+        UnityEngine.SceneManagement.SceneManager.activeSceneChanged -= FindCamera;
     }
 }

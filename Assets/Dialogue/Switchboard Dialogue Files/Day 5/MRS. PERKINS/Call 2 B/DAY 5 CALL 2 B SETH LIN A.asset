@@ -23,6 +23,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: Uh, Seth? What-
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

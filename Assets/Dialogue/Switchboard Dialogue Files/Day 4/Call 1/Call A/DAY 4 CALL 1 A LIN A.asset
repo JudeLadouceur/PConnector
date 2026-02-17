@@ -55,6 +55,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: Thanks so much Mrs. Perkins! See you soon!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

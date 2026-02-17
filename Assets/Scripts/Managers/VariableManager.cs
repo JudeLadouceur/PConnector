@@ -22,7 +22,7 @@ public class VariableManager: MonoBehaviour
     }
 
     [ContextMenu("Print Variables")]
-    private void PrintVariables()
+    public void PrintVariables()
     {
         List<DialogueVar> keys = new List<DialogueVar>(flags.Keys);
 

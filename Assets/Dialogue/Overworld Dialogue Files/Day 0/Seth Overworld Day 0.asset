@@ -20,8 +20,8 @@ MonoBehaviour:
       asking around, I\u2019m sure they\u2019ll turn up"
   - speakerName: Seth
     NewSpeakerName: 3
-    dialogue: ' I think I saw the health care attendant by the fountain, they usually
-      get a lot of calls about that sort of thing. Try checking with them!'
+    dialogue: I think I saw the health care attendant by the fountain, they usually
+      get a lot of calls about that sort of thing. Try checking with them!
   - speakerName: Seth
     NewSpeakerName: 3
     dialogue: Bit early for you to be going home, something happened at work today?
@@ -30,6 +30,7 @@ MonoBehaviour:
     dialogue: "You got laid off, jesus. Sorry to hear, we\u2019ve had a switchboard
       operator in this town for as long as I can remember\u2026 best of luck going
       forwards. Both with the keys and with your job."
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -39,9 +40,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1375071993
+      Data2: 1292657416
+      Data3: -1613086318
+      Data4: 1622324956
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Happy Barks
   variables: []

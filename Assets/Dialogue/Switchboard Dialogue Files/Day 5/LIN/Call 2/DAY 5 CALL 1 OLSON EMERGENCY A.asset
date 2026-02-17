@@ -23,6 +23,7 @@ MonoBehaviour:
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
     dialogue: "Wh\u2013"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

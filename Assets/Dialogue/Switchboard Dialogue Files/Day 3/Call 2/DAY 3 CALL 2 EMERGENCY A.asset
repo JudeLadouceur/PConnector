@@ -19,6 +19,7 @@ MonoBehaviour:
   - speakerName: 
     NewSpeakerName: 0
     dialogue: ... *Click*
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1949784896

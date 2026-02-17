@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: 'Oh hey kid, heard about Mrs. Perkins, I hope she makes out alright... '
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: I'm glad she got connected to someone in time... I suppose we have
       to thank you for that, so thank you!
   voiceLineEvent:
@@ -25,4 +27,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 1375071993
+      Data2: 1292657416
+      Data3: -1613086318
+      Data4: 1622324956
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Happy Barks
   variables: []

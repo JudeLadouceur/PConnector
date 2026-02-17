@@ -32,6 +32,7 @@ MonoBehaviour:
     dialogue: I was just calling to cancel my upcoming appointments so I can start
       making the arrangements. Could you do this old lady that one last favor and
       connect me to the emergency line?
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

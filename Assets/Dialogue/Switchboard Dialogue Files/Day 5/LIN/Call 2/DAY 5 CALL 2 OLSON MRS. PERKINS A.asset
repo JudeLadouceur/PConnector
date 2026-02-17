@@ -76,6 +76,7 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: Of course it is, I never want you to contact anyone in this town ever
       again.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

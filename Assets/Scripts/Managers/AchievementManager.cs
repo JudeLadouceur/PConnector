@@ -27,8 +27,8 @@ public class AchievementManager : MonoBehaviour
             Destroy(this.gameObject);
         }
         achievementDictionary = new Dictionary<AchievementNames, Achievement>();
-        SceneManager.activeSceneChanged += SetNewCameraInScene;
-        SetNewCameraInScene(SceneManager.GetActiveScene(), SceneManager.GetActiveScene());
+        UnityEngine.SceneManagement.SceneManager.activeSceneChanged += SetNewCameraInScene;
+        SetNewCameraInScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         
         namesDict = new Dictionary<AchievementNames, string>();
         foreach(AchieveNameClass nameObj in namesCorrelation)

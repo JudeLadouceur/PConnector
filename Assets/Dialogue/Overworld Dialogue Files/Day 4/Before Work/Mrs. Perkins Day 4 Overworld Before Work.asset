@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Hey there, dear. You doing alright? I must say, I\u2019ve been getting
       more tired these days. Oh, the world just keeps on moving without this old
       lady\u2026 maybe there\u2019s a way I can be more active? I hope someone can
@@ -27,9 +28,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -811201023
+      Data2: 1231524630
+      Data3: -447001981
+      Data4: 2135680499
+    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Happy Barks
   variables: []

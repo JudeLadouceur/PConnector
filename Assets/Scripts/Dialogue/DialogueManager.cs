@@ -46,9 +46,9 @@ public class DialogueManager : MonoBehaviour
         speakerProfile.sprite = speakerProfilePictures[0];
         dialogueBox.SetActive(false);
 
-        SceneManager.activeSceneChanged += SceneTransition;
+        UnityEngine.SceneManagement.SceneManager.activeSceneChanged += SceneTransition;
 
-        if(SceneManager.GetActiveScene().name.Contains("witchboard")) FindSwitchboardReferences();
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard")) FindSwitchboardReferences();
     }
 
     private void Update()
@@ -141,9 +141,9 @@ public class DialogueManager : MonoBehaviour
         {
             audioSource = DialogueVoiceManager.Instance.PlayVoiceLine(currentDialogue.voiceLineEvent, lineNumber);
         }
-        else
+        else if (!currentDialogue.isBark)
         {
-            Debug.LogWarning("A dialogue Scriptable Object does not have a VOICE LINE Event assigned to it.");
+            Debug.LogWarning(currentDialogue.name + " dialogue Scriptable Object does not have any audio assigned to it.");
         }
     }
 
@@ -162,7 +162,7 @@ public class DialogueManager : MonoBehaviour
             audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
         }
 
-        if (!SceneManager.GetActiveScene().name.Contains("witchboard"))
+        if (!UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard"))
         {
             MovementScript.instance.Funny = false;
             MovementScript.instance.canToggle = true;
@@ -225,15 +225,18 @@ public class DialogueManager : MonoBehaviour
     public void EndDay()
     {
         print("End of day");
-        if (TutorialSwitchboard.instance != null)
-        {
-            SceneManager.LoadScene("Tutorial World");
-        } else
-        {
-            string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
 
-            transitionTargets.FindTargetScene(target);
-        }
+        SceneManager.instance.GoToNextScene();
+
+        //if (TutorialSwitchboard.instance != null)
+        //{
+        //    SceneManager.LoadScene("Tutorial World");
+        //} else
+        //{
+        //    string target = "Day " + (TimeManager.dayNumber + 1) + " - Afterwork ";
+
+        //    transitionTargets.FindTargetScene(target);
+        //}
 
 
             

@@ -15,7 +15,7 @@ public class LoadNewSceneByName : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(nameOfSceneToLoad);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nameOfSceneToLoad);
         }
     }
 }

@@ -14,27 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: Hey Mrs. Perkins! This is Bob. I was wondering if you were missing
       any of your cats right now.
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "My cats? Oh, dear\u2026 Let me check. Let\u2019s see here\u2026 There\u2019s
       Mr. Mittens, Bottles, Mable, Yowler, Fluffball, Rascal, Candy, Seavie, Snowy,
       and\u2026 oh? Oh dear! I think Yarny is missing!"
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Don\u2019t worry about it Mrs. Perkins. I think I found Yarny in my
       backyard just now. I have him here, safe and sound."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Oh, thank you so much, dear! That really worried me for a moment. Would
       you be okay if I stopped by to pick Yarny up? I say, these cats keep getting
       more and more out of hand.
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "That would be great Mrs. Perkins. I\u2019ll be waiting at the front
       door for you."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Thanks again, dear. I\u2019ll be over soon."
+  isBark: 0
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

@@ -51,6 +51,7 @@ MonoBehaviour:
     NewSpeakerName: 9
     dialogue: "I\u2019m sure you\u2019ll do great on your last week. Make those connections,
       pal. It can mean more to the town than you know. Good luck."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 168678820

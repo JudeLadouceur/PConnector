@@ -27,6 +27,7 @@ MonoBehaviour:
   - speakerName: 'MRS. PERKINS '
     NewSpeakerName: 1
     dialogue: Never mind!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1521474778

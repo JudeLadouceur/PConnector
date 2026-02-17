@@ -14,23 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s Pizza! The taste that will always make you want more! What
       can I get you?"
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Uh, hey Lin. It\u2019s Bob. Do you know if Mrs. Perkins is missing
       one of her cats? I think I found one in my backyard"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "A cat? Well Mrs. Perkins is always losing hers\u2026 and they sometimes
       get into my leftover ingredients\u2026 But why would you call me and not her?"
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: "Well I didn\u2019t mean to\u2026 I think the switchboard operator
       mixed it up."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Huh\u2026 well she lives close by, I\u2019ll head over and ask her.
       She\u2019ll stop by soon if that is her cat"
   - speakerName: BOB
+    NewSpeakerName: 6
     dialogue: Works for me. Thanks, Lin!
+  isBark: 0
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

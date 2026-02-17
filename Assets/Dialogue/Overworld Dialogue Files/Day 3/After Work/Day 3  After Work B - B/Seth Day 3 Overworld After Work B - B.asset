@@ -29,9 +29,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1959159134
+      Data2: 1195436560
+      Data3: -708612465
+      Data4: 1111195130
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Frustrated Barks
   variables: []

@@ -109,6 +109,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Sounds good. Thanks again, Mrs. Perkins!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

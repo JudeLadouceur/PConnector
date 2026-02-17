@@ -42,6 +42,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: I will Mrs. Perkins. You have a good day.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 841549594

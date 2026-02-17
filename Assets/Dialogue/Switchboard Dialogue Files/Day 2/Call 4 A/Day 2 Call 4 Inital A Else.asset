@@ -19,6 +19,7 @@ MonoBehaviour:
       had with my blasted computer yesterday, I was left quite frustrated. I was
       hoping to call someone and have a nice chat to help get my mind off of things.
       Would you mind connecting me to someone who can help?
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1967577226

@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: ' RECEPTIONIST '
     NewSpeakerName: 4
-    dialogue: "Hello, you\u2019ve reached the Maple Grove emergency line, what do
+    dialogue: "Hello, you\u2019ve reached the Maplegrove emergency line, what do
       you need?"
   - speakerName: LIN
     NewSpeakerName: 2
@@ -44,6 +44,7 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "Really?! That\u2019s great! Thanks a lot! I\u2019ll have it ready
       for when you get here. "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -47229944

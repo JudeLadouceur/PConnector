@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: "AH, hey. I done screwed up, forgot to make an order this week. It\u2019s
+    dialogue: "Ah, hey. I done screwed up, forgot to make an order this week. It\u2019s
       been so busy and all, I\u2019m now flush out of parts. My own darned fault,
       I\u2019m such an idiot. "
   - speakerName: SETH
@@ -23,6 +23,7 @@ MonoBehaviour:
     dialogue: "Doesn\u2019t change the fact things need fixing, but others knowing
       I screwed up\u2026 I can\u2019t lose the shop, can\u2019t lose customers. Can\u2019t
       afford to. I need discreet help finding parts. You get me? "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 362770592

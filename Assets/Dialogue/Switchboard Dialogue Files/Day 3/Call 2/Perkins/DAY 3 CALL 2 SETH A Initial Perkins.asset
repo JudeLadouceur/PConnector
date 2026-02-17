@@ -20,6 +20,7 @@ MonoBehaviour:
       I already put out a notice for my shop, but I\u2019ve had a few good chats
       with Mrs. Perkins recently and just wanted to let them know personally. Would
       you mind connecting me to \u2018em?"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1237926979

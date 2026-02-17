@@ -29,6 +29,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Lin, hold on, are you\u2013"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

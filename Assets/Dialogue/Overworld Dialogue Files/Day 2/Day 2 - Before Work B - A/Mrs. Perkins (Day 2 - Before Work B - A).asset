@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Owwwww, oh hi there, yougin'. I'm not feeling too great... Sorry, I
       wish I could talk more, but I don't think I've got the energy today...
   voiceLineEvent:
@@ -23,4 +24,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: -860892876
+      Data2: 1311742148
+      Data3: 1846128043
+      Data4: 858056981
+    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Frustrated Barks
   variables: []
