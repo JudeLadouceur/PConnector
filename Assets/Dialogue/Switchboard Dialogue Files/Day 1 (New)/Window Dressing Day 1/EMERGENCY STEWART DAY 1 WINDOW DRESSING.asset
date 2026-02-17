@@ -19,6 +19,7 @@ MonoBehaviour:
   - speakerName: STEWART
     NewSpeakerName: 10
     dialogue: Wh-what?! S-sorry! Wrong line!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1341879248

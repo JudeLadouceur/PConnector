@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 6 Call 7 Perkins
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: MRS PERKINS
+    NewSpeakerName: 1
+    dialogue: "Oh, hello! This is Mrs. Perkins. I hope you\u2019re doing well dear!
+      I just wanted to call in and tell you how much I truly appreciate everything
+      you\u2019ve done for not just me, but the whole town! I\u2019ve watched this
+      town for years, and it\u2019s wonderful to see so many people brought together
+      by your efforts."
+  - speakerName: MRS PERKINS
+    NewSpeakerName: 1
+    dialogue: "Keeping up with this world can sometimes be hard for an old lady like
+      me, but I know now that doesn\u2019t mean I have to stop trying. I can make
+      a difference no matter how old I am. There are so many kind, caring people
+      in this town, and you\u2019ve really helped bring everyone together. "
+  - speakerName: MRS PERKINS
+    NewSpeakerName: 1
+    dialogue: "So from the bottom of my heart dearie, thank you for all you\u2019ve
+      done. You\u2019re the unsung hero that has done more for this town than people
+      realize. Give yourself a pat on the back, dear. You\u2019ve earned it."
+  isBark: 1
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

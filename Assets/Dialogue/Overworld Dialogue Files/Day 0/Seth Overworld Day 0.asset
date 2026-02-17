@@ -30,6 +30,7 @@ MonoBehaviour:
     dialogue: "You got laid off, jesus. Sorry to hear, we\u2019ve had a switchboard
       operator in this town for as long as I can remember\u2026 best of luck going
       forwards. Both with the keys and with your job."
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

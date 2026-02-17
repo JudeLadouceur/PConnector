@@ -54,6 +54,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Take care of yourself, Lin.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -589386623

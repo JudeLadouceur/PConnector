@@ -44,6 +44,7 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "Really?! That\u2019s great! Thanks a lot! I\u2019ll have it ready
       for when you get here. "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -47229944

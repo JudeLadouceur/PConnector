@@ -49,6 +49,7 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "Yeah, okay. Our little secret. I\u2019ll be right over for the parts.
       Thanks, Mrs. Perkins."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1680394413

@@ -14,15 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hello? This is Mrs. Perkins. Who is this?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, um\u2026 hi Mrs. Perkins, are you busy?"
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Well, I was just about to try out this new breakfast recipe I found.
       Do you need something?
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "I\u2026 gah, no. Not worth the bother. Don\u2019t worry about it.
       Sorry for interrupting you."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

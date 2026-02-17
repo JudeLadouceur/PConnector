@@ -31,4 +31,21 @@ public class DialogueVoiceManager : MonoBehaviour
         instance.release();
         return instance;
     }
+
+    // This function is used for FMOD lines that do need to use paramaters to play. Things like the the dialogue choices and long dialogue lines.
+    public EventInstance PlayBark(EventReference eventRef)
+    {
+        //if (dialogue.lines[D].voiceLineEvent)
+        //{
+        //Debug.Log("No FMOD voice event was found on this dialogue line.");
+        //return;
+        //}
+
+        EventInstance instance = RuntimeManager.CreateInstance(eventRef);
+
+        instance.setParameterByName("dialogueProgress", 0);
+        instance.start();
+        instance.release();
+        return instance;
+    }
 }

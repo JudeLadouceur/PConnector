@@ -79,6 +79,7 @@ MonoBehaviour:
   - speakerName: LUCIN
     NewSpeakerName: 8
     dialogue: Will do! See you soon!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

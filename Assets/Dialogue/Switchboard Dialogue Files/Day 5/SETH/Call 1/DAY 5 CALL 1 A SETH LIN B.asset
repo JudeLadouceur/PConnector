@@ -26,6 +26,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Don\u2019t worry about it. I\u2019m fine."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

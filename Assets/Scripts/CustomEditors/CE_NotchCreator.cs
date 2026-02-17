@@ -8,7 +8,7 @@ using UnityEngine;
 
 
 [CustomEditor(typeof(NotchCreator))]
-class NotchCreatorCE : Editor
+class CE_NotchCreator : Editor
 {
     public override void OnInspectorGUI()
     {

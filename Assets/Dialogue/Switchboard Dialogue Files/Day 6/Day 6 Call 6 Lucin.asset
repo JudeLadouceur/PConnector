@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 6 Call 6 Lucin
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: LUCIN
+    NewSpeakerName: 8
+    dialogue: "Howdy! This is Lucin again. I just wanted to call in and tell you
+      that I\u2019m real happy you helped me talk to Seth when I did. I know it wasn\u2019t
+      much on your part, but it was real crucial, you know?"
+  - speakerName: LUCIN
+    NewSpeakerName: 8
+    dialogue: "I really appreciate my brother, and I appreciate you for helping me
+      help him. I\u2019ve heard a lot of good things about what you\u2019ve done
+      for the town, and I know it means a lot to a lot of people. "
+  isBark: 1
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

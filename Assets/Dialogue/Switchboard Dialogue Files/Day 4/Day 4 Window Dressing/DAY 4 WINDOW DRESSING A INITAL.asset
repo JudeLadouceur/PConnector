@@ -19,6 +19,7 @@ MonoBehaviour:
       I just found one of Mrs. Perkins\u2019 cats in my backyard? I managed to pick
       him up and he\u2019s safe now, but I wanted to check if Mrs. Perkins was missing
       any of her cats before I randomly started giving cats out."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -27,6 +27,7 @@ MonoBehaviour:
     NewSpeakerName: 10
     dialogue: "Oh, I guess that makes sense. Ah, I\u2019ll just call back another
       day or something. Thanks."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1710483551

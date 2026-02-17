@@ -83,6 +83,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: I will, dear. Thanks again.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

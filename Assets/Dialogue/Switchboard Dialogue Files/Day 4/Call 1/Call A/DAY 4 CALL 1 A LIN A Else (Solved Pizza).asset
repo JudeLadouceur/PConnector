@@ -51,6 +51,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "That\u2019s wonderful! I\u2019ll see you then, dear."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

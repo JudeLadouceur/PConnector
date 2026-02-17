@@ -24,4 +24,5 @@ public enum DialogueVar
     PerkinsCalledByLin,
     PerkinsCalledBySeth,
     PretzelStandFixed,
+    TutorialComplete
 }

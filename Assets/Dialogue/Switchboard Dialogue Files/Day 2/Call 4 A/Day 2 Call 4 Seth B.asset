@@ -34,6 +34,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Alright. See ya.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -166623641

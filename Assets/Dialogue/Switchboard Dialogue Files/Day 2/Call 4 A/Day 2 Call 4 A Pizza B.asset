@@ -41,6 +41,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: 'You too, Mrs. Perkins. Have a good night. '
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 237330622

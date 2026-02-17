@@ -15,6 +15,8 @@ public class SetSceneAndVariables : MonoBehaviour
     public VariableSetDisplay varName;
     public VariableValDisplay varValue;
 
+    public static SetSceneAndVariables instance;
+
     private void Awake()
     {
         #if (!UNITY_EDITOR)
@@ -24,6 +26,9 @@ public class SetSceneAndVariables : MonoBehaviour
         #if (UNITY_EDITOR)
         DontDestroyOnLoad(gameObject);
         #endif
+
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
     }
 
     private void Update()
@@ -55,7 +60,7 @@ public class SetSceneAndVariables : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Switchboard");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Switchboard");
         }
 
         //}

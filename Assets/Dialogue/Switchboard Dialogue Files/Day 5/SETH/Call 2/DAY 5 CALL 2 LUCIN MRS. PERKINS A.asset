@@ -66,6 +66,7 @@ MonoBehaviour:
   - speakerName: LUCIN
     NewSpeakerName: 8
     dialogue: Thanks again, Mrs. Perkins. Have a good day!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -25,6 +25,7 @@ MonoBehaviour:
   - speakerName: STEWART
     NewSpeakerName: 10
     dialogue: "No, don\u2019t worry about it. I\u2019ll just call back another day."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1147830231

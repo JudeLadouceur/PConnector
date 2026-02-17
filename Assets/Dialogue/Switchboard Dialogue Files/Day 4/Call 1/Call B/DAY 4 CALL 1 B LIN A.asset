@@ -61,6 +61,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: And you, Mrs. Perkins. Good luck, I hope things work out for you.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

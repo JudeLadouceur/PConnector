@@ -35,6 +35,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Thanks, Lin. Have a good day.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1021659062

@@ -40,6 +40,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: See ya, Seth!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1751469877
