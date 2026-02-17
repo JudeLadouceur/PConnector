@@ -928,7 +928,7 @@ MonoBehaviour:
   target: {fileID: 27465263}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
---- !u!1001 &691306690643246483
+--- !u!1001 &1933589468
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -938,19 +938,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13497745
+      value: 0.11111748
       objectReference: {fileID: 0}
     - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13497745
+      value: 0.11111748
       objectReference: {fileID: 0}
     - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.13497745
+      value: 0.11111748
       objectReference: {fileID: 0}
     - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 778660918932330371, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.051
       objectReference: {fileID: 0}
     - target: {fileID: 1311616024468885550, guid: 669a7d3b4a0efb6418e402776ea4a76f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1038,7 +1042,6 @@ SceneRoots:
   - {fileID: 1710753847}
   - {fileID: 1530870357}
   - {fileID: 1115422679}
-  - {fileID: 691306690643246483}
   - {fileID: 377666115}
   - {fileID: 711380705}
   - {fileID: 152562796}
@@ -1046,3 +1049,4 @@ SceneRoots:
   - {fileID: 1620673806}
   - {fileID: 173047520}
   - {fileID: 599534543}
+  - {fileID: 1933589468}
