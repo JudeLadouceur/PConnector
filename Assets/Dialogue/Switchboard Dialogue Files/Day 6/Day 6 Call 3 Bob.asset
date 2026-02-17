@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 6 Call 3 Bob
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: BOB
+    NewSpeakerName: 6
+    dialogue: "Hey there! Bob here again. You know, I\u2019ve heard a lot of good
+      things about you this past week. It\u2019s strange, I don\u2019t call people
+      much, but can still tell you mean a lot to this community. I see it in everyone
+      else. You\u2019re that link between them, you know? "
+  - speakerName: BOB
+    NewSpeakerName: 6
+    dialogue: You keep being you, alright? Just doing that has already made a big
+      impact here, and that makes me real happy, I tell you.
+  isBark: 1
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []

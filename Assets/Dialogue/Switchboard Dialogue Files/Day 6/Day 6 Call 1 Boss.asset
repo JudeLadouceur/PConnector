@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Day 6 Call 1 Boss
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: BOSS
+    NewSpeakerName: 9
+    dialogue: "Hey pal! I wanted to say that you\u2019ve been quite the asset here
+      over this past week. You\u2019ve helped a lot of people in a lot of ways, and
+      I can tell you\u2019ve made quite the impact. Replaced or not, you\u2019ll
+      always be a valued member of this community. "
+  isBark: 1
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  variables: []
