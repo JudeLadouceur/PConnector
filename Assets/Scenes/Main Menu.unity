@@ -4855,7 +4855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 972.30005, y: 495.79996}
+  m_AnchoredPosition: {x: 1044, y: 500}
   m_SizeDelta: {x: 1100.893, y: 162.922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800637504
@@ -4878,7 +4878,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Original Music by
+  m_text: 'Original Music &
+
+    Additional Sound Design by
 
     Michael Cheung'
   m_isRightToLeft: 0
@@ -5969,8 +5971,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1096, y: 431.00003}
-  m_SizeDelta: {x: 805.6, y: 345.1}
+  m_AnchoredPosition: {x: 1170, y: 373.8}
+  m_SizeDelta: {x: 1088.4, y: 483.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989158122
 MonoBehaviour:
@@ -6518,6 +6520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueSystemRoot
       objectReference: {fileID: 0}
+    - target: {fileID: 5939049551523597664, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6973,7 +6979,7 @@ GameObject:
   - component: {fileID: 1211151598}
   - component: {fileID: 1211151597}
   m_Layer: 5
-  m_Name: Music Background
+  m_Name: Voices Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7279,7 +7285,7 @@ GameObject:
   - component: {fileID: 1371206402}
   - component: {fileID: 1371206401}
   m_Layer: 5
-  m_Name: Music from
+  m_Name: Voices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7301,8 +7307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -776.26, y: -570}
-  m_SizeDelta: {x: 1346.2, y: 439.3}
+  m_AnchoredPosition: {x: -773, y: -604}
+  m_SizeDelta: {x: 1334.6, y: 439.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371206401
 MonoBehaviour:
@@ -7324,8 +7330,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Overworld music from the album \"A New Day's Hurry\"  \nComposed by One
-    Man Symphony\n(https://onemansymphony.bandcamp.com)\n\nLicensed under CC BY 4.0"
+  m_text: 'Ryan Elliott as  Mrs. Perkins, Delivery Guy,  Bob, Howard
+
+    Zachary
+    Richardson as The Boss, Seth,  Lucin
+
+    Ryan Best as Lin, Olson
+
+    Caitlin
+    Makins as Emergency
+
+    Ali Saneei as Stewart, The Frog'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -7352,8 +7367,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.74
-  m_fontSizeBase: 64.74
+  m_fontSize: 58.68
+  m_fontSizeBase: 58.68
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9763,7 +9778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 768.54004, y: -547}
+  m_AnchoredPosition: {x: 768.54004, y: -549}
   m_SizeDelta: {x: 1155.3, y: 392.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852794940
@@ -11279,9 +11294,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1000179647}
+    - target: {fileID: 4562659947876876214, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -26.638802
+      objectReference: {fileID: 0}
     - target: {fileID: 7731662928257903536, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
       propertyPath: m_Name
       value: Controls Page
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172021125050271799, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21.639198
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
