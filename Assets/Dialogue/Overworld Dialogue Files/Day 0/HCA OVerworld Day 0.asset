@@ -23,6 +23,7 @@ MonoBehaviour:
     NewSpeakerName: 4
     dialogue: "Mrs Perkins should be by the flower garden right from here! Anyways,
       I think I\u2019m gonna go back to staring at the frog for a bit\u2026"
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
