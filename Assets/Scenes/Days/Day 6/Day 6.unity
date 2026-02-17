@@ -5666,7 +5666,7 @@ RectTransform:
   - {fileID: 598507644}
   - {fileID: 1416593464}
   - {fileID: 2054676817}
-  m_Father: {fileID: 1897563027}
+  m_Father: {fileID: 608396737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5930,6 +5930,7 @@ RectTransform:
   m_Children:
   - {fileID: 604295940}
   - {fileID: 462209861}
+  - {fileID: 588460307}
   m_Father: {fileID: 1667084145}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -6806,7 +6807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Additional Sound Effects
+  m_text: Additional Sound Design
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5612f7582dee49b499d3c1651052f5b5, type: 2}
   m_sharedMaterial: {fileID: 8617139851486508276, guid: 5612f7582dee49b499d3c1651052f5b5, type: 2}
@@ -17542,6 +17543,7 @@ MonoBehaviour:
   endPauseTime: 3
   credits: {fileID: 1667084144}
   endPosOffest: 850
+  homeButton: {fileID: 0}
 --- !u!1 &1673563970
 GameObject:
   m_ObjectHideFlags: 0
@@ -19762,12 +19764,11 @@ RectTransform:
   - {fileID: 661788234}
   - {fileID: 450916821}
   - {fileID: 858044135}
-  - {fileID: 588460307}
   m_Father: {fileID: 1667084145}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1000, y: -5100}
+  m_AnchoredPosition: {x: 1000, y: -5300}
   m_SizeDelta: {x: 2000, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1897563028
