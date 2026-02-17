@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CreditScroll : MonoBehaviour
 {
@@ -15,10 +16,13 @@ public class CreditScroll : MonoBehaviour
     private bool startPaused = true;
     private bool endPaused = false;
     private Vector3 startPos;
+    private bool endEventTrigger = false;
+    public GameObject homeButton;
 
     // Start is called before the first frame update
     void Start()
     {
+        homeButton.SetActive(false);
         startPos = transform.position;
         Invoke("GetCreditsHeight", 0.1f);
     }
@@ -34,9 +38,11 @@ public class CreditScroll : MonoBehaviour
                 startPaused = false;
                 timer = 0f;
             }
-            if(endPaused &&  timer >= endPauseTime)
+            if(!endEventTrigger && endPaused &&  timer >= endPauseTime)
             {
+                endEventTrigger = true;
                 Debug.Log("Credit Scroll Done");
+                homeButton.SetActive(true);
             }
         }
         else
