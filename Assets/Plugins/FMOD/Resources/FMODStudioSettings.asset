@@ -536,8 +536,7 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 0
   HasPlatforms: 0
-  sourceProjectPath: ../../FMOD/The Last Connection - FMOD Project/The Last Connection/The
-    Last Connection.fspro
+  sourceProjectPath: 
   sourceBankPath: Assets/StreamingAssets/FMODBanks/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
@@ -550,7 +549,7 @@ MonoBehaviour:
   TargetAssetPath: FMODBanks
   TargetBankFolder: 
   EventLinkage: 0
-  LoggingLevel: 1
+  LoggingLevel: 2
   SpeakerModeSettings: []
   SampleRateSettings: []
   LiveUpdateSettings: []
@@ -589,7 +588,7 @@ MonoBehaviour:
   - {fileID: 7284008589450434745}
   - {fileID: 7358928339892935765}
   - {fileID: 8874494086495096992}
-  MigratedPlatforms: 09000000080000000b0000000a00000012000000060000000c0000000500000000000000150000000200000001000000
+  MigratedPlatforms: 0a0000000500000006000000090000000b0000001200000008000000150000000c000000000000000200000001000000
 --- !u!114 &3994775918810895499
 MonoBehaviour:
   m_ObjectHideFlags: 0

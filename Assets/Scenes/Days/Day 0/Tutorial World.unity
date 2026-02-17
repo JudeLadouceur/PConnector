@@ -625,7 +625,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Final Keys
   - arrowTarget: {fileID: 0}
-    stepText: Press Tab and draw puzzle piece to slot it.
+    stepText: Press Tab and drag puzzle piece to slot it.
     lockout: 1
     enableComponents:
     - {fileID: 1893146228}
@@ -642,7 +642,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Achievement
   - arrowTarget: {fileID: 1598504985}
-    stepText: Keys found, press Tab to exit and head home.
+    stepText: Keys found, head back home.
     lockout: 0
     enableComponents:
     - {fileID: 1269728856}
