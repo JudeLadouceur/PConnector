@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
-    dialogue: "Maple Grove emergency line. What\u2019s your situation?"
+    dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: I-what? Really? Aw, man. Sorry, wrong line.

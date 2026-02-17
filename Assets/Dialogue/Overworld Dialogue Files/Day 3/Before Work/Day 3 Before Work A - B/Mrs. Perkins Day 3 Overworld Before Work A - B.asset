@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Hey, dearie. I\u2019m glad you are at least taking some time to talk
       to me."
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Those kind folks at the infirmary helped repair my walker. Hopefully
       that doesn\u2019t happen again. Oh, I can\u2019t take this in my old age\u2026"
   voiceLineEvent:
@@ -28,9 +30,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -860892876
+      Data2: 1311742148
+      Data3: 1846128043
+      Data4: 858056981
+    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Frustrated Barks
   variables: []

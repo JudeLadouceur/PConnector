@@ -30,9 +30,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -860892876
+      Data2: 1311742148
+      Data3: 1846128043
+      Data4: 858056981
+    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Frustrated Barks
   variables: []

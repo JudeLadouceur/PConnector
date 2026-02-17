@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: Hi there youngin! Back to work again?
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: ' I hear there''s a big group staying in town this weekend! It looks
       like you''ll be busy!'
   voiceLineEvent:
@@ -25,4 +27,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: -811201023
+      Data2: 1231524630
+      Data3: -447001981
+      Data4: 2135680499
+    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Happy Barks
   variables: []

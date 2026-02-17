@@ -28,17 +28,18 @@ MonoBehaviour:
       to bother you, I\u2019ll just figure something else out."
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
-    dialogue: "W-well, is there some way I can\u2013"
+    dialogue: "Well, is there some way I can\u2013"
   - speakerName: 
     NewSpeakerName: 0
     dialogue: '*Click*'
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1818247966
+      Data2: 1218996421
+      Data3: 2082074268
+      Data4: -1281919195
+    Path: event:/Voices/Day 3/Window Dressing Call/Perkins Connection/Delivery Guy
+      - D3WD - Perkins Connection
   barkEvent:
     Guid:
       Data1: 0

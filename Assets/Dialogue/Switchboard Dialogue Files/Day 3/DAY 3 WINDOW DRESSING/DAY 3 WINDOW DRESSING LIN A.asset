@@ -24,9 +24,8 @@ MonoBehaviour:
     dialogue: Wh-what? Sorry, did I do something?
   - speakerName: DELIVERY GUY
     NewSpeakerName: 5
-    dialogue: No, sorry. Nothing on you, man. I was looking to call Seth, but it
-      looks like the switchboard operator thought it would be funny to connect me
-      to you.
+    dialogue: No, sorry. Not on you, man. I was looking to call Seth, but it looks
+      like the switchboard operator thought it would be funny to connect me to you.
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Oh\u2026 that\u2019s weird. They\u2019re new, maybe they just messed

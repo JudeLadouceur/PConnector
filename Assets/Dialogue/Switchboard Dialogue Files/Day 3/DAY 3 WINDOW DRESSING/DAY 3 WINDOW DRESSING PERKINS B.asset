@@ -19,11 +19,12 @@ MonoBehaviour:
       Ah, whatever, I\u2019ll just email him or something. Hopefully he checks it."
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1070953629
+      Data2: 1281822195
+      Data3: 868911762
+      Data4: 665543289
+    Path: event:/Voices/Day 3/Window Dressing Call/Perkins B Connection/Delivery
+      - D3WD - Perkins B Connection
   barkEvent:
     Guid:
       Data1: 0
