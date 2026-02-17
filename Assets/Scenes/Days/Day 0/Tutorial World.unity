@@ -491,7 +491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steps:
   - arrowTarget: {fileID: 0}
-    stepText: Press WASD to move
+    stepText: Press WASD to move.
     lockout: 0
     enableComponents: []
     enableButtons:
@@ -506,7 +506,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Movement controls
   - arrowTarget: {fileID: 1211689577}
-    stepText: Press E to open the gate
+    stepText: Press E to open the gate.
     lockout: 0
     enableComponents:
     - {fileID: 2134929055}
@@ -523,7 +523,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Open Gate
   - arrowTarget: {fileID: 1598504985}
-    stepText: Head home for the day
+    stepText: Head home for the day.
     lockout: 0
     enableComponents:
     - {fileID: 1823179877}
@@ -541,7 +541,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Go Home 1
   - arrowTarget: {fileID: 1336152381}
-    stepText: Talk to Lin at the pizzeria
+    stepText: Talk to Lin at the Pizzeria.
     lockout: 0
     enableComponents:
     - {fileID: 301489977}
@@ -558,7 +558,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Lin Keys
   - arrowTarget: {fileID: 1308949966}
-    stepText: Click arrow on right of screen to open notebook
+    stepText: Click arrow on right of screen to open notebook.
     lockout: 1
     enableComponents: []
     enableButtons:
@@ -575,7 +575,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Notebook
   - arrowTarget: {fileID: 747965271}
-    stepText: Talk to Seth at the broken car
+    stepText: Talk to Seth at the broken car.
     lockout: 0
     enableComponents:
     - {fileID: 143611034}
@@ -592,7 +592,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Seth keys
   - arrowTarget: {fileID: 889718774}
-    stepText: Talk to the health care attendant at the fountain
+    stepText: Talk to the Health Care Attendant at the fountain.
     lockout: 0
     enableComponents:
     - {fileID: 216901802}
@@ -609,7 +609,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: HCA Keys
   - arrowTarget: {fileID: 1525391807}
-    stepText: Talk to Mrs. Perkins in the park
+    stepText: Talk to Mrs. Perkins in the park.
     lockout: 0
     enableComponents:
     - {fileID: 237950034}
@@ -625,7 +625,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Final Keys
   - arrowTarget: {fileID: 0}
-    stepText: Press tab and draw puzzle piece to slot it
+    stepText: Press Tab and draw puzzle piece to slot it.
     lockout: 1
     enableComponents:
     - {fileID: 1893146228}
@@ -642,7 +642,7 @@ MonoBehaviour:
     - {fileID: 1952693775}
     stepSummary: Achievement
   - arrowTarget: {fileID: 1598504985}
-    stepText: Keys found, head back home
+    stepText: Keys found, press Tab to exit and head home.
     lockout: 0
     enableComponents:
     - {fileID: 1269728856}

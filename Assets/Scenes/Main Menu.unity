@@ -7330,15 +7330,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ryan Elliott as  Mrs. Perkins, Delivery Guy,  Bob, Howard
+  m_text: 'Ryan Elliott as  Mrs. Perkins, Delivery Guy, Bob
 
-    Zachary
-    Richardson as The Boss, Seth,  Lucin
+    Zachary Richardson
+    as The Boss, Seth, Lucin
 
-    Ryan Best as Lin, Olson
+    Ryan Best as Lin, Olson, Howard
 
-    Caitlin
-    Makins as Emergency
+    Caitlin Makins
+    as Emergency
 
     Ali Saneei as Stewart, The Frog'
   m_isRightToLeft: 0
@@ -10447,13 +10447,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 526215646518176653, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3299935780051369713, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3670539535591273779, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5155018504705947831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Sprite
