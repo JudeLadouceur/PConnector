@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: OLSON
+    NewSpeakerName: 7
     dialogue: "Hello. This is Olson. I\u2019m the father of Lin, the town pizza shop
-      owner. I heard his shop closed today. On a weekday. I was hoping to give him
-      some advice from father to son. Connect me to him."
+      owner. I heard his shop closed today. On a Friday. What a joke. I\u2019m here
+      to give his failing business some advice. Connect me to him. Now."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0
