@@ -15,8 +15,9 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: Hey pal... *huff* I can't believe I forgot my lunch; I can't keep screwing
-      up like this!
+    dialogue: Hey pal... *huff* I don't know what I'm supposed to do for my appointments
+      today! I'll have to make due without parts for now...
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

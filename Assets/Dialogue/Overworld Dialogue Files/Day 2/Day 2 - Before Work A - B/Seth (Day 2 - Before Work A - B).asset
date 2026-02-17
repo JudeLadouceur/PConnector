@@ -15,12 +15,13 @@ MonoBehaviour:
   lines:
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: 'Hey pal... *huff* I can''t believe I forgot my lunch; I can''t keep
-      screwing up like this! '
+    dialogue: Hey pal... *huff* I don't know what I'm supposed to do for my appointments
+      today! I'll have to make due without parts for now...
   - speakerName: SETH
     NewSpeakerName: 3
-    dialogue: Ugh, doesn't matter though. I've gotta put my focus into doing something
-      about this part shortage of mine...
+    dialogue: Ugh, doesn't matter if I got parts or not, though. I've gotta open
+      anyways. Hopefully I'll manage somehow.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0
