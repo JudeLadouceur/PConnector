@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hey! This is Lin. I had planned to have a chat with Mrs. Perkins,
       and was looking through some old files in the town hall of things she\u2019s
       done, and I think I found an old voice recording of a message her husband had
       for her. I was hoping you could connect me to her so I could play it over the
       phone? I think she\u2019d really appreciate it."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

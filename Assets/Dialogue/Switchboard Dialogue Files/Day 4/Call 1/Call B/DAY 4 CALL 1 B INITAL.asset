@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
     dialogue: "Oh hello, dear. This is Mrs. Perkins. You see, these past few days
       have been a lot on me. I feel I\u2019ve really been losing my connection to
       this town in my age. Oh, it gets so hard to keep up when the world moves too
@@ -23,7 +24,15 @@ MonoBehaviour:
       try and convince me otherwise, I\u2019ve already made the arrangements. All
       I have left to do is contact the emergency line so I can cancel any upcoming
       appointments of mine. Could you do this old lady that one last favor?"
+  isBark: 0
   voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
     Guid:
       Data1: 0
       Data2: 0

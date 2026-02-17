@@ -27,6 +27,7 @@ MonoBehaviour:
     NewSpeakerName: 6
     dialogue: "Y-yeah. Sorry. I\u2019ll just go see her myself. Hopefully I don\u2019t
       lose this cat on the way\u2026"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

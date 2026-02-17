@@ -90,6 +90,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "It\u2019s my pleasure, dear. See you there."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

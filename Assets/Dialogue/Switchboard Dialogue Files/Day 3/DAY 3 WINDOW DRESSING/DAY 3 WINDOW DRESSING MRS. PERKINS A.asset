@@ -17,13 +17,13 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: Seriously? Is this a joke?
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh, I\u2019m sorry dear. I\u2019m afraid I don\u2019t understand."
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: "Sorry lady, this just isn\u2019t who I was hoping to connect to. Sorry
       to bother you, I\u2019ll just figure something else out."
   - speakerName: MRS. PERKINS
@@ -32,6 +32,7 @@ MonoBehaviour:
   - speakerName: 
     NewSpeakerName: 0
     dialogue: '*Click*'
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1818247966

@@ -95,6 +95,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Glad to hear it, Mrs. Perkins. I\u2019ll see you soon."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

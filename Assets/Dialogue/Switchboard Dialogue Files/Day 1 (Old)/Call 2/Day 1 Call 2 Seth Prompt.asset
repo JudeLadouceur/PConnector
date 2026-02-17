@@ -14,13 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "AH, hey. I done screwed up. Forgot to make an order this week. It\u2019s,
       it's been so busy and all, and I\u2019m now flush out of parts. I... I just
       hate that I completely overlooked this, but still. "
   - speakerName: SETH
+    NewSpeakerName: 3
     dialogue: "I got appointments today that need doing. Don\u2019t feel like I can
       ask anyone myself but, you know, I just don\u2019t have it in me. Could you
       connect me with someone who can help, a bit discreetly? Thanks."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 362770592
@@ -28,4 +31,11 @@ MonoBehaviour:
       Data3: 474938041
       Data4: 948556521
     Path: event:/Voices/Day 1/Call 2/Prompt/Seth - Day 1, Call 2 - Prompt
+  barkEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   variables: []

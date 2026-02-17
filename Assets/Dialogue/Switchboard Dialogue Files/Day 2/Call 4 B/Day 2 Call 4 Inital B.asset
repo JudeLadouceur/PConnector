@@ -25,6 +25,7 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "I hit my head when I fell, and I\u2019m afraid I\u2019m not feeling
       good. Could you get me some help, please?"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 2114387677

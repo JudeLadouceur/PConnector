@@ -35,6 +35,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: 'Thank you dear, please hurry! '
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1916063548

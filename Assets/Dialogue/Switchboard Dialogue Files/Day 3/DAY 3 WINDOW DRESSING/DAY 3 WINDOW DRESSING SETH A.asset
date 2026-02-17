@@ -17,13 +17,13 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What\u2019s the deal?"
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: "Hey Seth, this is the guy delivering your parts this time \u2018round."
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: Ah, finally! You almost here with those parts?
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: "Uh\u2026 about that\u2026 My truck broke down while stopping for gas
       in the next town over, and it looks like I won\u2019t be back up for a bit.
       I was wondering if you would want to swing by yourself and grab it? You\u2019ll
@@ -33,8 +33,9 @@ MonoBehaviour:
     dialogue: "A small trip to save some money? Works for me. I\u2019ll need to let
       people know though, so I\u2019ll head over first thing tomorrow."
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: Sounds great. See you then.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 910469784

@@ -24,6 +24,7 @@ MonoBehaviour:
       for restoration bought. All I need now is Lin\u2019s dough recipe for the pretzels!
       I\u2019d talked to Lin previously about this and I was hoping to seal the deal,
       could you connect me there? "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1251726435

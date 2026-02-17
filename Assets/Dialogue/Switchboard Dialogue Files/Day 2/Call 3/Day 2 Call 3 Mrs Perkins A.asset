@@ -50,6 +50,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "No worries, dear. I\u2019ll meet you at the park soon. "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -2039937353
