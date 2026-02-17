@@ -68,6 +68,12 @@ public class SceneManager : ScriptableObject
         return startNodes[0];
     }
 
+    public void GoToMainMenu()
+    {
+        VariableManager.instance.ResetFlags();
+        GoToScene(GetMainMenuNode().id);
+    }
+
     public CodeGraphNode GetNode(string nextNodeId)
     {
         if(m_nodeDictionary.TryGetValue(nextNodeId, out CodeGraphNode node))

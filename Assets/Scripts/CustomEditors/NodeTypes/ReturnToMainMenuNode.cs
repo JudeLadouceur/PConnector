@@ -7,6 +7,6 @@ public class ReturnToMainMenuNode : CodeGraphNode
 {
     public override void OnProcess()
     {
-        SceneManager.instance.GoToScene(SceneManager.instance.GetMainMenuNode().id);
+        SceneManager.instance.GoToMainMenu();
     }
 }
