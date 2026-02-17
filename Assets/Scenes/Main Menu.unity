@@ -7330,15 +7330,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ryan Elliott as  Mrs. Perkins, Delivery Guy,  Bob, Howard
+  m_text: 'Ryan Elliott as  Mrs. Perkins, Delivery Guy, Bob
 
-    Zachary
-    Richardson as The Boss, Seth,  Lucin
+    Zachary Richardson
+    as The Boss, Seth, Lucin
 
-    Ryan Best as Lin, Olson
+    Ryan Best as Lin, Olson, Howard
 
-    Caitlin
-    Makins as Emergency
+    Caitlin Makins
+    as Emergency
 
     Ali Saneei as Stewart, The Frog'
   m_isRightToLeft: 0
