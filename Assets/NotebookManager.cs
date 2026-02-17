@@ -45,7 +45,6 @@ public class NotebookManager : MonoBehaviour
     private List<GameObject> bulletPoints;
 
     private string[] dayNames;
-    private bool showNotoif = false;
     public GameObject notifObject;
 
 
@@ -246,12 +245,10 @@ public class NotebookManager : MonoBehaviour
     private void StartNotif()
     {
         notifObject.SetActive(true);
-        showNotoif = true;
     }
 
     private void EndNotif()
     {
         notifObject.SetActive(false);
-        showNotoif = false;
     }
 }

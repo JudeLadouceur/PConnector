@@ -104,21 +104,13 @@ public class TutorialCallManager : MonoBehaviour
 
         SO_Dialogue dialogue = null;
 
+        Debug.Log("Checking option: " + 0);
 
-        for (int i = 0; i < currentCall.connections[target].dialogueOptions.Length; i++)
-        {
-            Debug.Log("Checking option: " + i);
+        dialogue = currentCall.connections[target].dialogueOptions[0].dialogue;
+        doNotProgress = currentCall.connections[target].dialogueOptions[0].doNotProgressToNextCall;
 
-            dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
-            doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
+        Debug.Log("No variable checks, playing: " + currentCall.connections[target].dialogueOptions[0].dialogue);
 
-            Debug.Log("No variable checks, playing: " + currentCall.connections[target].dialogueOptions[i].dialogue);
-
-            if (i + 1 < currentCall.connections[target].dialogueOptions.Length) Debug.LogWarning("Unreachable dialogue detected. Dialogue with no requirements is placed above other dialogue possibilities, making them unreachable.");
-            break;
-
-            if (dialogue != null) break;
-        }
 
         /*if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheFirstConnection, out Achievement value) && value.status == AchievementStatus.Revealed)
         {
@@ -128,7 +120,7 @@ public class TutorialCallManager : MonoBehaviour
         if (dialogue == null)
         {
             Debug.LogError("There is no valid dialogue to play in this notch. Please ensure that a dialogue can play with the variable values you currently have (or have a dialogue with no variable requiremnets).");
-            return false;
+            return false; 
         }
 
         DialogueManager.Instance.StartDialogue(dialogue, doNotProgress);
