@@ -7307,7 +7307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -773, y: -604}
+  m_AnchoredPosition: {x: -773, y: -660}
   m_SizeDelta: {x: 1334.6, y: 439.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371206401
@@ -7330,7 +7330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ryan Elliott as  Mrs. Perkins, Delivery Guy, Bob
+  m_text: 'Ryan Elliott as Mrs. Perkins, Delivery Guy, Bob
 
     Zachary Richardson
     as The Boss, Seth, Lucin
