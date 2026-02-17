@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: Delivery Guy
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: "No answer? He should be there\u2026 is this even the right line?!
       Ah, whatever, I\u2019ll just email him or something. Hopefully he checks it."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1070953629

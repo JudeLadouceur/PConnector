@@ -41,6 +41,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: See you then!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -783584791

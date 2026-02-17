@@ -24,6 +24,7 @@ MonoBehaviour:
       they\u2019re still fresh, but I don\u2019t know who to ask! I just\u2026 I
       can\u2019t let this pizzas go bad, you know? \u201CFresh\u201D is my thing!
       Not \"refrigerated and reheated\u201D!"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1099603455

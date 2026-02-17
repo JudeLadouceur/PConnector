@@ -14,16 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza! Fresher than you would believe! What can I get for
       you?"
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "What? I\u2019m sorry, I was hoping to talk to Seth."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, it seems you\u2019ve been connected to the wrong line. Sorry about
       that."
   - speakerName: LUCIN
+    NewSpeakerName: 8
     dialogue: "It\u2019s alright. I\u2019ll\u2026 find some other way to talk to
       him. Hopefully."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

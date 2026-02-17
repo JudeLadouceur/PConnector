@@ -39,6 +39,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Seth, wait, I didn\u2019t mean-"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -484779280

@@ -112,6 +112,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "That\u2019s what friends are for, Lin. See you there."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

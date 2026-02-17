@@ -24,6 +24,7 @@ MonoBehaviour:
     NewSpeakerName: 9
     dialogue: ' I need this done before the switchboard is replaced. I just need
       one more. Could you connect me to one of the residence?'
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

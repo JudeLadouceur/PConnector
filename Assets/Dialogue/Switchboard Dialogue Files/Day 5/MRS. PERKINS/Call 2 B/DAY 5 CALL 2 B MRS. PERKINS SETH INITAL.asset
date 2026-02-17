@@ -24,6 +24,7 @@ MonoBehaviour:
       an old voice recording of a message her husband had for her. Could you connect
       me to her so I could play it over the phone? I think she\u2019d really appreciate
       it."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

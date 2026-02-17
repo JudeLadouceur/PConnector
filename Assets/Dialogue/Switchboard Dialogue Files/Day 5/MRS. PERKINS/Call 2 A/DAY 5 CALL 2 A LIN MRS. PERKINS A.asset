@@ -95,6 +95,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Of course! I\u2019ll see you soon!"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -103,6 +103,7 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: See ya later, Lin.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

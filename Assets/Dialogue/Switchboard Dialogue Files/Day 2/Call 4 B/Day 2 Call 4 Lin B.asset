@@ -36,6 +36,7 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "No \u2018buts\u2019 about it, Mrs. Perkins. You\u2019re hurt. I\u2019m
       on my way now, hang tight! "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 568336448

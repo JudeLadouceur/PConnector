@@ -58,6 +58,7 @@ MonoBehaviour:
   - speakerName: LUCIN
     NewSpeakerName: 8
     dialogue: Alright. Thanks for your time, Lin. Have a good day!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

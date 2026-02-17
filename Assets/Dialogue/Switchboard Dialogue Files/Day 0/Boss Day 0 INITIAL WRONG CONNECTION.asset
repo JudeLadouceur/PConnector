@@ -16,6 +16,7 @@ MonoBehaviour:
   - speakerName: BOSS
     NewSpeakerName: 9
     dialogue: No, not that one. Look, this is important. Could you not mess around?
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 272479423

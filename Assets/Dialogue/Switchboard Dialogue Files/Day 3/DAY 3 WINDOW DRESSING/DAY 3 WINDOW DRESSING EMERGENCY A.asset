@@ -17,16 +17,17 @@ MonoBehaviour:
     NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: Huh? Emergency line? Sorry. Looks like I got connected to the wrong
       line
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
     dialogue: "Alright. Please only use this line if it\u2019s an emergency."
   - speakerName: DELIVERY GUY
-    NewSpeakerName: 5
+    NewSpeakerName: 12
     dialogue: "Yeah, wasn\u2019t my choice. Take it out on your switchboard operator.
       I guess I\u2019ll just send an email or something\u2026"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1344468167

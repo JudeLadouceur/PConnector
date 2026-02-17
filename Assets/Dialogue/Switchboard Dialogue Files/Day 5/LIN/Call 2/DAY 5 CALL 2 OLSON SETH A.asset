@@ -64,6 +64,7 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "Good. I don\u2019t want to hear of you talking to anyone in this town
       ever again."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

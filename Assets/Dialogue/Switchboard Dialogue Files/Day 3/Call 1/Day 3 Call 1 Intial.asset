@@ -23,6 +23,7 @@ MonoBehaviour:
     dialogue: "Expired a month ago! Ahhhhh, I don\u2019t know what to do! I want
       to get the word out as fast as I can, but I don\u2019t know who to talk to!
       Could you help me out?"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -464912707

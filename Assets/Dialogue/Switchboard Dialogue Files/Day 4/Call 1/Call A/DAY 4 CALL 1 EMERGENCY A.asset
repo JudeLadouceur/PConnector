@@ -31,6 +31,7 @@ MonoBehaviour:
     dialogue: "That\u2019s wonderful! Thank you so much, dear. I\u2019ll be over
       soon. I\u2019m really glad I can help out people working for such a heartfelt
       cause."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

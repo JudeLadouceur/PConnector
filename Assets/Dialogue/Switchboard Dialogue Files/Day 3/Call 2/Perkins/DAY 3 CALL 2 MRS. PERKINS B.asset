@@ -26,6 +26,7 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "Yeah, I know. I think the switchboard operator messed it up. Don\u2019t
       worry about it, it wasn\u2019t that important anyways. I\u2019ll just go. "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1309540344

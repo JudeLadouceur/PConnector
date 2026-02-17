@@ -33,6 +33,7 @@ MonoBehaviour:
   - speakerName: 
     NewSpeakerName: 0
     dialogue: The Call Ends
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 1450095156

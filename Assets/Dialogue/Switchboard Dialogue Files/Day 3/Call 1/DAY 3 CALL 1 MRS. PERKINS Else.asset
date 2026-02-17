@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogue: "W-wait, isn\u2019t Mrs. Perkins at the pharmacy? She won\u2019t pick
       up! Ahhhhhhhh, I don\u2019t have time for this! I\u2019ll-um- figure\u2026
       something out."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -83956201

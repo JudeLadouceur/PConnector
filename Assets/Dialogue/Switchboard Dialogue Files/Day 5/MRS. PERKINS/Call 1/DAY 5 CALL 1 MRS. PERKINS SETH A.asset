@@ -97,6 +97,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: You have a good day, dear.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0
