@@ -59,6 +59,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -258614084

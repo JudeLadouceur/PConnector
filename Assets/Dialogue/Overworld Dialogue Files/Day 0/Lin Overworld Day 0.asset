@@ -28,6 +28,7 @@ MonoBehaviour:
   - speakerName: Lin
     NewSpeakerName: 2
     dialogue: Best of luck with your search!
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

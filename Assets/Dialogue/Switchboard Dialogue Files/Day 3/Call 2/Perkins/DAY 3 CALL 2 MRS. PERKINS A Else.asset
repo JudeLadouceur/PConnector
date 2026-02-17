@@ -18,6 +18,7 @@ MonoBehaviour:
     dialogue: "No answer? Oh, right. I heard she\u2019s at the doctor\u2019s after
       getting hurt. Man, she really should have come to me about that walker, feels
       like the only thing I\u2019m good at sometimes. I hope she\u2019ll be okay."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -980291742

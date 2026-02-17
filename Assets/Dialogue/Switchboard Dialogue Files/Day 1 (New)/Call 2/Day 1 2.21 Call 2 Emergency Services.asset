@@ -23,6 +23,7 @@ MonoBehaviour:
   - speakerName: Emergency
     NewSpeakerName: 4
     dialogue: Alright, have a great day sir.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -547186092

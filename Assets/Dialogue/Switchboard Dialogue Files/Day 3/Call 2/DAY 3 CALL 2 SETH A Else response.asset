@@ -17,6 +17,7 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: No, don't connect me to someone, I just wanted to let you know so I
       won't get people calling in.
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1290749789

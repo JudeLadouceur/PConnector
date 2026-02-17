@@ -66,6 +66,7 @@ MonoBehaviour:
     NewSpeakerName: 7
     dialogue: "Of course I\u2019m right. I\u2019m your father. Now don\u2019t keep
       me waiting too long. We have lots of work ahead of us."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -26,6 +26,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "I\u2019m fine. Don\u2019t worry about it."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

@@ -27,6 +27,7 @@ MonoBehaviour:
       This is it. Could you connect me to the emergency line? I\u2019ve got a lot
       of dangerous tools that need to be taken away. I\u2019m sure they can help
       with that."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

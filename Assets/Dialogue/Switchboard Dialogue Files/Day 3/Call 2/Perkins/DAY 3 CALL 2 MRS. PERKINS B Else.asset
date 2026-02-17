@@ -17,6 +17,7 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "No answer? Wait, did I get connected to Ms. Perkins? I heard she\u2019s
       injured at the moment. Why would\u2026? Ah, forget it."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 576636320

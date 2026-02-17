@@ -25,6 +25,7 @@ MonoBehaviour:
   - speakerName: Mrs Perkins
     NewSpeakerName: 1
     dialogue: Get home safely now, dear!
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

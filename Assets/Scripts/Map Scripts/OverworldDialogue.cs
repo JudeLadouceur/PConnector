@@ -21,17 +21,15 @@ public class OverworldDialogue : Interactables
         MovementScript.instance.Funny = true;
         MovementScript.instance.canToggle = false;
 
+        if (dialogue.isBark)
+        {
+            if (!dialogue.barkEvent.IsNull)
+            {
+                DialogueVoiceManager.Instance.PlayBark(dialogue.barkEvent);
+            }
+            else Debug.LogWarning(dialogue.name + " dialogue Scriptable Object does not have any audio assigned to it.");
+        }
 
         DialogueManager.Instance.StartDialogue(dialogue, false);
-
-        // If the Event is not null and assigned in the Inspector, play the bark line (at random based on the FMOD setup).
-        if (!dialogue.barkEvent.IsNull)
-        {
-            BarkManager.Instance.PlayBark(dialogue.barkEvent);
-        }
-        else
-        {
-            Debug.LogWarning("A dialogue Scriptable Object does not have a BARK Event assigned to it.");
-        }
     }
 }

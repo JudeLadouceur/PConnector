@@ -26,6 +26,7 @@ MonoBehaviour:
     NewSpeakerName: 4
     dialogue: "There\u2019s no need. We will send somebody to deliver our message
       in person. Sorry for the trouble. "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: -1008247412

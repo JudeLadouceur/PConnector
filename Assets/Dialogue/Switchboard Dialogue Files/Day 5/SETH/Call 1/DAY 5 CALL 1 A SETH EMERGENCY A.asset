@@ -33,6 +33,7 @@ MonoBehaviour:
     NewSpeakerName: 4
     dialogue: "Alright, I\u2019ll get that set up as soon as possible. Have a good
       day."
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

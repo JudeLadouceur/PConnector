@@ -23,6 +23,7 @@ MonoBehaviour:
     dialogue: "Doesn\u2019t change the fact things need fixing, but others knowing
       I screwed up\u2026 I can\u2019t lose the shop, can\u2019t lose customers. Can\u2019t
       afford to. I need discreet help finding parts. You get me? "
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 362770592

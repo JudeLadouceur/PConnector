@@ -25,6 +25,7 @@ MonoBehaviour:
   - speakerName: LUCIN
     NewSpeakerName: 8
     dialogue: "Uh\u2026 Have a good day!"
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

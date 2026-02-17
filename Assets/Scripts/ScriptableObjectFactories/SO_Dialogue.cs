@@ -5,6 +5,7 @@ using FMODUnity;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public enum VarType
@@ -31,6 +32,8 @@ public class SO_Dialogue : ScriptableObject
 
     public Lines[] lines;
 
+    public bool isBark = true;
+
     public EventReference voiceLineEvent; // FMOD Event for character voice lines.
 
     public EventReference barkEvent; // FMOD Event for character barks.
@@ -44,6 +47,24 @@ public class SO_Dialogue : ScriptableObject
     }
     public Variables[] variables;
 
+    void Awake()
+    {
+        if (Application.isPlaying)
+        {
+            if (isBark)
+            {
+                if (!barkEvent.IsNull) return;
+                Debug.Log("Added placeholder bark to " + name);
+                barkEvent = FMODUnity.RuntimeManager.PathToEventReference("event:/Voices/Placeholder Voice Lines/Bark Placeholder Voice Line");
+            }
+            else
+            {
+                if (!voiceLineEvent.IsNull) return;
+                Debug.Log("Added placeholder voice line to " + name);
+                voiceLineEvent = FMODUnity.RuntimeManager.PathToEventReference("event:/Voices/Placeholder Voice Lines/Placeholder Voice Line (Switchboard)");
+            }
+        }
+    }
     
     [ExecuteInEditMode]
     private void OnValidate()
@@ -74,7 +95,8 @@ public class SO_Dialogue : ScriptableObject
                 //Debug.Log("Changed line " + i + " name to " + Characters.Perkins.ToString());
             }
         }
-        
+
     }
+
     
 }

@@ -31,6 +31,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: No problem! Be sure to spread the word!
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 328981157
