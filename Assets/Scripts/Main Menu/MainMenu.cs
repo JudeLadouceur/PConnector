@@ -17,31 +17,11 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achieve) && achieve.status != AchievementStatus.Placed)
+        if (!AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achieve) && achieve.status != AchievementStatus.Placed)
         {
-            if (SceneLoadManager.Instance != null)
-            {
-                SceneManager.instance.GoToNextScene();
-            }
-            else
-            {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("tutorial switchboard");
-            }
+            VariableManager.instance.flags[DialogueVar.TutorialComplete] = 1;
         }
-        else
-        {
-            if (SceneLoadManager.Instance != null)
-            {
-                SceneLoadManager.Instance.LoadSceneWithFade("Town Overworld");
-            }
-            else
-            {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Town Overworld");
-            }
-        }
-
-        
-
+        SceneManager.instance.GoToNextScene();
     }
 
     public void OpenOptionsMenu()
@@ -109,13 +89,6 @@ public class MainMenu : MonoBehaviour
 
     public void Tutorial()
     {
-        if (SceneLoadManager.Instance != null)
-        {
-            SceneLoadManager.Instance.LoadSceneWithFade("tutorial switchboard");
-        }
-        else
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("tutorial switchboard");
-        }
+        SceneManager.instance.GoToNextScene();
     }
 }
