@@ -141,9 +141,9 @@ public class DialogueManager : MonoBehaviour
         {
             audioSource = DialogueVoiceManager.Instance.PlayVoiceLine(currentDialogue.voiceLineEvent, lineNumber);
         }
-        else
+        else if (!currentDialogue.isBark)
         {
-            Debug.LogWarning("A dialogue Scriptable Object does not have a VOICE LINE Event assigned to it.");
+            Debug.LogWarning(currentDialogue.name + " dialogue Scriptable Object does not have any audio assigned to it.");
         }
     }
 

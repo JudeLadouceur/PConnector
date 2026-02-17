@@ -32,7 +32,7 @@ public class SO_Dialogue : ScriptableObject
 
     public Lines[] lines;
 
-    public bool isBark;
+    public bool isBark = true;
 
     public EventReference voiceLineEvent; // FMOD Event for character voice lines.
 
@@ -49,27 +49,26 @@ public class SO_Dialogue : ScriptableObject
 
     void Awake()
     {
-        
-    }
-    
-    [ExecuteInEditMode]
-    private void OnValidate()
-    {
         if (Application.isPlaying)
         {
             if (isBark)
             {
-                if (barkEvent.IsNull) return;
+                if (!barkEvent.IsNull) return;
                 Debug.Log("Added placeholder bark to " + name);
                 barkEvent = FMODUnity.RuntimeManager.PathToEventReference("event:/Voices/Placeholder Voice Lines/Bark Placeholder Voice Line");
             }
             else
             {
-                if (voiceLineEvent.IsNull) return;
+                if (!voiceLineEvent.IsNull) return;
                 Debug.Log("Added placeholder voice line to " + name);
                 voiceLineEvent = FMODUnity.RuntimeManager.PathToEventReference("event:/Voices/Placeholder Voice Lines/Placeholder Voice Line (Switchboard)");
             }
         }
+    }
+    
+    [ExecuteInEditMode]
+    private void OnValidate()
+    {
         Characters[] characters = (Characters[])System.Enum.GetValues(typeof(Characters));
         for (int i = 0; i < lines.Length; i++)
         {
@@ -99,4 +98,5 @@ public class SO_Dialogue : ScriptableObject
 
     }
 
+    
 }
