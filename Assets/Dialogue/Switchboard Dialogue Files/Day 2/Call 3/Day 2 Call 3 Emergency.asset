@@ -27,9 +27,12 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "Well\u2026 kind of. You see, a big group cancelled and I wasn\u2019t
       paying attention to the status of their booking, and now I have some pizzas
-      just hanging around. I want to sell it while it\u2019s fresh, but I don\u2019t
-      know who would want a pizza like this. I was thinking maybe I could sell it
-      to you guys for a discount?"
+      just hanging around."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: "I want to sell it while it\u2019s fresh, but I don\u2019t know who
+      would want a pizza like this. I was thinking maybe I could sell it to you guys
+      for a discount?"
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
     dialogue: How much of a discount?
@@ -44,6 +47,7 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "Really?! That\u2019s great! Thanks a lot! I\u2019ll have it ready
       for when you get here. "
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

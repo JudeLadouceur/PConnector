@@ -28,8 +28,10 @@ MonoBehaviour:
     dialogue: Well, I was putting out a ton of pizzas to be delivered today, moving
       at record speed might I add, uh-but I checked the label and found out that
       something screwed up with my delivery, it expired before it even got here!
-      I need to get the word out before those deliveries arrive, but I have no idea
-      how!
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: I need to get the word out before those deliveries arrive, but I have
+      no idea how!
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh dear, that sounds like quite the pickle. Though I don\u2019t think
@@ -59,6 +61,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Thanks, Mrs. Perkins. I\u2019ll be right over as soon as I close up."
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

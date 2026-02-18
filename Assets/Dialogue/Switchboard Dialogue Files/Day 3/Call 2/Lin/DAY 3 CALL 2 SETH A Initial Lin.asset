@@ -16,10 +16,13 @@ MonoBehaviour:
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Hey there. It\u2019s Seth. I\u2019m gonna be out of town tomorrow,
-      finally picking up that delivery of parts I was getting in the next town over.
-      I already put out a notice for my shop, but I\u2019ve had a few good chats
-      with Lin recently and just wanted to let them know personally. Would you mind
-      connecting me to \u2018em?"
+      finally picking up that delivery of parts I was getting in the next town over."
+  - speakerName: SETH
+    NewSpeakerName: 3
+    dialogue: "I already put out a notice for my shop, but I\u2019ve had a few good
+      chats with Lin recently and just wanted to let them know personally. Would
+      you mind connecting me to \u2018em?"
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

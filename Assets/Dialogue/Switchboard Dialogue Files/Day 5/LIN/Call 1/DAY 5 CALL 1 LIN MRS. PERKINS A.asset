@@ -66,9 +66,12 @@ MonoBehaviour:
       You care about the pizza. The community. It\u2019s not how often you\u2019re
       open that\u2019s defined your shop\u2019s reputation, dear. It\u2019s the heart
       you\u2019ve put into running it the best way you can. That\u2019s what\u2019s
-      made the difference in this community. Take from this old lady who\u2019s watched
-      this town grow for some time. Your pizza shop has inspired so many others to
-      put as much love into their work as you do."
+      made the difference in this community."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "Take from this old lady who\u2019s watched this town grow for some
+      time. Your pizza shop has inspired so many others to put as much love into
+      their work as you do."
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Aw, gee, Mrs. P. I\u2026"
@@ -90,6 +93,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "It\u2019s my pleasure, dear. See you there."
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

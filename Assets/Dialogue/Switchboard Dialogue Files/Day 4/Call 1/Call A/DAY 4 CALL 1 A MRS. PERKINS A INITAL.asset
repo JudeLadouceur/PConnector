@@ -18,8 +18,11 @@ MonoBehaviour:
     dialogue: "Oh hello, dear. This is Mrs. Perkins. You see, these past few days
       I feel I\u2019ve been falling behind in the community. Keeping up has been
       a strain on me in my age\u2026 So I wanted to volunteer somewhere to help out
-      the town a bit, and see if that would help. Could you connect me to somewhere
-      I could do that?"
+      the town a bit, and see if that would help."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: Could you connect me to somewhere I could do that?
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:
