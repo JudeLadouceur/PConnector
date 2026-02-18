@@ -24,6 +24,8 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI speakerField;
     private TextMeshProUGUI dialogueField;
     private UnityEngine.UI.Image speakerProfile;
+    private GameObject summaryBox;
+    private TextMeshProUGUI summaryField;
 
     private EventInstance audioSource;
 
@@ -69,6 +71,7 @@ public class DialogueManager : MonoBehaviour
 
         currentDialogue = dialogue;
         
+        summaryBox.SetActive(false);
 
         lineNumber = 0;
         SetDialogueLine(0);
@@ -151,8 +154,6 @@ public class DialogueManager : MonoBehaviour
     {
         print("Closing dialogue box");
 
-        currentDialogue = null;
-
         dialogueBox.SetActive(false);
 
         inDialogue = false;
@@ -175,6 +176,8 @@ public class DialogueManager : MonoBehaviour
 
             ActivateNotchSelect();
 
+            currentDialogue = null;
+
             return;
         }
 
@@ -188,6 +191,8 @@ public class DialogueManager : MonoBehaviour
         else if (TimeManager.callNumber < callManager.days[TimeManager.dayNumber].call.Length - 1)
         {
             TimeManager.callNumber++;
+
+            currentDialogue = null;
 
             callManager.StartCoroutine(callManager.StartCallDelay());
         }
@@ -220,6 +225,10 @@ public class DialogueManager : MonoBehaviour
         callManager = GameObject.FindAnyObjectByType<CallManager>();
         
         transitionTargets = GameObject.FindAnyObjectByType<SceneTransitionTargets>();
+
+        summaryBox = GameObject.FindGameObjectWithTag("SummaryBox");
+        summaryField = summaryBox.GetComponentInChildren<TextMeshProUGUI>();
+        summaryBox.SetActive(false);
     }
     
     public void EndDay()
@@ -271,5 +280,8 @@ public class DialogueManager : MonoBehaviour
                 break;
             }
         }
+
+        summaryBox.SetActive(true);
+        summaryField.text = currentDialogue.contextSummary;
     }
 }
