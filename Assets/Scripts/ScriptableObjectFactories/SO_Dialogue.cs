@@ -34,6 +34,8 @@ public class SO_Dialogue : ScriptableObject
 
     public string contextSummary;
 
+    public bool hasNoAudio = false;
+
     public bool isBark = true;
 
     public EventReference voiceLineEvent; // FMOD Event for character voice lines.
@@ -53,6 +55,7 @@ public class SO_Dialogue : ScriptableObject
     {
         if (Application.isPlaying)
         {
+            if (hasNoAudio) return;
             if (isBark)
             {
                 if (!barkEvent.IsNull) return;

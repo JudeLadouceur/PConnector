@@ -140,6 +140,7 @@ public class DialogueManager : MonoBehaviour
 
         lineNumber = line;
 
+        if (currentDialogue.hasNoAudio) return;
         if (!currentDialogue.voiceLineEvent.IsNull)
         {
             audioSource = DialogueVoiceManager.Instance.PlayVoiceLine(currentDialogue.voiceLineEvent, lineNumber);

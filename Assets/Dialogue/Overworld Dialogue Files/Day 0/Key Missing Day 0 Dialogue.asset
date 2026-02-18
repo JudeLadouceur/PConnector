@@ -22,7 +22,9 @@ MonoBehaviour:
   - speakerName: 
     NewSpeakerName: 0
     dialogue: (Maybe one of the townsfolk found them?)
-  isBark: 1
+  contextSummary: 
+  hasNoAudio: 1
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0

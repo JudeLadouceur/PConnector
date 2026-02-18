@@ -23,11 +23,14 @@ public class OverworldDialogue : Interactables
 
         if (dialogue.isBark)
         {
-            if (!dialogue.barkEvent.IsNull)
+            if (dialogue.hasNoAudio)
             {
-                DialogueVoiceManager.Instance.PlayBark(dialogue.barkEvent);
+                if (!dialogue.barkEvent.IsNull)
+                {
+                    DialogueVoiceManager.Instance.PlayBark(dialogue.barkEvent);
+                }
+                else Debug.LogWarning(dialogue.name + " dialogue Scriptable Object does not have any audio assigned to it.");
             }
-            else Debug.LogWarning(dialogue.name + " dialogue Scriptable Object does not have any audio assigned to it.");
         }
 
         DialogueManager.Instance.StartDialogue(dialogue, false);
