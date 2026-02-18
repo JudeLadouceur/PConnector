@@ -89,6 +89,7 @@ public class MainMenu : MonoBehaviour
 
     public void Tutorial()
     {
+        VariableManager.instance.flags[DialogueVar.TutorialButton] = 1;
         SceneManager.instance.GoToNextScene();
     }
 }
