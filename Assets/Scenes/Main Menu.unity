@@ -10965,6 +10965,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.76193124
       objectReference: {fileID: 0}
+    - target: {fileID: 5836618171039592536, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: Day6Button
+      value: 
+      objectReference: {fileID: 1182339914}
     - target: {fileID: 5969150987622861011, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Name
       value: AchievementRoot
