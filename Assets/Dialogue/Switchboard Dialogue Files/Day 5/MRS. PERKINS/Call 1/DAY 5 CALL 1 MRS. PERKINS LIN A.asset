@@ -43,10 +43,12 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "It\u2019s not just that, Mrs. P! You\u2019re forgetting all the great
       things you\u2019ve done for this town! After my father walked away from the
-      shop, I wasn\u2019t quite ready for the responsibility, I was so unorganized.
-      It was only because you stayed with me three days in a row that I managed to
-      get things in working order. I never would have even opened shop if not for
-      you!"
+      shop, I wasn\u2019t quite ready for the responsibility, I was so unorganized."
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: It was only because you stayed with me three days in a row that I managed
+      to get things in working order. I never would have even opened shop if not
+      for you!
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Oh my\u2026. Did I really do that?"
@@ -83,6 +85,7 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: I will, dear. Thanks again.
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

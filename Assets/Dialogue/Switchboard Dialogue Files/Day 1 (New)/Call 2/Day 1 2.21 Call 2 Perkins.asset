@@ -24,8 +24,11 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "Oh, well yes, I do in fact! Why don\u2019t you come by, I have some
       of the like in the storage room I think. Things that are left over from the
-      gizmos Howard used to collect. What led to this pickle though? I\u2019ve never
-      known you to need parts before."
+      gizmos Howard used to collect."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: "What led to this pickle though? I\u2019ve never known you to need
+      parts before."
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "I, uh, forgot to make an order. Just like me to be this useless, but
@@ -49,6 +52,7 @@ MonoBehaviour:
     NewSpeakerName: 3
     dialogue: "Yeah, okay. Our little secret. I\u2019ll be right over for the parts.
       Thanks, Mrs. Perkins."
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

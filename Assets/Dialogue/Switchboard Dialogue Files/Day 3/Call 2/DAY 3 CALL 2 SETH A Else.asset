@@ -19,6 +19,7 @@ MonoBehaviour:
       up that delivery of parts I ordered in the next town over. I\u2019ve already
       put a notice for my shop out, but figured letting you know would be smart do
       you don\u2019t direct people to the shop."
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

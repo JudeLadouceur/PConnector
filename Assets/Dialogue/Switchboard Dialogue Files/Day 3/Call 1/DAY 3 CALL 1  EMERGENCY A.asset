@@ -21,8 +21,11 @@ MonoBehaviour:
     dialogue: Oh, perfect! This is Lin, the guy who runs the pizza shop in town.
       You see, I was putting out a ton of pizzas to be delivered today, at record
       speed at that, uh-but I checked the label and found out that something screwed
-      up with my delivery, it expired before it even got here! I need to get the
-      word out before those deliveries arrive!
+      up with my delivery, it expired before it even got here!
+  - speakerName: LIN
+    NewSpeakerName: 2
+    dialogue: I need to get the word out before those deliveries arrive, but I have
+      no idea how!
   - speakerName: RECEPTIONIST
     NewSpeakerName: 4
     dialogue: "Some people could get seriously sick from that. Thanks for calling
@@ -37,6 +40,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: Thanks again.
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

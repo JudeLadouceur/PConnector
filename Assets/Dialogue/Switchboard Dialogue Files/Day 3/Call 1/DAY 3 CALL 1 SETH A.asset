@@ -61,6 +61,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: Alright, I will! Thanks again Seth!
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

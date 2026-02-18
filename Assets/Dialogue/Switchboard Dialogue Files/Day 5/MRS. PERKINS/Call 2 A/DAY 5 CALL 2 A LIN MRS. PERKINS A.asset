@@ -60,8 +60,10 @@ MonoBehaviour:
     NewSpeakerName: 0
     dialogue: My time may be up, but yours is not. I know it may hurt when I am gone.
       It may make you feel lost, alone. But know that you are never alone my dear.
-      The connections you have fostered in our growing community have brought you
-      all together in a way I never could have dreamed.
+  - speakerName: HOWARD
+    NewSpeakerName: 0
+    dialogue: The connections you have fostered in our growing community have brought
+      you all together in a way I never could have dreamed.
   - speakerName: HOWARD
     NewSpeakerName: 0
     dialogue: "You are the greatest thing to happen to me, Emilia. You matter not
@@ -95,6 +97,7 @@ MonoBehaviour:
   - speakerName: LIN
     NewSpeakerName: 2
     dialogue: "Of course! I\u2019ll see you soon!"
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:

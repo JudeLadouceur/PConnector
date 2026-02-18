@@ -16,9 +16,12 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: "Good day to you, dear! You see, I\u2019ve been feeling quite energized
-      after my little adventure with Lin yesterday after my walker was repaired.
-      I was hoping to reach out to someone and ask if they wanted to have a chat
-      at the park. Would you mind connecting me to someone who could?"
+      after my little adventure with Lin yesterday after my walker was repaired."
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: I was hoping to reach out to someone and ask if they wanted to have
+      a chat at the park. Would you mind connecting me to someone who could?
+  contextSummary: 
   isBark: 0
   voiceLineEvent:
     Guid:
