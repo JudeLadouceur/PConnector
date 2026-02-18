@@ -12,7 +12,7 @@ public class AchievementManager : MonoBehaviour
     public GameObject viewRoot;
     public Canvas puzzleCanvas;
     public Camera sceneCamera;
-    public bool endDayRevealed = false;
+    public GameObject Day6Button;
     public AchieveNameClass[] namesCorrelation;
     public Dictionary<AchievementNames,string> namesDict;
 
@@ -35,6 +35,7 @@ public class AchievementManager : MonoBehaviour
         {
             namesDict.Add(nameObj.name, nameObj.displayName);
         }
+        Day6Button.SetActive(false);
         viewRoot.SetActive(true);
         viewRoot.SetActive(false);
     }
@@ -76,7 +77,7 @@ public class AchievementManager : MonoBehaviour
         foreach(Achievement achievement in achievements)
         {
 
-            if (achievement.status == AchievementStatus.Achieved || achievement.status==AchievementStatus.Placed)
+            if (achievement.status==AchievementStatus.Placed)
             {
                 achievedCount++;
             }
@@ -85,16 +86,9 @@ public class AchievementManager : MonoBehaviour
     }
     public void CheckForEndDayAchieveReveal()
     {
-        /*if(achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement value))
+        if (CheckNumberAchieved() == achievementDictionary.Count)
         {
-            if(value.status == AchievementStatus.Hidden)
-            {
-                if (CheckNumberAchieved() >= 3)
-                {
-                    value.Reveal();
-                    endDayRevealed = true;
-                }
-            }
-        }*/
+            Day6Button.SetActive(true);
+        }
     }
 }

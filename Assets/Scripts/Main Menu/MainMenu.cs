@@ -39,7 +39,6 @@ public class MainMenu : MonoBehaviour
     public void OpenAchievements()
     {
         AchievementManager.instance.ToggleAchievementView();
-        achieveBackButton.SetActive(!achieveBackButton.activeInHierarchy);
 
         mainMenu.SetActive(!mainMenu.activeInHierarchy);
     }
