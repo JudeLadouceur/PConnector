@@ -23,7 +23,8 @@ MonoBehaviour:
     NewSpeakerName: 0
     dialogue: (Maybe one of the townsfolk found them?)
   contextSummary: 
-  isBark: 1
+  hasNoAudio: 1
+  isBark: 0
   voiceLineEvent:
     Guid:
       Data1: 0
