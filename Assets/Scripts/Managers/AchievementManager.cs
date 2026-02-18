@@ -43,7 +43,7 @@ public class AchievementManager : MonoBehaviour
     public void ToggleAchievementView()
     {
         viewRoot.SetActive(!viewRoot.activeInHierarchy);
-        if (!FindObjectOfType<MovementScript>()) return;
+        if (!FindObjectOfType<MovementScript>() && !FindObjectOfType<MainMenu>()) return;
         MovementScript player = FindObjectOfType<MovementScript>();
         if (player)
         {
@@ -58,7 +58,12 @@ public class AchievementManager : MonoBehaviour
                     viewRoot.transform.position = player.gameObject.transform.position;
                 }
             }
-            
+        } else
+        {
+            if (FindObjectOfType<MainMenu>())
+            {
+                FindObjectOfType<MainMenu>().mainMenu.SetActive(true);
+            }
         }
     }
 
