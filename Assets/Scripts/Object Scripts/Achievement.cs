@@ -69,11 +69,6 @@ public class Achievement : MonoBehaviour
     {
         status = newStatus;
         UpdateDisplay();
-        if (status== AchievementStatus.Achieved)
-        {
-            if (AchievementManager.instance && !AchievementManager.instance.endDayRevealed)
-                AchievementManager.instance.CheckForEndDayAchieveReveal();
-        }
         
     }
     public void Reveal()
@@ -88,11 +83,6 @@ public class Achievement : MonoBehaviour
         if (status != AchievementStatus.Placed)
         {
             SetStatus(AchievementStatus.Achieved);
-            if (AchievementManager.instance && !AchievementManager.instance.endDayRevealed)
-            {
-
-            }
-                //AchievementManager.instance.CheckForEndDayAchieveReveal();
         }
     }
 
@@ -103,18 +93,11 @@ public class Achievement : MonoBehaviour
             SetStatus(AchievementStatus.Placed);
             if (AchievementManager.instance)
             {
-                /*if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.PuzzleIntern, out Achievement puzzlePiece))
-                {
-                    puzzlePiece.Achieve();
-                }
-                else
-                {
-                    Debug.Log("Failed to find achievement");
-                }*/
+                AchievementManager.instance.CheckForEndDayAchieveReveal();
             }
             else
             {
-                Debug.Log("No Acheivement Manager Found");
+                Debug.Log("No Achievement Manager Found");
             }
             if(achievementName == AchievementNames.TheEnd && TestTargetSwap.instance != null)
             {

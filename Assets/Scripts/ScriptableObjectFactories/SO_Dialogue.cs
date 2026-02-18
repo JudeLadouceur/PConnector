@@ -32,6 +32,8 @@ public class SO_Dialogue : ScriptableObject
 
     public Lines[] lines;
 
+    public string contextSummary;
+
     public bool isBark = true;
 
     public EventReference voiceLineEvent; // FMOD Event for character voice lines.

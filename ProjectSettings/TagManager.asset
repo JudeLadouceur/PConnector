@@ -8,6 +8,7 @@ TagManager:
   - Notch
   - BoardBG
   - DialogueBox
+  - SummaryBox
   layers:
   - Default
   - TransparentFX

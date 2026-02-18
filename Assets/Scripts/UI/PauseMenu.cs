@@ -124,15 +124,6 @@ public class PauseMenu : MonoBehaviour
             AchievementManager.instance.viewRoot.SetActive(false);
         }
 
-        //DialogueManager.Instance.ResetDialogue();
-
-        if (SceneLoadManager.Instance != null)
-        {
-            SceneLoadManager.Instance.LoadSceneWithFade("Main Menu");
-        }
-        else
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
-        }
+        SceneManager.instance.GoToMainMenu();
     }
 }

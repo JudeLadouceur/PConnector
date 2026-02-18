@@ -12,7 +12,7 @@ public class AchievementManager : MonoBehaviour
     public GameObject viewRoot;
     public Canvas puzzleCanvas;
     public Camera sceneCamera;
-    public bool endDayRevealed = false;
+    public GameObject Day6Button;
     public AchieveNameClass[] namesCorrelation;
     public Dictionary<AchievementNames,string> namesDict;
 
@@ -35,6 +35,7 @@ public class AchievementManager : MonoBehaviour
         {
             namesDict.Add(nameObj.name, nameObj.displayName);
         }
+        Day6Button.SetActive(false);
         viewRoot.SetActive(true);
         viewRoot.SetActive(false);
     }
@@ -42,7 +43,7 @@ public class AchievementManager : MonoBehaviour
     public void ToggleAchievementView()
     {
         viewRoot.SetActive(!viewRoot.activeInHierarchy);
-        if (!FindObjectOfType<MovementScript>()) return;
+        if (!FindObjectOfType<MovementScript>() && !FindObjectOfType<MainMenu>()) return;
         MovementScript player = FindObjectOfType<MovementScript>();
         if (player)
         {
@@ -57,7 +58,12 @@ public class AchievementManager : MonoBehaviour
                     viewRoot.transform.position = player.gameObject.transform.position;
                 }
             }
-            
+        } else
+        {
+            if (FindObjectOfType<MainMenu>())
+            {
+                FindObjectOfType<MainMenu>().mainMenu.SetActive(true);
+            }
         }
     }
 
@@ -76,7 +82,7 @@ public class AchievementManager : MonoBehaviour
         foreach(Achievement achievement in achievements)
         {
 
-            if (achievement.status == AchievementStatus.Achieved || achievement.status==AchievementStatus.Placed)
+            if (achievement.status==AchievementStatus.Placed)
             {
                 achievedCount++;
             }
@@ -85,16 +91,9 @@ public class AchievementManager : MonoBehaviour
     }
     public void CheckForEndDayAchieveReveal()
     {
-        /*if(achievementDictionary.TryGetValue(AchievementNames.NewJobBlues, out Achievement value))
+        if (CheckNumberAchieved() == achievementDictionary.Count)
         {
-            if(value.status == AchievementStatus.Hidden)
-            {
-                if (CheckNumberAchieved() >= 3)
-                {
-                    value.Reveal();
-                    endDayRevealed = true;
-                }
-            }
-        }*/
+            Day6Button.SetActive(true);
+        }
     }
 }
