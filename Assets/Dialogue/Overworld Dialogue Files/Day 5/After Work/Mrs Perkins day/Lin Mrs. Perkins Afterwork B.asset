@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "What\u2019s your deal, anyways? That was important, you know. You\u2019re
       not getting any pizza next week."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -25,9 +28,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1730578393
+      Data2: 1136459529
+      Data3: 247692957
+      Data4: 438564200
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Angry Barks
   variables: []

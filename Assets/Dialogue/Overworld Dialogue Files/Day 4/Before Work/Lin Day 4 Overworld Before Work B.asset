@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hey. Sorry, you\u2019ll have to wait a bit before we open. Wait\u2026
       do you actually want a pizza? Do you?! Oh, uh\u2026 sorry. It\u2019s hardly
       breakfast time. Sorry for bothering you."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -26,9 +29,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 559135386
+      Data2: 1188055165
+      Data3: 902390165
+      Data4: -783960153
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Frustrated Barks
   variables: []

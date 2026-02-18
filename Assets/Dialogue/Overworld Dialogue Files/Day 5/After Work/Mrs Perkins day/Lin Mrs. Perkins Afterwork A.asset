@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hey there! I had quite the scare earlier when I heard Mrs. Perkins
       might be moving out. I\u2019m glad she\u2019s not, she means so much to this
       whole town! Thanks for your help."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -26,9 +29,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables: []

@@ -18,6 +18,8 @@ MonoBehaviour:
     dialogue: "Good morning! Say, it seems like Seth has been acting strange. Do
       you know if he\u2019s okay? I would check myself, but I\u2019ve got a shop
       to open and all."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -27,9 +29,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 559135386
+      Data2: 1188055165
+      Data3: 902390165
+      Data4: -783960153
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Frustrated Barks
   variables: []

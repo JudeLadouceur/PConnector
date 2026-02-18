@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hey\u2026! We\u2019re\u2026 open, right? We should be. I managed to
       get out and open this place. I don\u2019t feel like doing any orders though.
       I\u2026 I\u2019m just wasting my time. Sorry."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -26,9 +29,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 559135386
+      Data2: 1188055165
+      Data3: 902390165
+      Data4: -783960153
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Frustrated Barks
   variables: []

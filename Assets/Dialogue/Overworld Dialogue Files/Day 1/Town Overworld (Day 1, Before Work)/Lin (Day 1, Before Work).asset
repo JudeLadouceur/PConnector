@@ -14,13 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh, a customer! Hey there! WELCOME TO LIN'S PIZZA! The best pizza
       this side of Maplegrove! Unfortunately, I\u2019m still prepping, but whatever
       your pizza needs are come back during business hours and I can get you set
       up!"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Oh and if you see Mrs. Perkins, make sure to say hello! She\u2019s
       one of my favorite customers!"
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -30,9 +34,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables: []

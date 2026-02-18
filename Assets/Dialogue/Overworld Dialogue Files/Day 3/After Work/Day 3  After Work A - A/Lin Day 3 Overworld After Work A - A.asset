@@ -26,6 +26,8 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: I'm feeling pretty grateful that despite everything I've been able
       to make things work, gotta thank the community for that!
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -35,9 +37,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables: []

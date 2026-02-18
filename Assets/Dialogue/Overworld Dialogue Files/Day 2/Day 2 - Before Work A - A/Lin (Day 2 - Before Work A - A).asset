@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Another day, another batch of pizzas! Heard there's a big group in
       town today, so we\u2019ll likely have our work cut out for us."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: See ya around! And remember, tonight's wing night, so you get 10% off!
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -25,4 +29,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables: []

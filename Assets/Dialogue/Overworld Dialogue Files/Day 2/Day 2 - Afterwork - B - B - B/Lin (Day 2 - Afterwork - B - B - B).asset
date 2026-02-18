@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Dang it, dang it, dang it! I couldn't help Mrs. Perkins, and I wasted
       all that prime pizza...
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, hey, customer. Uhm, we sure try and sell the best pizza here...
       when we're not throwing out our best work...
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -26,4 +30,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: -1730578393
+      Data2: 1136459529
+      Data3: 247692957
+      Data4: 438564200
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Angry Barks
   variables: []

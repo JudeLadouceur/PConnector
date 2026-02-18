@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Oh, hey kid. Heard that emergency services has been getting some false
       alarms recently.
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: Just in case you're connecting people who are having issues, remember
       only to take serious ones to emergency services, okay?
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -26,4 +30,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: 559135386
+      Data2: 1188055165
+      Data3: 902390165
+      Data4: -783960153
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Frustrated Barks
   variables: []

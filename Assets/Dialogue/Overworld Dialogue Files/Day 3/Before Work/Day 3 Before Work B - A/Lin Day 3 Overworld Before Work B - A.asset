@@ -14,12 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Morning, hope you're doing good. Sorry, I\u2019m not feeling too great
       after yesterday, and now I also have an order of tomato sauce coming in."
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Hopefully all goes fine with that, if something happens I wouldn\u2019t
       want to drag anyone down like I\u2019ve been recently. Working so much makes
       it hard to make real friends, you know."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -29,9 +33,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 559135386
+      Data2: 1188055165
+      Data3: 902390165
+      Data4: -783960153
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Frustrated Barks
   variables: []

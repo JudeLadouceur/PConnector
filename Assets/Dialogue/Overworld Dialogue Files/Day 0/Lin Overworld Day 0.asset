@@ -28,6 +28,7 @@ MonoBehaviour:
   - speakerName: Lin
     NewSpeakerName: 2
     dialogue: Best of luck with your search!
+  contextSummary: 
   isBark: 1
   voiceLineEvent:
     Guid:
@@ -38,9 +39,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables: []

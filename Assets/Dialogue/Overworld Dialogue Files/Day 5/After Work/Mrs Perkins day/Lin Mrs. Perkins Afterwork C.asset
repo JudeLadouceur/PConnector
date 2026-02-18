@@ -21,6 +21,8 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: "She was so important to so many of us. Why would she do that? I\u2026
       I might close shop tomorrow. I don\u2019t know what to do right now."
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -30,9 +32,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1730578393
+      Data2: 1136459529
+      Data3: 247692957
+      Data4: 438564200
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Angry Barks
   variables: []

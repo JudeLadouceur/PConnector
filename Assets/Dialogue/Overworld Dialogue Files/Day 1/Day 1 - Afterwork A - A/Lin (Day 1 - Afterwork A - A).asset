@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: "Whew, finally done\u2026 Oh hey! You getting off work too? Nice stuff,
       hope you have as chill of a night as me\u2026"
   - speakerName: LIN
+    NewSpeakerName: 2
     dialogue: You should stop by and pick up a pizza sometime! I can even give you
       a first time discount!
+  contextSummary: 
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -26,4 +30,11 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  barkEvent:
+    Guid:
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables: []
