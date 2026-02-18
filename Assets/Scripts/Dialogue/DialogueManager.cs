@@ -70,8 +70,8 @@ public class DialogueManager : MonoBehaviour
         doNotProgessToNextCall = doNotProgress;
 
         currentDialogue = dialogue;
-        
-        summaryBox.SetActive(false);
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard"))
+            summaryBox.SetActive(false);
 
         lineNumber = 0;
         SetDialogueLine(0);
@@ -280,10 +280,8 @@ public class DialogueManager : MonoBehaviour
                 break;
             }
         }
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard"))
-        {
+
             summaryBox.SetActive(true);
             summaryField.text = currentDialogue.contextSummary;
-        }
     }
 }
