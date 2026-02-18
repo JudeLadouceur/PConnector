@@ -280,8 +280,10 @@ public class DialogueManager : MonoBehaviour
                 break;
             }
         }
-
-        summaryBox.SetActive(true);
-        summaryField.text = currentDialogue.contextSummary;
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard"))
+        {
+            summaryBox.SetActive(true);
+            summaryField.text = currentDialogue.contextSummary;
+        }
     }
 }
