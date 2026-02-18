@@ -23,14 +23,15 @@ MonoBehaviour:
     dialogue: "I really appreciate my brother, and I appreciate you for helping me
       help him. I\u2019ve heard a lot of good things about what you\u2019ve done
       for the town, and I know it means a lot to a lot of people. "
-  isBark: 1
+  contextSummary: 
+  isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 735966653
+      Data2: 1267662128
+      Data3: -1728789609
+      Data4: 812858503
+    Path: event:/Voices/Placeholder Voice Lines/Placeholder Voice Line (Switchboard)
   barkEvent:
     Guid:
       Data1: 0

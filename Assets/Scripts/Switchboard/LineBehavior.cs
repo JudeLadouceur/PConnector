@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LineBehavior : MonoBehaviour
 {
-    private bool isMoving = true;
     private LineManager lm;
     //[HideInInspector]
     public GameObject _notch1;

@@ -12,10 +12,15 @@ public class Notches : MonoBehaviour
 
     private void OnMouseDown()
     {
+        Debug.Log("check 1");
         if (!LineManager.instance.canDraw) return;
+        Debug.Log("check 2");
         if (isOccupied) return;
+        Debug.Log("check 3");
         if (assignedCharacter == Characters.None) return;
+        Debug.Log("check 4");
         if (DialogueManager.Instance.inDialogue) return;
+        Debug.Log("All good");
         LineManager.instance.SelectPoint(gameObject);
         isOccupied = true;
         if (TutorialSwitchboard.instance != null)

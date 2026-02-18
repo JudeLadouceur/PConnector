@@ -33,6 +33,7 @@ MonoBehaviour:
       the shipment, but\u2026 gah, what was his name again? I can\u2019t remember.
       Do you have that written down somewhere? Just connect me to \u2018em if you
       do."
+  contextSummary: Your boss wants to connect to the town's mechanic
   isBark: 0
   voiceLineEvent:
     Guid:
