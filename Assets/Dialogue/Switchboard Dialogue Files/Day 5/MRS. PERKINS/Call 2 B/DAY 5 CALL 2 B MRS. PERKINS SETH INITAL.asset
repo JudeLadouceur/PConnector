@@ -24,6 +24,8 @@ MonoBehaviour:
       an old voice recording of a message her husband had for her. Could you connect
       me to her so I could play it over the phone? I think she\u2019d really appreciate
       it."
+  contextSummary: Seth has found something that they want to hear!
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

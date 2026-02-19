@@ -18,6 +18,9 @@ MonoBehaviour:
     dialogue: "Hello. This is Olson. I\u2019m the father of Lin, the town pizza shop
       owner. I heard his shop closed today. On a Friday. What a joke. I\u2019m here
       to give his failing business some advice. Connect me to him. Now."
+  contextSummary: "Olson, Lin\u2019s father, has called after hearing about Lin closing
+    shop today, wanting to connect to him."
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

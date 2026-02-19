@@ -32,6 +32,9 @@ MonoBehaviour:
     dialogue: I was just calling to cancel my upcoming appointments so I can start
       making the arrangements. Could you do this old lady that one last favor and
       connect me to the emergency line?
+  contextSummary: Mrs. Perkins is planning to move out, and wants to be connected
+    to the emergency line to cancel her appointments here in town.
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

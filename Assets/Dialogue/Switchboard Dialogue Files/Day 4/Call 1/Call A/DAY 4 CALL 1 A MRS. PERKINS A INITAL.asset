@@ -22,7 +22,9 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: Could you connect me to somewhere I could do that?
-  contextSummary: 
+  contextSummary: Mrs. Perkins is looking to volunteer somewhere! Where can she go
+    to do so?
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

@@ -22,7 +22,8 @@ MonoBehaviour:
     dialogue: "I already put out a notice for my shop, but I\u2019ve had a few good
       chats with Lin recently and just wanted to let them know personally. Would
       you mind connecting me to \u2018em?"
-  contextSummary: 
+  contextSummary: Seth is out of town tomorrow, and wants to let Lin know.
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

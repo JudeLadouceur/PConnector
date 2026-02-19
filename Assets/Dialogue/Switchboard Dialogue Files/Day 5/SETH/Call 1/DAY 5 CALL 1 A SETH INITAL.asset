@@ -33,7 +33,9 @@ MonoBehaviour:
     dialogue: "Could you connect me to the emergency line? I\u2019ve got a lot of
       dangerous tools that need to be taken away. I\u2019m sure they can help with
       that."
-  contextSummary: 
+  contextSummary: Seth is feeling defeated, and plans on closing shop. He wants to
+    be connected to the emergency line to get rid of some of his tools.
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

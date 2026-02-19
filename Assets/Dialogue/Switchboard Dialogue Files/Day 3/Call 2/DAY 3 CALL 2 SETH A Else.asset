@@ -19,7 +19,8 @@ MonoBehaviour:
       up that delivery of parts I ordered in the next town over. I\u2019ve already
       put a notice for my shop out, but figured letting you know would be smart do
       you don\u2019t direct people to the shop."
-  contextSummary: 
+  contextSummary: Seth is out of town tomorrow for a while to pick up his parts.
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

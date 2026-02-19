@@ -23,6 +23,9 @@ MonoBehaviour:
       I know he was already waiting on these parts, and it looks like I\u2019m not
       gonna be up and running for a bit, so I thought he may want to come and grab
       it himself, you know?"
+  contextSummary: "Seth\u2019s order of parts has stopped in the next town over.
+    The driver wants to connect with him to let him know."
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

@@ -18,6 +18,9 @@ MonoBehaviour:
     dialogue: Hey there. My name is Lucin. I believe my brother, Seth, is the one
       who runs the local repair garage? I received word that he might be closing
       shop, and was hoping to talk to him. Would you mind connecting me to him?
+  contextSummary: "Seth\u2019s brother, Lucin, has heard about Seth closing shop,
+    and was hoping to connect with him."
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

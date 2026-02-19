@@ -16,6 +16,8 @@ MonoBehaviour:
   - speakerName: Operator
     NewSpeakerName: 0
     dialogue: ....
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
