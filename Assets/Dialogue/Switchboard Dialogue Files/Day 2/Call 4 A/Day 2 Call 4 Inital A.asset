@@ -21,7 +21,9 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: I was hoping to reach out to someone and ask if they wanted to have
       a chat at the park. Would you mind connecting me to someone who could?
-  contextSummary: 
+  contextSummary: Mrs. Perkins is looking to talk to someone! Who should she talk
+    to?
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

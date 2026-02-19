@@ -19,6 +19,9 @@ MonoBehaviour:
       had with my blasted computer yesterday, I was left quite frustrated. I was
       hoping to call someone and have a nice chat to help get my mind off of things.
       Would you mind connecting me to someone who can help?
+  contextSummary: Mrs. Perkins is looking to talk to someone! Who should she talk
+    to?
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

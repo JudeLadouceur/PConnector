@@ -18,6 +18,9 @@ MonoBehaviour:
     dialogue: "Hello. This is the Maplegrove doctor\u2019s office. We are looking
       to book Mrs. Perkins in for her next checkup appointment. Would you please
       connect us to her?"
+  contextSummary: The Emergency Line is looking to book an appointment with Mrs.
+    Perkins.
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

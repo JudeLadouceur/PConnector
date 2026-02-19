@@ -19,6 +19,9 @@ MonoBehaviour:
       phone\u2026Ah, hello! I need to book an appointment to get my walker fixed,
       but this computer thingy just keeps trying to put me in a \u201Cqueue\u201D,
       whatever that is. Can you connect me to someone that can help?"
+  contextSummary: "Mrs. Perkins needs to get her walker fixed, but doesn\u2019t understand
+    the queue system. She needs help!"
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

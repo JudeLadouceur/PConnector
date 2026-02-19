@@ -25,6 +25,8 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "I hit my head when I fell, and I\u2019m afraid I\u2019m not feeling
       good. Could you get me some help, please?"
+  contextSummary: Mrs. Perkins got hurt! She needs some help as soon as possible!
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
