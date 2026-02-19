@@ -2519,6 +2519,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2776852298415498160, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.794687
@@ -2939,6 +2943,10 @@ PrefabInstance:
     - target: {fileID: 2806502513542752370, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Name
       value: Map V4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857768091005610740, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5696228319743666009, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Enabled
@@ -4066,6 +4074,10 @@ PrefabInstance:
     - target: {fileID: 3086811833264497422, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514673105942283459, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_Enabled
