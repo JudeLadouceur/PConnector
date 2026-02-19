@@ -23,7 +23,7 @@ public class OverworldDialogue : Interactables
 
         if (dialogue.isBark)
         {
-            if (dialogue.hasNoAudio)
+            if (!dialogue.hasNoAudio)
             {
                 if (!dialogue.barkEvent.IsNull)
                 {
