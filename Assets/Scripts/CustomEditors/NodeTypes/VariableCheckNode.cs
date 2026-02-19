@@ -23,10 +23,10 @@ public class VariableCheckNode : CodeGraphNode
             Debug.Log("Checking " +  v.variableName);
             if (VariableManager.instance.flags[v.variableName] != v.value)
             {
-                Debug.Log("Value of " + v.variableName + " wasn't met (current value: " + v.value + ". Expected value: " + VariableManager.instance.flags[v.variableName]);
+                Debug.Log("Value of " + v.variableName + " wasn't met (current value: " + VariableManager.instance.flags[v.variableName] + ". Expected value: " + v.value);
                 return false;
             }
-            Debug.Log("Value of " + v.variableName + " was met (current value: " + v.value + ". Expected value: " + VariableManager.instance.flags[v.variableName]);
+            Debug.Log("Value of " + v.variableName + " was met (current value: " + VariableManager.instance.flags[v.variableName] + ". Expected value: " + v.value);
         }
         return true;
     }

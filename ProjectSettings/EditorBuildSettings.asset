@@ -239,6 +239,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Days/Day 6/Day 6.unity
     guid: 6c89aeff456b5db4e8877362572662c2
+  - enabled: 1
+    path: Assets/Scenes/NullSceneTransition.unity
+    guid: 13bc943d31193e54fb52400ba7a452cd
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f1fa424dbf465bd40983c82e55392404, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0de58bad7dd2ae469a70f7b354f032b, type: 3}
