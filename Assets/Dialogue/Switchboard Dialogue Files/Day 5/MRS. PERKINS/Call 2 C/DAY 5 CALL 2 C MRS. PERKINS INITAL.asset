@@ -20,6 +20,8 @@ MonoBehaviour:
       out of town, and\u2013 oh? Oh, sorry, that\u2019s right. I\u2019ve just been
       reminded that the switchboard is being replaced. I supposed this call wasn\u2019t
       necessary. I apologize, have a good day"
+  contextSummary: "\u2026"
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

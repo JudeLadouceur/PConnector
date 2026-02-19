@@ -26,7 +26,8 @@ MonoBehaviour:
     NewSpeakerName: 9
     dialogue: I need this done before the switchboard is replaced. I just need one
       more. Could you connect me to one of the residence?
-  contextSummary: 
+  contextSummary: "The Boss is looking to have a member of the town take a survey\u2026"
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
