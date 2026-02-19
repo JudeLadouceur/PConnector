@@ -7247,6 +7247,78 @@ PrefabInstance:
       propertyPath: m_Name
       value: SummaryBox
       objectReference: {fileID: 0}
+    - target: {fileID: 3926843285139717810, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 122.32079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926843285139717810, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 122.32079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926843285139717810, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 122.32079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926843285139717810, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926843285139717810, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -798
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_fontSize
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_margin.w
+      value: -20.860268
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_margin.x
+      value: -422.42285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_margin.y
+      value: -62.581207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_margin.z
+      value: -401.56226
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171380690095356526, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5996356235866872572, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5996356235866872572, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 3840
+      objectReference: {fileID: 0}
+    - target: {fileID: 5996356235866872572, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 2160
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484316272515800122, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 22.349375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484316272515800122, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.090734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484316272515800122, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.015397222
+      objectReference: {fileID: 0}
     - target: {fileID: 7640970461507126975, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
       propertyPath: m_Camera
       value: 
@@ -7290,6 +7362,18 @@ PrefabInstance:
     - target: {fileID: 8129395727850489744, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698167331016506792, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 21.059908
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698167331016506792, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.1232061
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698167331016506792, guid: ed51120ef87b23e4fbf7144c77c46ab2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.014906482
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
