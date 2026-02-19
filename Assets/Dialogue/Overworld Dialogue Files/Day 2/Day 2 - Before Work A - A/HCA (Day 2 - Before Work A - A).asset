@@ -21,6 +21,9 @@ MonoBehaviour:
     NewSpeakerName: 4
     dialogue: Hey, if you're ever looking to help out or donate anything, us at the
       health center will always take the assistance!
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -30,9 +33,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1147293049
+      Data2: 1203307643
+      Data3: 519603331
+      Data4: -1721439022
+    Path: event:/Voices/Overworld Barks/Emergency Worker/Emergency Worker - Barks
   variables: []

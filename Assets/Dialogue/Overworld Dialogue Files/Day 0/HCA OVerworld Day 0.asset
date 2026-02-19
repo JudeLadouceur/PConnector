@@ -23,6 +23,8 @@ MonoBehaviour:
     NewSpeakerName: 4
     dialogue: "Mrs Perkins should be by the flower garden right from here! Anyways,
       I think I\u2019m gonna go back to staring at the frog for a bit\u2026"
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 1
   voiceLineEvent:
     Guid:
@@ -33,9 +35,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1147293049
+      Data2: 1203307643
+      Data3: 519603331
+      Data4: -1721439022
+    Path: event:/Voices/Overworld Barks/Emergency Worker/Emergency Worker - Barks
   variables: []
