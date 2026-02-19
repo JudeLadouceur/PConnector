@@ -16,6 +16,8 @@ MonoBehaviour:
   - speakerName: 
     NewSpeakerName: 4
     dialogue: "Oh, um\u2026 hi? Sorry. I\u2019m just heading home right now. "
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 1
   voiceLineEvent:
     Guid:
@@ -26,9 +28,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1147293049
+      Data2: 1203307643
+      Data3: 519603331
+      Data4: -1721439022
+    Path: event:/Voices/Overworld Barks/Emergency Worker/Emergency Worker - Barks
   variables: []

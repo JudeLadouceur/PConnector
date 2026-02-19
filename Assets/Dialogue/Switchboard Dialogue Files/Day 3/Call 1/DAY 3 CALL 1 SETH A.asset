@@ -25,7 +25,7 @@ MonoBehaviour:
     dialogue: "Lin? Uh-sure. What\u2019s up?"
   - speakerName: LIN
     NewSpeakerName: 2
-    dialogue: Well I was putting out a ton of pizzas to be delivered today, a record
+    dialogue: Well, I was putting out a ton of pizzas to be delivered today, a record
       time for me, honestly, but I checked the label and found out that something
       screwed up with my delivery, it expired before it even got here!
   - speakerName: SETH
@@ -62,6 +62,7 @@ MonoBehaviour:
     NewSpeakerName: 2
     dialogue: Alright, I will! Thanks again Seth!
   contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

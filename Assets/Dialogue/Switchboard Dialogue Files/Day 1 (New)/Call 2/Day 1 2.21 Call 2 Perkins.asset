@@ -37,9 +37,11 @@ MonoBehaviour:
     NewSpeakerName: 1
     dialogue: "Ah, so that\u2019s all. I thought it\u2019d be something much worse,
       dearie. Happens to the best of us, back in the day I left the door unlocked
-      a couple times and when my husband got home I got such an earful over it. Besides,
-      you do a wonderful job of repairing things, nobody would mind having to wait
-      a bit. Remind yourself of that sometimes, dearie."
+      a couple times and when my husband got home I got such an earful over it. "
+  - speakerName: MRS. PERKINS
+    NewSpeakerName: 1
+    dialogue: Besides, you do a wonderful job of repairing things, nobody would mind
+      having to wait a bit. Remind yourself of that sometimes, dearie.
   - speakerName: SETH
     NewSpeakerName: 3
     dialogue: "Ah, I guess\u2026still feel awful though."
@@ -53,6 +55,7 @@ MonoBehaviour:
     dialogue: "Yeah, okay. Our little secret. I\u2019ll be right over for the parts.
       Thanks, Mrs. Perkins."
   contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

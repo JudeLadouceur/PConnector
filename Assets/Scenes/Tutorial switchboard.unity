@@ -5645,6 +5645,63 @@ Transform:
   - {fileID: 482910517}
   m_Father: {fileID: 39033678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1684195515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4101494855549233097, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_Name
+      value: Switchboard Ambience
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.056934714
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6115663
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0166537
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746598986077800253, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c7585274f75e09d499be16f89b8a52cd, type: 3}
 --- !u!1 &1684398507
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,50 +5989,6 @@ Transform:
   - {fileID: 614506291}
   - {fileID: 118845565}
   m_Father: {fileID: 608470221}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1865635052
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1865635054}
-  - component: {fileID: 1865635053}
-  m_Layer: 0
-  m_Name: Dialogue Voice Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1865635053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865635052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9792fdd5ef2e889459621ea44fae200d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1865635054
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865635052}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.427163, y: 14.620332, z: -0.019416152}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898249613
 GameObject:
@@ -7038,7 +7051,6 @@ SceneRoots:
   - {fileID: 1458269906}
   - {fileID: 103605698}
   - {fileID: 40820790}
-  - {fileID: 1865635054}
   - {fileID: 828386728}
   - {fileID: 8751554002026733228}
   - {fileID: 1918566091}
@@ -7047,3 +7059,4 @@ SceneRoots:
   - {fileID: 884654680}
   - {fileID: 739454031}
   - {fileID: 1618031546}
+  - {fileID: 1684195515}

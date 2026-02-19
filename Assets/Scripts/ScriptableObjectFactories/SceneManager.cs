@@ -95,22 +95,37 @@ public class SceneManager : ScriptableObject
 
         while (true) 
         {
-            Debug.Log("Go to next connection: " + goToNextConnection);
+            //If the connection being checked is a dead end...
             if (goToNextConnection)
             {
+                //Check the next connection
                 i++;
                 node = GetNodeFromOutput(m_currentSceneID, 0, i);
             }
+            //Otherwise, keep heading down this connection
             else goToNextConnection = true;
 
+            //If all connections were run through and no valid scene was found...
             if (node == null)
             {
-                Debug.Log(m_currentSceneID);
                 SceneNode n = GetNode(m_currentSceneID) as SceneNode;
                 Debug.LogError("No valid connection was found. Either the node has no connections or none of the connections met all the variables required to move to it. The current scene is: " + n.scene);
+
+                //Go to the null scene transition scene
+                if (SceneLoadManager.Instance != null)
+                {
+                    SceneLoadManager.Instance.LoadSceneWithFade("NullSceneTransition");
+                }
+                else
+                {
+                    UnityEngine.SceneManagement.SceneManager.LoadScene("NullSceneTransition");
+                }
+
                 break;
             }
+
             node.SetUniqueVariables();
+
             if (node.GetNodeType() == "Check Variable")
             {
                 VariableCheckNode vNode = node as VariableCheckNode;

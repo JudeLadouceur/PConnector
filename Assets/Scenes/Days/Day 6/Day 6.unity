@@ -18097,7 +18097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPauseTime: 3
-  timeToScroll: 1
+  timeToScroll: 60
   endPauseTime: 3
   credits: {fileID: 1667084144}
   endPosOffest: 1000
