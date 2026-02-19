@@ -123,8 +123,6 @@ public class CodeGraphEditorNode : Node
         outputContainer.Add(m_outputPort);
     }
 
-
-
     public void SavePosition()
     {
         m_graphNode.SetPosition(GetPosition());

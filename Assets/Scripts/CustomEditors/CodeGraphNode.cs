@@ -6,7 +6,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [System.Serializable]
-public class CodeGraphNode
+public class CodeGraphNode: ISerializationCallbackReceiver
 {
     [SerializeField]
     private string m_guid;
@@ -53,5 +53,13 @@ public class CodeGraphNode
     public virtual void SetUniqueVariables()
     {
         
+    }
+
+    public virtual void OnBeforeSerialize()
+    {
+    }
+
+    public virtual void OnAfterDeserialize()
+    {
     }
 }

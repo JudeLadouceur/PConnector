@@ -19,7 +19,7 @@ public class NullSceneTransitionText : MonoBehaviour
     {
         sm = SceneManager.instance;
 
-        string sceneName = (sm.GetNode(sm.currentSceneID) as SceneNode).scene.name;
+        string sceneName = (sm.GetNode(sm.currentSceneID) as SceneNode).sceneName;
 
         WriteText(errorScene, $"{sceneName}, day: {TimeManager.dayNumber} couldn't find a valid connection");
 

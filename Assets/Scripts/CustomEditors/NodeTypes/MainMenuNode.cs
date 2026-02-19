@@ -7,8 +7,19 @@ using UnityEngine.SceneManagement;
 [NodeInfo("Main Menu", "Scenes/Main Menu", hasFlowInput:false, hasMultipleFlowOutputs:true)]
 public class MainMenuNode : CodeGraphNode
 {
+#if UNITY_EDITOR
     [ExposedProperty()]
     public SceneAsset scene;
+    public override void OnBeforeSerialize()
+    {
+        base.OnBeforeSerialize();
+        if (scene == null ) return;
+        if (sceneName != scene.name)
+            sceneName = scene.name;
+    }
+#endif
+    public string sceneName;
+
 
     public override void OnProcess()
     {
@@ -16,11 +27,11 @@ public class MainMenuNode : CodeGraphNode
 
         if (SceneLoadManager.Instance != null)
         {
-            SceneLoadManager.Instance.LoadSceneWithFade(scene.name);
+            SceneLoadManager.Instance.LoadSceneWithFade(sceneName);
         }
         else
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(scene.name);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }
     }
 }

@@ -109,7 +109,7 @@ public class SceneManager : ScriptableObject
             if (node == null)
             {
                 SceneNode n = GetNode(m_currentSceneID) as SceneNode;
-                Debug.LogError("No valid connection was found. Either the node has no connections or none of the connections met all the variables required to move to it. The current scene is: " + n.scene);
+                Debug.LogError("No valid connection was found. Either the node has no connections or none of the connections met all the variables required to move to it. The current scene is: " + n.sceneName);
 
                 //Go to the null scene transition scene
                 if (SceneLoadManager.Instance != null)
@@ -153,7 +153,7 @@ public class SceneManager : ScriptableObject
         if(node != null)
         {
             m_currentSceneID = node.id;
-            Debug.Log("Processing node " + node.id);
+            Debug.Log("Processing node: " + node + ". ID: " + node.id);
             Debug.Log(node.GetNodeType());
             node.OnProcess();
         }
