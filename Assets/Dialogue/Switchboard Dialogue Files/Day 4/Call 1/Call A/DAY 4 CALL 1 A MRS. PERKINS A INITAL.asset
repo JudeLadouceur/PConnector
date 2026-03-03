@@ -28,11 +28,11 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1072513510
+      Data2: 1308706452
+      Data3: 1987364776
+      Data4: -595455593
+    Path: event:/Voices/Day 4/Call 1/Mrs. Perkins Initial/Mrs. Perkins - D4-C1-Initial
   barkEvent:
     Guid:
       Data1: 0
