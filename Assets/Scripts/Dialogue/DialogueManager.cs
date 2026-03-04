@@ -117,7 +117,8 @@ public class DialogueManager : MonoBehaviour
 
         string speakerName = currentDialogue.lines[line].NewSpeakerName.ToString();
 
-        if (speakerName == "Perkins") speakerName = "Mrs. Perkins";
+        if (speakerName == Characters.Perkins.ToString()) speakerName = "Mrs. Perkins";
+        if (speakerName == Characters.DeliveryGuy.ToString()) speakerName = "Delivery Guy";
 
         speakerField.text = speakerName;
         dialogueField.text = currentDialogue.lines[line].dialogue;
