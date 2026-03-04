@@ -25,7 +25,10 @@ MonoBehaviour:
   - speakerName: MRS. PERKINS
     NewSpeakerName: 1
     dialogue: Oof! My walker is a bit wobbly, maybe some of the parts down stairs
-      might work to fix it? Well anyways, see you around stranger!
+      might work to fix it? Well anyways, see you around dearie!
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
