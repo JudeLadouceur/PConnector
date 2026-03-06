@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Seth (Day 2 - Afterwork A - A - B)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Hey! Just headed over to Mrs Perkins to go now! Thanks again for connecting
       me and Mrs. Perkins...
-  - speakerName: SETH
-    NewSpeakerName: 3
-    dialogue: I don't always get a lot of chances to get away from the shop, so its
-      a great opportunity to get to hang and lead a ear to Mrs. Perkins...
-  - speakerName: SETH
-    NewSpeakerName: 3
-    dialogue: Uh well, see ya around!
+  - NewSpeakerName: 3
+    dialogue: "I don't always get a lot of chances to get away from the shop, so
+      it's a great opportunity to get to hang and lead a ear to Mrs. Perkins\u2026"
+  - NewSpeakerName: 3
+    dialogue: Uh, well, see ya around!
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

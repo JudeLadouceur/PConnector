@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: Seth (Day 2 - Afterwork - B - B - B)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Jeez, it seems like everyone had a rough one today...
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: I think I'm going to try to reach out. Mrs. P and Lin have always been
       great to talk to and have honestly helped keep me in business during some of
       the more challenging times.
-  - speakerName: SETH
-    NewSpeakerName: 3
-    dialogue: I'll see ya around kid, but it might be worth you checking in on them
-      too.
+  - NewSpeakerName: 3
+    dialogue: I'll see ya around kid, but it might be worth checking in on them too.
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

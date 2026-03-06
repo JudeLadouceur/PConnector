@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: HCA (Day 2 - Before Work A - A)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: HCA (HEALTH CENTER ATTENDANT)
-    NewSpeakerName: 4
-    dialogue: 'Oh, hi there! I''m not sure if I''ve met you before. Nice to meet
-      you! I work at the local health center. '
-  - speakerName: HCA (HEALTH CENTER ATTENDANT)
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
+    dialogue: 'Oh, hi there! I''m not sure if I properly introduced myself before.
+      Nice to meet you! I work at the local health center. '
+  - NewSpeakerName: 4
     dialogue: Hey, if you're ever looking to help out or donate anything, us at the
       health center will always take the assistance!
   contextSummary: 
