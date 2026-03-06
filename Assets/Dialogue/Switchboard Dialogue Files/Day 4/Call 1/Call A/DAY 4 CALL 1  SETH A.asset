@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: DAY 4 CALL 1  SETH A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Oh, did you try to connect me to Seth, dear? Didn\u2019t you hear?
       He\u2019s out of town today. Though maybe I should offer to volunteer for him
       when he gets back, he certainly deserves it. I suppose I\u2019ll just have
       to think about that when the time comes. You have a good day dear."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1711338600
+      Data2: 1225479733
+      Data3: -1354249040
+      Data4: -1572470282
+    Path: event:/Voices/Day 4/Call 1 A/Seth Connection/Perkins - D4-C1A - Seth Connection
   barkEvent:
     Guid:
       Data1: 0

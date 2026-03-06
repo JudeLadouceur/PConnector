@@ -13,32 +13,31 @@ MonoBehaviour:
   m_Name: DAY 4 CALL 1 EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Oh, hello! This is Mrs. Perkins. You don\u2019t need to worry, I\u2019m
       not in any trouble at the moment, but I was looking to do some volunteering
       today. Would you be willing to have me for a bit?"
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Volunteering? Of course! We always love the help. I\u2019ll have to
       talk to my boss about what you could do, but if you come over now, I\u2019m
       sure we can have something sorted out by then."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "That\u2019s wonderful! Thank you so much, dear. I\u2019ll be over
       soon. I\u2019m really glad I can help out people working for such a heartfelt
       cause."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1197554851
+      Data2: 1340865426
+      Data3: 229722770
+      Data4: -480058774
+    Path: event:/Voices/Day 4/Call 1 A/Emergency Connection/Perkins - D4-C1A - Emergency
+      Connection
   barkEvent:
     Guid:
       Data1: 0
