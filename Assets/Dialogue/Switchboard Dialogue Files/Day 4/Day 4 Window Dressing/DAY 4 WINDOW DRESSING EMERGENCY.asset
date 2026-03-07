@@ -13,28 +13,27 @@ MonoBehaviour:
   m_Name: DAY 4 WINDOW DRESSING EMERGENCY
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: BOB
-    NewSpeakerName: 6
+  - NewSpeakerName: 6
     dialogue: "E-emergency line? Sorry, it\u2019s not much of an emergency. I think
       Mrs. Perkins just lost one of her cats again."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Alright. Please only use this line if it\u2019s an emergency."
-  - speakerName: BOB
-    NewSpeakerName: 6
+  - NewSpeakerName: 6
     dialogue: "Y-yeah. Sorry. I\u2019ll just go see her myself. Hopefully I don\u2019t
       lose this cat on the way\u2026"
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1441826766
+      Data2: 1098522688
+      Data3: -890316621
+      Data4: -1285555808
+    Path: event:/Voices/Day 4/Window Dressing Call/Emergency Connection/Bob - D4-WD
+      - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

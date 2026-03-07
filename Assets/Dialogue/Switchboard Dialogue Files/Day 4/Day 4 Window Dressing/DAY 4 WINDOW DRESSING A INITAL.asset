@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: DAY 4 WINDOW DRESSING A INITAL
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOB
-    NewSpeakerName: 6
+  - NewSpeakerName: 6
     dialogue: "Hey there. This is Bob, guy who lives on the edge of town. I think
       I just found one of Mrs. Perkins\u2019 cats in my backyard? I managed to pick
       him up and he\u2019s safe now, but I wanted to check if Mrs. Perkins was missing
@@ -25,11 +24,11 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 964197596
+      Data2: 1097374088
+      Data3: -1157926750
+      Data4: -700625474
+    Path: event:/Voices/Day 4/Window Dressing Call/Bob Initial/Bob - D4-WD - Initial
   barkEvent:
     Guid:
       Data1: 0
