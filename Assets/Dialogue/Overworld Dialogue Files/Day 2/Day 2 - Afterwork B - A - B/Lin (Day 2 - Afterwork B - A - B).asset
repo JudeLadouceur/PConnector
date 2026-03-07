@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Lin (Day 2 - Afterwork B - A - B)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: '*Whew* Oh, hey. I mean .. Make sure to buy Lin''s Pizza. World famous
       pizza...'
-  - speakerName: LIN
-    NewSpeakerName: 2
-    dialogue: Sorry, not feeling the most enthusiastic tonight. Was trying out a
-      more flatbread style for the crust today and didn't get to try it with that
-      big group cancelling...
-  - speakerName: LIN
-    NewSpeakerName: 2
-    dialogue: Wish I just knew the right people to have come over and test.
+  - NewSpeakerName: 2
+    dialogue: Sorry, not feeling the most enthusiastic tonight. Was gonna try out
+      a more flatbread style for the crust today and didn't get to try it with that
+      big group cancelling.
+  - NewSpeakerName: 2
+    dialogue: "Wish I just knew the right people to help me out in this sort of situation\u2026"
   contextSummary: 
+  hasNoAudio: 0
   isBark: 1
   voiceLineEvent:
     Guid:
