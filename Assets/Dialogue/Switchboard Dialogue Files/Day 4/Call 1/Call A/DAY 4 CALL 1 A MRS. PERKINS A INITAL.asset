@@ -30,7 +30,8 @@ MonoBehaviour:
       Data2: 1308706452
       Data3: 1987364776
       Data4: -595455593
-    Path: event:/Voices/Day 4/Call 1 A/Mrs. Perkins Initial/Mrs. Perkins - D4-C1A-Initial
+    Path: event:/Voices/Day 4/Call 1/Mrs. Perkins Initial/Mrs. Perkins - D4-C1 -
+      Initial
   barkEvent:
     Guid:
       Data1: 0

@@ -50,8 +50,8 @@ MonoBehaviour:
       Data2: 1178432584
       Data3: 1658820224
       Data4: 1122013833
-    Path: event:/Voices/Day 4/Call 1 A/Lin A Else (Solved Pizza) Connection/Perkins
-      - D4-C1A - Lin A Else (Solved Pizza) Connection
+    Path: event:/Voices/Day 4/Call 1/Lin A Else (Solved Pizza) Connection/Perkins
+      - D4-C1 - Lin A Else (Solved Pizza) Connection
   barkEvent:
     Guid:
       Data1: 0

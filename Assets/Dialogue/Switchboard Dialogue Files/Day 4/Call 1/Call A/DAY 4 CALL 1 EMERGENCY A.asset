@@ -36,7 +36,7 @@ MonoBehaviour:
       Data2: 1340865426
       Data3: 229722770
       Data4: -480058774
-    Path: event:/Voices/Day 4/Call 1 A/Emergency Connection/Perkins - D4-C1A - Emergency
+    Path: event:/Voices/Day 4/Call 1/Emergency Connection/Perkins - D4-C1 - Emergency
       Connection
   barkEvent:
     Guid:
