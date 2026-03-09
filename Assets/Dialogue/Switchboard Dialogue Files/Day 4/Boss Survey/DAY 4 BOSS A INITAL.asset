@@ -13,17 +13,14 @@ MonoBehaviour:
   m_Name: DAY 4 BOSS A INITAL
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOSS
-    NewSpeakerName: 9
-    dialogue: "Hey there it's the boss! I hope things are going well. I have a survey
+  - NewSpeakerName: 9
+    dialogue: "Hey there, it's the boss! I hope things are going well. I have a survey
       that I\u2019ve been trying to get filled out based on those who\u2019ve connected
       through the switchboard."
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "Seeing as this is official, I can\u2019t have you listening in with
       that broken switchboard, so I\u2019ll be overriding your audio from here."
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: I need this done before the switchboard is replaced. I just need one
       more. Could you connect me to one of the residence?
   contextSummary: "The Boss is looking to have a member of the town take a survey\u2026"
@@ -31,11 +28,11 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 462206687
+      Data2: 1270829268
+      Data3: 73764542
+      Data4: 481140456
+    Path: event:/Voices/Day 4/Boss Survey/Boss Initial/Boss - D4 - Boss Initial
   barkEvent:
     Guid:
       Data1: 0
