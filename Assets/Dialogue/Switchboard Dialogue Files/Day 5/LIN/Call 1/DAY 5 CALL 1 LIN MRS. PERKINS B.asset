@@ -13,28 +13,27 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 LIN MRS. PERKINS B
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: Hello? This is Mrs. Perkins. Who is this?
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Oh, um\u2026 hi Mrs. Perkins, are you busy?"
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: Well, I was just about to try out this new breakfast recipe I found.
       Do you need something?
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "I\u2026 gah, no. Not worth the bother. Don\u2019t worry about it.
       Sorry for interrupting you."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 290958544
+      Data2: 1150253639
+      Data3: -36801646
+      Data4: -582078145
+    Path: event:/Voices/Day 5/Lin Ending/Call 1/Perkins B Connection/Lin - D5-C1
+      - Perkins B Connection
   barkEvent:
     Guid:
       Data1: 0
