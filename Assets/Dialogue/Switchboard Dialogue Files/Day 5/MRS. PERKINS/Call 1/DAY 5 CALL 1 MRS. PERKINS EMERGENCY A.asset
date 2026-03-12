@@ -13,53 +13,46 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 MRS. PERKINS EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Hello, dear. This is Mrs. Perkins. I apologize, as this isn\u2019t
       much of an emergency, but I need to cancel some appointments I have with the
       health centre."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: Of course, Mrs. Perkins. This would be the line to do it. Which appointments
       do you need cancelled? Can I reschedule them for you?
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "That won\u2019t be necessary, dear. You see, I\u2019m moving out of
       town, and I\u2019ll be setting up my appointments elsewhere."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "You\u2019re\u2026 leaving? I had no idea. Well, good luck to you,
       Mrs. Perkins. I hope things work out for you."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Thank you dear. I\u2019m sure things will go fine. I\u2019m just looking
       to get things ready."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Well I\u2019ve put it into the system just now, Mrs. Perkins. All
       your upcoming appointments have been cancelled, and you\u2019re all good to
       go."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Thank you so much, dear. You\u2019ve been a great help. Though I must
       be going now, I have much to do to get ready."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: Of course, Mrs. Perkins. Safe travels.
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "You have a good day dear, it\u2019s been wonderful."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 515090440
+      Data2: 1170472162
+      Data3: 1886920352
+      Data4: -13620630
+    Path: event:/Voices/Day 5/Mrs. Perkins Ending/Call 1/Emergency Connection/Mrs.
+      Perkins - D5-C1 - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0
