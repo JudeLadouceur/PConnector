@@ -8,7 +8,7 @@ public class TutorialInteract : Interactables
     public Vector3 moveToRelative;
     public int stepIndex;
     public Animator anim;
-
+    public SO_Dialogue dialogue;
 
     public override void Interact()
     {
@@ -20,5 +20,21 @@ public class TutorialInteract : Interactables
         {
             TestTargetSwap.instance.AttemptProgress(stepIndex);
         }
+        MovementScript.instance.Funny = true;
+        MovementScript.instance.canToggle = false;
+        if (dialogue.isBark)
+        {
+            if (!dialogue.hasNoAudio)
+            {
+                if (!dialogue.barkEvent.IsNull)
+                {
+                    DialogueVoiceManager.Instance.PlayBark(dialogue.barkEvent);
+                }
+                else Debug.LogWarning(dialogue.name + " dialogue Scriptable Object does not have any audio assigned to it.");
+            }
+        }
+
+
+        DialogueManager.Instance.StartDialogue(dialogue, false);
     }
 }

@@ -101,7 +101,7 @@ public class Achievement : MonoBehaviour
             }
             if(achievementName == AchievementNames.TheEnd && TestTargetSwap.instance != null)
             {
-                TestTargetSwap.instance.AttemptProgress(8);
+                TestTargetSwap.instance.AttemptProgress(6);
             }
         }
 

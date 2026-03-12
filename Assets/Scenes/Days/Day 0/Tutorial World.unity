@@ -179,6 +179,7 @@ MonoBehaviour:
   moveToRelative: {x: -2.1, y: 0, z: 0}
   stepIndex: 1
   anim: {fileID: 1128295173}
+  dialogue: {fileID: 11400000, guid: 9affc75804fb8354f85cd739d6479530, type: 2}
 --- !u!1 &68977533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8220570562988295895, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
@@ -329,7 +330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7223819859021909955, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7223819859021909955, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -511,7 +512,6 @@ MonoBehaviour:
     - {fileID: 301489977}
     - {fileID: 216901802}
     - {fileID: 237950034}
-    - {fileID: 1823179877}
     - {fileID: 2134929055}
     - {fileID: 716292471}
     - {fileID: 180422505}
@@ -536,7 +536,6 @@ MonoBehaviour:
     - {fileID: 216901802}
     - {fileID: 237950034}
     - {fileID: 1269728856}
-    - {fileID: 1823179877}
     - {fileID: 1893146228}
     - {fileID: 878204569}
     - {fileID: 2117586491}
@@ -545,32 +544,6 @@ MonoBehaviour:
     disableButtons:
     - {fileID: 1952693775}
     stepSummary: Open Gate
-  - arrowTarget: {fileID: 1598504985}
-    stepText: Head home for the day.
-    lockout: 0
-    enableComponents:
-    - {fileID: 2085581972}
-    - {fileID: 591413215}
-    - {fileID: 761133921}
-    - {fileID: 1554753765}
-    - {fileID: 1823179877}
-    enableButtons: []
-    disableComponents:
-    - {fileID: 143611034}
-    - {fileID: 301489977}
-    - {fileID: 216901802}
-    - {fileID: 237950034}
-    - {fileID: 1269728856}
-    - {fileID: 1893146228}
-    - {fileID: 2134929055}
-    - {fileID: 1893146228}
-    - {fileID: 878204569}
-    - {fileID: 180422505}
-    - {fileID: 716292471}
-    - {fileID: 2117586491}
-    disableButtons:
-    - {fileID: 1952693775}
-    stepSummary: Go Home 1
   - arrowTarget: {fileID: 1336152381}
     stepText: Talk to Lin at the Pizzeria.
     lockout: 0
@@ -584,7 +557,6 @@ MonoBehaviour:
     - {fileID: 237950034}
     - {fileID: 143611034}
     - {fileID: 216901802}
-    - {fileID: 1823179877}
     - {fileID: 1269728856}
     - {fileID: 2134929055}
     - {fileID: 1893146228}
@@ -596,31 +568,6 @@ MonoBehaviour:
     disableButtons:
     - {fileID: 1952693775}
     stepSummary: Lin Keys
-  - arrowTarget: {fileID: 1308949966}
-    stepText: Click arrow on right of screen to open notebook.
-    lockout: 1
-    enableComponents: []
-    enableButtons:
-    - {fileID: 1952693775}
-    disableComponents:
-    - {fileID: 143611034}
-    - {fileID: 301489977}
-    - {fileID: 216901802}
-    - {fileID: 237950034}
-    - {fileID: 1823179877}
-    - {fileID: 1269728856}
-    - {fileID: 2134929055}
-    - {fileID: 1893146228}
-    - {fileID: 2085581972}
-    - {fileID: 761133921}
-    - {fileID: 591413215}
-    - {fileID: 1554753765}
-    - {fileID: 878204569}
-    - {fileID: 180422505}
-    - {fileID: 716292471}
-    - {fileID: 2117586491}
-    disableButtons: []
-    stepSummary: Notebook
   - arrowTarget: {fileID: 747965271}
     stepText: Talk to Seth at the broken car.
     lockout: 0
@@ -637,7 +584,6 @@ MonoBehaviour:
     - {fileID: 216901802}
     - {fileID: 2134929055}
     - {fileID: 1269728856}
-    - {fileID: 1823179877}
     - {fileID: 1893146228}
     - {fileID: 2085581972}
     - {fileID: 591413215}
@@ -663,7 +609,6 @@ MonoBehaviour:
     - {fileID: 1893146228}
     - {fileID: 2134929055}
     - {fileID: 1269728856}
-    - {fileID: 1823179877}
     - {fileID: 878204569}
     - {fileID: 2085581972}
     - {fileID: 591413215}
@@ -685,7 +630,6 @@ MonoBehaviour:
     - {fileID: 143611034}
     - {fileID: 301489977}
     - {fileID: 216901802}
-    - {fileID: 1823179877}
     - {fileID: 1269728856}
     - {fileID: 2134929055}
     - {fileID: 716292471}
@@ -706,7 +650,6 @@ MonoBehaviour:
     - {fileID: 301489977}
     - {fileID: 216901802}
     - {fileID: 237950034}
-    - {fileID: 1823179877}
     - {fileID: 1269728856}
     - {fileID: 2134929055}
     - {fileID: 2085581972}
@@ -737,7 +680,6 @@ MonoBehaviour:
     - {fileID: 301489977}
     - {fileID: 216901802}
     - {fileID: 237950034}
-    - {fileID: 1823179877}
     - {fileID: 2134929055}
     - {fileID: 2085581972}
     - {fileID: 591413215}
@@ -814,7 +756,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 9c77c21821e973141a23c82ccaaf080e, type: 2}
   character: 3
-  stepIndex: 5
+  stepIndex: 3
 --- !u!1 &150222269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,7 +1103,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: d4c5b5b71bb932347a3b30a0d44d684d, type: 2}
   character: 4
-  stepIndex: 6
+  stepIndex: 4
 --- !u!1 &237950034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,7 +1154,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 9e029e4b775390c4ca681838904a0a3e, type: 2}
   character: 1
-  stepIndex: 7
+  stepIndex: 5
 --- !u!1 &295330740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,7 +1240,7 @@ MonoBehaviour:
   canAddNotes: 1
   dialogue: {fileID: 11400000, guid: 55e0e93ee6f6c17439d110f136486a87, type: 2}
   character: 2
-  stepIndex: 3
+  stepIndex: 2
 --- !u!4 &337022807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7188737204816681176, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
@@ -1543,6 +1485,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &505957525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8192249349134557090, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+  m_PrefabInstance: {fileID: 955363575}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &591413215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,6 +2078,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5836618171039592536, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: Day6Button
+      value: 
+      objectReference: {fileID: 505957525}
     - target: {fileID: 5969150987622861011, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Name
       value: AchievementRoot
@@ -3117,6 +3068,50 @@ MonoBehaviour:
   dialogue: {fileID: 11400000, guid: 438e998575b994149bb5da01b6826184, type: 2}
   character: 3
   stepIndex: -1
+--- !u!1 &1566099671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566099673}
+  - component: {fileID: 1566099672}
+  m_Layer: 0
+  m_Name: Dialogue Voice Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1566099672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566099671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9792fdd5ef2e889459621ea44fae200d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1566099673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566099671}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.427163, y: 14.620332, z: -0.019416152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1575577729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3871,7 +3866,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1823179878
 Transform:
   m_ObjectHideFlags: 0
@@ -4398,13 +4393,14 @@ SceneRoots:
   - {fileID: 1939296356}
   - {fileID: 75959204}
   - {fileID: 1270775136}
-  - {fileID: 75111576}
-  - {fileID: 822868288}
-  - {fileID: 1662340916}
-  - {fileID: 955363575}
   - {fileID: 979091742}
   - {fileID: 1766585605}
   - {fileID: 2021714231}
   - {fileID: 1193483949}
   - {fileID: 609216914}
   - {fileID: 1308949967}
+  - {fileID: 75111576}
+  - {fileID: 822868288}
+  - {fileID: 1662340916}
+  - {fileID: 955363575}
+  - {fileID: 1566099673}
