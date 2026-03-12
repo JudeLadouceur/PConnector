@@ -77,8 +77,8 @@ MonoBehaviour:
       Data2: 1308407760
       Data3: -568305263
       Data4: 5707814
-    Path: event:/Voices/Day 5/Mrs. Perkins Ending/Call 1/Lin A Connection/Mrs. Perkins
-      - D5-C1 - Lin A Connection
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 1/Lin A Connection/Mrs.
+      Perkins - D5-C1 - Lin A Connection
   barkEvent:
     Guid:
       Data1: 0

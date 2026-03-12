@@ -70,8 +70,8 @@ MonoBehaviour:
       Data2: 1332723785
       Data3: -372462154
       Data4: -816993009
-    Path: event:/Voices/Day 5/Lin Ending/Call 2/Perkins A Connection/Olson - D5-C2
-      - Perkins A Connection
+    Path: event:/Voices/Day 5/Lin - Final Call/Call 2/Perkins A Connection/Olson
+      - D5-C2 - Perkins A Connection
   barkEvent:
     Guid:
       Data1: 0

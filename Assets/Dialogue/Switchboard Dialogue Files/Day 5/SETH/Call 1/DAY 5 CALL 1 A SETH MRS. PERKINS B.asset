@@ -13,27 +13,26 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 A SETH MRS. PERKINS B
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
-    dialogue: Hello! Mrs. Perkins speaking.
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 1
+    dialogue: Hello! This is Perkins speaking.
+  - NewSpeakerName: 3
     dialogue: "I\u2026 ugh, sorry Mrs. Perkins. Wrong line."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Oh, Seth? I must say, you don\u2019t sound like you're doing too good.
       Is everything alright?"
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Don\u2019t worry about it. I\u2019m fine"
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -145780241
+      Data2: 1291566146
+      Data3: 270619811
+      Data4: 754918308
+    Path: event:/Voices/Day 5/Seth - Final Call/Call 1/Perkins B Connection/Seth
+      - D5-C1 - Perkins B Connection
   barkEvent:
     Guid:
       Data1: 0
