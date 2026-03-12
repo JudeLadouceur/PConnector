@@ -25,8 +25,6 @@ public class OverworldDialogue : Interactables
         public bool hasBeenPlayed = false;
     }
 
-    public SO_Dialogue dialogue;
-
     public dialogueOption[] dialogueOptions;
     public Characters character;
 
