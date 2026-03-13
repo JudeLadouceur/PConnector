@@ -16,8 +16,6 @@ MonoBehaviour:
   - NewSpeakerName: 6
     dialogue: "Hey! How\u2019re you this morning? I\u2019m just doing a morning wander,
       don\u2019t mind me."
-  - NewSpeakerName: 6
-    dialogue: WOW!
   contextSummary: 
   hasNoAudio: 0
   isBark: 1

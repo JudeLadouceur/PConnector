@@ -13,20 +13,19 @@ MonoBehaviour:
   m_Name: Seth (Day 1, Before Work)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Hey there pal. How you feeling this morning?
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: I get that there's a lot going on for you right now, but try not to
       let it get to you, alright?
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Well, if you have any fixing needs, just let me know! I\u2019ve got
       quite a few regulars around here!"
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: You have a good one, pal.
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

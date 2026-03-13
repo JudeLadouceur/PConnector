@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Seth2
+  m_EditorClassIdentifier: 
+  lines:
+  - NewSpeakerName: 3
+    dialogue: Hey, I said check on them, not me. What? You need something fixed?
+  - NewSpeakerName: 3
+    dialogue: No?
+  - NewSpeakerName: 3
+    dialogue: "Okay then\u2026 you have a good night."
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: -1959159134
+      Data2: 1195436560
+      Data3: -708612465
+      Data4: 1111195130
+    Path: event:/Voices/Overworld Barks/Seth/Seth - Frustrated Barks
+  variables: []
