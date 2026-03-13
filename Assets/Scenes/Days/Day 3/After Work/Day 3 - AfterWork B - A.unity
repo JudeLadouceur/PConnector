@@ -1019,6 +1019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map V4
       objectReference: {fileID: 0}
+    - target: {fileID: 3610651243733208708, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38180f2a7083c9d4eac549fe1520b436, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1034,11 +1038,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2049304110898076086, guid: cadd0d73b65ab6647bfb2cb773adce22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.24
+      value: -25.03
       objectReference: {fileID: 0}
     - target: {fileID: 2049304110898076086, guid: cadd0d73b65ab6647bfb2cb773adce22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.15
+      value: 20.53
       objectReference: {fileID: 0}
     - target: {fileID: 2049304110898076086, guid: cadd0d73b65ab6647bfb2cb773adce22, type: 3}
       propertyPath: m_LocalPosition.z
