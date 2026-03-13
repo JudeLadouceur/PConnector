@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: DAY 4 BOSS SURVEY SETH
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOSS
-    NewSpeakerName: 9
-    dialogue: SETH! Perfect, thanks so much! I'll handle it from here, so go get
+  - NewSpeakerName: 9
+    dialogue: Seth! Perfect, thanks so much! I'll handle it from here, so go get
       some rest okay?
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
