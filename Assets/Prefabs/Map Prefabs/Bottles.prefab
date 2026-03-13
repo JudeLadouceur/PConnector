@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8449667125143962338}
   - component: {fileID: 6667853958381399932}
   - component: {fileID: 528378631738505226}
+  - component: {fileID: 136279141234529930}
   m_Layer: 0
   m_Name: genericItem_color_127 (2)
   m_TagString: Untagged
@@ -161,6 +162,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &136279141234529930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2768059172157427036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c508ab492618ad40a56c68f167963cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object: {fileID: 2768059172157427036}
+  Delay: 2
 --- !u!1 &5157506216915353782
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +188,7 @@ GameObject:
   - component: {fileID: 1222829477916713015}
   - component: {fileID: 6136157608564600410}
   - component: {fileID: 4755959061577864318}
+  - component: {fileID: 5643509534515960836}
   m_Layer: 0
   m_Name: genericItem_color_127
   m_TagString: Untagged
@@ -189,7 +205,7 @@ Transform:
   m_GameObject: {fileID: 5157506216915353782}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1414728, y: 1.9814816, z: 0.018217858}
+  m_LocalPosition: {x: -1.1414728, y: 1.971, z: 0.018217858}
   m_LocalScale: {x: 0.5646277, y: 0.48824298, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -322,6 +338,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5643509534515960836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5157506216915353782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c508ab492618ad40a56c68f167963cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object: {fileID: 5157506216915353782}
+  Delay: 2
 --- !u!1 &7010890241328515537
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +398,7 @@ GameObject:
   - component: {fileID: 1750659314205393940}
   - component: {fileID: 986264712884701168}
   - component: {fileID: 3263786977977380079}
+  - component: {fileID: 8824740387618626159}
   m_Layer: 0
   m_Name: genericItem_color_127 (1)
   m_TagString: Untagged
@@ -384,7 +415,7 @@ Transform:
   m_GameObject: {fileID: 7677951224704910208}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.80757236, y: 1.9932823, z: 0.018217858}
+  m_LocalPosition: {x: -0.80757236, y: 1.977, z: 0.018217858}
   m_LocalScale: {x: 0.5646277, y: 0.48824298, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -517,3 +548,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8824740387618626159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677951224704910208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c508ab492618ad40a56c68f167963cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object: {fileID: 7677951224704910208}
+  Delay: 2
