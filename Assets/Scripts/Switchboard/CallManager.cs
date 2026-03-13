@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static OverworldDialogue.dialogueOption;
 using static UnityEngine.GraphicsBuffer;
 
 public class CallManager : MonoBehaviour
@@ -160,14 +161,22 @@ public class CallManager : MonoBehaviour
                 variable = currentCall.connections[target].dialogueOptions[i].variables[o];
                 Debug.Log("Checking: " + variable.variableName);
 
-                if (VariableManager.instance.flags[variable.variableName] == variable.value)
+                //If the variable is incorrect, go to the next dialogue option
+                if (VariableManager.instance.flags[variable.variableName] != variable.value)
                 {
-                    Debug.Log("Variable " + variable.variableName + " is the correct value.");
-                    dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
-                    doNotProgress = currentCall.connections[target].dialogueOptions[i].doNotProgressToNextCall;
+                    Debug.Log("variableInfo " + variable.variableName + " was " + VariableManager.instance.flags[variable.variableName] + ", but was looking for " + variable.value);
+
                     break;
                 }
-                Debug.Log("Variable " + variable.variableName + " was " + variable.value + ", but was looking for " + VariableManager.instance.flags[variable.variableName]);
+                //If the variable is correct, keep going
+                else
+                {
+                    Debug.Log("variableInfo " + variable.variableName + " is the correct value.");
+                    if (o == currentCall.connections[target].dialogueOptions[i].variables.Length - 1)
+                    {
+                        dialogue = currentCall.connections[target].dialogueOptions[i].dialogue;
+                    }
+                }
             }
 
             if (dialogue != null) break;

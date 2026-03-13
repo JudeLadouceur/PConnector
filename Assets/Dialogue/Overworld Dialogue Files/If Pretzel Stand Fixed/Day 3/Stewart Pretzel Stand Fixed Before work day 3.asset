@@ -15,8 +15,9 @@ MonoBehaviour:
   lines:
   - NewSpeakerName: 10
     dialogue: "Hey, I\u2019m not gonna be able to run the pretzel stand tomorrow.
-      I\u2019ve got some stuff to deal with.  Don\u2019t worry, though! I\u2019ll
-      be back the next day! "
+      I\u2019ve got some stuff to deal with."
+  - NewSpeakerName: 10
+    dialogue: "Don\u2019t worry, though! I\u2019ll be back the next day!"
   contextSummary: 
   hasNoAudio: 0
   isBark: 1

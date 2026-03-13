@@ -186,6 +186,14 @@ PrefabInstance:
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 7f6f4b48df379094483a811bdf4e7606, type: 2}
+    - target: {fileID: 5527574801275285648, guid: ef9b409a3a17a564ea36cc59a03b45ad, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527574801275285648, guid: ef9b409a3a17a564ea36cc59a03b45ad, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f6f4b48df379094483a811bdf4e7606, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -477,6 +485,14 @@ PrefabInstance:
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 443dfe9132e46a942b5098d2dd8ca094, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 443dfe9132e46a942b5098d2dd8ca094, type: 2}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
@@ -613,6 +629,14 @@ PrefabInstance:
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 9478171b5e8a147438abc28771572c46, type: 2}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 9478171b5e8a147438abc28771572c46, type: 2}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.23
@@ -741,6 +765,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 70fe4456bdfae1a49b83508dbf611de9, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 70fe4456bdfae1a49b83508dbf611de9, type: 2}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}

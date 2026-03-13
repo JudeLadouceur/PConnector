@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Seth (Day 2 - Before Work A - B)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Hey pal... *huff* I don't know what I'm supposed to do for my appointments
       today! I'll have to make due without parts for now...
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Ugh, doesn't matter if I got parts or not, though. I've gotta open
       anyways. Hopefully I'll manage somehow.
-  isBark: 0
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0

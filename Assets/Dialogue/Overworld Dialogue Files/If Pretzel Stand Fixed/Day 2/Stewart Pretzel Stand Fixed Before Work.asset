@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
   m_Name: Stewart Pretzel Stand Fixed Before Work
   m_EditorClassIdentifier: 
-  lines: []
-  contextSummary: "Howdy! Pretzels are here and good to go!  \u2026Almost. I\u2019m
-    still opening for the day. But soon! "
+  lines:
+  - NewSpeakerName: 10
+    dialogue: 'Howdy! Pretzels are here and good to go! '
+  - NewSpeakerName: 10
+    dialogue: "\u2026Almost. I\u2019m still opening for the day. But soon!"
+  contextSummary: 
   hasNoAudio: 0
   isBark: 1
   voiceLineEvent:

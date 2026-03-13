@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e326000ad0ca544cb511dc2c304f4cc, type: 3}
+  m_Name: Lin2A
+  m_EditorClassIdentifier: 
+  lines:
+  - NewSpeakerName: 2
+    dialogue: "Tell you what? You\u2019re gonna get a bonus discount! So will Mrs.
+      Perkins, and Seth! Everyone! More pizza! Ha!"
+  - NewSpeakerName: 2
+    dialogue: "\u2026After I take a break of course. I think I\u2019ll relax for
+      a while. Thanks again for the help. "
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
+  voiceLineEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  barkEvent:
+    Guid:
+      Data1: -1158404683
+      Data2: 1089019349
+      Data3: 877406630
+      Data4: 126775472
+    Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
+  variables: []

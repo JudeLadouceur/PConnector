@@ -353,6 +353,14 @@ PrefabInstance:
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 72eb50c5d50b6b14b93be56bd8396e7b, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 72eb50c5d50b6b14b93be56bd8396e7b, type: 2}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
@@ -360,34 +368,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2130653912814870798, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 849415731}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
---- !u!1 &849415730 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2130653912814870798, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
-  m_PrefabInstance: {fileID: 849415729}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &849415731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849415730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e77ccc8d02d4550438826c19a5e05898, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactPrompt: {fileID: 0}
-  cooldown: 0
-  interactPromptText: 
-  canAddNotes: 0
-  dialogue: {fileID: 11400000, guid: 72eb50c5d50b6b14b93be56bd8396e7b, type: 2}
-  character: 0
 --- !u!1001 &1083520383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -780,6 +762,14 @@ PrefabInstance:
       objectReference: {fileID: 7025745307785339553, guid: 01516316b334c8043ab4bc3f1f65577e, type: 3}
     - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3385a73affdc699418ad532d26309657, type: 2}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 3385a73affdc699418ad532d26309657, type: 2}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}

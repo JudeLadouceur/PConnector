@@ -243,6 +243,14 @@ PrefabInstance:
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 920886ef21ffe9f45938fa3105ee2eef, type: 2}
+    - target: {fileID: 5527574801275285648, guid: ef9b409a3a17a564ea36cc59a03b45ad, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527574801275285648, guid: ef9b409a3a17a564ea36cc59a03b45ad, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 920886ef21ffe9f45938fa3105ee2eef, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -368,6 +376,14 @@ PrefabInstance:
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: e6402c908ccdaa541a14aa801f40cb35, type: 2}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: e6402c908ccdaa541a14aa801f40cb35, type: 2}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.26
@@ -485,6 +501,14 @@ PrefabInstance:
       propertyPath: canAddNotes
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: ad20ea629afa2e444813df493e346ef6, type: 2}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
@@ -629,6 +653,14 @@ PrefabInstance:
       propertyPath: canAddNotes
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 53f46b7358916cf4b922ef8a3af1986c, type: 2}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: Dialogue
       value: 
