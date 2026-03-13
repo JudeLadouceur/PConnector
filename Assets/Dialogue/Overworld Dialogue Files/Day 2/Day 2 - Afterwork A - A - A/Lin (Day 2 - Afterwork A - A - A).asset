@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Lin (Day 2 - Afterwork A - A - A)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: Hey! Sorry, I like to stop and chat, but I'm heading over to talk with
       Mrs. P...
-  - speakerName: LIN
-    NewSpeakerName: 2
-    dialogue: Hey, if you wanna join, I've got some of my world-famous pizza here!
+  - NewSpeakerName: 2
+    dialogue: "But if you\u2019re hungry, I've got some of my world-famous pizza
+      here! "
   contextSummary: 
+  hasNoAudio: 0
   isBark: 1
   voiceLineEvent:
     Guid:
