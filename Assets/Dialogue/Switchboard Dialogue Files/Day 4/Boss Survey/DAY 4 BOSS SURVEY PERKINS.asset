@@ -13,18 +13,20 @@ MonoBehaviour:
   m_Name: DAY 4 BOSS SURVEY PERKINS
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOSS
-    NewSpeakerName: 9
-    dialogue: Mrs Perkins! Perfect, thanks so much! I'll handle it from here, so
+  - NewSpeakerName: 9
+    dialogue: Mrs. Perkins! Perfect, thanks so much! I'll handle it from here, so
       go get some rest okay?
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1620067361
+      Data2: 1219687567
+      Data3: -561728072
+      Data4: 143815655
+    Path: event:/Voices/Day 4/Boss Survey/Mrs. Perkins Connection/Boss - D4 - Mrs.
+      Perkins Connection
   barkEvent:
     Guid:
       Data1: 0
