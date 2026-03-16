@@ -7904,7 +7904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.size
@@ -7928,7 +7928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].note
-      value: Test
+      value: Oh hey, a frog
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.data[2].note
@@ -8014,7 +8014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].varName
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.data[1].varName
@@ -8102,7 +8102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].character
-      value: 0
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.data[2].character
@@ -8146,7 +8146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].usesVariable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.data[2].usesVariable

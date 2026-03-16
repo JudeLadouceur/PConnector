@@ -113,6 +113,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2446444046879267236, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: character
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2446444046879267236, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: interactPromptText
       value: talk
       objectReference: {fileID: 0}

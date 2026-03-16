@@ -55,7 +55,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 13cd889b6af61e045a2e711f807bebfc, type: 2}
     hasBeenPlayed: 0
   character: 13
-  frogVariable: 25
+  frogVariables: 190000001a0000001b0000001c000000
 --- !u!58 &865063639425662112
 CircleCollider2D:
   m_ObjectHideFlags: 0

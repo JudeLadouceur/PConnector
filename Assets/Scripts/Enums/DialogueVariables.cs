@@ -26,5 +26,8 @@ public enum DialogueVar
     PretzelStandFixed,
     TutorialComplete,
     TutorialButton,
-    FrogTalkedDaysCount
+    FrogDay1,
+    FrogDay2,
+    FrogDay3,
+    FrogDay4
 }
