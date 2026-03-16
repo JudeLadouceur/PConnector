@@ -10,7 +10,7 @@ public class FrogDialogue : OverworldDialogue
     public override void Interact()
     {
         base.Interact();
-        if (talkedPrior || VariableManager.instance.flags[frogVariables[TimeManager.dayNumber]]>0) return;
+        if (TimeManager.dayNumber==4||talkedPrior || VariableManager.instance.flags[frogVariables[TimeManager.dayNumber]]>0) return;
         if ((TimeManager.dayNumber==0) || (VariableManager.instance.flags[frogVariables[TimeManager.dayNumber - 1]] > 0))
         {
             VariableManager.instance.flags[frogVariables[TimeManager.dayNumber]] = 1;

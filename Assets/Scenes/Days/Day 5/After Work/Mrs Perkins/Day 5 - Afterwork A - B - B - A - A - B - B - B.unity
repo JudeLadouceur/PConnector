@@ -635,6 +635,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map V4
       objectReference: {fileID: 0}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 61177024b41a325408708aaf89e9ba5c, type: 2}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d6e7678ee2af9e48b53ef0e93e77721, type: 2}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].otherConditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].otherConditions.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].otherConditions.Array.data[0].variable
+      value: 28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2422305561889315456, guid: f9fde199751cb18418caac99926b801c, type: 3}
