@@ -292,6 +292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map V4
       objectReference: {fileID: 0}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 54c2aea7728ab0c41b972c7b7bb0e880, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

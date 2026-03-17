@@ -25,5 +25,9 @@ public enum DialogueVar
     PerkinsCalledBySeth,
     PretzelStandFixed,
     TutorialComplete,
-    TutorialButton
+    TutorialButton,
+    FrogDay1,
+    FrogDay2,
+    FrogDay3,
+    FrogDay4
 }

@@ -13,5 +13,6 @@ public enum Characters
     Boss,
     Stewart,
     Simon,
-    DeliveryGuy
+    DeliveryGuy,
+    Frog
 }

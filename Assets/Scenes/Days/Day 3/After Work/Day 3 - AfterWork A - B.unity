@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 38180f2a7083c9d4eac549fe1520b436, type: 3}
+    - target: {fileID: 7903637212682542499, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: fe094010193e567408fb533089454d9b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

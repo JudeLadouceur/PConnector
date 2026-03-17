@@ -7904,11 +7904,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.size
-      value: 4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.size
@@ -7916,7 +7928,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].note
-      value: Test
+      value: Oh hey, a frog
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[2].note
+      value: The health center is looking for some support
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[3].note
+      value: There's a big group in town, should keep an eye out
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[4].note
+      value: Mrs. Perkins seems rather chipper today
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[5].note
+      value: I wonder if I should get the frog a housewarming gift?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[1].note
+      value: Seth's parts should be arriving today
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[2].note
+      value: I swear that frog's staring at me
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[2].note
+      value: Perkins seems motivated - I should keep an eye out for something for
+        her to do
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[3].note
+      value: I think "Pizza Pizza, eat all about it" might land better
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[4].note
+      value: I feel like the frog's trying to tell me something
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.data[0].note
@@ -7944,6 +7993,10 @@ PrefabInstance:
       value: What is Mrs. Perkins doing? She seems busy.
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[6].note
+      value: Nothing. Happened. With. The. Frog.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.data[0].note
       value: "Final day! I hope I didn\u2019t put too much pressure on Lin yesterday."
       objectReference: {fileID: 0}
@@ -7961,15 +8014,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].varName
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[1].notes.Array.data[1].varName
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[2].varName
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[3].varName
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[4].varName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[5].varName
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[2].notes.Array.data[0].varName
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[1].varName
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[2].varName
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[3].varName
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[4].varName
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.data[0].varName
@@ -7996,6 +8081,10 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[6].varName
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.data[0].varName
       value: 12
       objectReference: {fileID: 0}
@@ -8013,11 +8102,111 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].character
-      value: 0
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[2].character
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[3].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[4].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[5].character
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[1].character
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[2].character
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[2].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[3].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[4].character
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[6].character
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[0].notes.Array.data[4].usesVariable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[2].usesVariable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[2].varFalseNote
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[3].varFalseNote
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[4].usesVariable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[4].varFalseNote
+      value: Mrs. Perkins seems tired, her walker is in rough shape
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[5].usesVariable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[1].notes.Array.data[5].varFalseNote
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[1].usesVariable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[1].varFalseNote
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[2].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[2].notes.Array.data[2].varFalseNote
+      value: It's nice to see the local fountain put to use
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[3].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[3].varFalseNote
+      value: I should try one of Lin's pizzas sometime
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[4].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[3].notes.Array.data[4].varFalseNote
+      value: '"Ribbit Ribbit" - Frog'
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.data[0].usesVariable
@@ -8042,6 +8231,14 @@ PrefabInstance:
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[4].notes.Array.data[5].usesVariable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[6].usesVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: days.Array.data[4].notes.Array.data[6].varFalseNote
+      value: There's just something about that frog...maybe next time
       objectReference: {fileID: 0}
     - target: {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: days.Array.data[5].notes.Array.data[0].usesVariable
