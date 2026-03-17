@@ -13,27 +13,26 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 LIN EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "I\u2013ugh. I don\u2019t want this right now. Sorry for bothering
       you."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: Are you alright, sir? Can I help you with something?
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "I\u2019m fine. Don\u2019t worry about it."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 941656314
+      Data2: 1314839173
+      Data3: 1110480317
+      Data4: -732049779
+    Path: event:/Voices/Day 5/Lin - Final Call/Call 1/Emergency Connection/Lin -
+      D5-C1 - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

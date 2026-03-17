@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 OLSON EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: OLSON
-    NewSpeakerName: 7
+  - NewSpeakerName: 7
     dialogue: "Hmph. Apologies. The switchboard operator doesn\u2019t know how to
       do their job."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Wh\u2013"
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 67462186
+      Data2: 1253298763
+      Data3: -834698077
+      Data4: -417808778
+    Path: event:/Voices/Day 5/Lin - Final Call/Call 2/Emergency Connection/Olson
+      - D5-C2 - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

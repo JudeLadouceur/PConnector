@@ -32,7 +32,7 @@ MonoBehaviour:
     dialogue: "Thank you dear. I\u2019m sure things will go fine. I\u2019m just looking
       to get things ready."
   - NewSpeakerName: 4
-    dialogue: "Well I\u2019ve put it into the system just now, Mrs. Perkins. All
+    dialogue: "Well, I\u2019ve put it into the system just now, Mrs. Perkins. All
       your upcoming appointments have been cancelled, and you\u2019re all good to
       go."
   - NewSpeakerName: 1

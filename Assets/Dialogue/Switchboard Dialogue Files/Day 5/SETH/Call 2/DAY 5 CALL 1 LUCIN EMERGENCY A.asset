@@ -13,26 +13,25 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 LUCIN EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: LUCIN
-    NewSpeakerName: 8
+  - NewSpeakerName: 8
     dialogue: "Wh-what? Oh, I\u2019m sorry. I think this is the wrong line."
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Wait\u2026 that voice\u2026 are you\u2026 are you Lucin?!"
-  - speakerName: LUCIN
-    NewSpeakerName: 8
+  - NewSpeakerName: 8
     dialogue: "Uh\u2026 Have a good day!"
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2040663673
+      Data2: 1268038726
+      Data3: 1043764413
+      Data4: 1457225324
+    Path: event:/Voices/Day 5/Seth - Final Call/Call 2/Emergency Connection/Lucin
+      - D5-C2 - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0
