@@ -296,12 +296,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 5333fa8bd5f1f05428dc03a2623da80e, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: ba261c175ab622a49b2ffb0f910df2a7, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
@@ -418,9 +426,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 525f314d1ef367d4a81b87370cc62015, type: 2}
+    - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 274ead17541c5194fb33be5346b48e39, type: 2}
+    - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8616671334007832651, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
       propertyPath: m_Name
       value: Bob
@@ -509,12 +529,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: b148bb022f8264942a2f317df6f44624, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d547386cfcb6e84fa6cba81ee4ad2a9, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: Dialogue
       value: 

@@ -171,9 +171,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
+      propertyPath: dialogueOptions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 920886ef21ffe9f45938fa3105ee2eef, type: 2}
+    - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 08424f1e6855b6640ad5ab3aa06904f5, type: 2}
+    - target: {fileID: 6526720631520906162, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8616671334007832651, guid: ec789f034a6d6de4d8b7c3493a09bf05, type: 3}
       propertyPath: m_Name
       value: Bob
@@ -305,12 +317,20 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: a191bed4373e0a44ab1732ed38e9cb49, type: 2}
     - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: a191bed4373e0a44ab1732ed38e9cb49, type: 2}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 55082855e5bfbba43ba3ce95f15127b6, type: 2}
+    - target: {fileID: 835050960578576998, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6212460455135315069, guid: c4b2de311c8829249bdd8e9481cab42f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.78
@@ -430,12 +450,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 54445accd4c346544b424d4f49a6041a, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 16486a653e501c2418ee981cefd8836b, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
@@ -639,12 +667,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: d757bd679b165a140a079665c1e25fd4, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 08c3b12477b4f8740b239e5646575072, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: Dialogue
       value: 

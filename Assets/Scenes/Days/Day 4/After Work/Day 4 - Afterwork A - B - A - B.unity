@@ -296,12 +296,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 9f5f51c0b41e55645ba2bbdcec1bf544, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: fa2481f454d9ae04fa968a6a4f24a403, type: 2}
+    - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8892547233366265499, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: Dialogue
       value: 
@@ -505,12 +513,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogueOptions.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogueOptions.Array.data[0].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: c73eb0849dda5b845a185098824e9ace, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[1].dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 19d2a540f70cc2c48bc07f2f971eadc7, type: 2}
+    - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4473689876490713935, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: Dialogue
       value: 
