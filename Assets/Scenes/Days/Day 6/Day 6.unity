@@ -22869,11 +22869,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicEvent:
     Guid:
-      Data1: -1564547357
-      Data2: 1180673883
-      Data3: 894109832
-      Data4: 2126993011
-    Path: event:/Music/Main Theme
+      Data1: -846796652
+      Data2: 1075851235
+      Data3: -275155058
+      Data4: -1461602756
+    Path: event:/Music/Main Theme (Day 6 Lower Volume Version)
 --- !u!1 &8571187876795696323
 GameObject:
   m_ObjectHideFlags: 0
@@ -22885,7 +22885,7 @@ GameObject:
   - component: {fileID: 2512842801265505553}
   - component: {fileID: 4167309692492509859}
   m_Layer: 0
-  m_Name: Main Theme Music (Day 6 Audio Level Version)
+  m_Name: Main Theme Music (Day 6 Lower Volume Version)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
