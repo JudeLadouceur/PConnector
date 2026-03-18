@@ -13,17 +13,16 @@ MonoBehaviour:
   m_Name: Day 6 Call 3 Bob
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOB
-    NewSpeakerName: 6
+  - NewSpeakerName: 6
     dialogue: "Hey there! Bob here again. You know, I\u2019ve heard a lot of good
       things about you this past week. It\u2019s strange, I don\u2019t call people
-      much, but can still tell you mean a lot to this community. I see it in everyone
+      much, but I can still tell you mean a lot to this community. I see it in everyone
       else. You\u2019re that link between them, you know? "
-  - speakerName: BOB
-    NewSpeakerName: 6
+  - NewSpeakerName: 6
     dialogue: You keep being you, alright? Just doing that has already made a big
       impact here, and that makes me real happy, I tell you.
   contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
