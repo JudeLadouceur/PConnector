@@ -13,18 +13,19 @@ MonoBehaviour:
   m_Name: DAY 4 BOSS SURVEY LIN
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: Lin! Perfect, thanks so much! I'll handle it from here, so go get some
       rest okay?
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -837057014
+      Data2: 1104667038
+      Data3: -1505629002
+      Data4: 917195556
+    Path: event:/Voices/Day 4/Boss Survey/Lin Connection/Boss - D4 - Lin Connection
   barkEvent:
     Guid:
       Data1: 0

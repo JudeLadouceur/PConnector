@@ -21,11 +21,11 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -494741570
+      Data2: 1249378961
+      Data3: -778948188
+      Data4: -2140985616
+    Path: event:/Voices/Day 4/Boss Survey/Seth Connection/Boss - D4 - Seth Connection
   barkEvent:
     Guid:
       Data1: 0
