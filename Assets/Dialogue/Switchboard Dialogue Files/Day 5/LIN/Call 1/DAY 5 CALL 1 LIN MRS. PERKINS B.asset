@@ -21,8 +21,8 @@ MonoBehaviour:
     dialogue: Well, I was just about to try out this new breakfast recipe I found.
       Do you need something?
   - NewSpeakerName: 2
-    dialogue: "I\u2026 gah, no. Not worth the bother. Don\u2019t worry about it.
-      Sorry for interrupting you."
+    dialogue: "I\u2026 no. Not worth the bother. Don\u2019t worry about it. Sorry
+      for interrupting you."
   contextSummary: 
   hasNoAudio: 0
   isBark: 0
