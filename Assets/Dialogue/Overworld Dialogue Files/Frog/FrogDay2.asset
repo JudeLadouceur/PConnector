@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: FrogDay2
   m_EditorClassIdentifier: 
   lines:
-  - NewSpeakerName: 0
-    dialogue: Frog 2
+  - NewSpeakerName: 13
+    dialogue: '*Ribbit*'
   contextSummary: 
   hasNoAudio: 0
   isBark: 1

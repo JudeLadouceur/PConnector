@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - NewSpeakerName: 13
-    dialogue: Frog 4
+    dialogue: '*Ribbit*'
   contextSummary: 
   hasNoAudio: 0
   isBark: 1

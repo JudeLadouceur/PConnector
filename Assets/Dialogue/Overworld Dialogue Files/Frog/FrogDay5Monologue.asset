@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - NewSpeakerName: 13
-    dialogue: Frog 5 Monologue
+    dialogue: "Y-you\u2026 you there!"
+  - NewSpeakerName: 13
+    dialogue: "Y-you\u2026 you there!"
   contextSummary: 
   hasNoAudio: 0
   isBark: 1
