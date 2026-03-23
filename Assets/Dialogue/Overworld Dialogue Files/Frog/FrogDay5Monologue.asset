@@ -16,7 +16,28 @@ MonoBehaviour:
   - NewSpeakerName: 13
     dialogue: "Y-you\u2026 you there!"
   - NewSpeakerName: 13
-    dialogue: "Y-you\u2026 you there!"
+    dialogue: Help me!
+  - NewSpeakerName: 13
+    dialogue: "No, not them\u2026 YOU!"
+  - NewSpeakerName: 13
+    dialogue: "I\u2019m looking at you!"
+  - NewSpeakerName: 13
+    dialogue: "I have been this whole time\u2026 hoping I might finally be able to
+      reach out to you."
+  - NewSpeakerName: 13
+    dialogue: But the gate has somehow weakened! I can speak!
+  - NewSpeakerName: 13
+    dialogue: "Please! Get me out of here! I\u2019ve been trapped here for ages!"
+  - NewSpeakerName: 13
+    dialogue: I know of a way to break the gate, a way for me to finally be free!
+  - NewSpeakerName: 13
+    dialogue: W-wait!
+  - NewSpeakerName: 13
+    dialogue: 'NO! '
+  - NewSpeakerName: 13
+    dialogue: 'NOT YET! I NEED MORE TI- '
+  - NewSpeakerName: 13
+    dialogue: '*Ribbit*'
   contextSummary: 
   hasNoAudio: 0
   isBark: 1
