@@ -26,7 +26,7 @@ MonoBehaviour:
   - NewSpeakerName: 1
     dialogue: Something I need to hear? What might you be-
   - NewSpeakerName: 0
-    dialogue: Hello, my sweet, dear Emilia Perkins.
+    dialogue: Hello, my dear, sweet, Emilia Perkins.
   - NewSpeakerName: 1
     dialogue: What?! Is this-
   - NewSpeakerName: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
       hear that."
   - NewSpeakerName: 1
     dialogue: "Me too, dear. Everything you\u2019ve done today has really meant a
-      lot to me. Thank you. Really"
+      lot to me. Thank you. Really."
   - NewSpeakerName: 2
     dialogue: "Of course! I\u2019ll see you soon!"
   contextSummary: 
