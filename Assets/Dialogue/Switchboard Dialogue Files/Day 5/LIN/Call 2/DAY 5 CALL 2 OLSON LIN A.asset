@@ -50,9 +50,6 @@ MonoBehaviour:
   - NewSpeakerName: 7
     dialogue: "Unless you seriously think this failure won\u2019t affect your shop
       at all?"
-  - NewSpeakerName: 7
-    dialogue: "Unless you seriously think this failure won\u2019t affect your shop
-      at all?"
   - NewSpeakerName: 2
     dialogue: "Maybe, maybe not. But I sure don\u2019t need to be lectured on it
       by someone like you. I\u2019m not coming back to you, and I never will."
