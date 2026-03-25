@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 A OLSON A INITAL
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: OLSON
-    NewSpeakerName: 7
+  - NewSpeakerName: 7
     dialogue: "Hello. This is Olson. I\u2019m the father of Lin, the town pizza shop
       owner. I heard his shop closed today. On a Friday. What a joke. I\u2019m here
       to give his failing business some advice. Connect me to him. Now."
@@ -24,11 +23,12 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1961791633
+      Data2: 1184506925
+      Data3: -1830789473
+      Data4: 2108931538
+    Path: event:/Voices/Day 5/Lin - Final Call/Call 2/Olson Initial/Olson - D5-C2
+      - Initial
   barkEvent:
     Guid:
       Data1: 0

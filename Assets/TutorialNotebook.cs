@@ -39,7 +39,6 @@ public class TutorialNotebook : MonoBehaviour
 
     private void Start()
     {
-        instance=this;
         //Check for too many notes
             if(notes.Length > maxNotes)
             {
