@@ -42,9 +42,9 @@ public class DialogueManager : MonoBehaviour
         dialogueBox = GameObject.FindGameObjectWithTag("DialogueBox");
         characterManager = GameObject.FindAnyObjectByType<VariableManager>();
 
-        speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
-        dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
-        speakerProfile = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 3).GetComponent<UnityEngine.UI.Image>();
+        speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 3).GetComponent<TextMeshProUGUI>();
+        dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
+        speakerProfile = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 4).GetComponent<UnityEngine.UI.Image>();
         speakerProfile.sprite = speakerProfilePictures[0];
         dialogueBox.SetActive(false);
 

@@ -21,20 +21,22 @@ public class Interactables : MonoBehaviour
     private void Awake()
     {
         IPRef = Instantiate(interactPrompt, transform.parent);
-        if (!string.IsNullOrEmpty(interactPromptText)) IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to " + interactPromptText;
-        else IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E to interact";
+        if (!string.IsNullOrEmpty(interactPromptText)) IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E or click to " + interactPromptText;
+        else IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E or click to interact";
+        IPRef.transform.GetChild(2).GetComponent<InteractPromptButton>().SetInteractable(this);
         IPRef.SetActive(false);
     }
 
     public void SetInteractable(bool setToActive)
     {
-        if (setToActive) IPRef.SetActive(true);
-        else IPRef.SetActive(false);
+        IPRef.SetActive(setToActive);
+        canInteract = setToActive;
     }
 
     public virtual void Interact()
     {
         if (!canInteract) return;
+        if (cooldown <= 0) return;
         canInteract = false;
         StartCoroutine(Cooldown());
     }
