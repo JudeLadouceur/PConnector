@@ -8,6 +8,9 @@ using static UnityEngine.GraphicsBuffer;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
+    public delegate void OnDialogueEnd();
+    public static event OnDialogueEnd onDialogueEnd;
+
 
     private GameObject dialogueBox;
     private CallManager callManager;
@@ -155,6 +158,11 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         print("Closing dialogue box");
+        if (onDialogueEnd!=null)
+        {
+            onDialogueEnd();
+        }
+        
 
         dialogueBox.SetActive(false);
 

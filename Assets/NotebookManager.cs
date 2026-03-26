@@ -23,9 +23,8 @@ public class NotebookManager : MonoBehaviour
 
     //toggle button stuff
     public GameObject toggleButton;
-    public Image toggleIcon;
-    public Sprite closedIcon;
-    public Sprite openIcon;
+    public GameObject closedIcon;
+    public GameObject openIcon;
 
     //objects for open and close
     public GameObject bookObjects;
@@ -59,6 +58,9 @@ public class NotebookManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+
+        closedIcon.SetActive(true);
+        openIcon.SetActive(false);
 
         dayNames = new string[5] {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
         //Check for too many notes
@@ -125,14 +127,16 @@ public class NotebookManager : MonoBehaviour
         if (!canBeActive) return;
         if (isOpen)
         {
-            toggleIcon.sprite = closedIcon;
+            closedIcon.SetActive(true);
+            openIcon.SetActive(false);
             bookObjects.transform.position = closeTarget.transform.position;
             isOpen = false;
 
             FMODSoundPlayer.Instance.PlayFMODSound(1);
         } else
         {
-            toggleIcon.sprite = openIcon;
+            closedIcon.SetActive(false);
+            openIcon.SetActive(true);
             bookObjects.transform.position=openTarget.transform.position;
             isOpen = true;
             FMODSoundPlayer.Instance.PlayFMODSound(0);
