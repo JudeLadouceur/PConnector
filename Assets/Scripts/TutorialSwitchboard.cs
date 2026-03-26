@@ -9,6 +9,7 @@ public class TutorialSwitchboard : MonoBehaviour
     private List<Collider2D> notches;
     public static TutorialSwitchboard instance;
     public GameObject notebookPrompt;
+    public GameObject visualBlock;
     public GameObject connectPrompt;
     public Button notebookbutton;
     private bool noteFresh;
@@ -28,6 +29,7 @@ public class TutorialSwitchboard : MonoBehaviour
         }
         
         notebookPrompt.SetActive(false);
+        visualBlock.SetActive(false);
         connectPrompt.SetActive(false);
         notebookbutton.interactable= false;
         noteFresh = true;
@@ -36,6 +38,7 @@ public class TutorialSwitchboard : MonoBehaviour
     public void EndContextCall()
     {
         notebookPrompt.SetActive(true);
+        visualBlock.SetActive(true);
         notebookbutton.interactable = true;
     }
 
@@ -44,6 +47,7 @@ public class TutorialSwitchboard : MonoBehaviour
         if (noteFresh)
         {
             notebookPrompt.SetActive(false);
+            visualBlock.SetActive(false);
             connectPrompt.SetActive(true);
             foreach(Collider2D collider in notches)
             {
@@ -56,6 +60,7 @@ public class TutorialSwitchboard : MonoBehaviour
     public void NoPrompt()
     {
         notebookPrompt.SetActive(false);
+        visualBlock.SetActive(false);
         connectPrompt.SetActive(false);
     }
 }
