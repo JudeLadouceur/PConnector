@@ -4,6 +4,7 @@ using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
+using FMODUnity;
 
 public class Interactables : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class Interactables : MonoBehaviour
 
     private bool canInteract = true;
 
+    protected bool inInteraction = false;
+
+    public EventReference interactAudio;
+
     private void Awake()
     {
         IPRef = Instantiate(interactPrompt, transform.parent);
@@ -29,6 +34,7 @@ public class Interactables : MonoBehaviour
 
     public void SetInteractable(bool setToActive)
     {
+        if (inInteraction) return;
         IPRef.SetActive(setToActive);
         canInteract = setToActive;
     }
@@ -36,8 +42,16 @@ public class Interactables : MonoBehaviour
     public virtual void Interact()
     {
         if (!canInteract) return;
+
+        //Determine if bark audio should be played
+        if (!interactAudio.IsNull)
+        {
+            DialogueVoiceManager.Instance.PlayBark(interactAudio);
+        }
+
         if (cooldown <= 0) return;
-        canInteract = false;
+        SetInteractable(false);
+        inInteraction = true;
         StartCoroutine(Cooldown());
     }
 
@@ -46,6 +60,8 @@ public class Interactables : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
 
         canInteract = true;
+        IPRef.SetActive(true);
+        inInteraction = false;
 
         yield return null;
     }
