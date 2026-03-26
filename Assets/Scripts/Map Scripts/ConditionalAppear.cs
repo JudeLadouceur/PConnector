@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static OverworldDialogue;
 
 public class ConditionalAppear : MonoBehaviour
 {
@@ -22,6 +21,8 @@ public class ConditionalAppear : MonoBehaviour
         for (int i = 0; i < Variables.Length; i++)
         {
             Debug.Log("Checking option: " + i);
+
+            variableInfo = Variables[i];
 
             //If the variable is incorrect stop checking and disappear
             if (VariableManager.instance.flags[variableInfo.variable] != variableInfo.value)
