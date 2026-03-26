@@ -69,6 +69,10 @@ public class SceneManager : ScriptableObject
 
     public void GoToMainMenu()
     {
+        if(AchievementManager.instance != null)
+        {
+            AchievementManager.instance.ResetAchievements();
+        }
         VariableManager.instance.ResetFlags();
         GoToScene(GetMainMenuNode().id);
     }

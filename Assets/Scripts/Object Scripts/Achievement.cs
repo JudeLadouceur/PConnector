@@ -35,6 +35,7 @@ public class Achievement : MonoBehaviour
     {
         if (status == AchievementStatus.Hidden)
         {
+            achievementPiece.sprite = baseSprite;
             achievementPiece.color = Color.grey;
             nameText.text = "???";
             descriptionText.text = "???";
@@ -42,6 +43,7 @@ public class Achievement : MonoBehaviour
         }
         else if (status == AchievementStatus.Revealed)
         {
+            achievementPiece.sprite = baseSprite;
             achievementPiece.color = Color.grey;
             nameText.text = AchievementManager.instance.namesDict[achievementName];
             descriptionText.text = achievementDescription;

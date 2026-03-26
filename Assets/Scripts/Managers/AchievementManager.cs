@@ -96,4 +96,12 @@ public class AchievementManager : MonoBehaviour
             Day6Button.SetActive(true);
         }
     }
+
+    public void ResetAchievements()
+    {
+        foreach(Achievement achieve in achievementDictionary.Values)
+        {
+            achieve.SetStatus(AchievementStatus.Revealed);
+        }
+    }
 }
