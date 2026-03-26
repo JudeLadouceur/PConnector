@@ -3,7 +3,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 public class OverworldDialogue : Interactables
 {
@@ -33,6 +32,10 @@ public class OverworldDialogue : Interactables
     {
         if(DialogueManager.Instance.inDialogue) return;
         
+        SetInteractable(false);
+        inInteraction = true;
+        DialogueManager.onDialogueEnd += EndInteraction;
+
         //if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
         
         //Add notes to the notebook
@@ -117,5 +120,13 @@ public class OverworldDialogue : Interactables
         }
 
         DialogueManager.Instance.StartDialogue(selectedDialogue, false);
+    }
+
+    private void EndInteraction()
+    {
+        Debug.Log("event worked");
+        inInteraction = false;
+        SetInteractable(true);
+        DialogueManager.onDialogueEnd -= EndInteraction;
     }
 }
