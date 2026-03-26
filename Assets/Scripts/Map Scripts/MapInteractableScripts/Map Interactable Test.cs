@@ -55,6 +55,7 @@ public class MapInteractableTest : Interactables
     }
     public override void Interact()
     {
+        base.Interact();
         Interacts = true;
         Debug.Log("Interact");
     }
