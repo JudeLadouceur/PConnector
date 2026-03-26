@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -60,13 +61,19 @@ public class CallManager : MonoBehaviour
     [HideInInspector]
     public bool inContextCall;
 
+    private int RingingSkipped = 0;
+
     public GameObject telephoneRingingSprite;
+    private EventInstance audioSource;
 
     private void Start()
     {
         if (FindAnyObjectByType<ForceAssignNotch>().isActive) LineManager.instance.SelectPoint(FindAnyObjectByType<ForceAssignNotch>().autoNotches[0].transform.GetChild(1).gameObject);
 
-        StartCoroutine(StartCallDelay());
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
+
+            StartCoroutine(StartCallDelay());
     }
 
     public void ContextCall()
@@ -216,7 +223,7 @@ public class CallManager : MonoBehaviour
 
         //------------Insert ring noise here----------------
         if(FMODSoundPlayer.Instance!=null)
-            FMODSoundPlayer.Instance.PlayFMODSound(2);
+            audioSource = FMODSoundPlayer.Instance.PlayFMODSound(2);
 
         telephoneRingingSprite.SetActive(true);
         
@@ -224,6 +231,15 @@ public class CallManager : MonoBehaviour
 
         telephoneRingingSprite.SetActive(false);
 
+        if (RingingSkipped > 0) RingingSkipped--;
+        else ContextCall();
+    }
+
+    public void SkipCallDelay()
+    {
+        RingingSkipped++;
+        telephoneRingingSprite.SetActive(false);
+        audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
         ContextCall();
     }
 }

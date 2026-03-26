@@ -13,26 +13,25 @@ MonoBehaviour:
   m_Name: Day 6 Call 2 Lin
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Hey there! It\u2019s Lin! I was just calling to say thanks for everything
       you\u2019ve done for my pizza shop recently. I\u2019ve been in quite a few
       binds back to back, and you\u2019ve really helped me find the right people
       to get through things one step at a time. "
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "I really, really love making pizza for the people of this town to
       make everyone happy, and it\u2019s thanks to you that I\u2019ve been able to
       keep doing it. You\u2019re awesome. Thanks for everything."
   contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 735966653
-      Data2: 1267662128
-      Data3: -1728789609
-      Data4: 812858503
-    Path: event:/Voices/Placeholder Voice Lines/Placeholder Voice Line (Switchboard)
+      Data1: -663531077
+      Data2: 1306529954
+      Data3: 559634312
+      Data4: -1874290812
+    Path: event:/Voices/Day 6/Lin/Lin - D6
   barkEvent:
     Guid:
       Data1: 0

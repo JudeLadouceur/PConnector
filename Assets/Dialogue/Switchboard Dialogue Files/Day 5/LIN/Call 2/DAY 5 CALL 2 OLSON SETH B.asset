@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 OLSON SETH B
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
-  - speakerName: OLSON
-    NewSpeakerName: 7
+  - NewSpeakerName: 7
     dialogue: Hmph. I see how it is. Fine. Let him live with his own failure and
       get nothing out of it.
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Um, excuse me? Who is this?!
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1402381576
+      Data2: 1235565964
+      Data3: -1105807719
+      Data4: -1090729763
+    Path: event:/Voices/Day 5/Lin - Final Call/Call 2/Seth B Connection/Olson - D5-C2
+      - Seth B Connection
   barkEvent:
     Guid:
       Data1: 0

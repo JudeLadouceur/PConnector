@@ -28,9 +28,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2019655025
+      Data2: 1077687377
+      Data3: -266517879
+      Data4: -1819195238
+    Path: event:/Voices/Overworld Barks/Stewart/Stewart - Worried Barks
   variables: []

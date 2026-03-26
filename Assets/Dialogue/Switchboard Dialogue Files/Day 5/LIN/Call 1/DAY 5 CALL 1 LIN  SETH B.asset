@@ -13,30 +13,28 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 1 LIN  SETH B
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. What needs fixing?"
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Hi\u2026 Seth\u2026 you busy right now?"
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Well kind of, the shop\u2019s open for walk ins right now, but I-"
-  - speakerName: LIN
-    NewSpeakerName: 2
-    dialogue: "Nevermind then. It\u2019s not worth the bother. Don\u2019t worry about
-      it."
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 2
+    dialogue: "Never mind then. It\u2019s not worth the bother. Don\u2019t worry
+      about it."
+  - NewSpeakerName: 3
     dialogue: "Lin, hold on, are you\u2013"
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 946194839
+      Data2: 1196890086
+      Data3: 248453049
+      Data4: 1439408189
+    Path: event:/Voices/Day 5/Lin - Final Call/Call 1/Seth B Connection/Lin - D5-C1
+      - Seth B Connection
   barkEvent:
     Guid:
       Data1: 0

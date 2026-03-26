@@ -13,24 +13,23 @@ MonoBehaviour:
   m_Name: Day 6 Call 4 Stewart
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: STEWART
-    NewSpeakerName: 10
+  - NewSpeakerName: 10
     dialogue: "Hi! Mr. Stewart the pretzel man, here! Ha, sorry. I\u2019m just calling
       to thank you for helping me get that pretzel stand up and running. It\u2019s
       made a lot of people happy, and Lin and I even have a crossover promotion in
       the works!"
-  - speakerName: STEWART
-    NewSpeakerName: 10
+  - NewSpeakerName: 10
     dialogue: Thanks a lot for helping me get set up. You have a good one!
   contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 735966653
-      Data2: 1267662128
-      Data3: -1728789609
-      Data4: 812858503
-    Path: event:/Voices/Placeholder Voice Lines/Placeholder Voice Line (Switchboard)
+      Data1: -1853556343
+      Data2: 1183096235
+      Data3: -526108022
+      Data4: -1579352238
+    Path: event:/Voices/Day 6/Stewart/Stewart - D6
   barkEvent:
     Guid:
       Data1: 0

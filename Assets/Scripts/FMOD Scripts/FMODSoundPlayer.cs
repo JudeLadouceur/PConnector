@@ -1,4 +1,6 @@
+using FMOD.Studio;
 using FMODUnity;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FMODSoundPlayer : MonoBehaviour
@@ -14,15 +16,13 @@ public class FMODSoundPlayer : MonoBehaviour
     }
 
     // This function is used for one shot FMOD sounds that can be played from a custom array. 
-    public void PlayFMODSound(int index)
+    public EventInstance PlayFMODSound(int index)
     {
-        if (index < 0 || index >= soundEvents.Length)
-        {
-            Debug.LogWarning("FMODSoundPlayer has an invalid event index.");
+        EventInstance instance = RuntimeManager.CreateInstance(soundEvents[index]);
 
-            return;
-        }
-
-        RuntimeManager.PlayOneShot(soundEvents[index]);
+        instance.setParameterByName("dialogueProgress", 0);
+        instance.start();
+        instance.release();
+        return instance;
     }
 }

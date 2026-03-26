@@ -39,6 +39,6 @@ MonoBehaviour:
       Data4: 126775472
     Path: event:/Voices/Overworld Barks/Lin/Lin - Happy Barks
   variables:
-  - variable: 0
-    modifier: 0
-    value: 0
+  - variable: 29
+    modifier: 2
+    value: 1

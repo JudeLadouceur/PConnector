@@ -13,29 +13,28 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 LUCIN LIN B
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza! Fresher than you would believe! What can I get for
       you?"
-  - speakerName: LUCIN
-    NewSpeakerName: 8
+  - NewSpeakerName: 8
     dialogue: "What? I\u2019m sorry, I was hoping to talk to Seth."
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Oh, it seems you\u2019ve been connected to the wrong line. Sorry about
       that."
-  - speakerName: LUCIN
-    NewSpeakerName: 8
+  - NewSpeakerName: 8
     dialogue: "It\u2019s alright. I\u2019ll\u2026 find some other way to talk to
       him. Hopefully."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1944902446
+      Data2: 1093249557
+      Data3: -1505398598
+      Data4: -1051884572
+    Path: event:/Voices/Day 5/Seth - Final Call/Call 2/Lin B Connection/Lucin - D5-C2
+      - Lin B Connection
   barkEvent:
     Guid:
       Data1: 0

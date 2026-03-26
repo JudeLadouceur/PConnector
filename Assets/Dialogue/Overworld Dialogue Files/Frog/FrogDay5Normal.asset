@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - NewSpeakerName: 13
-    dialogue: Frog 5 Ribbit
+    dialogue: '*Ribbit*'
   contextSummary: 
   hasNoAudio: 0
   isBark: 1
@@ -27,9 +27,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 625461846
+      Data2: 1200917724
+      Data3: 1017976963
+      Data4: -1907469245
+    Path: event:/Voices/Overworld Barks/The Frog/The Frog - Ribbit
   variables: []

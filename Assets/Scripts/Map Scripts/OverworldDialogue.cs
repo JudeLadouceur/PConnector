@@ -31,6 +31,8 @@ public class OverworldDialogue : Interactables
 
     public override void Interact()
     {
+        if(DialogueManager.Instance.inDialogue) return;
+        
         //if (AchievementManager.instance && AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.LittleTalks, out Achievement value) && value.status == AchievementStatus.Revealed) value.Achieve();
         
         //Add notes to the notebook

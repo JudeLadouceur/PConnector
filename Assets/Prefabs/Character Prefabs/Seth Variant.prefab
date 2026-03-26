@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seth Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6720065765275548372, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 7448488614580516829, guid: 01d9e4428f4780045a9273f78162f07a, type: 3}
       propertyPath: m_Size.x
       value: 10

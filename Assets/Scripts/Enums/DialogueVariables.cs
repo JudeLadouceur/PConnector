@@ -29,5 +29,6 @@ public enum DialogueVar
     FrogDay1,
     FrogDay2,
     FrogDay3,
-    FrogDay4
+    FrogDay4,
+    TalkedToLin
 }
