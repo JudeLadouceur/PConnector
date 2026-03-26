@@ -15,7 +15,6 @@ public class ItemVanish : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //start coroutine that being timer to destruction
         Debug.Log("hit");
         StartCoroutine(DelayAction());
     }

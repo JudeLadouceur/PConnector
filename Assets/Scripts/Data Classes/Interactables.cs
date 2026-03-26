@@ -38,6 +38,7 @@ public class Interactables : MonoBehaviour
         if (!canInteract) return;
         if (cooldown <= 0) return;
         canInteract = false;
+        IPRef.SetActive(false);
         StartCoroutine(Cooldown());
     }
 
@@ -46,6 +47,7 @@ public class Interactables : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
 
         canInteract = true;
+        IPRef.SetActive(true);
 
         yield return null;
     }
