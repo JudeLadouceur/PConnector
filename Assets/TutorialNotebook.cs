@@ -19,9 +19,8 @@ public class TutorialNotebook : MonoBehaviour
 
     //toggle button stuff
     public GameObject toggleButton;
-    public Image toggleIcon;
-    public Sprite closedIcon;
-    public Sprite openIcon;
+    public GameObject closedIcon;
+    public GameObject openIcon;
 
     //objects for open and close
     public GameObject bookObjects;
@@ -58,6 +57,8 @@ public class TutorialNotebook : MonoBehaviour
         }
         bulletPoints = new List<GameObject>();
         UpdateNotebook();
+        closedIcon.SetActive(true);
+        openIcon.SetActive(false);
     }
 
     public void NotebookCheckScene(Scene scene1, Scene scene2)
@@ -76,14 +77,16 @@ public class TutorialNotebook : MonoBehaviour
     {
         if (isOpen)
         {
-            toggleIcon.sprite = closedIcon;
+            closedIcon.SetActive(true);
+            openIcon.SetActive(false);
             bookObjects.transform.position = closeTarget.transform.position;
             isOpen = false;
             if(FMODSoundPlayer.Instance!=null)
                 FMODSoundPlayer.Instance.PlayFMODSound(1);
         } else
         {
-            toggleIcon.sprite = openIcon;
+            closedIcon.SetActive(false);
+            openIcon.SetActive(true);
             bookObjects.transform.position=openTarget.transform.position;
             isOpen = true;
 

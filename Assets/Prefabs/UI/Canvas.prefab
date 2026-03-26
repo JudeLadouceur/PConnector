@@ -139,6 +139,11 @@ MonoBehaviour:
       usesVariable: 0
       varName: 0
       varFalseNote: 
+    - note: Oh hey, a frog
+      character: 13
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
   - notes:
     - note: Day 2 of 5!
       character: 0
@@ -148,15 +153,45 @@ MonoBehaviour:
     - note: Seth forgot his lunch
       character: 3
       usesVariable: 1
-      varName: 0
+      varName: 5
       varFalseNote: Seth seems upset today
+    - note: The health center is looking for some support
+      character: 4
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: There's a big group in town, should keep an eye out
+      character: 2
+      usesVariable: 1
+      varName: 0
+      varFalseNote: 
+    - note: Mrs. Perkins seems rather chipper today
+      character: 1
+      usesVariable: 1
+      varName: 3
+      varFalseNote: Mrs. Perkins seems tired, her walker is in rough shape
+    - note: I wonder if I should get the frog a housewarming gift?
+      character: 13
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
   - notes:
     - note: Day 3, over halfway there. Have I made an impact?
       character: 0
       usesVariable: 1
-      varName: 0
+      varName: 3
       varFalseNote: Mrs. Perkins got hurt yesterday, I should be careful with who
         I connect where.
+    - note: Seth's parts should be arriving today
+      character: 3
+      usesVariable: 0
+      varName: 0
+      varFalseNote: 
+    - note: I swear that frog's staring at me
+      character: 13
+      usesVariable: 1
+      varName: 26
+      varFalseNote: It's nice to see the local fountain put to use
   - notes:
     - note: Day 4 of 5!
       character: 0
@@ -168,28 +203,59 @@ MonoBehaviour:
       usesVariable: 0
       varName: 0
       varFalseNote: 
-  - notes:
-    - note: "Final day! I hope I didn\u2019t put too much pressure on (person who
-        was chosen) yesterday."
-      character: 0
+    - note: Perkins seems motivated - I should keep an eye out for something for
+        her to do
+      character: 1
       usesVariable: 0
       varName: 0
+      varFalseNote: 
+    - note: I think "Pizza Pizza, eat all about it" might land better
+      character: 2
+      usesVariable: 1
+      varName: 7
+      varFalseNote: I should try one of Lin's pizzas sometime
+    - note: I feel like the frog's trying to tell me something
+      character: 13
+      usesVariable: 1
+      varName: 27
+      varFalseNote: '"Ribbit Ribbit" - Frog'
+  - notes:
+    - note: "Final day! I hope I didn\u2019t put too much pressure on Lin yesterday."
+      character: 0
+      usesVariable: 1
+      varName: 12
+      varFalseNote: 
+    - note: "Final day! I hope I didn\u2019t put too much pressure on Mrs. Perkins
+        yesterday."
+      character: 0
+      usesVariable: 1
+      varName: 13
+      varFalseNote: 
+    - note: "Final day! I hope I didn\u2019t put too much pressure on Seth yesterday."
+      character: 0
+      usesVariable: 1
+      varName: 11
       varFalseNote: 
     - note: "Where\u2019s Lin? He\u2019s usually opening his shop by now\u2026"
       character: 0
-      usesVariable: 0
-      varName: 0
+      usesVariable: 1
+      varName: 12
       varFalseNote: 
     - note: Is Seth okay? Is he upset?
       character: 0
-      usesVariable: 0
-      varName: 0
+      usesVariable: 1
+      varName: 11
       varFalseNote: 
     - note: What is Mrs. Perkins doing? She seems busy.
       character: 0
-      usesVariable: 0
-      varName: 0
+      usesVariable: 1
+      varName: 13
       varFalseNote: 
+    - note: Nothing. Happened. With. The. Frog.
+      character: 13
+      usesVariable: 1
+      varName: 28
+      varFalseNote: There's just something about that frog...maybe next time
   approvedSceneFragments:
   - Notebook
   - Afterwork
@@ -198,13 +264,13 @@ MonoBehaviour:
   - Overworld
   - AfterWork
   toggleButton: {fileID: 6928161530753268074}
-  toggleIcon: {fileID: 6705125680874506301}
-  closedIcon: {fileID: 21300000, guid: 178eaf27ea2f3934f8b6f3b91a10fa9c, type: 3}
-  openIcon: {fileID: 21300000, guid: 69b8fac0784e0ae41872afd7769ac0a4, type: 3}
+  closedIcon: {fileID: 1380215935015273497}
+  openIcon: {fileID: 0}
   bookObjects: {fileID: 6675125618407011044}
   openTarget: {fileID: 8220570562988295895}
   closeTarget: {fileID: 9179448089291642786}
   conversationSkip: 0
+  notifObject: {fileID: 0}
 --- !u!1 &473076210192196026
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +508,7 @@ GameObject:
   - component: {fileID: 7575813870643902498}
   - component: {fileID: 6705125680874506301}
   m_Layer: 5
-  m_Name: Icon
+  m_Name: OpenIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1294,6 +1360,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7062042472032151138}
+  - {fileID: 2570096439740770778}
+  - {fileID: 9176336815515709602}
   m_Father: {fileID: 2693856404601908984}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1580,6 +1648,171 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8241001157554706605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9176336815515709602}
+  - component: {fileID: 4157046994403413852}
+  - component: {fileID: 5821019851740148269}
+  m_Layer: 5
+  m_Name: CloseIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9176336815515709602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241001157554706605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5237425759116083055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 25, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4157046994403413852
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241001157554706605}
+  m_CullTransparentMesh: 1
+--- !u!114 &5821019851740148269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241001157554706605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ad1110ade3be88541a0ed2efc5240c26, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8257717981264773216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2570096439740770778}
+  - component: {fileID: 7631633740759443630}
+  - component: {fileID: 616153243069258926}
+  - component: {fileID: 973474387102646154}
+  m_Layer: 5
+  m_Name: NotifIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2570096439740770778
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257717981264773216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5237425759116083055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -13.29, y: 23.66}
+  m_SizeDelta: {x: 15, y: 15}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7631633740759443630
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257717981264773216}
+  m_CullTransparentMesh: 1
+--- !u!114 &616153243069258926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257717981264773216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8399d4142f1d59f44a8b88ab0db079ed, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &973474387102646154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257717981264773216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e69446e2152694fb5118801860d8c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 616153243069258926}
+  blinkDuration: 0.5
 --- !u!1 &8311373365301713714
 GameObject:
   m_ObjectHideFlags: 0
