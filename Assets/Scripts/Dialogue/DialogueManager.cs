@@ -158,8 +158,11 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         print("Closing dialogue box");
-
-        onDialogueEnd();
+        if (onDialogueEnd!=null)
+        {
+            onDialogueEnd();
+        }
+        
 
         dialogueBox.SetActive(false);
 

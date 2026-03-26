@@ -2379,6 +2379,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8257717981264773216, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4483523054650504013, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
     - {fileID: 8710186774302285816, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
@@ -2957,9 +2961,8 @@ MonoBehaviour:
     varName: 0
     varFalseNote: 
   toggleButton: {fileID: 1199443479}
-  toggleIcon: {fileID: 1230597592}
-  closedIcon: {fileID: 21300000, guid: e40772db96e5cfb41b6f78406d56dbb6, type: 3}
-  openIcon: {fileID: 21300000, guid: 69b8fac0784e0ae41872afd7769ac0a4, type: 3}
+  closedIcon: {fileID: 1950072552}
+  openIcon: {fileID: 2111227544}
   bookObjects: {fileID: 2036776828}
   openTarget: {fileID: 1971428196}
   closeTarget: {fileID: 1646431189}
@@ -4177,17 +4180,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211295507}
   m_CullTransparentMesh: 1
---- !u!114 &1230597592 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6705125680874506301, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
-  m_PrefabInstance: {fileID: 708272631}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1368695579
 GameObject:
   m_ObjectHideFlags: 0
@@ -6381,6 +6373,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1950072552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1380215935015273497, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+  m_PrefabInstance: {fileID: 708272631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1971428196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8220570562988295895, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
@@ -6847,6 +6844,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2111227544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8241001157554706605, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+  m_PrefabInstance: {fileID: 708272631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2120704802
 GameObject:
   m_ObjectHideFlags: 0
