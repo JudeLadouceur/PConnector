@@ -485,6 +485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stewart 2 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7050641213941042506, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

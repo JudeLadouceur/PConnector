@@ -1109,26 +1109,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1375843340079554899, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
-      propertyPath: dialogueOptions.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1375843340079554899, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
-      propertyPath: dialogueOptions.Array.data[0].dialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: c4c3dacb221a7d146b137e9d2519282e, type: 2}
-    - target: {fileID: 4469844780023382149, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 2e47d529401392045be6939edacb3d92, type: 3}
-    - target: {fileID: 4469844780023382149, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5408585765171342531, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
-      propertyPath: brokenSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 2e47d529401392045be6939edacb3d92, type: 3}
     - target: {fileID: 5671825821177046856, guid: da5ba9b572424cf4b9e029fb79017e9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.91
