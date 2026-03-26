@@ -40,14 +40,14 @@ MonoBehaviour:
     dialogue: '*Ribbit*'
   contextSummary: 
   hasNoAudio: 0
-  isBark: 1
+  isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 520036913
+      Data2: 1246047639
+      Data3: 1321176506
+      Data4: -1955208084
+    Path: event:/Voices/Overworld Barks/The Frog/The Frog - Day 5 Monologue
   barkEvent:
     Guid:
       Data1: 0
