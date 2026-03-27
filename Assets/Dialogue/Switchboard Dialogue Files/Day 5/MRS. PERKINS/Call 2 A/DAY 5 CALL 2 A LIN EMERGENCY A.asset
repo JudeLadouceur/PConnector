@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 A LIN EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: I-what? Really? Aw, man. Sorry, wrong line.
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
-    dialogue: Um, alright? Have a good day
+  - NewSpeakerName: 4
+    dialogue: Um, alright? Have a great day.
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2036454058
+      Data2: 1296029666
+      Data3: 1238674093
+      Data4: 626022255
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 A/Emergency Connection/Lin
+      - D5-C2A - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0
