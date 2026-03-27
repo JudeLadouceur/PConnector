@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 B SETH LIN A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Lin\u2019s pizza! What kind of fresh are you looking for today?"
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Wha-seriously?! Talk about insensitive. Sorry, Lin. Not you, wrong
       line.
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: Uh, Seth? What-
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 345284989
+      Data2: 1162792225
+      Data3: 1261226155
+      Data4: 673283537
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 B/Seth Connection/Lin
+      - D5-C2B - Seth Connection
   barkEvent:
     Guid:
       Data1: 0
