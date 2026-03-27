@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Steward Seth Day 5 Before Work
   m_EditorClassIdentifier: 
   lines:
-  - NewSpeakerName: 3
+  - NewSpeakerName: 10
     dialogue: "Hey, the guy right over there seems pretty upset, though I\u2019m
       not sure why."
-  - NewSpeakerName: 3
+  - NewSpeakerName: 10
     dialogue: "I\u2019ve heard him muttering something about mistakes\u2026 you think
       he\u2019s doing alright?"
   contextSummary: 
@@ -31,9 +31,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2019655025
+      Data2: 1077687377
+      Data3: -266517879
+      Data4: -1819195238
+    Path: event:/Voices/Overworld Barks/Stewart/Stewart - Worried Barks
   variables: []

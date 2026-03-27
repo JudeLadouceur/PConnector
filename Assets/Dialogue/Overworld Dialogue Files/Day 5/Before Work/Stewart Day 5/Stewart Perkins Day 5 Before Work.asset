@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Stewart Perkins Day 5 Before Work
   m_EditorClassIdentifier: 
   lines:
-  - NewSpeakerName: 1
+  - NewSpeakerName: 10
     dialogue: "Hey, have you seen Mrs. Perkins? She gets a pretzel on her morning
       walk, but I haven\u2019t seen her this morning."
-  - NewSpeakerName: 1
+  - NewSpeakerName: 10
     dialogue: "Do you know where she is? It looks like I\u2019m not the only one
       who\u2019s concerned about it."
   contextSummary: 
@@ -31,9 +31,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2019655025
+      Data2: 1077687377
+      Data3: -266517879
+      Data4: -1819195238
+    Path: event:/Voices/Overworld Barks/Stewart/Stewart - Worried Barks
   variables: []
