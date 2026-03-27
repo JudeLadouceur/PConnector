@@ -18,7 +18,7 @@ MonoBehaviour:
   - NewSpeakerName: 2
     dialogue: "Hi\u2026 Seth\u2026 you busy right now?"
   - NewSpeakerName: 3
-    dialogue: "Well kind of, the shop\u2019s open for walk ins right now, but I-"
+    dialogue: "Well kind of, the shop\u2019s open for walk-ins right now, but I-"
   - NewSpeakerName: 2
     dialogue: "Never mind then. It\u2019s not worth the bother. Don\u2019t worry
       about it."
