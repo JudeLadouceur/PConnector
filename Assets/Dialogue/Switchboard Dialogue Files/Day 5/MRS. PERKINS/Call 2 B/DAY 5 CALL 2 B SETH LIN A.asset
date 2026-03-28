@@ -29,8 +29,8 @@ MonoBehaviour:
       Data2: 1162792225
       Data3: 1261226155
       Data4: 673283537
-    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 B/Seth Connection/Lin
-      - D5-C2B - Seth Connection
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 B/Lin Connection/Seth
+      - D5-C2B - Lin Connection
   barkEvent:
     Guid:
       Data1: 0
