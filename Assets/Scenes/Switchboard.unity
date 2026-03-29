@@ -2899,9 +2899,7 @@ MonoBehaviour:
         - variables: []
           dialogue: {fileID: 11400000, guid: f982d521a406bd14b8661ac0c468c1a4, type: 2}
           doNotProgressToNextCall: 0
-    - requiredVars:
-      - variableName: 15
-        value: 0
+    - requiredVars: []
       caller: 4
       contextCalls:
       - variables:
