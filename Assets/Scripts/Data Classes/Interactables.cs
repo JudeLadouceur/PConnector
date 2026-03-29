@@ -8,7 +8,7 @@ using FMODUnity;
 
 public class Interactables : MonoBehaviour
 {
-    public bool ShowsInteractPrompt = false;
+    public bool ShowsInteractPrompt = true;
     
     public GameObject interactPrompt;
     private GameObject IPRef;
