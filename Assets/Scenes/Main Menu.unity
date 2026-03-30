@@ -802,8 +802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 61.300003, y: 697.00006}
-  m_SizeDelta: {x: 1100.893, y: 162.922}
+  m_AnchoredPosition: {x: -716, y: 592}
+  m_SizeDelta: {x: 1583.6, y: 162.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &84091602
 MonoBehaviour:
@@ -825,8 +825,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ryan Elliott\nJude Ladouceur\nRose Lazuli\nCaitlin Makins \r\nZachary
-    Richardson\nAli Saneei\n"
+  m_text: 'Ryan Elliott - Writer and Narrative Designer
+
+    Jude Ladouceur - Programmer
+
+    Rose
+    Lazuli - Systems Designer and Narrative Designer
+
+    Caitlin Makins - Artist
+    and Animator
+
+    Zachary Richardson - Level Designer and Narrative Designer
+
+    Ali
+    Saneei - Project Manager and Audio Designer
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -853,8 +867,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 62.9
+  m_fontSizeBase: 62.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2333,8 +2347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185.00002, y: 424.40005}
-  m_SizeDelta: {x: 805.6, y: 760.7}
+  m_AnchoredPosition: {x: -607.53, y: 330.40002}
+  m_SizeDelta: {x: 1906.6, y: 760.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429272170
 MonoBehaviour:
@@ -4705,7 +4719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1044, y: 494}
+  m_AnchoredPosition: {x: 822.99994, y: 224.19998}
   m_SizeDelta: {x: 1100.893, y: 162.922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800637504
@@ -5744,7 +5758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1170, y: 438.8}
+  m_AnchoredPosition: {x: 949, y: 169}
   m_SizeDelta: {x: 1088.4, y: 353.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989158122
@@ -6264,6 +6278,10 @@ PrefabInstance:
     - target: {fileID: 5939049551523597664, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
       propertyPath: m_Name
       value: DialogueSystemRoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5939049551523597664, guid: d6f07864b5b08a647b6f324bc131f2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7230,7 +7248,7 @@ MonoBehaviour:
     Caitlin
     Makins as Emergency
 
-    Ali Saneei as Stewart, The Frog'
+    Ali Saneei as Stewart, Frog'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -7790,7 +7808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33.100006, y: -160.00002}
+  m_AnchoredPosition: {x: -33.100006, y: -257}
   m_SizeDelta: {x: 3073.4, y: 226.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445518419
@@ -9737,7 +9755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 768.54004, y: -549}
+  m_AnchoredPosition: {x: 768.54004, y: -722}
   m_SizeDelta: {x: 1155.3, y: 392.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852794940
@@ -9760,14 +9778,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Switchboard connection sounds from freesound.org, made by klangstrand
-    (licensed under CC BY 4.0).
-
-
-    Telephone ringing sound from freesound.org,
-    made by pimstoltz
-
-    (licensed under CC0).'
+  m_text: Switchboard connection sounds from freesound.org, made by klangstrand (licensed
+    under CC BY 4.0).
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -10267,7 +10279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -939, y: 435}
+  m_AnchoredPosition: {x: 991.7001, y: 491.99997}
   m_SizeDelta: {x: 1236.9, y: 226.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928834773
@@ -10347,7 +10359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 261, y: -134}
+  m_AnchoredPosition: {x: 261, y: -231}
   m_SizeDelta: {x: 3059.8, y: 162.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958301939
@@ -10854,7 +10866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -863.69995, y: 418.00003}
+  m_AnchoredPosition: {x: 1067, y: 475}
   m_SizeDelta: {x: 1100.893, y: 162.922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1989509726
