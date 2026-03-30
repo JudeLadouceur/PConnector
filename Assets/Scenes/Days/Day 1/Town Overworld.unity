@@ -325,8 +325,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5145108348517718699, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 46383301}
   m_SourcePrefab: {fileID: 100100000, guid: f9fde199751cb18418caac99926b801c, type: 3}
+--- !u!1 &46383300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5145108348517718699, guid: f9fde199751cb18418caac99926b801c, type: 3}
+  m_PrefabInstance: {fileID: 46383299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &46383301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46383300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -159434364
+      Data2: 1086165685
+      Data3: -2112333382
+      Data4: 139275969
+    Path: event:/SFX/Soccer Ball/Soccer Ball Kicking
+  Event: 
+  EventPlayTrigger: 9
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &182876205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5722301098041427309, guid: e2556a41a6e9dee4ebd6d6ea69efce0f, type: 3}
