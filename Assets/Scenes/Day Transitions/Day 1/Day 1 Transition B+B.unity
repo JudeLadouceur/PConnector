@@ -904,11 +904,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 1
   interactPrompt: {fileID: 0}
   cooldown: 0
   interactPromptText: 
   canAddNotes: 0
-  Scene: Day 2 - Before Work B - B
+  interactAudio:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1818296008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +962,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1818296007}
         m_TargetAssemblyTypeName: SceneTransitionTrigger, Assembly-CSharp
-        m_MethodName: NextDay
+        m_MethodName: Interact
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
