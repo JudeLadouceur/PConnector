@@ -1047,6 +1047,10 @@ PrefabInstance:
       propertyPath: dialogueOptions.Array.data[1].dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 2ede9cd35a824ee4a939b456547f124c, type: 2}
+    - target: {fileID: 5778711589908703039, guid: bdb56bb48b6086c4cb0e29169811eba3, type: 3}
+      propertyPath: dialogueOptions.Array.data[0].onlyPlaysOnce
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
