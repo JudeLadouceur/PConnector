@@ -21569,6 +21569,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4510542778902786093}
     m_Modifications:
+    - target: {fileID: 865063639425662112, guid: 6ee78803782bb4b469a2764c7767dca2, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 865063639425662112, guid: 6ee78803782bb4b469a2764c7767dca2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3104762969573949826, guid: 6ee78803782bb4b469a2764c7767dca2, type: 3}
       propertyPath: m_Name
       value: Frog
