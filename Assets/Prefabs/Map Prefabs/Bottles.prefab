@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object: {fileID: 2768059172157427036}
   Delay: 2
-  glassBottlesSounds:
+  interactableSounds:
     Guid:
       Data1: -974173391
       Data2: 1201648578
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object: {fileID: 5157506216915353782}
   Delay: 2
-  glassBottlesSounds:
+  interactableSounds:
     Guid:
       Data1: -974173391
       Data2: 1201648578
@@ -576,7 +576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object: {fileID: 7677951224704910208}
   Delay: 2
-  glassBottlesSounds:
+  interactableSounds:
     Guid:
       Data1: -974173391
       Data2: 1201648578

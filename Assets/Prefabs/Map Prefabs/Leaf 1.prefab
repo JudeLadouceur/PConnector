@@ -152,6 +152,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object: {fileID: 1364297102337745741}
   Delay: 1
+  interactableSounds:
+    Guid:
+      Data1: -665018930
+      Data2: 1075742803
+      Data3: -1528890460
+      Data4: -1883479240
+    Path: event:/SFX/Leaves/Leaves Moving Sounds
 --- !u!50 &4057842850887663044
 Rigidbody2D:
   serializedVersion: 4

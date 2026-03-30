@@ -11325,17 +11325,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1000179647}
-    - target: {fileID: 4562659947876876214, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -26.638802
-      objectReference: {fileID: 0}
     - target: {fileID: 7731662928257903536, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
       propertyPath: m_Name
       value: Controls Page
       objectReference: {fileID: 0}
-    - target: {fileID: 8172021125050271799, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -21.639198
+    - target: {fileID: 7731662928257903536, guid: 1e6b3cb7843d425458c5feb85bad9116, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -9,7 +9,7 @@ public class ItemVanish : MonoBehaviour
 
     private SpriteRenderer sprite;
 
-    public EventReference glassBottlesSounds;
+    public EventReference interactableSounds;
 
     private void Start()
     {
@@ -22,8 +22,8 @@ public class ItemVanish : MonoBehaviour
 
         StartCoroutine(DelayAction());
 
-        // Play the glass bottles sounds from FMOD.
-        RuntimeManager.PlayOneShot(glassBottlesSounds);
+        // Play the respective interactable sounds from FMOD.
+        RuntimeManager.PlayOneShot(interactableSounds);
     }
 
     IEnumerator DelayAction()
