@@ -553,7 +553,8 @@ MonoBehaviour:
     - {fileID: 761133921}
     - {fileID: 1554753765}
     - {fileID: 2134929055}
-    enableButtons: []
+    enableButtons:
+    - {fileID: 0}
     disableComponents:
     - {fileID: 143611034}
     - {fileID: 301489977}
@@ -566,8 +567,7 @@ MonoBehaviour:
     - {fileID: 180422505}
     - {fileID: 716292471}
     - {fileID: 779895970}
-    disableButtons:
-    - {fileID: 1952693775}
+    disableButtons: []
     stepSummary: Open Gate
   - arrowTarget: {fileID: 1336152381}
     stepText: Talk to Lin at the Pizzeria.
@@ -591,8 +591,7 @@ MonoBehaviour:
     - {fileID: 1554753765}
     - {fileID: 591413215}
     - {fileID: 779895970}
-    disableButtons:
-    - {fileID: 1952693775}
+    disableButtons: []
     stepSummary: Lin Keys
   - arrowTarget: {fileID: 747965271}
     stepText: Talk to Seth at the broken car.
@@ -690,8 +689,7 @@ MonoBehaviour:
     - {fileID: 180422505}
     - {fileID: 716292471}
     - {fileID: 2117586491}
-    disableButtons:
-    - {fileID: 1952693775}
+    disableButtons: []
     stepSummary: Achievement
   - arrowTarget: {fileID: 1598504985}
     stepText: Keys found, head back home.
