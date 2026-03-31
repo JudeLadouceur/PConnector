@@ -725,7 +725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You will be fired at the end of week... You have 5 day left before your
+  m_text: 'You will be fired at the end of week... You have 5 days left before your
     deadline.
 
 
