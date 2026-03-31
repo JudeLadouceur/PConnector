@@ -3405,47 +3405,8 @@ PrefabInstance:
     - {fileID: 9050665506019552406, guid: f9fde199751cb18418caac99926b801c, type: 3}
     - {fileID: 4604342981529321403, guid: f9fde199751cb18418caac99926b801c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5145108348517718699, guid: f9fde199751cb18418caac99926b801c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1491094029}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9fde199751cb18418caac99926b801c, type: 3}
---- !u!1 &1491094028 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5145108348517718699, guid: f9fde199751cb18418caac99926b801c, type: 3}
-  m_PrefabInstance: {fileID: 1491094027}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1491094029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491094028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -159434364
-      Data2: 1086165685
-      Data3: -2112333382
-      Data4: 139275969
-    Path: event:/SFX/Soccer Ball/Soccer Ball Kicking
-  Event: 
-  EventPlayTrigger: 9
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1525391807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4667182734922841304, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}

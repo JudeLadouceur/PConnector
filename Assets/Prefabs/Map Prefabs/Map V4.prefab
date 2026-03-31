@@ -8193,6 +8193,7 @@ GameObject:
   - component: {fileID: 5382539921359948469}
   - component: {fileID: 3333514308049707454}
   - component: {fileID: 2768798858551593214}
+  - component: {fileID: 4123916441709265605}
   m_Layer: 0
   m_Name: Soccer Ball
   m_TagString: Untagged
@@ -8329,6 +8330,37 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.00000024795878}
   serializedVersion: 2
   m_Radius: 0.09689064
+--- !u!114 &4123916441709265605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145108348517718699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -159434364
+      Data2: 1086165685
+      Data3: -2112333382
+      Data4: 139275969
+    Path: event:/SFX/Soccer Ball/Soccer Ball Kicking
+  Event: 
+  EventPlayTrigger: 9
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &5260969760444148583
 GameObject:
   m_ObjectHideFlags: 0
