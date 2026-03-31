@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 A LIN SETH A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Seth\u2019s repair garage. What can I do for you?"
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: '*sigh*. Nothing, Seth. Sorry.'
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: What-
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1834765284
+      Data2: 1095592315
+      Data3: -566023277
+      Data4: -43903997
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 A/Seth Connection/Lin
+      - D5-C2A - Seth Connection
   barkEvent:
     Guid:
       Data1: 0

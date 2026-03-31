@@ -13,14 +13,12 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 A MRS. PERKINS LIN INITAL
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Hey! This is Lin. I had planned to have a chat with Mrs. Perkins,
       and was looking through some old files in the town hall of things she\u2019s
       done, and I think I found an old voice recording of a message her husband had
       for her."
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "I was hoping you could connect me to her so I could play it over the
       phone? I think she\u2019d really appreciate it."
   contextSummary: Lin has found something that they want to hear!
@@ -28,11 +26,12 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1171278528
+      Data2: 1204869386
+      Data3: 934932394
+      Data4: 466364655
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 A/Lin Intial/Lin -
+      D5-C2A - Initial
   barkEvent:
     Guid:
       Data1: 0

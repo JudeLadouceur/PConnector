@@ -46,8 +46,9 @@ MonoBehaviour:
   - NewSpeakerName: 1
     dialogue: "That\u2019s one of the hard things about being as good as you are,
       there are so many good things that you do, and the bad things are so rare that
-      when they happen, they stand out from the rest. But that doesn\u2019t take
-      away from all the good you\u2019ve done"
+      when they happen, they stand out from the rest."
+  - NewSpeakerName: 1
+    dialogue: "But that doesn\u2019t take away from all the good you\u2019ve done."
   - NewSpeakerName: 3
     dialogue: "All the good I\u2019ve done? Like what? Aside from your walker, I
       guess. "

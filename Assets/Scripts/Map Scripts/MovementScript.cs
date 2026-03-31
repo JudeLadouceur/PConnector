@@ -57,7 +57,7 @@ public class MovementScript : MonoBehaviour
                 target = target.normalized;
                 moveX = target.x;
                 moveY = target.y;
-                Debug.Log("X: " + moveX + " - Y: " + moveY);
+                //Debug.Log("X: " + moveX + " - Y: " + moveY);
             }
         }
         //If the mouse is not down, use the keyboard for movement

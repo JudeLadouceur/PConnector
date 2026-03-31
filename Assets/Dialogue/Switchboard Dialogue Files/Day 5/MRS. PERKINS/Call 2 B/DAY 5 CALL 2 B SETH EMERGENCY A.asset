@@ -13,26 +13,25 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 B SETH EMERGENCY A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Maplegrove emergency line. What\u2019s your situation?"
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Seriously? Ugh, sorry. Wrong line.
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Um, okay? Are you sure you don\u2019t need anything?"
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Forget about it.
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1696028934
+      Data2: 1127700474
+      Data3: 1807849109
+      Data4: -636325526
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 B/Emergency Connection/Seth
+      - D5-C2B - Emergency Connection
   barkEvent:
     Guid:
       Data1: 0

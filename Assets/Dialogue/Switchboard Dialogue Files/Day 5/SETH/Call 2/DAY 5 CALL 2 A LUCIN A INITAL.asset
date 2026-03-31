@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 A LUCIN A INITAL
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LUCIN
-    NewSpeakerName: 8
+  - NewSpeakerName: 8
     dialogue: Hey there. My name is Lucin. I believe my brother, Seth, is the one
       who runs the local repair garage? I received word that he might be closing
       shop, and was hoping to talk to him. Would you mind connecting me to him?
@@ -24,11 +23,12 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1053187752
+      Data2: 1219936367
+      Data3: 372893624
+      Data4: 1021032100
+    Path: event:/Voices/Day 5/Seth - Final Call/Call 2/Lucin Initial/Lucin - D5-C2
+      - Initial
   barkEvent:
     Guid:
       Data1: 0

@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 B MRS. PERKINS SETH INITAL
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Howdy! This is Seth. I had planned to have a chat with Mrs. Perkins,
       and wanted to do something extra.
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "I was looking through some old files in the town hall of things she\u2019s
       done, thinking I could find some of her accomplishments, and I think I found
       an old voice recording of a message her husband had for her. Could you connect
@@ -29,11 +27,12 @@ MonoBehaviour:
   isBark: 0
   voiceLineEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 87243056
+      Data2: 1165995756
+      Data3: -1369091429
+      Data4: -1090576356
+    Path: event:/Voices/Day 5/Mrs. Perkins - Final Call/Call 2 B/Seth Initial/Seth
+      - D5-C2B - Initial
   barkEvent:
     Guid:
       Data1: 0

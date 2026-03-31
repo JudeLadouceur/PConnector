@@ -13,29 +13,24 @@ MonoBehaviour:
   m_Name: Day 2 Call 4 Lin A
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Howdy! This is Lin\u2019s pizza, where fresh is the most basic ingredient! "
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: 'Lin, dear, this is Mrs. Perkins. I could use your help. '
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: 'My help? What do you need? Would some pizza help? '
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "I\u2019m afraid I fell down earlier and hit my head! I\u2019m not
       feeling too good now, and could use some help. "
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "Wh-What?! Don\u2019t worry Mrs. Perkins! I\u2019ll be right over! "
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Oh, but don\u2019t you need to run your pizza shop? "
-  - speakerName: LIN
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "No \u2018buts\u2019 about it, Mrs. Perkins. You\u2019re hurt. I\u2019m
       on my way now, hang tight! "
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

@@ -8,6 +8,8 @@ using FMODUnity;
 
 public class Interactables : MonoBehaviour
 {
+    public bool ShowsInteractPrompt = true;
+    
     public GameObject interactPrompt;
     private GameObject IPRef;
 
@@ -25,6 +27,7 @@ public class Interactables : MonoBehaviour
 
     private void Awake()
     {
+        if (!ShowsInteractPrompt) return;
         IPRef = Instantiate(interactPrompt, transform.parent);
         if (!string.IsNullOrEmpty(interactPromptText)) IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E or click to " + interactPromptText;
         else IPRef.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Press E or click to interact";
@@ -35,7 +38,7 @@ public class Interactables : MonoBehaviour
     public void SetInteractable(bool setToActive)
     {
         if (inInteraction) return;
-        IPRef.SetActive(setToActive);
+        if(ShowsInteractPrompt)IPRef.SetActive(setToActive);
         canInteract = setToActive;
     }
 
@@ -48,8 +51,8 @@ public class Interactables : MonoBehaviour
         {
             DialogueVoiceManager.Instance.PlayBark(interactAudio);
         }
-
         if (cooldown <= 0) return;
+        //Debug.Log("disabling interact prompt");
         SetInteractable(false);
         inInteraction = true;
         StartCoroutine(Cooldown());
@@ -58,10 +61,9 @@ public class Interactables : MonoBehaviour
     private IEnumerator Cooldown()
     {
         yield return new WaitForSeconds(cooldown);
-
-        canInteract = true;
-        IPRef.SetActive(true);
+        //Debug.Log("enabling interact prompt");
         inInteraction = false;
+        SetInteractable(true);
 
         yield return null;
     }

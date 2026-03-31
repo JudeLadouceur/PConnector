@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Stewart Lin Day 5 Before Work
   m_EditorClassIdentifier: 
   lines:
-  - NewSpeakerName: 6
+  - NewSpeakerName: 10
     dialogue: "Hey there! Have you seen Lin this morning? I was going to ask him
       about a bit of a collaboration, but I haven\u2019t seen the guy."
-  - NewSpeakerName: 6
+  - NewSpeakerName: 10
     dialogue: "It\u2019s not like him to not start opening shop by now, I wonder
       what\u2019s up"
   contextSummary: 
@@ -31,9 +31,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2019655025
+      Data2: 1077687377
+      Data3: -266517879
+      Data4: -1819195238
+    Path: event:/Voices/Overworld Barks/Stewart/Stewart - Worried Barks
   variables: []
