@@ -10576,6 +10576,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2246743719478183976, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246743719478183976, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246743719478183976, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246743719478183976, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246743719478183976, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
+      objectReference: {fileID: 0}
     - target: {fileID: 3299935780051369713, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -10583,6 +10603,26 @@ PrefabInstance:
     - target: {fileID: 3670539535591273779, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126064594829853717, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126064594829853717, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126064594829853717, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126064594829853717, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126064594829853717, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
       objectReference: {fileID: 0}
     - target: {fileID: 5155018504705947831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Sprite
@@ -10600,6 +10640,26 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.76193124
       objectReference: {fileID: 0}
+    - target: {fileID: 5273526782689325149, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273526782689325149, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273526782689325149, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273526782689325149, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273526782689325149, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
+      objectReference: {fileID: 0}
     - target: {fileID: 5836618171039592536, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: Day6Button
       value: 
@@ -10615,6 +10675,46 @@ PrefabInstance:
     - target: {fileID: 5973640566883245385, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Connection Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data1
+      value: -1409621510
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data2
+      value: 1102545775
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data3
+      value: 1390227101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data4
+      value: -2096254754
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 6612936261020072161, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
       objectReference: {fileID: 0}
     - target: {fileID: 6717989569228744996, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10656,13 +10756,113 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Connection Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data1
+      value: -1409621510
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data2
+      value: 1102545775
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data3
+      value: 1390227101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data4
+      value: -2096254754
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948104331800740616, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
+      objectReference: {fileID: 0}
     - target: {fileID: 7634003715113274397, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Layer
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 8040016308715748831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040016308715748831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040016308715748831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040016308715748831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040016308715748831, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
+      objectReference: {fileID: 0}
     - target: {fileID: 8328709509442250022, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Connection Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Path
+      value: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data1
+      value: -1409621510
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data2
+      value: 1102545775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data3
+      value: 1390227101
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzleDropSound.Guid.Data4
+      value: -2096254754
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data1
+      value: -538088277
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data2
+      value: 1150946855
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data3
+      value: -2086199889
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642904862330609448, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
+      propertyPath: puzzlePickUpSound.Guid.Data4
+      value: 1364548063
       objectReference: {fileID: 0}
     - target: {fileID: 9038085033025373794, guid: c342d2cd4a6343d4c8c52176c852e943, type: 3}
       propertyPath: m_Layer

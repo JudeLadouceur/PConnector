@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 
 public class PuzzlePickup : MonoBehaviour
@@ -6,6 +7,9 @@ public class PuzzlePickup : MonoBehaviour
     private bool held = false;
     private Vector3 mouseOffset;
     Achievement achieve;
+
+    public EventReference puzzlePickUpSound;
+
     private void Start()
     {
         mouseOffset = Vector3.zero;
@@ -18,6 +22,8 @@ public class PuzzlePickup : MonoBehaviour
         held = true;
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseOffset = transform.position - mouseWorldPos;
+
+        RuntimeManager.PlayOneShot(puzzlePickUpSound);
     }
 
     private void OnMouseUp()
