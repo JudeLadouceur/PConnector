@@ -6416,6 +6416,7 @@ GameObject:
   - component: {fileID: 5614089616247473536}
   - component: {fileID: 6893651250598264339}
   - component: {fileID: 1159292698599260217}
+  - component: {fileID: 115934088291963806}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -6546,6 +6547,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &115934088291963806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177126524963680526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 1
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: 2114817760
+      Data2: 1085905749
+      Data3: -312814205
+      Data4: -205141889
+    Path: event:/SFX/Trees/Tree Wood Sound
 --- !u!1 &4257748591653159682
 GameObject:
   m_ObjectHideFlags: 0
@@ -8775,6 +8800,7 @@ GameObject:
   - component: {fileID: 2033609391261706450}
   - component: {fileID: 517646745116832652}
   - component: {fileID: 3518556738456385369}
+  - component: {fileID: 9177516746140504336}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -8905,6 +8931,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9177516746140504336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332472999527192365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 1
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: 2114817760
+      Data2: 1085905749
+      Data3: -312814205
+      Data4: -205141889
+    Path: event:/SFX/Trees/Tree Wood Sound
 --- !u!1 &5340457336166891309
 GameObject:
   m_ObjectHideFlags: 0
@@ -9075,6 +9125,7 @@ GameObject:
   - component: {fileID: 6834759141549947163}
   - component: {fileID: 1086774223733889531}
   - component: {fileID: 2277753029855285135}
+  - component: {fileID: 7769286808675877721}
   m_Layer: 0
   m_Name: Tree (4)
   m_TagString: Untagged
@@ -9205,6 +9256,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7769286808675877721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358878577212910304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 1
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: 2114817760
+      Data2: 1085905749
+      Data3: -312814205
+      Data4: -205141889
+    Path: event:/SFX/Trees/Tree Wood Sound
 --- !u!1 &5429412630840266966
 GameObject:
   m_ObjectHideFlags: 0
@@ -11784,6 +11859,7 @@ GameObject:
   - component: {fileID: 7580684950425528268}
   - component: {fileID: 1254691307184386241}
   - component: {fileID: 2971450678844861358}
+  - component: {fileID: 5245190990141212906}
   m_Layer: 0
   m_Name: Tree (2)
   m_TagString: Untagged
@@ -11914,6 +11990,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5245190990141212906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6954587336743247617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 1
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: 2114817760
+      Data2: 1085905749
+      Data3: -312814205
+      Data4: -205141889
+    Path: event:/SFX/Trees/Tree Wood Sound
 --- !u!1 &7089562160971820544
 GameObject:
   m_ObjectHideFlags: 0
@@ -14031,6 +14131,7 @@ GameObject:
   - component: {fileID: 3280077707278308735}
   - component: {fileID: 4503255817554551624}
   - component: {fileID: 1559376489659845153}
+  - component: {fileID: 956841445766761663}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -14161,6 +14262,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &956841445766761663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8929675711831518232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 1
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: 2114817760
+      Data2: 1085905749
+      Data3: -312814205
+      Data4: -205141889
+    Path: event:/SFX/Trees/Tree Wood Sound
 --- !u!1 &9011235923718406915
 GameObject:
   m_ObjectHideFlags: 0
