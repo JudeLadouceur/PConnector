@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7594480013829865728}
   - component: {fileID: 4966940269257383100}
   - component: {fileID: 2311917226421762932}
+  - component: {fileID: -7812498926390102422}
   m_Layer: 0
   m_Name: Black_Cat Used
   m_TagString: Untagged
@@ -142,3 +143,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -5.5555115}
   serializedVersion: 2
   m_Radius: 8.038128
+--- !u!114 &-7812498926390102422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2883067394819921694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 0
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: -496352375
+      Data2: 1266536662
+      Data3: -863722360
+      Data4: 719036460
+    Path: event:/Voices/Overworld Barks/Perkins' Cats/Perkins' Cats - Barks

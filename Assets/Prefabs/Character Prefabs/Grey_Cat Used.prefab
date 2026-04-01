@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5538386736295741951, guid: f09690caa2ce27848bddce553b8e7c9b, type: 3}
       propertyPath: m_Name
-      value: Grey_Cat Variant 1
+      value: Grey_Cat Used
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -71,6 +71,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5538386736295741951, guid: f09690caa2ce27848bddce553b8e7c9b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3554302012370756709}
+    - targetCorrespondingSourceObject: {fileID: 5538386736295741951, guid: f09690caa2ce27848bddce553b8e7c9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1650933546609381722}
   m_SourcePrefab: {fileID: 100100000, guid: f09690caa2ce27848bddce553b8e7c9b, type: 3}
 --- !u!1 &4157724016876330927 stripped
 GameObject:
@@ -112,3 +115,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -4.34569}
   serializedVersion: 2
   m_Radius: 7.455857
+--- !u!114 &1650933546609381722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4157724016876330927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 0
+  interactPrompt: {fileID: 8052530611471052316, guid: 921f186e6c7297043ba4180b7f9832e3, type: 3}
+  cooldown: 0
+  interactPromptText: 
+  canAddNotes: 0
+  interactAudio:
+    Guid:
+      Data1: -496352375
+      Data2: 1266536662
+      Data3: -863722360
+      Data4: 719036460
+    Path: event:/Voices/Overworld Barks/Perkins' Cats/Perkins' Cats - Barks
