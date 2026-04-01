@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using static DialogueManager;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -17,6 +18,12 @@ public class PauseMenu : MonoBehaviour
     public static PauseMenu instance;
 
     InputAction togglePause;
+
+    public delegate void PauseEvent();
+    public static event PauseEvent onPause;
+
+    public delegate void UnpauseEvent();
+    public static event UnpauseEvent onUnpause;
 
     private void Awake()
     {
@@ -44,13 +51,13 @@ public class PauseMenu : MonoBehaviour
         if (gameIsPaused)
         {
             ResumeGame();
-
+            if(onUnpause != null) onUnpause();
             //Debug.Log("The game is resumed now.");
         }
         else
         {
             PauseGame();
-
+            if(onPause!= null) onPause();
             //Debug.Log("The game is paused now.");
         }
     }

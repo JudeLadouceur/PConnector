@@ -27,11 +27,23 @@ public class VolumeManager : MonoBehaviour
         sfxBus = RuntimeManager.GetBus("bus:/SFX");
         voicesBus = RuntimeManager.GetBus("bus:/Voices");
 
+        //Set up local variables
+        float master = 0.5f;
+        float music = 0.5f;
+        float sfx = 0.5f;
+        float voices = 0.5f;
+
+        //debug logs
+        if (PlayerPrefs.HasKey("masterVolume")) Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
+        if (PlayerPrefs.HasKey("musicVolume")) Debug.Log(PlayerPrefs.GetFloat("musicVolume"));
+        if (PlayerPrefs.HasKey("sfxVolume")) Debug.Log(PlayerPrefs.GetFloat("sfxVolume"));
+        if (PlayerPrefs.HasKey("voicesVolume")) Debug.Log(PlayerPrefs.GetFloat("voicesVolume"));
+
         // Set them up with PlayerPrefs.
-        float master = PlayerPrefs.GetFloat("masterVolume", 1f);
-        float music = PlayerPrefs.GetFloat("musicVolume", 1f);
-        float sfx = PlayerPrefs.GetFloat("sfxVolume", 1f);
-        float voices = PlayerPrefs.GetFloat("voicesVolume", 1f);
+        if (PlayerPrefs.HasKey("masterVolume")) master = PlayerPrefs.GetFloat("masterVolume");
+        if (PlayerPrefs.HasKey("musicVolume")) music = PlayerPrefs.GetFloat("musicVolume");
+        if (PlayerPrefs.HasKey("sfxVolume")) sfx = PlayerPrefs.GetFloat("sfxVolume");
+        if (PlayerPrefs.HasKey("voicesVolume")) voices = PlayerPrefs.GetFloat("voicesVolume");
 
         // Set the sliders equal to the PlayerPrefs variables, so they get saved.
         masterSlider.value = master;

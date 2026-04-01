@@ -54,6 +54,9 @@ public class DialogueManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.activeSceneChanged += SceneTransition;
 
         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("witchboard")) FindSwitchboardReferences();
+
+        PauseMenu.onPause += OnPause;
+        PauseMenu.onUnpause += OnUnpause;
     }
 
     private void Update()
@@ -293,5 +296,21 @@ public class DialogueManager : MonoBehaviour
 
             summaryBox.SetActive(true);
             summaryField.text = currentDialogue.contextSummary;
+    }
+
+    private void OnPause()
+    {
+        if (audioSource.isValid())
+        {
+            audioSource.setPaused(true); 
+        }
+    }
+
+    private void OnUnpause()
+    {
+        if (audioSource.isValid())
+        {
+            audioSource.setPaused(false);
+        }
     }
 }
