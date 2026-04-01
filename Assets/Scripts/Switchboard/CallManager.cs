@@ -74,6 +74,9 @@ public class CallManager : MonoBehaviour
         else Destroy(gameObject);
 
             StartCoroutine(StartCallDelay());
+
+        PauseMenu.onPause += OnPause;
+        PauseMenu.onUnpause += OnUnpause;
     }
 
     public void ContextCall()
@@ -241,5 +244,27 @@ public class CallManager : MonoBehaviour
         telephoneRingingSprite.SetActive(false);
         audioSource.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Immediately end the dialogue.
         ContextCall();
+    }
+
+    private void OnPause()
+    {
+        if (audioSource.isValid())
+        {
+            audioSource.setPaused(true);
+        }
+    }
+
+    private void OnUnpause()
+    {
+        if (audioSource.isValid())
+        {
+            audioSource.setPaused(false);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        PauseMenu.onPause -= OnPause;
+        PauseMenu.onUnpause -= OnUnpause;
     }
 }
