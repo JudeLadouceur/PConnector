@@ -15,6 +15,7 @@ public class RopeObject : MonoBehaviour
     void Start()
     {
         lineRoot.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -31,6 +32,9 @@ public class RopeObject : MonoBehaviour
         startPos.transform.position = startNotch.transform.position - new Vector3(0, 0, 1);
         isMoving = true;
         plug.Unplaced();
+
+        PauseMenu.onPause += OnPause;
+        PauseMenu.onUnpause += OnUnpause;
     }
 
     public void LockLine(GameObject endNotch)
@@ -38,12 +42,26 @@ public class RopeObject : MonoBehaviour
         plug.Placed();
         isMoving = false;
         endPos.transform.position = endNotch.transform.position - new Vector3(0, 0, 1);
-        
+
+        PauseMenu.onPause -= OnPause;
+        PauseMenu.onUnpause -= OnUnpause;
     }
 
     public void EliminateLine()
     {
         lineRoot.SetActive(false);
         isMoving = false;
+        PauseMenu.onPause -= OnPause;
+        PauseMenu.onUnpause -= OnUnpause;
+    }
+
+    private void OnPause()
+    {
+        isMoving = false;
+    }
+
+    private void OnUnpause()
+    {
+        isMoving = true;
     }
 }

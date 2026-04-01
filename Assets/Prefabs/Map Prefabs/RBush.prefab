@@ -226,11 +226,11 @@ MonoBehaviour:
   canAddNotes: 0
   interactAudio:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1788934480
+      Data2: 1339026267
+      Data3: 21122977
+      Data4: 120567289
+    Path: event:/SFX/Bushes/Bush Moving Sound
   Object: {fileID: 1748991759138405116}
   speed: 0.02
   swapDelay: 0.1

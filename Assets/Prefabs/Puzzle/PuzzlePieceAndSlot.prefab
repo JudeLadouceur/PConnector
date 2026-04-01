@@ -342,6 +342,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445ac1303601be24791c5fcc3bb5a5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzlePickUpSound:
+    Guid:
+      Data1: -538088277
+      Data2: 1150946855
+      Data3: -2086199889
+      Data4: 1364548063
+    Path: event:/SFX/Achievement Puzzle/Puzzle Piece Grabbing Sound
 --- !u!1 &4805423282456898602
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +660,15 @@ MonoBehaviour:
   descriptionText: {fileID: 0}
   achievementPiece: {fileID: 0}
   rightPiece: 0
+  baseSprite: {fileID: 0}
+  revealedSprite: {fileID: 0}
+  puzzleDropSound:
+    Guid:
+      Data1: -1409621510
+      Data2: 1102545775
+      Data3: 1390227101
+      Data4: -2096254754
+    Path: event:/SFX/Achievement Puzzle/Puzzle Piece Connection Sound
 --- !u!61 &114510768322537596
 BoxCollider2D:
   m_ObjectHideFlags: 0

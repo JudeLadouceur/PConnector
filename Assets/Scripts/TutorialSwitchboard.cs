@@ -13,6 +13,7 @@ public class TutorialSwitchboard : MonoBehaviour
     public GameObject connectPrompt;
     public Button notebookbutton;
     private bool noteFresh;
+    private bool callTriggered = false;
 
     // Start is called before the first frame update
     void Start()
@@ -37,9 +38,11 @@ public class TutorialSwitchboard : MonoBehaviour
 
     public void EndContextCall()
     {
+        if (callTriggered) return;
         notebookPrompt.SetActive(true);
         visualBlock.SetActive(true);
         notebookbutton.interactable = true;
+        callTriggered = true;
     }
 
     public void NotebookOpen()
