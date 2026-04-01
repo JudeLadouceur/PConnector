@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using FMODUnity;
 using TMPro;
+using UnityEngine;
 using UnityEngine.Windows.WebCam;
 
 public class Achievement : MonoBehaviour
@@ -17,6 +18,8 @@ public class Achievement : MonoBehaviour
     private bool addToDict = true;
     public Sprite baseSprite;
     public Sprite revealedSprite;
+
+    public EventReference puzzleDropSound;
 
     private void OnEnable()
     {
@@ -91,6 +94,9 @@ public class Achievement : MonoBehaviour
         if(status== AchievementStatus.Achieved)
         {
             SetStatus(AchievementStatus.Placed);
+
+            RuntimeManager.PlayOneShot(puzzleDropSound);
+
             if (AchievementManager.instance)
             {
                 AchievementManager.instance.CheckForEndDayAchieveReveal();
