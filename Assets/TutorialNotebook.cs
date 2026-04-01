@@ -99,6 +99,9 @@ public class TutorialNotebook : MonoBehaviour
         if(TutorialSwitchboard.instance != null)
         {
             TutorialSwitchboard.instance.NotebookOpen();
+        } if (TestTargetSwap.instance)
+        {
+            TestTargetSwap.instance.AttemptProgress(4);
         }
     }
 
