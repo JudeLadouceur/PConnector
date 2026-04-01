@@ -30,5 +30,6 @@ public enum DialogueVar
     FrogDay2,
     FrogDay3,
     FrogDay4,
-    TalkedToLin
+    TalkedToLin,
+    CatReturned
 }
