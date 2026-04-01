@@ -1,4 +1,5 @@
 using System.Collections;
+using FMODUnity;
 using UnityEngine;
 
 public class ItemVanish : MonoBehaviour
@@ -8,6 +9,8 @@ public class ItemVanish : MonoBehaviour
 
     private SpriteRenderer sprite;
 
+    public EventReference interactableSounds;
+
     private void Start()
     {
         sprite = Object.GetComponent<SpriteRenderer>();
@@ -15,8 +18,12 @@ public class ItemVanish : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("hit");
+        //Debug.Log("hit");
+
         StartCoroutine(DelayAction());
+
+        // Play the respective interactable sounds from FMOD.
+        RuntimeManager.PlayOneShot(interactableSounds);
     }
 
     IEnumerator DelayAction()
