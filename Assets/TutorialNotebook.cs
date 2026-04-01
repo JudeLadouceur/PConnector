@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -95,6 +96,13 @@ public class TutorialNotebook : MonoBehaviour
 
         }
         EventSystem.current.SetSelectedGameObject(null);
+        if(TutorialSwitchboard.instance != null)
+        {
+            TutorialSwitchboard.instance.NotebookOpen();
+        } if (TestTargetSwap.instance)
+        {
+            TestTargetSwap.instance.AttemptProgress(4);
+        }
     }
 
     private void UpdateNotebook()
@@ -174,5 +182,13 @@ public class TutorialNotebook : MonoBehaviour
             temp.GetComponent<NotebookTextUpdate>().SetText(n.note);
         }
             
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            if (!toggleButton.GetComponent<Button>().interactable) return;
+            ToggleNotebook();
+        }
     }
 }
