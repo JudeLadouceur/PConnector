@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2332513050286691075
+--- !u!1001 &9213916661918850800
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 326384684564627401, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_Name
-      value: Brown_Cat Variant
+      value: Brown_Cat Variant 1
       objectReference: {fileID: 0}
     - target: {fileID: 1150728972949141414, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_SortingOrder
@@ -18,19 +18,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5552771172764905627, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0580298
+      value: 0.070081346
       objectReference: {fileID: 0}
     - target: {fileID: 5552771172764905627, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.06162
+      value: 0.07441715
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552771172764905627, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.12076786
       objectReference: {fileID: 0}
     - target: {fileID: 5552771172764905627, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.62
+      value: 9.58
       objectReference: {fileID: 0}
     - target: {fileID: 5552771172764905627, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.49
+      value: 26.75
       objectReference: {fileID: 0}
     - target: {fileID: 5552771172764905627, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -70,20 +74,20 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 326384684564627401, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1749420495737834874}
+      addedObject: {fileID: 4781778086154297377}
   m_SourcePrefab: {fileID: 100100000, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
---- !u!1 &2655238560018803914 stripped
+--- !u!1 &8888387432029086009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 326384684564627401, guid: 35c27495350718b48a29a622952e8e1c, type: 3}
-  m_PrefabInstance: {fileID: 2332513050286691075}
+  m_PrefabInstance: {fileID: 9213916661918850800}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1749420495737834874
+--- !u!58 &4781778086154297377
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2655238560018803914}
+  m_GameObject: {fileID: 8888387432029086009}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
