@@ -3042,6 +3042,8 @@ MonoBehaviour:
     - requiredVars:
       - variableName: 9
         value: 1
+      - variableName: 10
+        value: 0
       caller: 3
       contextCalls:
       - variables: []
