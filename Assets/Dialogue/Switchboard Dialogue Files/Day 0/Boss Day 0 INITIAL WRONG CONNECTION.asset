@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Boss Day 0 INITIAL WRONG CONNECTION
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: No, not that one. Look, this is important. Could you not mess around?
+  contextSummary: Your boss wants to connect to the town's mechanic.
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
