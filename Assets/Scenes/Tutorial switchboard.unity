@@ -2331,6 +2331,10 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5016310912594549432, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6705125680874506301, guid: 09fc5969668ed944a9b5983fa9b9f615, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5424,7 +5428,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1556148931
 RectTransform:
