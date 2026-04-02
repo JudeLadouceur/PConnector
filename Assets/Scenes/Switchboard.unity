@@ -937,21 +937,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 301040950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowsInteractPrompt: 0
-  interactPrompt: {fileID: 301040950}
-  cooldown: 0
-  interactPromptText: 
-  canAddNotes: 0
-  interactAudio:
+  CollisionTag: 
+  EventReference:
     Guid:
       Data1: 1339143148
       Data2: 1253543114
       Data3: 182782363
       Data4: 1159330862
     Path: event:/SFX/Pencil Desk Interactable/Pencil Desk Interactable Sounds
+  Event: 
+  EventPlayTrigger: 9
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &386061013
 GameObject:
   m_ObjectHideFlags: 0
@@ -6222,21 +6229,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1550162711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8786a8ae5524d2a47a3e10d8bcf02a0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowsInteractPrompt: 0
-  interactPrompt: {fileID: 1550162711}
-  cooldown: 0
-  interactPromptText: 
-  canAddNotes: 0
-  interactAudio:
+  CollisionTag: 
+  EventReference:
     Guid:
       Data1: 1339143148
       Data2: 1253543114
       Data3: 182782363
       Data4: 1159330862
     Path: event:/SFX/Pencil Desk Interactable/Pencil Desk Interactable Sounds
+  Event: 
+  EventPlayTrigger: 9
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1663298282
 GameObject:
   m_ObjectHideFlags: 0
