@@ -825,9 +825,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'After a long days work, you finally get to sleep....
+  m_text: 'After a long day''s work, you finally get to sleep...
 
-    End of Day Results:'
+    End of Day
+    Results:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
@@ -854,8 +855,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 34.46
+  m_fontSizeBase: 34.46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

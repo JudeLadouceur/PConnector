@@ -489,9 +489,9 @@ RectTransform:
   - {fileID: 302283293}
   m_Father: {fileID: 1897327014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -160.68529}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -2, y: 64.31471}
   m_SizeDelta: {x: 192, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468073847
@@ -506,11 +506,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 1
   interactPrompt: {fileID: 0}
   cooldown: 0
   interactPromptText: 
   canAddNotes: 0
-  Scene: Main Menu
+  interactAudio:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1468073848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,7 +646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 125.25}
+  m_AnchoredPosition: {x: 0, y: 106}
   m_SizeDelta: {x: 697.1676, y: 250.4903}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736934403
@@ -667,7 +674,7 @@ MonoBehaviour:
 
     Congrats! You''ve really helped Lin get started
     when it comes to getting connected with his community. Everyone has barriers
-    to overcome and it seems your taking the opportunity to assist them!'
+    to overcome, and it seems you''re taking the opportunity to assist them!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}

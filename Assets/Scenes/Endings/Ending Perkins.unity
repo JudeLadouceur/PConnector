@@ -157,9 +157,9 @@ RectTransform:
   - {fileID: 249687533}
   m_Father: {fileID: 1897327014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.999939, y: -160.68529}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -1.999939, y: 64.31471}
   m_SizeDelta: {x: 192, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242229285
@@ -174,11 +174,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072531815593cf847adb87a0303676e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowsInteractPrompt: 1
   interactPrompt: {fileID: 0}
   cooldown: 0
   interactPromptText: 
   canAddNotes: 0
-  Scene: Main Menu
+  interactAudio:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &242229286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,8 +673,8 @@ MonoBehaviour:
 
 
     You have really made a difference in this
-    old womans life. Mrs Perkins feels confidently connected with the town again
-    and has started to make some life long friends. You helped to create the foundations
+    old woman''s life. Mrs. Perkins feels confidently connected with the town again
+    and has started to make some lifelong friends. You helped to create the foundations
     of a great community!
 
 

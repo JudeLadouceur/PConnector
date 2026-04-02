@@ -9,6 +9,7 @@ TagManager:
   - BoardBG
   - DialogueBox
   - SummaryBox
+  - The Wire
   layers:
   - Default
   - TransparentFX

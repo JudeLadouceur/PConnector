@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 73811079}
   m_Layer: 0
   m_Name: RopeManager
-  m_TagString: Untagged
+  m_TagString: The Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -770,6 +770,7 @@ GameObject:
   - component: {fileID: 301040953}
   - component: {fileID: 301040952}
   - component: {fileID: 301040955}
+  - component: {fileID: 301040957}
   m_Layer: 0
   m_Name: pen 2
   m_TagString: Untagged
@@ -927,6 +928,25 @@ PolygonCollider2D:
       - {x: 0.39207882, y: 0.08434875}
       - {x: 0.39769053, y: 0.34174436}
   m_UseDelaunayMesh: 0
+--- !u!114 &301040957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301040950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380980d8369fe534cb1be6d1a0411852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pencilCollisionSounds:
+    Guid:
+      Data1: 1339143148
+      Data2: 1253543114
+      Data3: 182782363
+      Data4: 1159330862
+    Path: event:/SFX/Pencil Desk Interactable/Pencil Desk Interactable Sounds
 --- !u!1 &386061013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,7 +1371,7 @@ GameObject:
   - component: {fileID: 535506000}
   m_Layer: 0
   m_Name: RopeRoot
-  m_TagString: Untagged
+  m_TagString: The Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2387,7 +2407,7 @@ GameObject:
   - component: {fileID: 723242287}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: The Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5859,7 +5879,7 @@ GameObject:
   - component: {fileID: 1525196610}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: The Wire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6027,6 +6047,7 @@ GameObject:
   - component: {fileID: 1550162714}
   - component: {fileID: 1550162713}
   - component: {fileID: 1550162716}
+  - component: {fileID: 1550162718}
   m_Layer: 0
   m_Name: pen 1
   m_TagString: Untagged
@@ -6187,6 +6208,25 @@ PolygonCollider2D:
       - {x: 0.39702597, y: 1.0938166}
       - {x: 0.17320353, y: 1.5481004}
   m_UseDelaunayMesh: 0
+--- !u!114 &1550162718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550162711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380980d8369fe534cb1be6d1a0411852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pencilCollisionSounds:
+    Guid:
+      Data1: 1339143148
+      Data2: 1253543114
+      Data3: 182782363
+      Data4: 1159330862
+    Path: event:/SFX/Pencil Desk Interactable/Pencil Desk Interactable Sounds
 --- !u!1 &1663298282
 GameObject:
   m_ObjectHideFlags: 0
