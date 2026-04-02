@@ -950,9 +950,9 @@ MonoBehaviour:
     Path: event:/SFX/Pencil Desk Interactable/Pencil Desk Interactable Sounds
   Event: 
   EventPlayTrigger: 9
-  EventStopTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
-  TriggerOnce: 0
+  TriggerOnce: 1
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
@@ -6242,9 +6242,9 @@ MonoBehaviour:
     Path: event:/SFX/Pencil Desk Interactable/Pencil Desk Interactable Sounds
   Event: 
   EventPlayTrigger: 9
-  EventStopTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
-  TriggerOnce: 0
+  TriggerOnce: 1
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
