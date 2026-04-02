@@ -86,6 +86,7 @@ public class NotebookManager : MonoBehaviour
 
         UnityEngine.SceneManagement.SceneManager.activeSceneChanged += NotebookCheckScene;
         NotebookCheckScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.SceneManager.GetActiveScene());
+        UpdateNotebook();
     }
 
     public void NotebookCheckScene(Scene scene1, Scene scene2)
