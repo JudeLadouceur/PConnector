@@ -20,7 +20,7 @@ MonoBehaviour:
       always be a valued member of this community. "
   contextSummary: 
   hasNoAudio: 0
-  isBark: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: -1023078022

@@ -31,6 +31,7 @@ public class DaySixDialogueManager : MonoBehaviour
         speakerField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 2).GetComponent<TextMeshProUGUI>();
         dialogueField = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
         speakerProfile = dialogueBox.transform.GetChild(dialogueBox.transform.childCount - 3).GetComponent<UnityEngine.UI.Image>();
+        Debug.Log(speakerProfile==null);
         callManager = FindObjectOfType<DaySixCallManager>();
         speakerProfile.sprite = speakerProfilePictures[0];
         dialogueBox.SetActive(false);
