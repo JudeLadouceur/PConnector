@@ -340,7 +340,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'After a long days work, you finally get to sleep....
+  m_text: 'After a long days work, you finally get to sleep...
 
     End of Day Results:'
   m_isRightToLeft: 0
@@ -369,8 +369,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 34.46
+  m_fontSizeBase: 34.46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -837,7 +837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7318960025485310271, guid: 611869dfdaeb1cf4090ebcd5176b236a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7318960025485310271, guid: 611869dfdaeb1cf4090ebcd5176b236a, type: 3}
       propertyPath: m_AnchorMin.x
@@ -845,7 +845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7318960025485310271, guid: 611869dfdaeb1cf4090ebcd5176b236a, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7318960025485310271, guid: 611869dfdaeb1cf4090ebcd5176b236a, type: 3}
       propertyPath: m_SizeDelta.x
@@ -889,7 +889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7318960025485310271, guid: 611869dfdaeb1cf4090ebcd5176b236a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -183
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 7318960025485310271, guid: 611869dfdaeb1cf4090ebcd5176b236a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
