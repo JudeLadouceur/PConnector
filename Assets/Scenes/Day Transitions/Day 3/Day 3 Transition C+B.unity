@@ -328,8 +328,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: -176}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -110.5, y: -176}
+  m_SizeDelta: {x: 221, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119405930
 MonoBehaviour:
@@ -767,9 +767,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'After a long days work, you finally get to sleep...
+  m_text: 'After a long day''s work, you finally get to sleep...
 
-    End of Day Results:'
+    End of Day
+    Results:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}

@@ -723,9 +723,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'After a long days work, you finally get to sleep...
+  m_text: 'After a long day''s work, you finally get to sleep...
 
-    End of Day Results:'
+    End of Day
+    Results:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
   m_sharedMaterial: {fileID: -150910127673610974, guid: 67e5862f18d903647888d467aa4dba76, type: 2}
