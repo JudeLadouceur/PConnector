@@ -122,6 +122,7 @@ public class NotebookManager : MonoBehaviour
             }
             UpdateNotebook();
         }
+        UpdateNotebook();
     }
     public void ToggleNotebook()
     {
