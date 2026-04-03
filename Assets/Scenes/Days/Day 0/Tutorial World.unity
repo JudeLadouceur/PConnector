@@ -1184,13 +1184,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: White_Cat Used
       objectReference: {fileID: 0}
+    - target: {fileID: 5110754870166988845, guid: 9440e4af3d591b546a1d305f52adb638, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8151300543159827360, guid: 9440e4af3d591b546a1d305f52adb638, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.81
+      value: -13.721
       objectReference: {fileID: 0}
     - target: {fileID: 8151300543159827360, guid: 9440e4af3d591b546a1d305f52adb638, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.76
+      value: 28.566
       objectReference: {fileID: 0}
     - target: {fileID: 8151300543159827360, guid: 9440e4af3d591b546a1d305f52adb638, type: 3}
       propertyPath: m_LocalPosition.z
