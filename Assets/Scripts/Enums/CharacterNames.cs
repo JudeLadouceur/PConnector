@@ -5,7 +5,7 @@ public enum Characters
     Perkins,
     Lin,
     Seth,
-    Emergency,
+    Ericka,
     External,
     Bob,
     Olson,
