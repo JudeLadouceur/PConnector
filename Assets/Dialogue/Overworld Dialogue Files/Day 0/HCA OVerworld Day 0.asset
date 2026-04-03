@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: HCA OVerworld Day 0
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: Health Care Attendent
-    NewSpeakerName: 4
-    dialogue: "Oh hey! Sorry, got lost looking into the pond here\u2026"
-  - speakerName: Health Care Attendent
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
+    dialogue: "Oh, hey! Sorry, got lost looking into the pond here\u2026"
+  - NewSpeakerName: 4
     dialogue: Keys? I think Mrs Perkins called in earlier saying she found some!
-  - speakerName: Health Care Attendent
-    NewSpeakerName: 4
-    dialogue: "Mrs Perkins should be by the flower garden right from here! Anyways,
+  - NewSpeakerName: 4
+    dialogue: "Mrs. Perkins should be by the flower garden right from here! Anyways,
       I think I\u2019m gonna go back to staring at the frog for a bit\u2026"
   contextSummary: 
   hasNoAudio: 0

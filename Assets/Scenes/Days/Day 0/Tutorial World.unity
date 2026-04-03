@@ -570,7 +570,7 @@ MonoBehaviour:
     disableButtons: []
     stepSummary: Open Gate
   - arrowTarget: {fileID: 1336152381}
-    stepText: Talk to Lin at the Pizzeria.
+    stepText: Talk to Lin at the pizzeria.
     lockout: 0
     enableComponents:
     - {fileID: 301489977}
