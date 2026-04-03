@@ -13,45 +13,35 @@ MonoBehaviour:
   m_Name: Day 1 2.21 Call 2 Perkins
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: 'MRS. PERKINS '
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: Hello? This is Mrs. Perkins. Who is this?
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Hey, Mrs. Perkins. You, uh, wouldn\u2019t happen to have some spare
       parts? Bolts, washers, metal pipes, the like?"
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
-    dialogue: "Oh, well yes, I do in fact! Why don\u2019t you come by, I have some
+  - NewSpeakerName: 1
+    dialogue: "Oh, well, yes, I do in fact! Why don\u2019t you come by, I have some
       of the like in the storage room I think. Things that are left over from the
       gizmos Howard used to collect."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "What led to this pickle though? I\u2019ve never known you to need
       parts before."
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "I, uh, forgot to make an order. Just like me to be this useless, but
       I\u2019m hoping to not let anyone down regardless."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Ah, so that\u2019s all. I thought it\u2019d be something much worse,
-      dearie. Happens to the best of us, back in the day I left the door unlocked
-      a couple times and when my husband got home I got such an earful over it. "
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
-    dialogue: Besides, you do a wonderful job of repairing things, nobody would mind
+      dearie. Happens to the best of us. Back in the day, I left the door open a
+      couple times and when my husband got home, I got such an earful over it. "
+  - NewSpeakerName: 1
+    dialogue: Besides, you do a wonderful job of repairing things. Nobody would mind
       having to wait a bit. Remind yourself of that sometimes, dearie.
-  - speakerName: SETH
-    NewSpeakerName: 3
-    dialogue: "Ah, I guess\u2026still feel awful though."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
-    dialogue: I know, dear, but trying to stand alone will just make you crumble.
+  - NewSpeakerName: 3
+    dialogue: "Ah, I guess\u2026 still feel awful though."
+  - NewSpeakerName: 1
+    dialogue: I know, dear. But trying to stand alone will just make you crumble.
       But if it helps, this is our little secret, okay? Come on over, we can chat
       while we look.
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Yeah, okay. Our little secret. I\u2019ll be right over for the parts.
       Thanks, Mrs. Perkins."
   contextSummary: 

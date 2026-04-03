@@ -19,7 +19,7 @@ MonoBehaviour:
       your pizza needs are, come back during business hours and I can get you set
       up!"
   - NewSpeakerName: 2
-    dialogue: "Oh and if you see Mrs. Perkins, make sure to say hello! She\u2019s
+    dialogue: "Oh, and if you see Mrs. Perkins, make sure to say hello! She\u2019s
       one of my favorite customers!"
   contextSummary: 
   hasNoAudio: 0
