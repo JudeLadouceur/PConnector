@@ -13,22 +13,20 @@ MonoBehaviour:
   m_Name: Lin Overworld Day 0
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: Lin
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: "You\u2019re looking for your keys? Sorry, but the only keys I have
       are the ones for my pizza shop. I\u2019ll keep an eye out though, Seth might
       be a good person to check with, he\u2019s usually pretty up to date with the
-      goings on in town"
-  - speakerName: Lin
-    NewSpeakerName: 2
+      goings on in town."
+  - NewSpeakerName: 2
     dialogue: While you're looking around for your keys, you should write down what
       people tell you in their notebook, along with who you talk to! It's a good
       way to track important pieces of information, and be able to reference it at
       any time!
-  - speakerName: Lin
-    NewSpeakerName: 2
+  - NewSpeakerName: 2
     dialogue: Best of luck with your search!
   contextSummary: 
+  hasNoAudio: 0
   isBark: 1
   voiceLineEvent:
     Guid:
