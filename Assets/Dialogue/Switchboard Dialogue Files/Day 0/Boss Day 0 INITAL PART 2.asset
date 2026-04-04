@@ -13,44 +13,36 @@ MonoBehaviour:
   m_Name: Boss Day 0 INITAL PART 2
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: Seth
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Seth\u2019s repair garage. What\u2019s being fixed?"
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "Ah, Seth! That\u2019s right. Hey, it\u2019s the boss man. Was just
       checking in on that switchboard order. We gotta get it replaced soon. How\u2019s
       it looking?"
-  - speakerName: Seth
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Yeah, slight delay is all. No stress. It should be getting here Saturday.
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: Great, just one more week. Thanks for the info.
-  - speakerName: Seth
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: Sure thing. Have a good night, sir.
-  - speakerName: 
-    NewSpeakerName: 0
+  - NewSpeakerName: 0
     dialogue: '* Seth leaves the line. *'
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "Alright then, it sounds like you got one more week of work left. It
       ain\u2019t much, but you could really make a difference for the folks of this
       town, you know?"
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "I know I sort of forced you to make my connection here, but that won\u2019t
-      always be the case. Sometimes connections are left up to your best judgement. "
-  - speakerName: BOSS
-    NewSpeakerName: 9
+      always be the case. Sometimes, connections are left up to your best judgement. "
+  - NewSpeakerName: 9
     dialogue: "And sometimes, you know, people shouldn\u2019t always be connected
       to who they want. Sometimes, it\u2019s more about who they need. You get what
       I\u2019m saying?"
-  - speakerName: BOSS
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "I\u2019m sure you\u2019ll do great on your last week. Make those connections,
       pal. It can mean more to the town than you know. Good luck."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

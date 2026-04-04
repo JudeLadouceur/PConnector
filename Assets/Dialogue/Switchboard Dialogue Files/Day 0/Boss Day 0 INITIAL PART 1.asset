@@ -13,22 +13,18 @@ MonoBehaviour:
   m_Name: Boss Day 0 INITIAL PART 1
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: Boss
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "Hey there pal, thanks for coming into work on the weekend. I just
       need some help sorting this order out to make sure it\u2019s ready."
-  - speakerName: Boss
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "As you know, this darned switchboard is broken, the audio from the
       phone lines isn\u2019t cut when you connect people, and eavesdropping on conversations
       is, well, generally frowned upon."
-  - speakerName: Boss
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "I know you aren\u2019t looking forward to being replaced by a machine,
-      but we gotta get this sorted before word gets out, otherwise we\u2019re both
+      but we gotta get this sorted before word gets out. Otherwise, we\u2019re both
       gonna be in some real hot water."
-  - speakerName: Boss
-    NewSpeakerName: 9
+  - NewSpeakerName: 9
     dialogue: "Could you connect me to the town repair guy? He\u2019s the one handling
       the shipment, but\u2026 gah, what was his name again? I can\u2019t remember.
       Do you have that written down somewhere? Just connect me to \u2018em if you
