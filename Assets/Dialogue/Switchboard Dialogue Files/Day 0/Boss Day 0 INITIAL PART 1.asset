@@ -17,7 +17,7 @@ MonoBehaviour:
     dialogue: "Hey there pal, thanks for coming into work on the weekend. I just
       need some help sorting this order out to make sure it\u2019s ready."
   - NewSpeakerName: 9
-    dialogue: "As you know, this darned switchboard is broken, the audio from the
+    dialogue: "As you know, this darned switchboard is broken. The audio from the
       phone lines isn\u2019t cut when you connect people, and eavesdropping on conversations
       is, well, generally frowned upon."
   - NewSpeakerName: 9
