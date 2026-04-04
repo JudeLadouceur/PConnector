@@ -214,6 +214,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2757603393143645114, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757603393143645114, guid: f9fde199751cb18418caac99926b801c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.053
+      objectReference: {fileID: 0}
     - target: {fileID: 2806502513542752370, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Name
       value: Map V4
@@ -276,15 +284,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5731866362561409032, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Color.a
-      value: 0.972549
+      value: 0.8235294
       objectReference: {fileID: 0}
     - target: {fileID: 5731866362561409032, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Color.b
-      value: 0.045050316
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5731866362561409032, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Color.g
-      value: 0.9433962
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5731866362561409032, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_Color.r
@@ -292,11 +300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6260104888244344480, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.4
+      value: 3.59
       objectReference: {fileID: 0}
     - target: {fileID: 6260104888244344480, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 6834759141549947163, guid: f9fde199751cb18418caac99926b801c, type: 3}
       propertyPath: m_SortingOrder
