@@ -15,8 +15,13 @@ public class MainMenu : MonoBehaviour
     public GameObject exitPanel;
     public GameObject achieveBackButton;
 
+    private bool sceneTransitioning = false;
+
     public void StartGame()
     {
+        if (sceneTransitioning) return;
+        sceneTransitioning = true;
+
         if (!AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achieve) && achieve.status != AchievementStatus.Placed)
         {
             VariableManager.instance.flags[DialogueVar.TutorialComplete] = 1;
@@ -88,6 +93,9 @@ public class MainMenu : MonoBehaviour
 
     public void Tutorial()
     {
+        if (sceneTransitioning) return;
+        sceneTransitioning = true;
+
         VariableManager.instance.flags[DialogueVar.TutorialButton] = 1;
         SceneManager.instance.GoToNextScene();
     }
