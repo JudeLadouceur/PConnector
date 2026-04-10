@@ -13,24 +13,23 @@ MonoBehaviour:
   m_Name: WD2-PerkinsB
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: Hello! This is Mrs. Perkins.
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Hello Ms. Perkins. This is the Maplegrove doctor\u2019s office. We
       would like to book you in for your next checkup appointment. "
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: 'Oh, that would be wonderful! I almost forgot about that. I really
       have nothing else to do, book me in anytime tomorrow. '
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 1
+    dialogue: Just not today, dear. I was just about to head out!
+  - NewSpeakerName: 4
     dialogue: "Alright, Ms. Perkins. We\u2019ll book you in tomorrow at 2 PM then,
       please make sure to remember."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Thank you dear, I\u2019ll be there. "
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:

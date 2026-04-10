@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - NewSpeakerName: 6
-    dialogue: "Hey there. This is Bob, guy who lives on the edge of town. I think
-      I just found one of Mrs. Perkins\u2019 cats in my backyard? I managed to pick
-      him up and he\u2019s safe now, but I wanted to check if Mrs. Perkins was missing
-      any of her cats before I randomly started giving cats out."
+    dialogue: "Hey there. This is Bob, guy who lives on the edge of town. I was just
+      lookin\u2019 out my window, spotted Seth gettin\u2019 back into town early,
+      and I think I just found one of Mrs. Perkins\u2019 cats in my backyard?"
+  - NewSpeakerName: 6
+    dialogue: "I managed to pick him up and he\u2019s safe now, but I wanted to check
+      if Mrs. Perkins was missing any of her cats before I randomly started giving
+      cats out."
   contextSummary: "Bob thinks he found one of Mrs. Perkins\u2019 cats, and is looking
     to return it to her."
   hasNoAudio: 0
