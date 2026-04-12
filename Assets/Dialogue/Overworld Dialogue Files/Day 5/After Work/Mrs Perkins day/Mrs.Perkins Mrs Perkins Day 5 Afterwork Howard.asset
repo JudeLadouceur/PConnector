@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Mrs.Perkins Mrs Perkins Day 5 Afterwork Howard
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: Ah, hello dear! I'm just still thinking about Howard... He was such
       a sweet husband.
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "I miss him dearly, but I\u2019m determined to use my time to make
       this community better."
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: "Thank you so much for all your help. You\u2019ve done more for me
       then I can thank you for, even by just connecting lines. You really mean a
       lot to all of us dear, don\u2019t you forget that."
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
@@ -35,9 +35,9 @@ MonoBehaviour:
     Path: 
   barkEvent:
     Guid:
-      Data1: -860892876
-      Data2: 1311742148
-      Data3: 1846128043
-      Data4: 858056981
-    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Frustrated Barks
+      Data1: -811201023
+      Data2: 1231524630
+      Data3: -447001981
+      Data4: 2135680499
+    Path: event:/Voices/Overworld Barks/Mrs. Perkins/Mrs. Perkins - Happy Barks
   variables: []
