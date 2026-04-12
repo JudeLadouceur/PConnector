@@ -13,23 +13,20 @@ MonoBehaviour:
   m_Name: WD2-Seth
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Seth\u2019s Repair Garage. Need something fixed? Bring it here. What
       can I help you with? "
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: 'Apologies. We have been connected to the wrong line. '
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "Oh, sorry about that. Figures you wouldn\u2019t need me. "
-  - speakerName: RECEPTIONIST
-    NewSpeakerName: 4
+  - NewSpeakerName: 4
     dialogue: "Don\u2019t worry, it\u2019s not your fault. We will find another way
       to reach out to who we need."
-  - speakerName: SETH
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: 'Alright, sure. Whatever. '
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
@@ -46,7 +43,4 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  variables:
-  - variable: 0
-    modifier: 2
-    value: 1
+  variables: []
