@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: DAY 3 CALL 2 MRS. PERKINS A Else
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: Seth
-    NewSpeakerName: 3
+  - NewSpeakerName: 3
     dialogue: "No answer? Oh, right. I heard she\u2019s at the doctor\u2019s after
       getting hurt. Man, she really should have come to me about that walker, feels
       like the only thing I\u2019m good at sometimes. I hope she\u2019ll be okay."
+  contextSummary: 
+  hasNoAudio: 0
   isBark: 0
   voiceLineEvent:
     Guid:
@@ -35,9 +36,6 @@ MonoBehaviour:
       Data4: 0
     Path: 
   variables:
-  - variable: 10
-    modifier: 2
-    value: 0
   - variable: 6
     modifier: 2
     value: 0

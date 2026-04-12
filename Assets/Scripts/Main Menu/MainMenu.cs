@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
         if (sceneTransitioning) return;
         sceneTransitioning = true;
 
-        if (!AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achieve) && achieve.status != AchievementStatus.Placed)
+        if (AchievementManager.instance.achievementDictionary.TryGetValue(AchievementNames.TheEnd, out Achievement achieve) && achieve.status == AchievementStatus.Placed)
         {
             VariableManager.instance.flags[DialogueVar.TutorialComplete] = 1;
         }
