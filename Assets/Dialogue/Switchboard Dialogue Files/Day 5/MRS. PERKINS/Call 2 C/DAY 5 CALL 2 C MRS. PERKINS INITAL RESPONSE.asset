@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: DAY 5 CALL 2 C MRS. PERKINS INITAL RESPONSE
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: Operator
-    NewSpeakerName: 0
+  - NewSpeakerName: 0
     dialogue: ....
   contextSummary: 
-  hasNoAudio: 0
+  hasNoAudio: 1
   isBark: 0
   voiceLineEvent:
     Guid:
