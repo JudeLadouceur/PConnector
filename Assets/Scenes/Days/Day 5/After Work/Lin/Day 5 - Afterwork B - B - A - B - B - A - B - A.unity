@@ -465,7 +465,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2239930624606187799, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: m_SortingOrder
-      value: 32
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3605759418601394369, guid: ab14ed6b075ab3c418d029306d25e9cc, type: 3}
       propertyPath: dialogue
@@ -931,6 +931,10 @@ PrefabInstance:
     - target: {fileID: 3152038654417425367, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514673105942283459, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8608396161718543637, guid: ec341bfe578ffa446a32e3f4bad62476, type: 3}
       propertyPath: dialogue

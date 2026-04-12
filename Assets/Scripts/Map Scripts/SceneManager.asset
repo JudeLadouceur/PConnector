@@ -1925,8 +1925,8 @@ MonoBehaviour:
           width: 407
           height: 98
         typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        scene: {fileID: 102900000, guid: 48bf52937a656a140ad33dd86ce6b4b1, type: 3}
-        sceneName: Day 5 - Afterwork A - B - B - A - B - B - A - B
+        scene: {fileID: 102900000, guid: 42a969085780cf64aa19d9bf60345e7e, type: 3}
+        sceneName: Day 5 - Afterwork A - B - B - B - B - B - B - B
     - rid: 2099632159047811093
       type: {class: VariableCheckNode, ns: , asm: Assembly-CSharp}
       data:
@@ -1955,8 +1955,8 @@ MonoBehaviour:
           width: 407
           height: 98
         typeName: SceneNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        scene: {fileID: 102900000, guid: 42a969085780cf64aa19d9bf60345e7e, type: 3}
-        sceneName: Day 5 - Afterwork A - B - B - B - B - B - B - B
+        scene: {fileID: 102900000, guid: 48bf52937a656a140ad33dd86ce6b4b1, type: 3}
+        sceneName: Day 5 - Afterwork A - B - B - A - B - B - A - B
     - rid: 2099632159047811095
       type: {class: SceneNode, ns: , asm: Assembly-CSharp}
       data:
