@@ -16,14 +16,17 @@ MonoBehaviour:
   - NewSpeakerName: 1
     dialogue: "Oh, hello! This is Mrs. Perkins. I hope you\u2019re doing well dear!
       I just wanted to call in and tell you how much I truly appreciate everything
-      you\u2019ve done for not just me, but the whole town! I\u2019ve watched this
-      town for years, and it\u2019s wonderful to see so many people brought together
-      by your efforts."
+      you\u2019ve done for not just me, but the whole town!"
+  - NewSpeakerName: 1
+    dialogue: " I\u2019ve watched this town for years, and it\u2019s wonderful to
+      see so many people brought together by your efforts."
   - NewSpeakerName: 1
     dialogue: "Keeping up with this world can sometimes be hard for an old lady like
       me, but I know now that doesn\u2019t mean I have to stop trying. I can make
-      a difference no matter how old I am. There are so many kind, caring people
-      in this town, and you\u2019ve really helped bring everyone together. "
+      a difference no matter how old I am. "
+  - NewSpeakerName: 1
+    dialogue: "There are so many kind, caring people in this town, and you\u2019ve
+      really helped bring everyone together. "
   - NewSpeakerName: 1
     dialogue: "So from the bottom of my heart dearie, thank you for all you\u2019ve
       done. You\u2019re the unsung hero that has done more for this town than people
