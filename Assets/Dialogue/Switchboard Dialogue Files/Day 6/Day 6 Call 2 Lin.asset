@@ -20,8 +20,8 @@ MonoBehaviour:
       to get through things one step at a time. "
   - NewSpeakerName: 2
     dialogue: "I really, really love making pizza for the people of this town to
-      make everyone happy, and it\u2019s thanks to you that I\u2019ve been able to
-      keep doing it. You\u2019re awesome. Thanks for everything."
+      make everyone happy. And it\u2019s thanks to you that I\u2019ve been able to
+      keep doing this. You\u2019re awesome. Thanks for everything."
   contextSummary: 
   hasNoAudio: 0
   isBark: 0
