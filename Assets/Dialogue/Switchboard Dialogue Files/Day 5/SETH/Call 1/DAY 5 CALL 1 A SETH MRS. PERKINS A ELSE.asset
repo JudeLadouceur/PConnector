@@ -44,16 +44,19 @@ MonoBehaviour:
   - NewSpeakerName: 1
     dialogue: "That\u2019s one of the hard things about being as good as you are,
       there are so many good things that you do, and the bad things are so rare that
-      when they happen, they stand out from the rest. But that doesn\u2019t take
-      away from all the good you\u2019ve done"
+      when they happen, they stand out from the rest."
+  - NewSpeakerName: 1
+    dialogue: "But that doesn\u2019t take away from all the good you\u2019ve done"
   - NewSpeakerName: 3
     dialogue: "All the good I\u2019ve done? Like what?"
   - NewSpeakerName: 1
     dialogue: "Dear, I\u2019ve lived in this town for a long time, and I can tell
-      you that you have done plenty over the years. Anything from fixing small things
-      for my neighbor to repairing the lighting system in the town hall! I\u2019ve
-      seen you repair things so well even Howard was flabbergasted, and I\u2019ll
-      tell you, my husband was rarely speechless."
+      you that you have done plenty over the years. "
+  - NewSpeakerName: 1
+    dialogue: "Anything from fixing small things for my neighbor to repairing the
+      lighting system in the town hall! I\u2019ve seen you repair things so well
+      even Howard was flabbergasted, and I\u2019ll tell you, my husband was rarely
+      speechless."
   - NewSpeakerName: 3
     dialogue: "R-really? Howard? I\u2026 I guess\u2026"
   - NewSpeakerName: 1
@@ -72,7 +75,7 @@ MonoBehaviour:
       I may be old, but that just means I\u2019ve been around longer to see all the
       great things you\u2019ve done for this town. Don\u2019t discredit yourself!"
   - NewSpeakerName: 3
-    dialogue: Aw, gee Mrs. Perkins. That means a lot coming from you. Thanks again.
+    dialogue: Aw, gee, Mrs. Perkins. That means a lot coming from you. Thanks again.
       Really. This means a lot to me.
   - NewSpeakerName: 1
     dialogue: "Of course! I\u2019m always happy to have a chat if you need someone
