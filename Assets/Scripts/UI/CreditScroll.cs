@@ -9,7 +9,7 @@ public class CreditScroll : MonoBehaviour
     public float startPauseTime;
     public float timeToScroll;
     public float endPauseTime;
-    public GameObject credits;
+    public RectTransform credits;
     public float endPosOffest;
     private Vector3 endPosition;
     private float timer = 0f;
@@ -23,7 +23,7 @@ public class CreditScroll : MonoBehaviour
     void Start()
     {
         homeButton.SetActive(false);
-        startPos = transform.position;
+        startPos = credits.anchoredPosition;
         Invoke("GetCreditsHeight", 0.1f);
     }
 
@@ -49,7 +49,7 @@ public class CreditScroll : MonoBehaviour
         {
             timer += Time.deltaTime;
             Vector3 currentPos = Vector3.Lerp(startPos, endPosition, timer / timeToScroll);
-            credits.transform.position = currentPos;
+            credits.anchoredPosition = currentPos;
             if (timer >= timeToScroll)
             {
                 endPaused = true;
@@ -60,6 +60,6 @@ public class CreditScroll : MonoBehaviour
 
     private void GetCreditsHeight()
     {
-        endPosition = new Vector3(credits.transform.position.x, credits.GetComponent<RectTransform>().rect.height+endPosOffest, 0);
+        endPosition = new Vector3(credits.anchoredPosition.x, (credits.rect.height+endPosOffest), 0);
     }
 }
