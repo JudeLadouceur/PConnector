@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Mrs. Perkins (Day 2 - Before Work A - A)
   m_EditorClassIdentifier: 
   lines:
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
+  - NewSpeakerName: 1
     dialogue: Hi there youngin! Back to work again?
-  - speakerName: MRS. PERKINS
-    NewSpeakerName: 1
-    dialogue: ' I hear there''s a big group staying in town this weekend! It looks
-      like you''ll be busy!'
+  - NewSpeakerName: 1
+    dialogue: I hear there's a big group staying in town this weekend! It looks like
+      you'll be busy!
+  contextSummary: 
+  hasNoAudio: 0
+  isBark: 1
   voiceLineEvent:
     Guid:
       Data1: 0
