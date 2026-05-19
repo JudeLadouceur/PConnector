@@ -26,11 +26,15 @@ public class SceneTransitionTrigger : Interactables
         if (interacted) return;
         interacted = true;
 
+        SaveManager.Instance.WriteSaveData();
+
         TimeManager.dayNumber++;
 
         Debug.Log("Day number: " + TimeManager.dayNumber);
 
         TimeManager.callNumber = 0;
+
+
         NextScene();
     }
 }

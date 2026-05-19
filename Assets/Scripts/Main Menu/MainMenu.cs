@@ -29,6 +29,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.instance.GoToNextScene();
     }
 
+    public void Continue()
+    {
+        SaveManager.Instance.LoadSaveData(1);
+    }
+
     public void OpenOptionsMenu()
     {
         optionsMenu.SetActive(true);
